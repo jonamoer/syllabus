@@ -1,0 +1,23 @@
+{
+  "name": "syllabus",
+  "version": "1.0.0",
+  "description": "Syllabus Template",
+  "main": "gulpfile.js",
+  "dependencies": {},
+  "devDependencies": {
+    "bootstrap": "^4.0.0-alpha.2",
+    "chartist": "^0.9.7",
+    "font-awesome": "^4.5.0",
+    "gulp": "^3.9.1",
+    "gulp-sass": "^2.2.0",
+    "gulp-webstandards": "^0.1.1"
+  },
+  "scripts": {
+    "build": "gulp sass",
+    "start": "gulp",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Olivier Parent <olivier.parent@arteveldehs.be>",
+  "license": "Apache-2.0",
+  "private": true
+}

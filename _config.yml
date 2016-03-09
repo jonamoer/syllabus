@@ -1,0 +1,21 @@
+# Site settings
+title          : "Syllabus"
+title_long     : "Syllabus Template"
+author         : "Olivier Parent"
+copyright_year : "2015-2016"
+copyright_owner: "Olivier Parent, Arteveldehogeschool | Artevelde University College Ghent"
+colour         : primary
+language       : nl
+baseurl        : "/syllabus" # the subpath of your site, e.g. /blog
+course_id      : "0000" # Chamilo
+
+# Build settings
+highlighter: rouge
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+gems:
+  - jemoji
+sass:
+  style: compressed

@@ -1,0 +1,21 @@
+{
+    "destinations": [
+        "artestead-doc",
+        "cmp",
+        "dotfiles-doc",
+        "ed",
+        "mma",
+        "nmdad2",
+        "nmdad3",
+        "webd"
+    ],
+    "dir": {
+        "node": "./node_modules"
+    },
+    "sass": {
+        "includePaths": [
+            "./node_modules/bootstrap/scss"
+        ],
+        "outputStyle": "compressed"
+    }
+}
