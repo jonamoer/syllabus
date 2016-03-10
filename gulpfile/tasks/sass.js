@@ -6,9 +6,10 @@
 (() => {
     'use strict';
 
+    const CONFIG = require('../config.json');
+
     let gulp = require('gulp'),
-        sass = require('gulp-sass'),
-        CONFIG = require('../config.json');
+        sass = require('gulp-sass');
 
     gulp.task('sass', () => {
         return gulp.src('./scss/**/*.scss')

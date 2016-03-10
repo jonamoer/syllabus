@@ -6,8 +6,9 @@
 (() => {
     'use strict';
 
-    let gulp   = require('gulp'),
-        CONFIG = require('../config.json');
+    const CONFIG = require('../config.json');
+
+    let gulp = require('gulp');
 
     gulp.task('copy:images', () => {
         let source = gulp.src('./images/logo_ahs_en.svg');

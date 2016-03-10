@@ -6,8 +6,9 @@
 (() => {
     'use strict';
 
-    let gulp   = require('gulp'),
-        CONFIG = require('../config.json');
+    const CONFIG = require('../config.json');
+
+    let gulp = require('gulp');
 
     gulp.task('copy:templates', () => {
         let sources = [
