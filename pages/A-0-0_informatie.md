@@ -165,7 +165,7 @@ Er wordt gequoteerd op onderdelen uit onderstaande tabel.
 |   14 %    |   5. Application Programming Interface   |
 |   20 %    |   6. Backoffice                          |
 |   12 %    |   7. Databasemodel                       |
-{:.table}  
+{:.table}
 
 ### Beoordelingsschaal
 
