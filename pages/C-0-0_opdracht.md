@@ -25,7 +25,7 @@ Deliverables
 
 ### Repository
 
-Het werkstuk wordt op een Bitbucket-repository gepubliceerd dat toegankelijk is voor:
+Het werkstuk wordt op een [Bitbucket][]-repository gepubliceerd dat toegankelijk is voor:
 
  - [Olivier Parent][docent-opr-bitbucket]
  - [Philippe De Pauw - Waterschoot][docent-pdp-bitbucket]
@@ -34,10 +34,10 @@ Het werkstuk wordt op een Bitbucket-repository gepubliceerd dat toegankelijk is 
 
 Bitbucket-repository:
 
-> ##### Mappen & Bestanden *:open_file_folder:*{:.pull-left .m-r}
+> ##### Mappen & Bestanden :open_file_folder:
 > ---
 >```
-> nmdad3.arteveldehogeschool.local/
+> nmdad3.local/
 > ├── app/
 > ├── docs/
 > │   ├── academische_poster.pdf
@@ -192,7 +192,7 @@ Commits moeten voorafgegaan worden door een prefix.
 | `[TASK]`    | bijvoorbeeld refactoring (structuur, naamgeving aanpassen), updates van derden toepassen. |
 {:.table}
 
-> ##### **Voorbeeld** *:package:*{:.pull-left .m-r}
+> ##### **Voorbeeld** :package:
 > ---
 > Branch `account-feature`:
 >
@@ -203,7 +203,7 @@ Commits moeten voorafgegaan worden door een prefix.
 Tips
 ----
 
-> ##### **Tip** *:bulb:*{:.pull-left .m-r}
+> ##### **Tip** :bulb:
 > ---
 > Schrijf nette code:
 >
@@ -214,7 +214,7 @@ Tips
 > - schrijf commentaar als de bedoeling van de code voor een developer niet meteen voor de hand ligt.
 {:.alert .alert-info}
 
-> ##### **Tip** *:bulb:*{:.pull-left .m-r}
+> ##### **Tip** :bulb:
 > ---
 > **Vragen, onduidelijkheden, problemen, opmerkingen of zit je compleet vast?**  
 > Ga naar het menu "help" rechtsboven.
@@ -229,14 +229,12 @@ Tips
 {% comment %}
 <!-- ⚓ Hyperlinks -->
 {% endcomment %}
-[artevelde]:                http://www.arteveldehogeschool.be
-[bitbucket]:                https://bitbucket.org
-[chamilo]:                  http://chamilo.arteveldehs.be
+[Arteveldehogeschool]:      http://www.arteveldehogeschool.be
+[Bitbucket]:                https://bitbucket.org
+[Chamilo]:                  http://chamilo.arteveldehs.be
 [docent-opr]:               http://www.olivierparent.be
 [docent-opr-bitbucket]:     https://bitbucket.org/olivierparent
-[docent-opr-mail]:          mailto:olivier.parent@arteveldehs.be?subject=NMDAD3
+[docent-opr-mail]:          mailto:olivier.parent@arteveldehs.be?subject=[OLOD]
 [docent-pdp]:               http://www.drdynscript.eu
 [docent-pdp-bitbucket]:     https://bitbucket.org/drdynscript
-[docent-pdp-mail]:          mailto:philippe.depauw@arteveldehs.be?subject=NMDAD3
-[ects]:                     http://ec.europa.eu/education/tools/ects_nl.htm
-[ects-fiche]:				https://bamaflexweb.arteveldehs.be/BMFUIDetailxOLOD.aspx?a=47526&b=5&c=1
+[docent-pdp-mail]:          mailto:philippe.depauw@arteveldehs.be?subject=[OLOD]

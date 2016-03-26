@@ -26,7 +26,7 @@ Specificaties
 
 ### Technische Specificaties
 
-> ##### **Opgelet** *:warning:*{:.pull-left .m-r}
+> ##### **Opgelet** :warning:
 > ---
 >
 > - Onderstaande technologieën **moeten** toegepast worden om te kunnen slagen voor dit opleidingsonderdeel.
@@ -40,8 +40,8 @@ Specificaties
  - [Oracle VM Virtualbox][virtualbox]
  - [Vagrant][vagrant]
  - [Artevelde Laravel Homestead][artestead]
-   - [PHP][php]
-   - [MySQL][mysql]
+   - [PHP][]
+   - [MySQL][]
  - [Git][git]
  - [Firefox Developer Edition][firefox]
 
@@ -53,7 +53,7 @@ Specificaties
 > - [Brackets][brackets]
 > - [MySQL Workbench][mysql-workbench]
 > - [PhpStorm][phpstorm] (licentie is te vinden op [Chamilo][chamilo-docs])
-> - [Sequel Pro][sequelpro]
+> - [Sequel Pro][]
 > - [SourceTree][sourcetree]
 > - [Visual Studio Code][vscode]
 {:.alert .alert-info}
@@ -201,9 +201,9 @@ De functionaliteit is afhankelijk van de functionaliteit van de Mobile Hybrid Ap
 [html5-localstorage]:       https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage
 [ionic-sdk]:                http://ionicframework.com
 [node]:                     http://nodejs.org
-[mysql]:                    http://www.mysql.com/products/community
+[MySQL]:                    http://www.mysql.com/products/community
 [mysql-manual]:             http://dev.mysql.com/doc/refman/5.6/en
-[php]:                      http://php.net
+[PHP]:                      http://php.net
 [phpunit]:                  https://phpunit.de
 [phpdocumentor]:            http://www.phpdoc.org
 [psr]:                      http://www.php-fig.org
@@ -213,19 +213,19 @@ De functionaliteit is afhankelijk van de functionaliteit van de Mobile Hybrid Ap
 [sqlite]:                   https://www.sqlite.org
 [sf]:                       http://symfony.com
 [sf-console]:               http://symfony.com/doc/current/components/console/introduction.html
-[twig]:                     http://twig.sensiolabs.org
-[vagrant]:                  https://www.vagrantup.com
+[Twig]:                     http://twig.sensiolabs.org
+[Vagrant]:                  https://www.vagrantup.com
 
 {% comment %}
 <!-- ⚓ Hyperlinks: applicaties -->
 {% endcomment %}
-[atom]:                     https://atom.io
-[brackets]:                 http://brackets.io
-[firefox]:                  https://www.mozilla.org/nl/firefox/developer
-[mysql-workbench]:          http://dev.mysql.com/downloads/workbench
+[Atom]:                     https://atom.io
+[Brackets]:                 http://brackets.io
+[Firefox]:                  https://www.mozilla.org/nl/firefox/developer
+[MySQL Workbench]:          http://dev.mysql.com/downloads/workbench
 [phpstorm]:                 https://www.jetbrains.com/phpstorm
-[sequelpro]:                http://www.sequelpro.com
-[shotcut]:                  http://www.shotcut.org
+[Sequel Pro]:               http://www.sequelpro.com
+[Shotcut]:                  http://www.shotcut.org
 [sourcetree]:               http://www.sourcetreeapp.com
-[virtualbox]:               https://www.virtualbox.org
-[vscode]:                   https://www.visualstudio.com/en-us/products/code-vs.aspx
+[Virtualbox]:               https://www.virtualbox.org
+[Visual Studio Code]:       https://www.visualstudio.com/en-us/products/code-vs.aspx

@@ -16,11 +16,11 @@ tags      :
 ECTS
 ----
 
-[ECTS-fiche van [OLOD]][ects-fiche]{:.btn .btn-{{ site.colour }}-outline}
+[ECTS-fiche van [OLOD]][ECTS-fiche]{:.btn .btn-{{ site.colour }}-outline}
 
 ### Studieomvang
 
-De studieomvang bedraagt **[7] studiepunten** volgens het [European Credit Transfer and Accumulation System][ects].
+De studieomvang bedraagt **[7] studiepunten** volgens het [European Credit Transfer and Accumulation System][ECTS].
 
 |   Activiteit                                  |   Uur                      |
 |:----------------------------------------------|---------------------------:|
@@ -212,5 +212,5 @@ Per onderdeel van het werkstuk wordt een score toegekend. Deze score bestaat uit
 {% comment %}
 <!-- ⚓ Hyperlinks -->
 {% endcomment %}
-[ects]:                     http://ec.europa.eu/education/tools/ects_nl.htm
-[ects-fiche]:				https://bamaflexweb.arteveldehs.be/BMFUIDetailxOLOD.aspx?a=47526&b=5&c=1
+[ECTS]:                     http://ec.europa.eu/education/tools/ects_nl.htm
+[ECTS-fiche]:				https://bamaflexweb.arteveldehs.be/BMFUIDetailxOLOD.aspx?a=47526&b=5&c=1
