@@ -6,6 +6,9 @@ published: true
 tags     : styleguide
 ---
 
+Normal
+------
+
 | Column A | Column B | Column C |
 |:---------|:--------:|---------:|
 | Cel A1   | Cel B1   | Cel C1   |
@@ -16,6 +19,9 @@ tags     : styleguide
 | =========|==========|==========|
 | Foot A   | Foot B    | Foot B  |
 {:.table}
+
+Striped
+-------
 
 | Column A | Column B | Column C |
 |:---------|:--------:|---------:|
@@ -28,6 +34,9 @@ tags     : styleguide
 | Foot A   | Foot B    | Foot B  |
 {:.table .table-striped}
 
+Inverse
+-------
+
 | Column A | Column B | Column C |
 |:---------|:--------:|---------:|
 | Cel A1   | Cel B1   | Cel C1   |
@@ -39,6 +48,9 @@ tags     : styleguide
 | Foot A   | Foot B    | Foot B  |
 {:.table .table-inverse}
 
+Bordered
+--------
+
 | Column A | Column B | Column C |
 |:---------|:--------:|---------:|
 | Cel A1   | Cel B1   | Cel C1   |
@@ -49,6 +61,9 @@ tags     : styleguide
 | =========|==========|==========|
 | Foot A   | Foot B    | Foot B  |
 {:.table .table-bordered}
+
+Hover
+-----
 
 | Column A | Column B | Column C |
 |:---------|:--------:|---------:|

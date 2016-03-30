@@ -1,0 +1,26 @@
+/// Sass Mixins
+
+
+@mixin label($text: "Code", $background: $color-G, $text-color: white) {
+  position: relative;
+  &::after{
+    background: $background;
+    border-radius: 0 0 0 .3rem;
+    color: $text-color;
+    content: $text;
+    display: inline-block;
+    font-family: $font-sans-serif;
+    height: 2rem;
+    line-height: 2rem;
+    padding: 0 .5rem 0 .7rem;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+}
+
+@mixin ct-donut-stroke($color) {
+  .ct-slice-donut {
+    stroke: $color;
+  }
+}

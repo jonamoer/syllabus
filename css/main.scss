@@ -1,365 +1,47 @@
 ---
 ---
-@charset "utf-8";
+@charset "UTF-8";
 
-// Import partials from `sass_dir` (defaults to `_sass`)
+/// Import partials from `sass_dir` (defaults to `_sass`)
+
+/// The 7-1 Pattern (http://sass-guidelin.es/#the-7-1-pattern)
+
+// 1. Configuration and helpers
 @import
-    "colours",
-    "fonts",
-    "solarized-light",
-    "syntax-highlighting"
-;
+  'abstracts/variables',
+  'abstracts/functions',
+  'abstracts/mixins',
+  'abstracts/placeholders';
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    font-weight: 300;
-}
-h2,
-h3,
-h4 {
-    position: relative;
-    .fa {
-        font-size: 1.3rem;
-    }
-}
+// 2. Vendors
+//@import
+//  'vendor/normalize';
 
-::selection {
-    background-color: $color-selection;
-}
+// 3. Base stuff
+@import
+  'base/base',
+  'base/fonts',
+  'base/helpers',
+  'base/typography';
 
-.content,
-.dropdown {
-    counter-reset: h2-counter;
-    > h2, [data-counter=h2-counter] {
-        counter-reset: h3-counter;
-        &::before {
-            content: counter(h2-counter, upper-roman) ". ";
-            counter-increment: h2-counter;
-        }
-    };
-    > h3, [data-counter=h3-counter] {
-        counter-reset: h4-counter;
-        &::before {
-            content: counter(h3-counter) ". ";
-            counter-increment: h3-counter;
-        }
-    }
-    > h4, [data-counter=h4-counter] {
-        counter-reset: h5-counter;
-        &::before {
-            content: counter(h3-counter) "." counter(h4-counter) " ";
-            counter-increment: h4-counter;
-        }
-    }
-    > h5, [data-counter=h5-counter] {
-        &::before {
-            content: counter(h3-counter) "." counter(h4-counter) "." counter(h5-counter) " ";
-            counter-increment: h5-counter;
-        }
-    }
-    > h6 {
-        &::before {
-            content: counter(h6-counter, lower-alpha) ". ";
-            counter-increment: h6-counter;
-        }
-    }
-}
+// 4. Layout-related sections
+@import
+  'layout/container',
+  'layout/footer',
+  'layout/header';
 
-a {
-    &.heading-link {
-        bottom: 0;
-        display: block;
-        height: 1.75rem;
-        left: -2rem;
-        line-height: 1.75rem;
-        position: absolute;
-    }
-}
+// 5. Components
+@import
+  'components/buttons',
+  'components/charts',
+  'components/syntax-highlighting',
+  'components/timeline';
 
-.content {
-    h1 {
-        margin: 1em 0;
-    }
-    h2,
-    h3,
-    h4,
-    h5,
-    h6 {
-        margin: .5em 0;
-    }
-    sup[id^="fn"] {
-        background-color: #eee;
-        border-radius: .25rem;
-        &:hover {
-            background-color: #ccc;
-        }
-        a {
-            padding: 0 .25rem;
-            text-decoration: none;
-        }
-    }
-}
+// 6. Page-specific styles
+@import
+  'pages/home';
 
-.footnotes {
-    border-top: 1px solid $color-A;
-    color: $color-A;
-    font-size: .75em;
-    p {
-        margin: .5rem 0;
-        a {
-            background-color: #eee;
-            border-radius: .25rem;
-            padding: 0 .25rem;
-            text-decoration: none;
-            &:hover {
-                background-color: #ccc;
-            }
-        }
-    }
-}
-
-aside {
-    .h4, .h5, .h6 {
-        margin-bottom: 0;
-    }
-    .h4 {
-        font-weight: bold;
-    }
-    .h6 {
-        padding-left: 1em;
-    }
-}
-
-blockquote {
-    &.alert,
-    &.card {
-        h5 {
-            font-weight: bold;
-            margin: 0;
-        }
-    }
-    .emoji {
-        float: left;
-        margin-right: .5em;
-    }
-    > *:last-child {
-        margin-bottom: 0;
-    }
-}
-
-.screenshot {
-    box-shadow: 0 3px 5px 1px #999;
-    max-width: 100%;
-}
-
-// footer
-$footer-height: 4rem;
-
-html {
-    min-height: 100%;
-    position: relative;
-}
-body {
-    font-family: $font-sans-serif;
-    line-height: 1.8;
-    padding-bottom: $footer-height;
-    footer{
-        &.footer {
-            bottom: 0;
-            height: $footer-height;
-            position: absolute;
-            width: 100%;
-        }
-    }
-}
-
-.ahs- {
-    &oranje {
-        color: $color-ahs-oranje;
-    }
-    &groen {
-        color: $color-ahs-groen;
-    }
-    &fuchsia {
-        color: $color-ahs-fuchsia;
-    }
-    &blauw {
-        color: $color-ahs-blauw;
-    }
-    &lichtgrijs {
-        color: $color-ahs-lichtgrijs;
-    }
-    &middengrijs {
-        color: $color-ahs-middengrijs;
-    }
-    &donkergrijs {
-        color: $color-ahs-donkergrijs;
-    }
-}
-
-/*
- * Chartist
- */
-@mixin donut-stroke($color) {
-    .ct-slice-donut {
-        stroke: $color;
-    }
-}
-
-.ct- {
-    &label {
-        font-size: 1em;
-    }
-    &series- {
-        &a {
-            @include donut-stroke($color-ahs-oranje);
-        }
-        &b {
-            @include donut-stroke($color-ahs-groen);
-        }
-        &c {
-            @include donut-stroke($color-ahs-fuchsia);
-        }
-        &d {
-            @include donut-stroke($color-ahs-blauw);
-        }
-        &e {
-            @include donut-stroke($color-ahs-donkergrijs);
-        }
-    }
-}
-
-.timeline {
-    position: relative;
-    &::after {
-        clear: both;
-        content: "";
-        display: table;
-    }
-    &::before {
-        background-color: $color-ahs-lichtgrijs;
-        content: "";
-        display: block;
-        height: 100%;
-        left: 0;
-        margin: auto;
-        position: absolute;
-        right: 0;
-        width: 5px;
-    }
-    .timeline-icon i {
-        font-size: 1.6rem;
-        line-height: 2.5rem;
-        text-align: center;
-        vertical-align: middle;
-        position: absolute;
-        width: 3rem;
-        height: 3rem;
-        border: 5px solid $color-ahs-lichtgrijs;
-        border-radius: 50%;
-        background-color: white;
-        left: 0;
-        right: 0;
-        margin: auto;
-    }
-    .timeline-point {
-        &-important {
-            .timeline-content {
-                background-color: $color-ahs-blauw !important;
-                color: white !important;
-                a {
-                    color: inherit;
-                }
-            }
-        }
-        &-trivial {
-            .timeline-content {
-                opacity: .25;
-            }
-        }
-        &:nth-child(even) {
-            .timeline-date {
-                float: left;
-                text-align: right;
-            }
-            .timeline-content {
-                float: right;
-                &::before {
-                    border-right-color: $color-ahs-blauw;
-                    border-left: none;
-                    left: -.7rem;
-                }
-            }
-        }
-        &:nth-child(odd) {
-            .timeline-date {
-                float: right;
-                text-align: left;
-            }
-            .timeline-content {
-                float: left;
-                 &::before {
-                    border-left-color: $color-ahs-blauw;
-                    border-right: none;
-                    right: -.7rem;
-                }
-            }
-        }
-        .timeline-date,
-        .timeline-content {
-            width: 47%;
-        }
-        .timeline-date {
-            font-weight: bold;
-            line-height: 3rem;
-        }
-        .timeline-content {
-            position: relative;
-            background-color: lighten($color-ahs-blauw, 50%);
-            border: .2rem solid $color-ahs-blauw;
-            border-radius: .4rem;
-            // box-shadow: -1px 3px 3px hsla(0, 0%, 0%, .1);
-            padding: 1rem;
-            h1 {
-                font-size: 1.4rem;
-                margin: 0;
-            }
-            &::before {
-                content: "";
-                border: .7rem solid transparent;
-                position: absolute;
-                top: .7rem;
-            }
-        }
-    }
-    .timeline-point {
-        &::before {
-            background-color: white;
-            border: 5px solid $color-ahs-lichtgrijs;
-            border-radius: 50%;
-            content: "";
-            height: 1rem;
-            left: 0;
-            margin: 1rem auto;
-            position: absolute;
-            right: 0;
-            width: 1rem;
-        }
-        &::after {
-            clear: both;
-            content: "";
-            display: table;
-            margin: 30px;
-        }
-    }
-}
-.card.card-block.files {
-    background-color: #f4f3f1;
-    pre {
-        margin-bottom: 0;
-    }
-}
+// 7. Themes
+@import
+  'themes/default',
+  'themes/solarized-light';

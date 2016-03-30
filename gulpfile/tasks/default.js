@@ -9,13 +9,8 @@
     let gulp = require('gulp');
 
     gulp.task('default', [
-        'sass',
-        'copy:gemfile',
-        'copy:gitignore',
-        'copy:images',
-        'copy:scripts',
-        'copy:styles',
-        'copy:templates'
+        'styles',
+        'copy'
     ]);
 
 })();

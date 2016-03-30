@@ -10,12 +10,12 @@
 
     let gulp = require('gulp');
 
-    gulp.task('copy:scripts', () => {
-        let source = gulp.src('./js/main.js');
+    gulp.task('watch', [
+        'watch:styles'
+    ]);
 
-        CONFIG.destinations.forEach(element => {
-            source.pipe(gulp.dest(`../${element}/js`));
-        });
+    gulp.task('watch:styles', () => {
+        gulp.watch('./scss/**/*.scss', ['styles']);
     });
 
 })();

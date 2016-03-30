@@ -9,6 +9,10 @@
     let gulp         = require('gulp'),
         webstandards = require('gulp-webstandards');
 
+    gulp.task('check', [
+        'check:webstandards'
+    ]);
+
     gulp.task('check:webstandards', _ => {
         return gulp.src([
                 './css/**/*',

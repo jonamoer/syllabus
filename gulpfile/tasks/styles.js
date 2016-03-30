@@ -11,14 +11,14 @@
     let gulp = require('gulp'),
         sass = require('gulp-sass');
 
-    gulp.task('sass', () => {
-        return gulp.src('./scss/**/*.scss')
+    gulp.task('styles', [
+        'styles:sass'
+    ]);
+
+    gulp.task('styles:sass', () => {
+        return gulp.src('./css/bootstrap.scss')
             .pipe(sass(CONFIG.sass).on('error', sass.logError))
             .pipe(gulp.dest('./css'));
-    });
-
-    gulp.task('sass:watch', () => {
-        gulp.watch('./scss/**/*.scss', ['sass']);
     });
 
 })();

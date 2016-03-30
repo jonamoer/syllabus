@@ -37,25 +37,25 @@ Specificaties
 
 #### Ontwikkelomgeving
 
- - [Oracle VM Virtualbox][virtualbox]
+ - [Oracle VM Virtualbox][]
  - [Vagrant][vagrant]
- - [Artevelde Laravel Homestead][artestead]
+ - [Artevelde Laravel Homestead][Artestead]
    - [PHP][]
    - [MySQL][]
- - [Git][git]
- - [Firefox Developer Edition][firefox]
+ - [Git][]
+ - [Firefox Developer Edition][]
 
-> ##### **Tip** *:bulb:*{:.pull-left .m-r}
+> ##### **Tip** :bulb:
 > ---
 > IDE's, editors en GUI-tools zijn vrij te kiezen. Enkele suggesties:
 >
-> - [Atom][atom]
-> - [Brackets][brackets]
-> - [MySQL Workbench][mysql-workbench]
-> - [PhpStorm][phpstorm] (licentie is te vinden op [Chamilo][chamilo-docs])
+> - [Atom][]
+> - [Brackets][]
+> - [MySQL Workbench][]
+> - [PhpStorm][] (licentie is te vinden op [Chamilo][])
 > - [Sequel Pro][]
-> - [SourceTree][sourcetree]
-> - [Visual Studio Code][vscode]
+> - [SourceTree][]
+> - [Visual Studio Code][]
 {:.alert .alert-info}
 
 #### Automatisatie
@@ -67,64 +67,26 @@ Specificaties
 
 #### Server-side
 
- - [Symfony 2.7 LTS][sf]
-   - [Console][sf-console]
-   - [DoctrineFixturesBundle][gh-doctrine-fixtures]
-   - [DoctrineMigrationsBundle][gh-doctrine-migrations]
-   - [FOSRestBundle][gh-fos-rest]
-   - [NelmioApiDocBundle][gh-nelmio-apidoc]
-   - [NelmioCorsBundle][gh-nelmio-cors]
- - [Behat][behat] en [Gherkin][behat-gherkin] voor BDD.
- - [Carbon][carbon]
- - [Doctrine ORM][doctrine-orm]
- - [Faker][gh-faker]
- - [PHPUnit][phpunit]
- - [Twig][twig]
+ - …
  
 #### Client-side
 
- - [Bootstrap][bootstrap] met [Sass][sass]
- - [HTML5][html5]
- - [Ionic SDK][ionic-sdk]
-   - [AngularJS][angular-js]
-   - [Corodova][cordova]
-   - [ngCordova][cordova-ng-cordova]
- - [Sass (SCSS)][sass]
+ - …
 
-{% comment %}
 #### Documentatie
 
- - [GitHub Flavored Markdown][gh-doc-gfm]
- - [phpDocumentor][phpdocumentor] voor de PHP DocBlocks
-{% endcomment %}
+ - …
 
 ### Functionele Specificaties
 
-> ##### **Opgelet** *:warning:*{:.pull-left .m-r}
+> ##### **Opgelet** :warning:
 > ---
 > De onderstaande specificaties zijn de minimumspecificaties. Vul ze aan met zelfbedachte functionaliteiten. 
 {:.alert .alert-warning}
 
 #### App
 
- - Rollen
-   - Bezoeker (niet-aangemelde gebruiker)
-   - Burger (aangemelde gebruiker)
- - Account
-   - Aanmaken op de back-end via de API
-   - Gegevens wijzigen
-   - Verwijderen
- - Zwerfvuil
-   - Melding: foto, datum, beschrijving, geolocatie, type
-   - Status van de melding tonen
-     - Gemeld door burger
-     - Melding verwerkt door milieuambtenaar,
-     - Opgeruimd door milieudienst
-     - Opruimen geverifieerd door gebruiker
- - Gamification
-   - Stimuleer de gebruiker om meer meldingen te doen
-   - Leaderboard
- - Datasynchronisatie via de RESTful API.
+ - …
 
 #### API
 
@@ -135,19 +97,11 @@ De functionaliteit is afhankelijk van de functionaliteit van de Mobile Hybrid Ap
 #### Backoffice
 
  - Rollen
-   - Bezoeker (niet-aangemelde gebruiker)
-   - Milieuambtenaar (aangemelde gebruiker);
- - Dashboard
-   - Kaart met zwerfvuilmeldingen
- - Zwerfvuilmeldingen
-   - Status veranderen
- - Gebruikersbeheer
-   - Verwijderen (soft delete) 
-   - Bannen als Gebruikers bannen die verkeerde 
+   - …
+ - …
 
 ### Niet-functionele Specificaties
 
- - Pas de **Behaviour-Driven Development**-methodologie toe.
  - Documenteer alle PHP en JavaScript code met docblocks.
  - Grafisch verantwoord, esthetisch verzord en gebruiksvriendelijk.  
    Zoals van elk product van een student *Bachelor in de grafische en digitale media* verwacht mag worden!
@@ -157,16 +111,14 @@ De functionaliteit is afhankelijk van de functionaliteit van de Mobile Hybrid Ap
 <!-- ⚓ Afkortingen -->
 {% endcomment %}
 *[API]:                     Application Programming Interface
-*[BDD]:                     Behaviour-Driven Development
 *[CRUD]:                    Create, Read, Update, Delete
 *[GUI]:                     Graphical User Interface
 *[IDE]:                     Integrated Development Environment
-*[LTS]:                     Long Term Support
 
 {% comment %}
 <!-- ⚓ Hyperlinks -->
 {% endcomment %}
-[chamilo-docs]:             http://chamilo.arteveldehs.be/index.php?application=weblcms&course=7641&tool=document&go=course_viewer
+[Chamilo]:                  http://chamilo.arteveldehs.be/index.php?application=weblcms&course=7641&tool=document&go=course_viewer
 
 {% comment %}
 <!-- ⚓ Hyperlinks: technologie en software componenten -->

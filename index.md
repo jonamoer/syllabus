@@ -14,8 +14,8 @@ Veel studieplezier tijdens deze boeiende ontdekkingstocht!
 | -------------------:|:------------------------------------------ |
 | Opleidingsonderdeel | {{ site.title_long }}                      |
 |        Academiejaar | {{ site.copyright_year }}                  |
-|              Docent | [{{ site.author }}][docent-opr]            |
-| Onderwijsinstelling | [Arteveldehogeschool][artevelde]           |
+|              Docent | [{{ site.author }}][]                      |
+| Onderwijsinstelling | [Arteveldehogeschool][]                    |
 |           Opleiding | Bachelor in de grafische en digitale media |
 |   Afstudeerrichting | Multimediaproductie                        |
 |          Keuzeoptie | proDEV                                     |
@@ -31,5 +31,5 @@ Veel studieplezier tijdens deze boeiende ontdekkingstocht!
 {% comment %}
 <!-- ⚓ Hyperlinks -->
 {% endcomment %}
-[artevelde]:                http://www.arteveldehogeschool.be
-[docent-opr]:               http://www.olivierparent.be
+[Arteveldehogeschool]:      http://www.arteveldehogeschool.be
+[Olivier Parent]:           http://www.olivierparent.be

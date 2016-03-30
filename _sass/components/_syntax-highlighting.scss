@@ -1,0 +1,101 @@
+/// Syntax Highlighting
+
+figure.highlight {
+  margin: 2rem 0;
+  overflow: auto;
+  &::before {
+    content: attr(data-file);
+    font-family: $font-code;
+    opacity: .5;
+    padding-left: 1rem;
+    position: absolute;
+  }
+  &[data-file] {
+    > pre {
+      padding: 2rem 0 0;
+    }
+  }
+  &.language- {
+    &bash {
+      @include label("Bash", $code-bash, $code-text-color);
+    }
+    &bat {
+      @include label("CMD", $code-bat, $code-text-color);
+    }
+    &blade {
+      @include label("Blade", $code-blade, $code-text-color);
+    }
+    &css {
+      @include label("CSS", $code-css, $code-text-color);
+    }
+    &emmet {
+      @include label("Emmet", $code-emmet, $code-text-color);
+    }
+    &gherkin {
+      @include label("Gherkin", $code-gherkin, $code-text-color);
+    }
+    &html {
+      @include label("HTML", $code-html, $code-text-color);
+    }
+    &ini {
+      @include label("INI", $code-ini, $code-text-color);
+    }
+    &inky {
+      @include label("Inky", $code-inky, $code-text-color);
+    }
+    &json {
+      @include label("JSON", $code-json, $code-text-color);
+    }
+    &js {
+      @include label("JS", $code-js, $code-text-color);
+    }
+    &php {
+      @include label("PHP", $code-php, $code-text-color)
+    }
+    &po {
+      @include label("PO", $code-po, $code-text-color)
+    }
+    &powershell {
+      @include label("PS", $code-ps, $code-text-color)
+    }
+    &scss {
+      @include label("SCSS", $code-scss, $code-text-color);
+    }
+    &sql {
+      @include label("SQL", $code-sql, $code-text-color);
+    }
+    &ts {
+      @include label("TS", $code-ts, $code-text-color);
+    }
+    &twig {
+      @include label("Twig", $code-twig, $code-text-color);
+    }
+    &yaml {
+      @include label("YAML", $code-yaml, $code-text-color);
+    }
+  }
+  pre {
+    background-color: inherit;
+    border: none;
+    border-radius: 0;
+    color: inherit;
+    padding: 1rem;
+    margin: 0;
+  }
+  code {
+    span.file:first-child {
+      background-color: $base03;
+      border-radius: 0 0 .3rem;
+      color: #FFF;
+      height: 2rem;
+      left: 0;
+      line-height: 2rem;
+      padding: 0 .7rem 0 .5rem;
+      position: absolute;
+      top: 0;
+    }
+  }
+  .lineno {
+    background-color: rgba(255, 255, 255 , .5);
+  }
+}

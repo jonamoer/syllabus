@@ -1,0 +1,13 @@
+/// Sass Placeholders
+
+%cleafixContent {
+  clear: both;
+  content: "";
+  display: table;
+}
+
+%clearfix {
+  &::after {
+    @extend %cleafixContent;
+  }
+}

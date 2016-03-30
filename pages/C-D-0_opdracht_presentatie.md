@@ -6,7 +6,7 @@ published: true
 tags     :
 ---
 
-> ##### **Opgelet** *:warning:*{:.pull-left .m-r}
+> ##### **Opgelet** :warning:
 > ---
 > - **PDF**-bestand te plaatsen op Bitbucket-repository.
 > - **Controleer extra goed op spellingsfouten!**
@@ -21,7 +21,7 @@ Tijdens de presentie toon je aan:
 
 Zorg voor een grafisch verzorgde presentatie en verzorgd taalgebruik. Gebruik PowerPoint (of alternatieven zoals [Reveal.js][reveal]), screencasts (zet de koppelingen naar **publieke** streamingdiensten in het PDF-bestand) en live demonstraties.
 
-> ##### **Tip** *:bulb:*{:.pull-left .m-r}
+> ##### **Tip** :bulb:
 > ---
 > Screencasts kan je maken met:
 >
@@ -32,6 +32,6 @@ Zorg voor een grafisch verzorgde presentatie en verzorgd taalgebruik. Gebruik Po
 {% comment %}
 <!-- ⚓ Hyperlinks -->
 {% endcomment %}
-[obs]:                  https://obsproject.com
+[Open Broadcast Software]:                  https://obsproject.com
 [reveal]:               http://lab.hakim.se/reveal-js/
-[qt]:                   http://www.apple.com/benl/quicktime/
+[QuickTime Player]:                   http://www.apple.com/benl/quicktime/

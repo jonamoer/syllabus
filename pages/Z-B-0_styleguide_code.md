@@ -13,15 +13,13 @@ Code
 
 {% highlight blade linenos %}{% raw %}
 {!! !!}
-{% endraw %}{% endhighlight %}{:data-file=""}
+{% endraw %}{% endhighlight %}{:data-file="index.blade.php"}
 
 ### CSS
 
 {% highlight css linenos %}
-body {
-    font-family: sans-serif;
-}
-{% endhighlight %}{:data-file=""}
+{% include_relative _code/styleguide/styleguide.css %}
+{% endhighlight %}{:data-file="styleguide.css"}
 
 ### Emmet
 
@@ -34,84 +32,57 @@ section>(article*5)>lipsum
 ### HTML
 
 {% highlight html linenos %}
-<!DOCTYPE html>
-<html>
-<head>
-    <title>html</title>
-    <link rel="stylesheet" href="main.css">
-</head>
-</html>
-{% endhighlight %}{:data-file="index.html"}
+{% include_relative _code/styleguide/styleguide.html %}
+{% endhighlight %}{:data-file="styleguide.html"}
 
 ### Ini
 
 {% highlight ini linenos %}
-variables_order = "EGPCS"
-{% endhighlight %}{:data-file=""}
+{% include_relative _code/styleguide/styleguide.ini %}
+{% endhighlight %}{:data-file="styleguide.ini"}
 
 ### Inky
 
 {% highlight inky linenos %}
-<container>
-    <row>
-        <columns small="12" large="12">
-        </columns>
-    </row>
-</container>
-{% endhighlight %}{:data-file=""}
+{% include_relative _code/styleguide/styleguide.inky.html %}
+{% endhighlight %}{:data-file="styleguide.inky.html"}
 
 
 ### JSON
 
 {% highlight json linenos %}
-[
-    { "x": "y" },
-    { "y": "z" }
-]
-{% endhighlight %}{:data-file=""}
+{% include_relative _code/styleguide/styleguide.json %}
+{% endhighlight %}{:data-file="styleguide.json"}
 
 ### JavaScript
 
 {% highlight js linenos %}
-function logger(message) {
-    console.log(message);
-}
-{% endhighlight %}{:data-file="main.js"}
+{% include_relative _code/styleguide/styleguide.js %}
+{% endhighlight %}{:data-file="styleguide.js"}
 
 ### PHP
 
 {% highlight php linenos %}
-<?php
-
-phpinfo();
-{% endhighlight %}{:data-file="bestand.php"}
+{% include_relative _code/styleguide/styleguide.php %}
+{% endhighlight %}{:data-file="styleguide.php"}
 
 ### SCSS
 
 {% highlight scss linenos %}
-html {
-    body {
-        .home {
-            color: red;
-        }
-    }
-}
-{% endhighlight %}{:data-file="main.scss"}
+{% include_relative _code/styleguide/styleguide.scss %}
+{% endhighlight %}{:data-file="styleguide.scss"}
 
 ### SQL
 
 {% highlight sql linenos %}
--- Toon tabellen
-SHOW TABLES;
-{% endhighlight %}{:data-file="query.sql"}
+{% include_relative _code/styleguide/styleguide.sql %}
+{% endhighlight %}{:data-file="styleguide.sql"}
 
 ### TypeScript
 
 {% highlight ts linenos %}
-class {
-    
-}
-{% endhighlight %}{:data-file="main.ts"}
+{% include_relative _code/styleguide/styleguide.ts %}
+{% endhighlight %}{:data-file="styleguide.ts"}
 
 ### Twig
 
@@ -129,9 +100,8 @@ class {
 ### YAML
 
 {% highlight yaml linenos %}
- - X
-   - X
-{% endhighlight %}{:data-file="Artestead.yaml"}
+{% include_relative _code/styleguide/styleguide.yaml %}
+{% endhighlight %}{:data-file="styleguide.yaml"}
 
 ---
 

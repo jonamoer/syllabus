@@ -1,0 +1,73 @@
+/// Sass Variables
+
+// Colours
+$color-A: hsl(359,  0%, 50%);
+$color-B: hsl(  0, 70%, 50%);
+$color-C: hsl( 25, 70%, 50%);
+$color-D: hsl( 50, 70%, 50%);
+$color-E: hsl(150, 70%, 50%);
+$color-F: hsl(200, 70%, 50%);
+$color-G: hsl(229, 30%, 50%);
+$color-H: hsl(330, 50%, 50%);
+
+$color-selection: #FF0;
+
+// Artevelde Colours
+$color-ahs: (
+  ahs-oranje     : #E90,
+  ahs-groen      : #BC0,
+  ahs-fuchsia    : #C07,
+  ahs-blauw      : #0AC,
+  ahs-lichtgrijs : #DDD,
+  ahs-middengrijs: #AAA,
+  ahs-donkergrijs: #777,
+  ahs-zwart      : #000
+);
+
+// Code Colour
+$code-text-color: white;
+$code-bash      : $color-A;
+$code-bat       : $color-A;
+$code-blade     : $color-H;
+$code-code      : $color-A;
+$code-css       : $color-C;
+$code-emmet     : $color-A;
+$code-gherkin   : $color-E;
+$code-html      : $color-B;
+$code-ini       : $color-A;
+$code-inky      : $color-B;
+$code-json      : $color-A;
+$code-js        : $color-D;
+$code-php       : $color-G;
+$code-po        : $color-A;
+$code-ps        : $color-A;
+$code-sql       : $color-F;
+$code-scss      : $color-H;
+$code-ts        : $color-F;
+$code-twig      : $color-E;
+$code-yaml      : $color-D;
+
+// Highlight Colours
+$base01: #93a1a1;
+$base02: #586e75;
+$base03: #B58900;
+$bg01  : #002b36;
+$bg02  : #f4f3f1;
+$orange: #cb4b16;
+$red   : #dc322f;
+$blue  : #268bd2;
+$cyan  : #2aa198;
+$green : #859900;
+
+// Timeline Colours
+$color-timeline-line: map_get($color-ahs, ahs-lichtgrijs);
+$color-timeline-main: map_get($color-ahs, ahs-oranje);
+$color-timeline-bgc : lighten($color-timeline-main, 50%);
+
+// Fonts
+$font-code: "Source Code Pro", monospace;
+$font-sans-serif: "Source Sans Pro", sans-serif;
+$font-serif: serif;
+
+// Footer
+$footer-height: 4rem;

@@ -1,0 +1,24 @@
+/// Charts
+
+.ct- {
+  &label {
+    font-size: 1em;
+  }
+  &series- {
+    &a {
+        @include ct-donut-stroke(map-get($color-ahs, ahs-oranje));
+    }
+    &b {
+        @include ct-donut-stroke(map-get($color-ahs, ahs-groen));
+    }
+    &c {
+        @include ct-donut-stroke(map-get($color-ahs, ahs-fuchsia));
+    }
+    &d {
+        @include ct-donut-stroke(map-get($color-ahs, ahs-blauw));
+    }
+    &e {
+        @include ct-donut-stroke(map-get($color-ahs, ahs-donkergrijs));
+    }
+  }
+}

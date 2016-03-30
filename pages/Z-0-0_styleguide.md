@@ -9,17 +9,17 @@ tags     : styleguide
 Bootstrap
 ---------
 
-[Bootstrap v4](http://v4-alpha.getbootstrap.com/getting-started/introduction/){:.btn .btn-primary}
+[Bootstrap][]{:.btn .btn-primary}
 
 Emoji
 -----
 
-[Emoji Cheat Sheet](http://www.emoji-cheat-sheet.com){:.btn .btn-primary}
+[Emoji Cheat Sheet][]{:.btn .btn-primary}
 
 FontAwesome
 -----------
 
-[FontAwesome Icons](http://fontawesome.io/icons/){:.btn .btn-primary}
+[FontAwesome Icons][]{:.btn .btn-primary}
 
  - *&nbsp;*{:.fa .fa-comment}Chat
  - *&nbsp;*{:.fa .fa-download}Download
@@ -66,3 +66,11 @@ FontAwesome
  - *&nbsp;*{:.fa .fa-code}Code
  - *&nbsp;*{:.fa .fa-css3}CSS3
  - *&nbsp;*{:.fa .fa-html5}HTML5
+
+
+{% comment %}
+<!-- ⚓ Hyperlinks -->
+{% endcomment %}
+[Bootstrap]:                http://v4-alpha.getbootstrap.com/getting-started/introduction/
+[Emoji Cheat Sheet]:        http://www.emoji-cheat-sheet.com
+[FontAwesome Icons]:        http://fontawesome.io/icons/

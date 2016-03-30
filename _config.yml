@@ -4,8 +4,8 @@ title_long     : "Syllabus Template"
 author         : "Olivier Parent"
 copyright_year : "2015-2016"
 copyright_owner: "Olivier Parent, Arteveldehogeschool | Artevelde University College Ghent"
-colour         : primary
-language       : nl
+colour         : "primary"
+language       : "nl"
 baseurl        : "/syllabus" # the subpath of your site, e.g. /blog
 course_id      : "0000" # Chamilo
 
@@ -19,3 +19,11 @@ gems:
   - jemoji
 sass:
   style: compressed
+exclude:
+  - css/bootstrap.scss
+  - gulpfile
+  - node_modules/
+  - Gemfile
+  - LICENSE.md
+  - package.json
+  - README.md

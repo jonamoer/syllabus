@@ -8,6 +8,10 @@
 
     let gulp = require('gulp');
 
+    gulp.task('update', [
+        'update:bundler'
+    ]);
+
     gulp.task('update:bundler', _ => {
         const spawn = require('child_process').spawn;
         const update = spawn('bundler', ['update']);
