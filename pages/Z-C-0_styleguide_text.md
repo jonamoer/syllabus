@@ -6,6 +6,11 @@ published: true
 tags     : styleguide
 ---
 
+Labels
+------
+
+Lorem ipsum *primary*{:.label .label-primary} *success*{:.label .label-success} *info*{:.label .label-info} *warning*{:.label .label-warning} *danger*{:.label .label-danger} 
+
 Header 2
 --------
 
@@ -63,7 +68,7 @@ Vestibulum blandit dictum lorem, elementum ultrices odio molestie ut. Donec matt
 
 Etiam neque turpis, malesuada eu semper et, rhoncus ut tortor. Ut sodales magna eu aliquet fringilla. Nulla massa nisi, eleifend at metus id, euismod mattis diam. Etiam varius vehicula urna, vel auctor turpis facilisis non. Donec varius posuere rutrum. Etiam non aliquet odio, at aliquam magna. Aenean elementum bibendum placerat. Sed eleifend erat in elit varius facilisis. Fusce convallis tincidunt venenatis. Aenean rutrum interdum euismod.
 
-Aenean et *nisi elit*{:.label .label-primary}. Donec a nunc ut tortor dictum volutpat vitae eget felis. Nunc gravida tellus eu euismod finibus. Sed id scelerisque libero, vel porta diam. Pellentesque non mattis metus, eu egestas lectus. Sed eget lorem risus. Pellentesque ac ornare dui. Nam in lectus hendrerit, tempor mauris viverra, egestas elit. Praesent efficitur est nec congue tristique. Vestibulum vel velit at dui efficitur malesuada. Nulla massa erat, vehicula sit amet nibh ac, pharetra varius ex. Nunc ut ultrices odio.
+Aenean et nisi elit. Donec a nunc ut tortor dictum volutpat vitae eget felis. Nunc gravida tellus eu euismod finibus. Sed id scelerisque libero, vel porta diam. Pellentesque non mattis metus, eu egestas lectus. Sed eget lorem risus. Pellentesque ac ornare dui. Nam in lectus hendrerit, tempor mauris viverra, egestas elit. Praesent efficitur est nec congue tristique. Vestibulum vel velit at dui efficitur malesuada. Nulla massa erat, vehicula sit amet nibh ac, pharetra varius ex. Nunc ut ultrices odio.
 
 Duis quis lectus sit amet velit sagittis posuere. Aliquam quis lorem iaculis, cursus arcu at, rutrum magna. Sed fringilla erat mi, et gravida dui vehicula quis. Curabitur nec elit leo. Proin vestibulum, ex a mollis rhoncus, ex turpis varius ipsum, nec faucibus justo ex et tellus. In hac habitasse platea dictumst. Aenean elementum mattis sapien, a interdum arcu consequat in. Nam tempus magna eget fermentum pharetra.
 

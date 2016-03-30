@@ -1,14 +1,16 @@
 /// Sass Variables
 
 // Colours
-$color-A: hsl(359,  0%, 50%);
-$color-B: hsl(  0, 70%, 50%);
-$color-C: hsl( 25, 70%, 50%);
-$color-D: hsl( 50, 70%, 50%);
-$color-E: hsl(150, 70%, 50%);
-$color-F: hsl(200, 70%, 50%);
-$color-G: hsl(229, 30%, 50%);
-$color-H: hsl(330, 50%, 50%);
+$color-palette: (
+  color-A: hsl(359,  0%, 50%),
+  color-B: hsl(  0, 70%, 50%),
+  color-C: hsl( 25, 70%, 50%),
+  color-D: hsl( 50, 70%, 50%),
+  color-E: hsl(150, 70%, 50%),
+  color-F: hsl(200, 70%, 50%),
+  color-G: hsl(229, 30%, 50%),
+  color-H: hsl(330, 50%, 50%)
+);
 
 $color-selection: #FF0;
 
@@ -26,26 +28,26 @@ $color-ahs: (
 
 // Code Colour
 $code-text-color: white;
-$code-bash      : $color-A;
-$code-bat       : $color-A;
-$code-blade     : $color-H;
-$code-code      : $color-A;
-$code-css       : $color-C;
-$code-emmet     : $color-A;
-$code-gherkin   : $color-E;
-$code-html      : $color-B;
-$code-ini       : $color-A;
-$code-inky      : $color-B;
-$code-json      : $color-A;
-$code-js        : $color-D;
-$code-php       : $color-G;
-$code-po        : $color-A;
-$code-ps        : $color-A;
-$code-sql       : $color-F;
-$code-scss      : $color-H;
-$code-ts        : $color-F;
-$code-twig      : $color-E;
-$code-yaml      : $color-D;
+$code-bash      : map-get($color-palette, color-A);
+$code-bat       : map-get($color-palette, color-A);
+$code-blade     : map-get($color-palette, color-H);
+$code-code      : map-get($color-palette, color-A);
+$code-css       : map-get($color-palette, color-C);
+$code-emmet     : map-get($color-palette, color-A);
+$code-gherkin   : map-get($color-palette, color-E);
+$code-html      : map-get($color-palette, color-B);
+$code-ini       : map-get($color-palette, color-A);
+$code-inky      : map-get($color-palette, color-B);
+$code-json      : map-get($color-palette, color-A);
+$code-js        : map-get($color-palette, color-D);
+$code-php       : map-get($color-palette, color-G);
+$code-po        : map-get($color-palette, color-A);
+$code-ps        : map-get($color-palette, color-A);
+$code-sql       : map-get($color-palette, color-F);
+$code-scss      : map-get($color-palette, color-H);
+$code-ts        : map-get($color-palette, color-F);
+$code-twig      : map-get($color-palette, color-E);
+$code-yaml      : map-get($color-palette, color-D);
 
 // Highlight Colours
 $base01: #93a1a1;

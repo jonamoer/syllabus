@@ -1,0 +1,19 @@
+/// Footnotes
+
+.footnotes {
+  border-top: 1px solid map_get($color-palette, color-A);
+  color: map_get($color-palette, color-A);
+  font-size: .75em;
+  p {
+    margin: .5rem 0;
+    a {
+      background-color: #eee;
+      border-radius: .25rem;
+      padding: 0 .25rem;
+      text-decoration: none;
+      &:hover {
+        background-color: #ccc;
+      }
+    }
+  }
+}

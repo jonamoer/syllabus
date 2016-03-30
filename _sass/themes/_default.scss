@@ -1,143 +1,107 @@
 // Default Theme
+
 ::selection {
-    background-color: $color-selection;
+  background-color: $color-selection;
 }
 
 .content,
 .dropdown {
-    counter-reset: h2-counter;
-    > h2, [data-counter=h2-counter] {
-        counter-reset: h3-counter;
-        &::before {
-            content: counter(h2-counter, upper-roman) ". ";
-            counter-increment: h2-counter;
-        }
-    };
-    > h3, [data-counter=h3-counter] {
-        counter-reset: h4-counter;
-        &::before {
-            content: counter(h3-counter) ". ";
-            counter-increment: h3-counter;
-        }
+  counter-reset: h2-counter;
+  > h2, [data-counter=h2-counter] {
+    counter-reset: h3-counter;
+    &::before {
+      content: counter(h2-counter, upper-roman) ". ";
+      counter-increment: h2-counter;
     }
-    > h4, [data-counter=h4-counter] {
-        counter-reset: h5-counter;
-        &::before {
-            content: counter(h3-counter) "." counter(h4-counter) " ";
-            counter-increment: h4-counter;
-        }
+  };
+  > h3, [data-counter=h3-counter] {
+    counter-reset: h4-counter;
+    &::before {
+      content: counter(h3-counter) ". ";
+      counter-increment: h3-counter;
     }
-    > h5, [data-counter=h5-counter] {
-        &::before {
-            content: counter(h3-counter) "." counter(h4-counter) "." counter(h5-counter) " ";
-            counter-increment: h5-counter;
-        }
+  }
+  > h4, [data-counter=h4-counter] {
+    counter-reset: h5-counter;
+    &::before {
+      content: counter(h3-counter) "." counter(h4-counter) " ";
+      counter-increment: h4-counter;
     }
-    > h6 {
-        &::before {
-            content: counter(h6-counter, lower-alpha) ". ";
-            counter-increment: h6-counter;
-        }
+  }
+  > h5, [data-counter=h5-counter] {
+    &::before {
+      content: counter(h3-counter) "." counter(h4-counter) "." counter(h5-counter) " ";
+      counter-increment: h5-counter;
     }
+  }
+  > h6 {
+    &::before {
+      content: counter(h6-counter, lower-alpha) ". ";
+      counter-increment: h6-counter;
+    }
+  }
 }
 
 a {
-    &.heading-link {
-        bottom: 0;
-        display: block;
-        height: 1.75rem;
-        left: -2rem;
-        line-height: 1.75rem;
-        position: absolute;
-    }
+  &.heading-link {
+    bottom: 0;
+    display: block;
+    height: 1.75rem;
+    left: -2rem;
+    line-height: 1.75rem;
+    position: absolute;
+  }
 }
 
 .content {
-    h1 {
-        margin: 1em 0;
+  h1 {
+    margin: 1em 0;
+  }
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    margin: .5em 0;
+  }
+  sup[id^="fn"] {
+    background-color: #eee;
+    border-radius: .25rem;
+    &:hover {
+      background-color: #ccc;
     }
-    h2,
-    h3,
-    h4,
-    h5,
-    h6 {
-        margin: .5em 0;
+    a {
+      padding: 0 .25rem;
+      text-decoration: none;
     }
-    sup[id^="fn"] {
-        background-color: #eee;
-        border-radius: .25rem;
-        &:hover {
-            background-color: #ccc;
-        }
-        a {
-            padding: 0 .25rem;
-            text-decoration: none;
-        }
-    }
-}
-
-.footnotes {
-    border-top: 1px solid $color-A;
-    color: $color-A;
-    font-size: .75em;
-    p {
-        margin: .5rem 0;
-        a {
-            background-color: #eee;
-            border-radius: .25rem;
-            padding: 0 .25rem;
-            text-decoration: none;
-            &:hover {
-                background-color: #ccc;
-            }
-        }
-    }
-}
-
-aside {
-    .h4, .h5, .h6 {
-        margin-bottom: 0;
-    }
-    .h4 {
-        font-weight: bold;
-    }
-    .h6 {
-        padding-left: 1em;
-    }
+  }
 }
 
 blockquote {
-    &.alert,
-    &.card {
-        h5 {
-            font-weight: bold;
-            margin: 0;
-        }
+  &.alert,
+  &.card {
+    h5 {
+      font-weight: bold;
+      margin: 0;
     }
-    .emoji {
-        float: left;
-        margin-right: .5em;
-    }
-    > *:last-child {
-        margin-bottom: 0;
-    }
+  }
+  .emoji {
+    float: left;
+    margin-right: .5em;
+  }
+  > *:last-child {
+    margin-bottom: 0;
+  }
 }
 
 .screenshot {
-    box-shadow: 0 3px 5px 1px #999;
-    max-width: 100%;
+  box-shadow: 0 3px 5px 1px #999;
+  max-width: 100%;
 }
 
-// footer
-
-
-
-
-
-
 .card.card-block.files {
-    background-color: #f4f3f1;
-    pre {
-        margin-bottom: 0;
-    }
+  background-color: #f4f3f1;
+  pre {
+    margin-bottom: 0;
+  }
 }

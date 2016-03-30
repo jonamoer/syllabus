@@ -1,0 +1,13 @@
+/// Aside
+
+aside {
+  .h4, .h5, .h6 {
+    margin-bottom: 0;
+  }
+  .h4 {
+    font-weight: bold;
+  }
+  .h6 {
+    padding-left: 1em;
+  }
+}

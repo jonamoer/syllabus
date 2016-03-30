@@ -1,7 +1,6 @@
 /// Sass Mixins
 
-
-@mixin label($text: "Code", $background: $color-G, $text-color: white) {
+@mixin label($text: "Code", $background: map_get($color-palette, color-G), $text-color: white) {
   position: relative;
   &::after{
     background: $background;
