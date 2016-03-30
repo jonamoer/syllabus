@@ -12,11 +12,11 @@
         sass = require('gulp-sass');
 
     gulp.task('styles', [
-        'styles:sass'
+        'styles:bootstrap'
     ]);
 
-    gulp.task('styles:sass', () => {
-        return gulp.src('./css/bootstrap.scss')
+    gulp.task('styles:bootstrap', () => {
+        return gulp.src(`${CONFIG.dir.src}css/bootstrap.scss`)
             .pipe(sass(CONFIG.sass).on('error', sass.logError))
             .pipe(gulp.dest('./css'));
     });

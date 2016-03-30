@@ -20,9 +20,9 @@ gems:
 sass:
   style: compressed
 exclude:
-  - css/bootstrap.scss
   - gulpfile
   - node_modules/
+  - src/
   - Gemfile
   - LICENSE.md
   - package.json
