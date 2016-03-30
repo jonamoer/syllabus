@@ -7,3 +7,5 @@ node_modules/
 
 /Gemfile.lock
 /.jekyll-metadata
+
+!pages/_code/styleguide/*
