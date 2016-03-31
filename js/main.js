@@ -1,1 +1,6 @@
+/**
+ * @author    Olivier Parent
+ * @copyright Copyright © 2015-2016 Artevelde University College Ghent
+ * @license   Apache License, Version 2.0
+ */
 !function(t){"use strict";function a(t){var a=t("#table-of-contents"),e=t(".content").children("h2, h3, hr"),d=a.children(".dropdown-menu");e.length?e.each(function(){var a=t(this),e=a.prop("tagName").toLowerCase();if("hr"===e)var n=t("<div>").addClass("dropdown-divider");else{var n=t("<a>").attr("href","#"+a.attr("id")),i=n.clone().addClass("heading-link fa fa-bookmark-o");n.addClass("dropdown-item").attr("data-counter",e+"-counter").text(a.text()),"h2"===e&&n.css("font-weight","bold"),a.prepend(i)}d.append(n)}):a.hide();var n=t("aside.list-group"),i=n.children(".list-group-item");i.length<=1&&n.hide();var r=t(".highlight > pre > code");r.each(function(){t(this).parents(".highlight").addClass("language-"+t(this).data("lang"))});var o=t(".timeline-content[data-date]");o.each(function(){moment.locale(t("html").attr("lang"));var a=moment(t(this).data("date")).format("dd D MMM YYYY"),e=t("<div>").addClass("timeline-date").text(a);t(this).after(e)})}t(document).ready(a)}(jQuery);

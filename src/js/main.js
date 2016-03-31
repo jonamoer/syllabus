@@ -1,8 +1,14 @@
+/**
+ * @author    Olivier Parent
+ * @copyright Copyright © 2015-2016 Artevelde University College Ghent
+ * @license   Apache License, Version 2.0
+ */
 (function ($) {
     'use strict';
     $(document).ready(whenReady);
     function whenReady($) {
         // Table of Contents
+        // -----------------
         var $toc = $('#table-of-contents'),
             $headings = $('.content').children('h2, h3, hr'),
             $dropdownMenu = $toc.children('.dropdown-menu');
@@ -33,6 +39,7 @@
         }
 
         // Sidebar
+        // -------
         var $sideBar = $('aside.list-group'),
             $sideBarItems = $sideBar.children('.list-group-item');
         if ($sideBarItems.length <= 1) {
@@ -40,17 +47,19 @@
         }
 
         // Highlighter Language Tag
+        // ------------------------
         var $highlights = $('.highlight > pre > code');
         $highlights.each(function () {
             $(this).parents('.highlight').addClass('language-' + $(this).data('lang'));
         });
 
         // Timeline
+        // --------
         var $timeline = $('.timeline-content[data-date]');
         $timeline.each(function () {
             moment.locale($('html').attr('lang'));
-            var date = moment($(this).data('date')).format('dd D MMM YYYY');
-            var element  = $('<div>').addClass('timeline-date').text(date);
+            var date    = moment($(this).data('date')).format('dd D MMM YYYY');
+            var element = $('<div>').addClass('timeline-date').text(date);
             $(this).after(element);
         });
     }

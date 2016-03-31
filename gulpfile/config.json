@@ -14,10 +14,22 @@
     "src": "./src/"
   },
   "sass": {
-    "includePaths": [
-      "./node_modules/bootstrap/scss",
-      "./_sass"
-    ],
-    "outputStyle": "compressed"
+    "development": {
+      "includePaths": [
+        "./node_modules/bootstrap/scss",
+        "./_sass"
+      ]
+    },
+    "production": {
+      "includePaths": [
+        "./node_modules/bootstrap/scss",
+        "./_sass"
+      ],
+      "outputStyle": "compressed"
+    }
+  },
+  "uglify": {
+    "mangle": true,
+    "preserveComments": "license"
   }
 }

@@ -3,12 +3,10 @@
  * @copyright Copyright © 2015-2016 Artevelde University College Ghent
  * @license   Apache License, Version 2.0
  */
-(() => {
+(gulp => {
     'use strict';
 
     const CONFIG = require('../config.json');
-
-    let gulp = require('gulp');
 
     gulp.task('copy', [
         'copy:gemfile',
@@ -77,4 +75,4 @@
     });
 
 
-})();
+})(require('gulp'));

@@ -3,11 +3,10 @@
  * @copyright Copyright © 2015-2016 Artevelde University College Ghent
  * @license   Apache License, Version 2.0
  */
-(() => {
+(gulp => {
     'use strict';
 
-    let gulp         = require('gulp'),
-        webstandards = require('gulp-webstandards');
+    let webstandards = require('gulp-webstandards');
 
     gulp.task('check', [
         'check:webstandards'
@@ -22,4 +21,4 @@
             .pipe(webstandards());
     });
 
-})();
+})(require('gulp'));
