@@ -6,7 +6,7 @@ published: true
 tags     :
 ---
 
-> ##### **Opgelet** *:warning:*{:.pull-left .m-r}
+> ##### **Opgelet** :warning:
 > ---
 > - **Afgedrukt op A3** (297×420 mm), in te dienen op het mondeling examen.
 > - **PDF**-bestand te plaatsen op Bitbucket-repository.

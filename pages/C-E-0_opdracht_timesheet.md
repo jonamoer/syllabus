@@ -6,7 +6,7 @@ published: true
 tags     :
 ---
 
-> ##### **Opgelet** *:warning:*{:.pull-left .m-r}
+> ##### **Opgelet** :warning:
 > ---
 > - **Excel**-bestand te plaatsen op Bitbucket-repository.
 {:.alert .alert-warning}
