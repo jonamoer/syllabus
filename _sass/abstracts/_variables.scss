@@ -26,7 +26,22 @@ $color-ahs: (
   ahs-zwart      : #000
 );
 
-// Code Colour
+// Code Colours
+
+$color-code: (
+  code-base01: #93a1a1,
+  code-base02: #586e75,
+  code-base03: #B58900,
+  code-bg01  : #002b36,
+  code-bg02  : #f4f3f1,
+  code-orange: #cb4b16,
+  code-red   : #dc322f,
+  code-blue  : #268bd2,
+  code-cyan  : #2aa198,
+  code-green : #859900
+);
+
+// Code Label Colour
 $code-text-color: white;
 $code-bash      : map-get($color-palette, color-A);
 $code-bat       : map-get($color-palette, color-A);
@@ -50,16 +65,16 @@ $code-twig      : map-get($color-palette, color-E);
 $code-yaml      : map-get($color-palette, color-D);
 
 // Highlight Colours
-$base01: #93a1a1;
-$base02: #586e75;
-$base03: #B58900;
-$bg01  : #002b36;
-$bg02  : #f4f3f1;
-$orange: #cb4b16;
-$red   : #dc322f;
-$blue  : #268bd2;
-$cyan  : #2aa198;
-$green : #859900;
+$base01: map-get($color-code, code-base01);
+$base02: map-get($color-code, code-base02);
+$base03: map-get($color-code, code-base03);
+$bg01  : map-get($color-code, code-bg01);
+$bg02  : map-get($color-code, code-bg02);
+$orange: map-get($color-code, code-orange);
+$red   : map-get($color-code, code-red);
+$blue  : map-get($color-code, code-blue);
+$cyan  : map-get($color-code, code-cyan);
+$green : map-get($color-code, code-green);
 
 // Timeline Colours
 $color-timeline-line: map_get($color-ahs, ahs-lichtgrijs);
