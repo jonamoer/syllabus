@@ -13,7 +13,8 @@
     "gulp-if": "^2.0.0",
     "gulp-sass": "^2.2.0",
     "gulp-uglify": "^1.5.3",
-    "gulp-webstandards": "^0.1.1"
+    "gulp-webstandards": "^0.1.1",
+    "js-yaml": "^3.6.0"
   },
   "scripts": {
     "build": "gulp sass",

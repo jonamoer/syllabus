@@ -1,0 +1,34 @@
+# OLOD's
+destinations:
+  - artestead-doc
+  - cmp
+  - dotfiles-doc
+  - ed
+  - mma
+  - nmdad2
+  - nmdad3
+  - webd
+
+# Directories
+dir:
+  node: ./node_modules/
+  src : ./src/
+
+# gulp-sass
+# @link https://www.npmjs.com/package/gulp-sass
+# @link https://github.com/sass/node-sass
+sass:
+  development:
+    includePaths: &includePaths
+      - ./node_modules/bootstrap/scss
+      - ./_sass
+  production:
+    includePaths: *includePaths
+    outputStyle : compressed
+
+# gulp-uglify
+# @link https://www.npmjs.com/package/gulp-uglify
+# @link https://github.com/mishoo/UglifyJS
+uglify:
+  mangle          : true
+  preserveComments: license

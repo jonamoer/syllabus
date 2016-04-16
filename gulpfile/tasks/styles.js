@@ -6,7 +6,7 @@
 (gulp => {
     'use strict';
 
-    const CONFIG = require('../config.json');
+    const CFG = global.CONFIG;
 
     let gulp_if = require('gulp-if'),
         sass    = require('gulp-sass');
@@ -16,8 +16,8 @@
     ]);
 
     gulp.task('styles:bootstrap', () => {
-        return gulp.src(`${CONFIG.dir.src}css/bootstrap.scss`)
-            .pipe(sass(gulp_if(isProduction, CONFIG.sass.production, CONFIG.sass.development)).on('error', sass.logError))
+        return gulp.src(`${CFG.dir.src}css/bootstrap.scss`)
+            .pipe(sass(gulp_if(isProduction, CFG.sass.production, CFG.sass.development)).on('error', sass.logError))
             .pipe(gulp.dest('./css'));
     });
 
