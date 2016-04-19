@@ -6,7 +6,7 @@
 (gulp => {
     'use strict';
 
-    const CONFIG = require('../config.json');
+    const CFG = global.CONFIG;
 
     let concat  = require('gulp-concat'),
         gulp_if = require('gulp-if'),
@@ -17,9 +17,9 @@
     ]);
 
     gulp.task('scripts:main', () => {
-        return gulp.src(`${CONFIG.dir.src}js/**/*.js`)
+        return gulp.src(`${CFG.dir.src}js/**/*.js`)
             .pipe(concat('main.js'))
-            .pipe(gulp_if(isProduction, uglify(CONFIG.uglify)))
+            .pipe(gulp_if(isProduction, uglify(CFG.uglify)))
             .pipe(gulp.dest(`./js`));
     });
 

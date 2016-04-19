@@ -6,7 +6,7 @@
 (gulp => {
     'use strict';
 
-    const CONFIG = require('../config.json');
+    const CFG = global.CONFIG;
 
     gulp.task('copy', [
         'copy:gemfile',
@@ -20,7 +20,7 @@
     gulp.task('copy:gemfile', () => {
         let source = gulp.src('./Gemfile');
 
-        CONFIG.destinations.forEach(element => {
+        CFG.destinations.forEach(element => {
             source.pipe(gulp.dest(`../${element}`));
         });
     });
@@ -28,7 +28,7 @@
     gulp.task('copy:gitignore', () => {
         let source = gulp.src('./.gitignore');
 
-        CONFIG.destinations.forEach(element => {
+        CFG.destinations.forEach(element => {
             source.pipe(gulp.dest(`../${element}`));
         });
     });
@@ -36,7 +36,7 @@
     gulp.task('copy:images', () => {
         let source = gulp.src('./images/**/*');
 
-        CONFIG.destinations.forEach(element => {
+        CFG.destinations.forEach(element => {
             source.pipe(gulp.dest(`../${element}/images`));
         });
     });
@@ -44,7 +44,7 @@
     gulp.task('copy:scripts', () => {
         let source = gulp.src('./js/main.js');
 
-        CONFIG.destinations.forEach(element => {
+        CFG.destinations.forEach(element => {
             source.pipe(gulp.dest(`../${element}/js`));
         });
     });
@@ -56,7 +56,7 @@
             gulp.src('./css/main.scss')
         ];
 
-        CONFIG.destinations.forEach(element => {
+        CFG.destinations.forEach(element => {
             sources[0].pipe(gulp.dest(`../${element}/_sass`));
             sources[1].pipe(gulp.dest(`../${element}/css`));
             sources[2].pipe(gulp.dest(`../${element}/css`));
@@ -69,7 +69,7 @@
             gulp.src('./_layouts/**/*.html')
         ];
 
-        CONFIG.destinations.forEach(element => {
+        CFG.destinations.forEach(element => {
             sources[0].pipe(gulp.dest(`../${element}/_includes`));
             sources[1].pipe(gulp.dest(`../${element}/_layouts`));
         });

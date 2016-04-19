@@ -6,7 +6,7 @@
 (gulp => {
     'use strict';
 
-    const CONFIG = require('../config.json');
+    const CFG = global.CONFIG;
 
     gulp.task('watch', [
         'watch:styles'
