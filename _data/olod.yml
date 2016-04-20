@@ -1,0 +1,41 @@
+title:
+  full : Syllabus
+  short: SYLLB
+
+copyright:
+  year     : 2015-2016
+  owner    : Olivier Parent
+  institute: Arteveldehogeschool
+#   institute: Artevelde University College Ghent
+
+programme:
+  degree: Bachelor in de grafische en digitale media
+  major : Multimediaproductie
+  minor : proDEV
+
+course:
+  chamillo_id: "0000"
+
+authors:
+ - name:
+     full    : Olivier Parent
+     short   : O. Parent
+     code    : OPR
+   email     : olivier.parent@arteveldehs.be
+   website   : http://www.olivierparent.be
+   bitbucket :
+
+ - name: 
+     full    : Philippe De Pauw - Waterschoot
+     short   : Ph. De Pauw
+     code    : PDP
+   email     : olivier.parent@arteveldehs.be
+   website   : http://www.drdynscript.eu
+   bitbucket :
+
+#  - name      : Bart Missant
+#    name_short: B. Missant
+#    code      : BM
+#    email     : bart.missant@arteveldehs.be
+#    website   :
+#    bitbucket :

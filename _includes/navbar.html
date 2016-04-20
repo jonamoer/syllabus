@@ -1,6 +1,6 @@
 <nav class="navbar navbar-full navbar-dark bg-{{ site.colour }}">
     <button class="navbar-toggler hidden-sm-up" type="button" data-toggle="collapse" data-target="#navbar-collapse-A">&#9776;</button>
-    <a class="navbar-brand pull-xs-right pull-sm-left" href="{{ site.baseurl }}/" title="{{ site.title_long }}"><i class="fa fa-rocket"></i> {{ site.title }}</a>
+    <a class="navbar-brand pull-xs-right pull-sm-left" href="{{ site.baseurl }}/" title="{{ site.data.olod.title.full }}"><i class="fa fa-rocket"></i> {{ site.title }}</a>
     <div class="collapse navbar-toggleable-xs" id="navbar-collapse-A">
         <nav class="nav navbar-nav">
 {% assign page_level = page.path | remove: "pages/" | split: "_" | first | split: "-" %}
@@ -22,8 +22,8 @@
             <div class="nav-item dropdown pull-xs-none pull-sm-right p-r-1">
                 <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false"><i class="fa fa-life-ring"></i> Help</a>
                 <div class="dropdown-menu dropdown-menu-right">
-{% if site.course_id != "0000" %}
-                    <a class="dropdown-item" href="https://chamilo.arteveldehs.be/index.php?application=weblcms&go=course_viewer&course={{ site.course_id }}">Chamilo</a>
+{% if site.data.olod.course.chamillo_id != "0000" %}
+                    <a class="dropdown-item" href="https://chamilo.arteveldehs.be/index.php?application=weblcms&go=course_viewer&course={{ site.data.olod.course.chamillo_id }}">Chamilo</a>
                     <div class="dropdown-divider"></div>
 {% endif %}
                     <a class="dropdown-item" href="https://gdmgent.slack.com"><i class="fa fa-slack"></i> GDM Gent</a>

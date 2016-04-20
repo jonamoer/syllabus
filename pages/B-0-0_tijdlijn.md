@@ -7,6 +7,20 @@ tags     :
 ---
 
 <section class="timeline">
+    {% for point in site.data.timeline %}
+        <article class="timeline-point">
+            {% if point.icon %}
+            <div class="timeline-icon"><i class="fa fa-{{ point.icon }}"></i></div>
+            {% endif %}
+            <div class="timeline-content" data-date="{{ point.date }}">
+                {{ point.content }}
+            </div>
+        </article>
+    {% endfor %}
+    
+</section>
+
+<section class="timeline">
     <article class="timeline-point">
         <div class="timeline-icon"><i class="fa fa-flag-o"></i></div>
         <div class="timeline-content" data-date="2015-09-21">
