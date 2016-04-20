@@ -19,19 +19,19 @@ Tijdens de presentie toon je aan:
 - dat alle items op de checklist aanwezig zijn;
 - of er eventuele extra's toegevoegd zijn.
 
-Zorg voor een grafisch verzorgde presentatie en verzorgd taalgebruik. Gebruik PowerPoint (of alternatieven zoals [Reveal.js][reveal]), screencasts (zet de koppelingen naar **publieke** streamingdiensten in het PDF-bestand) en live demonstraties.
+Zorg voor een grafisch verzorgde presentatie en verzorgd taalgebruik. Gebruik PowerPoint (of alternatieven zoals [Reveal.js][]), screencasts (zet de koppelingen naar **publieke** streamingdiensten in het PDF-bestand) en live demonstraties.
 
 > ##### **Tip** :bulb:
 > ---
 > Screencasts kan je maken met:
 >
-> - [QuickTime Player][qt] (Mac OS X)
-> - [Open Broadcast Software][obs] (Windows)
+> - [QuickTime Player][] (Mac OS X)
+> - [Open Broadcast Software][] (Windows)
 {:.alert .alert-info}
 
 {% comment %}
 <!-- ⚓ Hyperlinks -->
 {% endcomment %}
-[Open Broadcast Software]:                  https://obsproject.com
-[reveal]:               http://lab.hakim.se/reveal-js/
-[QuickTime Player]:                   http://www.apple.com/benl/quicktime/
+[Open Broadcast Software]:  https://obsproject.com
+[Reveal.js]:                http://lab.hakim.se/reveal-js/
+[QuickTime Player]:         http://www.apple.com/benl/quicktime/
