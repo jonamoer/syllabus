@@ -14,7 +14,7 @@ programme:
   minor : proDEV
 
 course:
-  chamillo_id: "0000"
+  chamilo_id: "0000"
 
 authors:
  - name:
