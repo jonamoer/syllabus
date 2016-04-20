@@ -52,7 +52,7 @@
     gulp.task('copy:styles', () => {
         let sources = [
             gulp.src('./_sass/**/*'),
-            gulp.src('./css/boostrap.css'),
+            gulp.src('./css/bootstrap.css'),
             gulp.src('./css/main.scss')
         ];
 

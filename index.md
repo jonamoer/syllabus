@@ -7,11 +7,11 @@ Welkom op de digitale syllabus van het OLOD **{{ site.title }}**!
 
 Deze syllabus bevat een introductie tot de te kennen werkwijze en technologieën, met daarnaast tips, koppelingen naar documentatie, artikels en tutorials die je op weg helpen bij de zelfstudie. Het is geenszins de bedoeling dat deze syllabus alle leerstof bevat, maar wel om je richting te geven bij zelfstudie.
 
-Veel studieplezier tijdens deze boeiende ontdekkingstocht!
+Veel studieplezier tijdens deze boeiende ontdekkingstocht!  
 {{ site.author }}
 
-|   {{ site.title }}  | Informatie                                 |
-| -------------------:|:------------------------------------------ |
+|    {{ site.title }} | Informatie                                 |
+|--------------------:|:-------------------------------------------|
 | Opleidingsonderdeel | {{ site.title_long }}                      |
 |        Academiejaar | {{ site.copyright_year }}                  |
 |              Docent | [{{ site.author }}][]                      |
