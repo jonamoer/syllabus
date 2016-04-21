@@ -2,7 +2,7 @@
 layout   : page
 title    : Presentatie
 permalink: opdracht/presentatie/
-published: true
+published: false
 tags     :
 ---
 

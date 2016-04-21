@@ -2,7 +2,7 @@
 layout   : page
 title    : Academische Poster
 permalink: opdracht/poster/
-published: true
+published: false
 tags     :
 ---
 

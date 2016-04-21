@@ -3,7 +3,7 @@ layout    : page
 title     : Info
 title_long: Algemene informatie
 permalink : informatie/
-published : true
+published : false
 tags      :
 ---
 

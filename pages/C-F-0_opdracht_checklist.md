@@ -2,7 +2,7 @@
 layout   : page
 title    : Checklist
 permalink: opdracht/checklist/
-published: true
+published: false
 tags     :
 ---
 

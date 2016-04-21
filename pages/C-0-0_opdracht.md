@@ -2,7 +2,7 @@
 layout   : page
 title    : Opdracht
 permalink: opdracht/
-published: true
+published: false
 tags     :
 ---
 

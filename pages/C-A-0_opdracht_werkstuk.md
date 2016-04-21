@@ -2,7 +2,7 @@
 layout   : page
 title    : Werkstuk
 permalink: opdracht/werkstuk/
-published: true
+published: false
 tags     :
 ---
 
