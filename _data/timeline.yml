@@ -1,27 +1,29 @@
 # Semester 1
 # ----------
 
-# # Week 01
-# - date: 2015-09-21
-#   icon: flag-o
-#   content:
-#   - paragraph:
-#     - TBC
+# Week 01
+- date: 2015-09-21
+  icon: flag-o
+  content: |
+    {::nomarkdown}
+    TBC
+    {:/}
 
+# Autumn
+- icon: leaf
+  type: trivial
+  content: |
+    {::nomarkdown}
+    Herfstperiode
+    {:/}
 
-# # Autumn
-# - icon: leaf
-#   type: trivial
-#   content:
-#   - paragraph:
-#     - Herfstperiode
-
-# # Christmas
-# - icon: tree
-#   type: trivial
-#   content:
-#   - paragraph:
-#     - Kerstperiode
+# Christmas
+- icon: tree
+  type: trivial
+  content: |
+    {::nomarkdown}
+    Kerstperiode
+    {:/}
 
 # Semester 2
 # ----------
@@ -29,234 +31,241 @@
 # Week 01
 - date: 2016-02-08
   icon: flag-o
-  content:
-  - header: Kick-off
-    list:
+  content: |
+    # Kick-off
     - Algemene informatie
     - Briefing werkstuk
     - Groepsindeling
-    - <a href="http://www.gdm.gent/artestead/">Artestead</a> installeren
+    - [Artestead](http://www.gdm.gent/artestead/) installeren
+
 - date: 2016-02-09
-  content:
-  - header: Zelfstudie
-    list:
-    - <a href="https://www.codecademy.com/learn/learn-angularjs">Codecademy Learn AngularJS</a>
+  content: |
+    # Zelfstudie
+    - [Codecademy Learn AngularJS](https://www.codecademy.com/learn/learn-angularjs)
 
 # Week 02
 - date: 2016-02-15
-  content:
-  - header: Zelfstudie
-    list:
-    - <a href="https://laracasts.com/series/laravel-5-fundamentals">Laravel 5 Fundamentals</a>
+  content: |
+    # Zelfstudie
+    - [Laravel 5 Fundamentals](https://laracasts.com/series/laravel-5-fundamentals)
+
 - date: 2016-02-16
-  content:
-  - header: Zelfstudie
-    list:
-    - <a href="https://egghead.io/series/angularjs-app-from-scratch-getting-started">AngularJS Fundamentals</a>
+  content: |
+    # Zelfstudie
+    - [AngularJS Fundamentals](https://egghead.io/series/angularjs-app-from-scratch-getting-started)
 
 # Week 03
 - date: 2016-02-22
-  content:
-  - header: Onderwerpen
-    list: 
+  content: |
+    # Onderwerpen
     - Laravel project opzetten
-  - header: Zelfstudie
-    list:
-    - <a href="https://laracasts.com/series/whats-new-in-laravel-5-1">What's New in Laravel 5.1</a> 
-    - <a href="https://laracasts.com/series/whats-new-in-laravel-5-2">What's New in Laravel 5.2</a>
+    
+    # Zelfstudie
+    - [What's New in Laravel 5.1](https://laracasts.com/series/whats-new-in-laravel-5-1)
+    - [What's New in Laravel 5.2](https://laracasts.com/series/whats-new-in-laravel-5-2)
+
 - date: 2016-02-23
-  content:
-  - header: Zelfstudie
-    list: 
-    - <a href="https://thinkster.io/a-better-way-to-learn-angularjs">A Better Way to Learn AngularJS</a>
+  content: |
+    # Zelfstudie
+    - [A Better Way to Learn AngularJS](https://thinkster.io/a-better-way-to-learn-angularjs)
 
 # Week 04
 - date: 2016-02-29
   icon: map-pin
   type: important
-  content:
-  - milestone:
-      uri: "/opdracht/#milestone-1"
-      label: Milestone 1
-      small: Voorbereiding klaar
+  milestone:
+    uri: "/opdracht/#milestone-1"
+    label: Milestone 1
+    small: Voorbereiding klaar
+
 - date: 2016-03-01
-  content:
-  - header: Onderwerpen
-    list:
+  content: |
+    # Onderwerpen
     - Theorie MVC
     - Laravel Auth Scaffolding
-  - header: Zelfstudie
-    list:
-    - <a href="https://github.com/johnpapa/angular-styleguide/blob/master/a1/README.md">John Papa's Angular Style Guide</a>
-    - '<a href="https://scotch.io/tutorials/angularjs-best-practices-directory-structure">AngularJS Best Practices: Directory Structure</a>'
+    
+    # Zelfstudie
+    - [John Papa - Angular Style Guide](https://github.com/johnpapa/angular-styleguide/blob/master/a1/README.md)
+    - [AngularJS Best Practices: Directory Structure](https://scotch.io/tutorials/angularjs-best-practices-directory-structure)
 
 # Week 05
 - date: 2016-03-07
-  content:
-  - header: Onderwerpen
-    list:
-    - "MVC toepassen: Models"
+  content: |
+    # Onderwerpen
+    - MVC toepassen: Models
+
 - date: 2016-03-08
-  content:
-  - header: Onderwerpen
-    list:
-    - "MVC toepassen: Models"
+  content: |
+    # Onderwerpen
+    - MVC toepassen: Models
 
 # Week 06
 - date: 2016-03-14
-  content:
-  - header: Onderwerpen
-    list:
-    - "MVC toepassen: Models"
+  content: |
+    # Onderwerpen
+    - MVC toepassen: Models
+
 - date   : 2016-03-15
-  content:
-  - header: Onderwerpen
-    list:
-    - "MVC toepassen: Models & Views"
+  content: |
+    # Onderwerpen
+    - MVC toepassen: Models & Views
 
 # Week 07
 - date: 2016-03-21
-  content:
-  - header: Onderwerpen
-    list:
-    - "MVC toepassen: Controllers & Views"
-    - "AngularJS: installatie, configuratie"
+  content: |
+    # Onderwerpen
+    - MVC toepassen: Controllers & Views
+    - AngularJS: installatie, configuratie
+
 - date: 2016-03-22
-  content:
-  - header: Onderwerpen
-    list:
-    - "AngularJS: installatie, configuratie"
+  content: |
+    # Onderwerpen
+    - AngularJS: installatie, configuratie
 
 # Easter
 - icon: sun-o
   type: trivial
-  content:
-  - header: Paasperiode
+  content: |
+    {::nomarkdown}
+    Paasperiode
+    {:/}
 
 # Week 08
 - date: 2016-04-11
   icon: calendar-check-o
   type: important
-  content:
-  - header: Gastsprekers <strong><a href="https://wijs.be">Wijs</a></strong></h1><br><strong>Verplichte aanwezigheid!</strong>
+  content: |
+    Gastspreker [Wijs](https://wijs.be)  
+    **Verplichte aanwezigheid!**
+
 - date: 2016-04-12
   type: trivial
-  content:
-  - header: Onderwijsdag
+  content: |
+    {::nomarkdown}
+    Onderwijsdag
+    {:/}
 
 # Week 09
 - date: 2016-04-18
   icon: map-pin
   type: important
-  content:
-  - milestone:
-      uri: "/opdracht/#milestone-2"
-      label: Milestone 2
-      small: Alpha-versie
+  milestone:
+    uri: "/opdracht/#milestone-2"
+    label: Milestone 2
+    small: Alpha-versie
+
 - date: 2016-04-19
-  content:
-  - header: Vervolg Milestone 2
-  
+  content: |
+    {::nomarkdown}
+    Vervolg Milestone 2
+    {:/}
+
 # Week 10
 - date: 2016-04-25
-  content:
-  - paragraphs:
-    - TBD
+  content: |
+    {::nomarkdown}
+    TBD
+    {:/}
+
 - date: 2016-04-26
-  content:
-  - paragraphs:
-    - TBD
+  content: |
+    {::nomarkdown}
+    TBD
+    {:/}
 
 # Week 11
 - date: 2016-05-02
-  content:
-  - paragraphs:
-    - TBD
+  content: |
+    {::nomarkdown}
+    TBD
+    {:/}
+
 - date: 2016-05-03
-  content:
-  - paragraphs:
-    - TBD
+  content: |
+    TBD
 
 # Week 12
 - date: 2016-05-09
   icon: map-pin
   type: important
-  content:
-  - milestone:
-      uri: "/opdracht/#milestone-3"
-      label: Milestone 3
-      small: Beta-versie
+  milestone:
+    uri: "/opdracht/#milestone-3"
+    label: Milestone 3
+    small: Beta-versie
+
 - date: 2016-05-10
-  content:
-  - header: Vervolg Milestone 3
+  content: |
+    {::nomarkdown}
+    Vervolg Milestone 3
+    {:/}
 
 # Week 13
 - date: 2016-05-16
   icon: calendar-check-o
   type: trivial
-  content:
-  - header: Pinkstermaandag
+  content: |
+    {::nomarkdown}
+    Pinkstermaandag
+    {:/}
+
 - date: 2016-05-17
-  content:
-  - paragraphs:
-    - TBD
+  content: |
+    {::nomarkdown}
+    TBD
+    {:/}
 
 # Hand in 1
 - date: 2016-05-23
   icon: flag-checkered
   type: important
-  content:
-  - milestone:
-      uri: "/opdracht/#milestone-4"
-      label: Milestone 4
-      small: Release Candidate-versie 1EK
+  milestone:
+    uri: "/opdracht/#milestone-4"
+    label: Milestone 4
+    small: Release Candidate-versie 1EK
 
 # Timetable 1
 - date: 2016-05-24
   icon: clock-o
   type: important
-  content:
-  - chamilo: 1EK
+  chamilo: 1EK
 
-# Exams 1
+# Exam 1
 - date: 
   icon: university
   type: important
-  content:
-  - milestone:
-      uri: "/opdracht/#milestone-exam-oral"
-      label: Mondeling Examen
-      small: Presentatie 1EK
+  milestone:
+    uri: "/opdracht/#milestone-exam-oral"
+    label: Mondeling Examen
+    small: Presentatie 1EK
 
 # Summer
 - icon: plane
   type: trivial
-  content:
-  - header: Zomerperiode
+  content: |
+    {::nomarkdown}
+    Zomerperiode
+    {:/}
 
 # Hand in 2
 - date: 2016-08-16
   icon: flag-checkered
   type: important
-  content:
-  - milestone:
-      uri: "/opdracht/#milestone-4"
-      label: Milestone 4
-      small: Release Candidate-versie 2EK
+  milestone:
+    uri: "/opdracht/#milestone-4"
+    label: Milestone 4
+    small: Release Candidate-versie 2EK
 
 # Timetable 2
 - date: 2016-08-17
   icon: clock-o
   type: important
-  content:
-  - chamilo: 2EK
+  chamilo: 2EK
 
-# Exams 2
+# Exam 2
 - date:
   icon: university
   type: important
-  content:
-  - milestone:
-      uri: "/opdracht/#milestone-exam-oral"
-      label: Mondeling Examen
-      small: Presentatie 2EK
+  milestone:
+    uri: "/opdracht/#milestone-exam-oral"
+    label: Mondeling Examen
+    small: Presentatie 2EK

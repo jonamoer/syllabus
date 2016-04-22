@@ -1,35 +1,21 @@
 <section class="timeline">
     {% for point in site.data.timeline %}
-        <article class="timeline-point{% if point.type %}{{ point.type | prepend: ' timeline-point-'}}{% endif %}">
-            {% if point.icon %}
-            <div class="timeline-icon"><i class="fa fa-{{ point.icon }}"></i></div>
-            {% endif %}
-            <div class="timeline-content"{% if point.date %} data-date="{{ point.date }}"{% endif %}>
-                {% for content_item in point.content %}
-                    {% if content_item.header %}
-                        <h1>{{ content_item.header }}</h1>
-                    {% endif %}
-                    {% if content_item.list %}
-                        <ul>
-                        {% for listitem in content_item.list %}
-                            <li>{{ listitem }}</li>
-                        {% endfor %}
-                        </ul>
-                    {% endif %}
-                    {% if content_item.paragraphs %}
-                        {% for paragraph in content_item.paragraphs %}
-                        <p>{{ paragraph }}</p>
-                        {% endfor %}
-                    {% endif %}
-                    {% if content_item.milestone %}
-                        <h1><a href="{{ content_item.milestone.uri | prepend: site.baseurl }}">{{ content_item.milestone.label }}</a> <small>{{ content_item.milestone.small }}</small></h1>
-                    {% endif %}
-                    {% if content_item.chamilo %}
-                        <h1><a href="https://chamilo.arteveldehs.be/index.php?application=weblcms&course={{ site.data.olod.course.chamilo_id }}&tool=document&go=course_viewer">Uurrooster</a> <small>{{ article.chamilo }} bekend op Chamilo</small></h1>
-                    {% endif %}
-                {% endfor %}
-            </div>
-        </article>
+    <article class="timeline-point{% if point.type %}{{ point.type | prepend: ' timeline-point-'}}{% endif %}">
+        {% if point.icon %}
+        <div class="timeline-icon"><i class="fa fa-{{ point.icon }}"></i></div>
+        {% endif %}
+        <div class="timeline-content"{% if point.date %} data-date="{{ point.date }}"{% endif %}>
+        {% if point.chamilo %}
+            <h1><a href="https://chamilo.arteveldehs.be/index.php?application=weblcms&course={{ site.data.olod.course.chamilo_id }}&tool=document&go=course_viewer">Uurrooster</a> <small>{{ article.chamilo }} bekend op Chamilo</small></h1>
+        {% endif %}
+        {% if point.milestone %}
+            <h1><a href="{{ point.milestone.uri | prepend: site.baseurl }}">{{ point.milestone.label }}</a><br><small>{{ point.milestone.small }}</small></h1>
+        {% endif %}
+        {% if point.content %}
+            {{ point.content | markdownify }}
+        {% endif %}
+        </div>
+    </article>
     {% endfor %}
 </section>
 
