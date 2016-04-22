@@ -47,6 +47,11 @@ section>(article*5)>lipsum
 {% include_relative _code/styleguide/styleguide.inky.html %}
 {% endhighlight %}{:data-file="styleguide.inky.html"}
 
+### JavaScript
+
+{% highlight js linenos %}
+{% include_relative _code/styleguide/styleguide.js %}
+{% endhighlight %}{:data-file="styleguide.js"}
 
 ### JSON
 
@@ -54,11 +59,12 @@ section>(article*5)>lipsum
 {% include_relative _code/styleguide/styleguide.json %}
 {% endhighlight %}{:data-file="styleguide.json"}
 
-### JavaScript
+### Liquid
 
-{% highlight js linenos %}
-{% include_relative _code/styleguide/styleguide.js %}
-{% endhighlight %}{:data-file="styleguide.js"}
+{% highlight liquid linenos %}{% raw %}
+{% %}
+{{ }}
+{% endraw %}{% endhighlight %}{:data-file=""}
 
 ### PHP
 

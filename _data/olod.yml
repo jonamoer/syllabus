@@ -24,7 +24,6 @@ authors:
    email     : olivier.parent@arteveldehs.be
    website   : http://www.olivierparent.be
    bitbucket :
-
  - name: 
      full    : Philippe De Pauw - Waterschoot
      short   : Ph. De Pauw
@@ -32,10 +31,18 @@ authors:
    email     : olivier.parent@arteveldehs.be
    website   : http://www.drdynscript.eu
    bitbucket :
-
 #  - name      : Bart Missant
 #    name_short: B. Missant
 #    code      : BM
 #    email     : bart.missant@arteveldehs.be
 #    website   :
 #    bitbucket :
+
+workload:
+  - "Hoor- en werkcolleges": 36
+  - "Praktijk"             : 36
+  - "Taken in zelfstudie"  : 80
+  - "Zelfstudie"           : 21
+  - "Toets- en examentijd" : 2
+  - "asdasdasd"            : 102
+  - "ca asd ad "           : 12

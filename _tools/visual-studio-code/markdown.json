@@ -1,0 +1,305 @@
+{
+    "Comment Afkortingen": {
+        "prefix": "afkortingen",
+        "body": [
+            "{% comment %}",
+            "<!-- ⚓ Afkortingen -->",
+            "{% endcomment %}",
+            "*[]:                        ?"
+        ],
+        "description": "Comment Afkortingen"
+    },
+    "Comment Hyperlinks": {
+        "prefix": "hyperlinks",
+        "body": [
+            "{% comment %}",
+            "<!-- ⚓ Hyperlinks -->",
+            "{% endcomment %}",
+            "[]:                         http://"
+        ],
+        "description": "Comment Hyperlinks"
+    },
+    "Comment Voetnoten": {
+        "prefix": "voetnoten",
+        "body": [
+            "{% comment %}",
+            "<!-- ⚓ Voetnoten -->",
+            "{% endcomment %}",
+            "[^]: "
+        ],
+        "description": "Comment Voetnoten"
+    },
+    "Code bash": {
+        "prefix": "bash",
+        "body": [
+            "{% highlight bash %}",
+            "$ ",
+            "{% endhighlight %}"
+        ],
+        "description": "Bash code block"
+    },
+    "Code bat": {
+        "prefix": "bat",
+        "body": [
+            "{% highlight bat %}",
+            "{% endhighlight %}"
+        ],
+        "description": "Batch code block"
+    },
+    "Code blade": {
+        "prefix": "blade",
+        "body": [
+            "{% highlight blade linenos %}{% raw %}",
+            "{% endraw %}{% endhighlight %}{:data-file=\".blade.php\"}"
+        ],
+        "description": "Blade code block"
+    },
+    "Code css": {
+        "prefix": "css",
+        "body": [
+            "{% highlight css linenos %}",
+            "{% include_relative _code/.css %}",
+            "{% endhighlight %}{:data-file=\".css\"}"
+        ],
+        "description": "CSS code block"
+    },
+    "Code emmet": {
+        "prefix": "emmet",
+        "body": [
+            "{% highlight emmet %}",
+            "{% endhighlight %}"
+        ],
+        "description": "Emmet code block"
+    },
+    "Code html": {
+        "prefix": "html",
+        "body": [
+            "{% highlight html linenos %}",
+            "{% include_relative _code/.html %}",
+            "{% endhighlight %}{:data-file=\".html\"}"
+        ],
+        "description": "HTML code block"
+    },
+    "Code ini": {
+        "prefix": "ini",
+        "body": [
+            "{% highlight ini linenos %}",
+            "{% include_relative _code/.ini %}",
+            "{% endhighlight %}{:data-file=\".ini\"}"
+        ],
+        "description": "INI code block"
+    },
+    "Code inky": {
+        "prefix": "inky",
+        "body": [
+            "{% highlight inky linenos %}",
+            "{% include_relative _code/.inky.html %}",
+            "{% endhighlight %}{:data-file=\".inky.html\"}"
+        ],
+        "description": "Inky code block"
+    },
+    "Code js": {
+        "prefix": "js",
+        "body": [
+            "{% highlight js linenos %}",
+            "{% include_relative _code/.js %}",
+            "{% endhighlight %}{:data-file=\".js\"}"
+        ],
+        "description": "JavaScript code block"
+    },
+    "Code json": {
+        "prefix": "json",
+        "body": [
+            "{% highlight json linenos %}",
+            "{% include_relative _code/.json %}",
+            "{% endhighlight %}{:data-file=\".json\"}"
+        ],
+        "description": "JSON code block"
+    },
+    "Code liquid": {
+        "prefix": "liquid",
+        "body": [
+            "{% highlight liquid linenos %}{% raw %}",
+            "{% endraw %}{% endhighlight %}{:data-file=\"\"}"
+        ],
+        "description": "Liquid code block"
+    },
+    "Code php": {
+        "prefix": "php",
+        "body": [
+            "{% highlight php linenos %}",
+            "{% include_relative _code/.php %}",
+            "{% endhighlight %}{:data-file=\".php\"}"
+        ],
+        "description": "PHP code block"
+    },
+    "Code ps": {
+        "prefix": "ps",
+        "body": [
+            "{% highlight powershell %}",
+            "PS>",
+            "{% endhighlight %}"
+        ],
+        "description": "PowerShell code block"
+    },
+    "Code scss": {
+        "prefix": "scss",
+        "body": [
+            "{% highlight scss linenos %}",
+            "{% include_relative _code/.scss %}",
+            "{% endhighlight %}{:data-file=\".scss\"}"
+        ],
+        "description": "SCSS code block"
+    },
+    "Code sql": {
+        "prefix": "sql",
+        "body": [
+            "{% highlight sql linenos %}",
+            "{% include_relative _code/.sql %}",
+            "{% endhighlight %}{:data-file=\".sql\"}"
+        ],
+        "description": "SQL code block"
+    },
+    "Code ts": {
+        "prefix": "ts",
+        "body": [
+            "{% highlight ts linenos %}",
+            "{% include_relative _code/.ts %}",
+            "{% endhighlight %}{:data-file=\".ts\"}"
+        ],
+        "description": "TypeScript code block"
+    },
+    "Code twig": {
+        "prefix": "twig",
+        "body": [
+            "{% highlight twig linenos %}{% raw %}",
+            "{% endraw %}{% endhighlight %}{:data-file=\".twig.php\"}"
+        ],
+        "description": "Twig code block"
+    },
+    "Code yaml": {
+        "prefix": "yaml",
+        "body": [
+            "{% highlight yaml linenos %}",
+            "{% include_relative _code/.yml %}",
+            "{% endhighlight %}{:data-file=\".yml\"}"
+        ],
+        "description": "YAML code block"
+    },
+    "NL dos": {
+        "prefix": "do's",
+        "body": [
+            "> ##### **Do's** :thumbsup:",
+            "> ---",
+            "> - ",
+            "{:.alert .alert-success}"
+        ],
+        "description": "Do's block"
+    },
+    "NL donts": {
+        "prefix": "donts",
+        "body": [
+            "> ##### **Don'ts** :thumbsdown:",
+            "> ---",
+            "> - ",
+            "{:.alert .alert-danger}"
+        ],
+        "description": "Dont's block"
+    },
+    "NL mappen": {
+        "prefix": "mappen",
+        "body": [
+            "> ##### Mappen & Bestanden :open_file_folder:",
+            "> ---",
+            ">```",
+            "> root/",
+            "> ├── dir/",
+            "> │   ├── file",
+            "> │   └── file",
+            "> └── file",
+            ">```",
+            "{:.card .card-block .files}"
+        ],
+        "description": "Mappen & Bestanden block"
+    },
+    "NL opgelet": {
+        "prefix": "opgelet",
+        "body": [
+            "> ##### **Opgelet** :warning:",
+            "> ---",
+            "> ",
+            "{:.alert .alert-info}"
+        ],
+        "description": "Opgelet block"
+    },
+    "NL opmerking": {
+        "prefix": "opmerking",
+        "body": [
+            "> ##### **Opmerking** :point_up:",
+            "> ---",
+            "> ",
+            "{:.alert .alert-warning}"
+        ],
+        "description": "Opmerking block"
+    },
+    "NL opmerkingen": {
+        "prefix": "opmerkingen",
+        "body": [
+            "> ##### **Opmerkingen** :point_up:",
+            "> ---",
+            "> - ",
+            "{:.alert .alert-info}"
+        ],
+        "description": "Opmerking block"
+    },
+    "NL taak": {
+        "prefix": "taak",
+        "body": [
+            "> ##### **Taak** :rocket:",
+            "> ---",
+            "> ",
+            "{:.alert .alert-success}"
+        ],
+        "description": "Tip block"
+    },
+    "NL taken": {
+        "prefix": "taken",
+        "body": [
+            "> ##### **Taken** :rocket:",
+            "> ---",
+            "> - ",
+            "{:.alert .alert-success}"
+        ],
+        "description": "Tip block"
+    },
+    "NL tip": {
+        "prefix": "tip",
+        "body": [
+            "> ##### **Tip** :bulb:",
+            "> ---",
+            "> ",
+            "{:.alert .alert-info}"
+        ],
+        "description": "Tip block"
+    },
+    "NL voorbeeld": {
+        "prefix": "voorbeeld",
+        "body": [
+            "> ##### **Voorbeeld** :package:",
+            "> ---",
+            "> ",
+            "{:.alert .alert-success}"
+        ],
+        "description": "Voorbeeld block"
+    },
+    "NL weetje": {
+        "prefix": "weetje",
+        "body": [
+            "> ##### **Weetje** :book:",
+            "> ---",
+            "> ",
+            "{:.alert .alert-info}"
+        ],
+        "description": "Weetje block"
+    }
+}

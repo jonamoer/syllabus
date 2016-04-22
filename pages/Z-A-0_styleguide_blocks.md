@@ -57,13 +57,6 @@ Alert blocks
 > Lorem ipsum dolor sit amet.
 {:.alert .alert-danger}
 
-> ##### **Tip** :bulb:
-> ---
-> 
-{:.alert .alert-info}
-
-
-
 ### Lesvrije periodes
 
 > ##### Herfstperiode :fallen_leaf:

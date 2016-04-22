@@ -20,5 +20,11 @@
     &e {
         @include ct-donut-stroke(map-get($color-ahs, ahs-donkergrijs));
     }
+    &f {
+        @include ct-donut-stroke(map-get($color-ahs, ahs-middengrijs));
+    }
+    &g {
+        @include ct-donut-stroke(map-get($color-ahs, ahs-lichtgrijs));
+    }
   }
 }

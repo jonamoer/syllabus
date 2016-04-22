@@ -1,4 +1,4 @@
- ---
+---
 layout    : page
 title     : Info
 title_long: Algemene informatie
@@ -33,35 +33,7 @@ De studieomvang bedraagt **[7] studiepunten** volgens het [European Credit Trans
 | **Totaal**                                    | **175**                    |
 {:.table}
 
-<div class="ct-chart ct-major-eleventh"></div>
-<script>
-var data = {
-    series: [
-        36,
-        36,
-        80,
-        21,
-        2
-    ],
-    labels: [
-        'Hoor- en werkcolleges',
-        'Praktijk',
-        'Taken in zelfstudie',
-        'Zelfstudie',
-        'Toets- en examentijd'
-    ]
-};
-var options = {
-    chartPadding: 60,
-    donut: true,
-    donutWidth: 40,
-    labelDirection: 'explode',
-    labelOffset: 40,
-    startAngle: 270,
-    total: data.series.reduce(function (a, b) { return a + b; }, 0) * 2
-};
-new Chartist.Pie('.ct-chart', data, options);
-</script>
+{% include pie-chart.html %}
 
 > ##### **Tip** :bulb:
 > ---
