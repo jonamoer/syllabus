@@ -9,7 +9,7 @@ tags      :
 
 > ##### **Opgelet** :warning:
 > ---
-> **De hieronder beschreven informatie is de enige geldende voor het OLOD [OLOD].**
+> **De hieronder beschreven informatie is de enige geldende voor het OLOD {{ site.title }}.**
 > Ze bevat bevat aanvullingen en lichte afwijkingen ten opzichte van die uit de ECTS-fiche.
 {:.alert .alert-warning}
 
@@ -177,6 +177,7 @@ Per onderdeel van het werkstuk wordt een score toegekend. Deze score bestaat uit
 {% comment %}
 <!-- ⚓ Afkortingen -->
 {% endcomment %}
+*[{{ site.title }}]:        {{ site.data.olod.title.full }}
 *[ECTS]:                    European Credit Transfer and Accumulation System
 *[OLOD]:                    opleidingsonderdeel
 
@@ -185,4 +186,4 @@ Per onderdeel van het werkstuk wordt een score toegekend. Deze score bestaat uit
 <!-- ⚓ Hyperlinks -->
 {% endcomment %}
 [ECTS]:                     http://ec.europa.eu/education/tools/ects_nl.htm
-[ECTS-fiche]:				https://bamaflexweb.arteveldehs.be/BMFUIDetailxOLOD.aspx?a=47526&b=5&c=1
+[ECTS-fiche]:               https://bamaflexweb.arteveldehs.be/BMFUIDetailxOLOD.aspx?a=47526&b=5&c=1

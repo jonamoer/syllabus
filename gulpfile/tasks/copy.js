@@ -9,6 +9,7 @@
     const CFG = global.CONFIG;
 
     gulp.task('copy', [
+        'copy:data',
         'copy:gemfile',
         'copy:gitignore',
         'copy:images',
@@ -16,6 +17,14 @@
         'copy:styles',
         'copy:templates'
     ]);
+
+    gulp.task('copy:data', () => {
+        let source = gulp.src('./_data/cdn.yml');
+
+        CFG.destinations.forEach(element => {
+            source.pipe(gulp.dest(`../${element}/_data`));
+        });
+    });
 
     gulp.task('copy:gemfile', () => {
         let source = gulp.src('./Gemfile');

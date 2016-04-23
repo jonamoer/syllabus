@@ -18,19 +18,19 @@ course:
 
 authors:
  - name:
-     full    : Olivier Parent
-     short   : O. Parent
-     code    : OPR
-   email     : olivier.parent@arteveldehs.be
-   website   : http://www.olivierparent.be
-   bitbucket :
+     full   : Olivier Parent
+     short  : O. Parent
+     code   : OPR
+   email    : olivier.parent@arteveldehs.be
+   website  : http://www.olivierparent.be
+   bitbucket: https://bitbucket.org/olivierparent
  - name: 
-     full    : Philippe De Pauw - Waterschoot
-     short   : Ph. De Pauw
-     code    : PDP
-   email     : olivier.parent@arteveldehs.be
-   website   : http://www.drdynscript.eu
-   bitbucket :
+     full   : Philippe De Pauw - Waterschoot
+     short  : Ph. De Pauw
+     code   : PDP
+   email    : olivier.parent@arteveldehs.be
+   website  : http://www.drdynscript.eu
+   bitbucket: https://bitbucket.org/drdynscript
 #  - name      : Bart Missant
 #    name_short: B. Missant
 #    code      : BM
@@ -43,6 +43,4 @@ workload:
   - "Praktijk"             : 36
   - "Taken in zelfstudie"  : 80
   - "Zelfstudie"           : 21
-  - "Toets- en examentijd" : 2
-  - "asdasdasd"            : 102
-  - "ca asd ad "           : 12
+  - "Toets- en examentijd" :  2
