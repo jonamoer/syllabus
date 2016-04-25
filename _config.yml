@@ -1,11 +1,27 @@
 # Site settings
-baseurl : /syllabus # the subpath of your site, e.g. /blog
-colour  : primary
-language: nl
-title   : SYLLB
+# -------------
+baseurl    : /syllabus # the subpath of your site, e.g. /blog
+colour     : primary
+language   : nl
+
+# SEO
+# ---
+title      : SYLLB
+description: Style Guide for Syllabi.
+author     : Olivier Parent
+# url        :
+# image      :
 
 # Build settings
+# --------------
 gems:
+  - jekyll-feed
+  - jekyll-gist
+  - jekyll-mentions
+  - jekyll-paginate
+  - jekyll-redirect-from
+  - jekyll-seo-tag
+  - jekyll-sitemap
   - jemoji
 highlighter: rouge
 markdown: kramdown

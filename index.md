@@ -1,6 +1,6 @@
 ---
 layout: page
-title : [OLOD]
+title : "[OLOD]"
 ---
 
 Welkom op de digitale syllabus van het OLOD **{{ site.title }}**!

@@ -27,7 +27,10 @@
     });
 
     gulp.task('copy:gemfile', () => {
-        let source = gulp.src('./Gemfile');
+        let source = gulp.src([
+            './Gemfile',
+            './Gemfile.lock',
+        ]);
 
         CFG.destinations.forEach(element => {
             source.pipe(gulp.dest(`../${element}`));

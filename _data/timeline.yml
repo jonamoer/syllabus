@@ -182,7 +182,9 @@
 
 - date: 2016-05-03
   content: |
+    {::nomarkdown}
     TBD
+    {:/}
 
 # Week 12
 - date: 2016-05-09
