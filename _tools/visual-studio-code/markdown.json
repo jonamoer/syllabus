@@ -301,5 +301,27 @@
             "{:.alert .alert-info}"
         ],
         "description": "Weetje block"
+    },
+    "NL zie": {
+        "prefix": "zie",
+        "body": [
+            "> ##### Zie ook :book:",
+            "> ---",
+            "> - [link](#)",
+            "> - <#>",
+            "{:.card .card-block}"
+        ],
+        "description": "Zie ook (koppelingen) block"
+    },
+    "NL zie (movie)": {
+        "prefix": "zie",
+        "body": [
+            "> ##### Zie ook :movie_camera:",
+            "> ---",
+            "> - [link](#)",
+            "> - <#>",
+            "{:.card .card-block}"
+        ],
+        "description": "Zie ook (movie) block"
     }
 }
