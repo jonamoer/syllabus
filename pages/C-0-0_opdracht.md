@@ -48,7 +48,7 @@ Bitbucket-repository:
 > ├── www/
 > └── README.md
 >```
-{:.card .card-block}
+{:.card .card-block .files}
 
  - De map `app/` is voor de *Mobile Hybrid App;*
  - De map `www/` is voor de website (Backoffice en API).
