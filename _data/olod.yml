@@ -39,8 +39,7 @@ authors:
 #    bitbucket :
 
 workload:
-  - "Hoor- en werkcolleges": 36
-  - "Praktijk"             : 36
-  - "Taken in zelfstudie"  : 80
-  - "Zelfstudie"           : 21
-  - "Toets- en examentijd" :  2
+  - "Hoor- en werkcolleges": 18
+  - "Praktijk"             : 18
+  - "Taken in zelfstudie"  : 96
+  - "Toets- en examentijd" :  1

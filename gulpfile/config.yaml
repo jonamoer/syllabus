@@ -4,6 +4,7 @@ destinations:
   - cmp
   - dotfiles-doc
   - ed
+  - mapps
   - mma
   - nmdad2
   - nmdad3
