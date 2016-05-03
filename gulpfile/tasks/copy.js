@@ -19,56 +19,50 @@
     ]);
 
     gulp.task('copy:data', () => {
-        let source = gulp.src('./_data/cdn.yml');
-
         CFG.destinations.forEach(element => {
+            let source = gulp.src('./_data/cdn.yml');
             source.pipe(gulp.dest(`../${element}/_data`));
         });
     });
 
     gulp.task('copy:gemfile', () => {
-        let source = gulp.src([
-            './Gemfile',
-            './Gemfile.lock',
-        ]);
-
         CFG.destinations.forEach(element => {
+            let source = gulp.src([
+                './Gemfile',
+                './Gemfile.lock',
+            ]);
             source.pipe(gulp.dest(`../${element}`));
         });
     });
 
     gulp.task('copy:gitignore', () => {
-        let source = gulp.src('./.gitignore');
-
         CFG.destinations.forEach(element => {
+            let source = gulp.src('./.gitignore');
             source.pipe(gulp.dest(`../${element}`));
         });
     });
 
     gulp.task('copy:images', () => {
-        let source = gulp.src('./images/**/*');
-
         CFG.destinations.forEach(element => {
+            let source = gulp.src('./images/**/*');
             source.pipe(gulp.dest(`../${element}/images`));
         });
     });
 
     gulp.task('copy:scripts', () => {
-        let source = gulp.src('./js/main.js');
-
         CFG.destinations.forEach(element => {
+            let source = gulp.src('./js/main.js');
             source.pipe(gulp.dest(`../${element}/js`));
         });
     });
 
     gulp.task('copy:styles', () => {
-        let sources = [
-            gulp.src('./_sass/**/*'),
-            gulp.src('./css/bootstrap.css'),
-            gulp.src('./css/main.scss')
-        ];
-
         CFG.destinations.forEach(element => {
+            let sources = [
+                gulp.src('./_sass/**/*'),
+                gulp.src('./css/bootstrap.css'),
+                gulp.src('./css/main.scss')
+            ];
             sources[0].pipe(gulp.dest(`../${element}/_sass`));
             sources[1].pipe(gulp.dest(`../${element}/css`));
             sources[2].pipe(gulp.dest(`../${element}/css`));
@@ -76,16 +70,14 @@
     });
 
     gulp.task('copy:templates', () => {
-        let sources = [
-            gulp.src('./_includes/**/*.*'),
-            gulp.src('./_layouts/**/*.html')
-        ];
-
         CFG.destinations.forEach(element => {
+            let sources = [
+                gulp.src('./_includes/**/*.*'),
+                gulp.src('./_layouts/**/*.html')
+            ];
             sources[0].pipe(gulp.dest(`../${element}/_includes`));
             sources[1].pipe(gulp.dest(`../${element}/_layouts`));
         });
     });
-
 
 })(require('gulp'));
