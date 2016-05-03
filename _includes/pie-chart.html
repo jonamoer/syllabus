@@ -19,5 +19,22 @@ var options = {
     startAngle: 270,
     total: data.series.reduce(function (a, b) { return a + b; }, 0) * 2
 };
-new Chartist.Pie('.ct-chart', data, options);
+
+var responsiveOptions = [
+    ["screen and (max-width: 320px)",
+        {
+            chartPadding: 6,
+            donutWidth: 20,
+            labelOffset: 40
+        }
+    ],
+    ["screen and (max-width: 480px)",
+        {
+            chartPadding: 6,
+            donutWidth: 20,
+            labelOffset: 40
+        }
+    ]
+];
+new Chartist.Pie('.ct-chart', data, options, responsiveOptions);
 </script>

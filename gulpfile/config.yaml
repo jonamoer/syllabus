@@ -6,9 +6,11 @@ destinations:
   - ed
   - mapps
   - mma
+  - mapps
   - nmdad2
   - nmdad3
-  - webd
+  - wanm
+  - webd1
 
 # Directories
 dir:
