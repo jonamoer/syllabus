@@ -10,15 +10,15 @@ Deze syllabus bevat een introductie tot de te kennen werkwijze en technologieën
 Veel studieplezier tijdens deze boeiende ontdekkingstocht!  
 {{ site.data.olod.authors | map: 'name' | map: 'full' | join: ', ' }}
 
-|         {{ site.title }} | Informatie                                    |
-|-------------------------:|:----------------------------------------------|
-|      Opleidingsonderdeel | {{ site.data.olod.title.full }}               |
-|             Academiejaar | {{ site.data.olod.copyright.year }}           |
-| Verantwoordelijke Docent | [{{ site.data.olod.authors[0].name.full }}][] |
-|      Onderwijsinstelling | [Arteveldehogeschool][]                       |
-|                Opleiding | {{ site.data.olod.programme.degree }}         |
-|        Afstudeerrichting | {{ site.data.olod.programme.major }}          |
-|               Keuzeoptie | {{ site.data.olod.programme.minor }}          |
+|         {{ site.title }} | Informatie                                      |
+|-------------------------:|:------------------------------------------------|
+|      Opleidingsonderdeel | {{ site.data.olod.title.full.nl }}              |
+|             Academiejaar | {{ site.data.olod.copyright.year }}             |
+| Verantwoordelijke Docent | [{{ site.data.olod.authors[0].name.full }}][]   |
+|      Onderwijsinstelling | [{{ site.data.olod.copyright.institute.nl }}][] |
+|                Opleiding | {{ site.data.olod.programme.degree.nl }}        |
+|        Afstudeerrichting | {{ site.data.olod.programme.major.nl }}         |
+|               Keuzeoptie | {{ site.data.olod.programme.minor.short }}      |
 {:.table}
 
 
@@ -26,6 +26,7 @@ Veel studieplezier tijdens deze boeiende ontdekkingstocht!
 <!-- ⚓ Hyperlinks -->
 {% endcomment %}
 [{{ site.data.olod.authors[0].name.full }}]: {{ site.data.olod.authors[0].website }}
-[Arteveldehogeschool]:      http://www.arteveldehogeschool.be
+[{{ site.data.olod.copyright.institute.en }}]: http://www.arteveldeuniversitycollege.be
+[{{ site.data.olod.copyright.institute.nl }}]: http://www.arteveldehogeschool.be
 
 {% include afkortingen.md %}

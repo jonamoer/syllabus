@@ -150,3 +150,5 @@ Checklist
 |   Spelling gecontroleerd             |     ?    |
 |   Twig-sjablonen                     |     ?    |
 {:.table}
+
+{% include afkortingen.md %}

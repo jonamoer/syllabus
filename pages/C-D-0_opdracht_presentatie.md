@@ -35,3 +35,5 @@ Zorg voor een grafisch verzorgde presentatie en verzorgd taalgebruik. Gebruik Po
 [Open Broadcast Software]:  https://obsproject.com
 [Reveal.js]:                http://lab.hakim.se/reveal-js/
 [QuickTime Player]:         http://www.apple.com/benl/quicktime/
+
+{% include afkortingen.md %}
