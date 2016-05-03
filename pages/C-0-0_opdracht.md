@@ -222,11 +222,6 @@ Tips
 
 
 {% comment %}
-<!-- ⚓ Afkortingen -->
-{% endcomment %}
-*[WIP]:                     Work in Progress
-
-{% comment %}
 <!-- ⚓ Hyperlinks -->
 {% endcomment %}
 [Arteveldehogeschool]:      http://www.arteveldehogeschool.be
@@ -238,3 +233,5 @@ Tips
 [docent-pdp]:               http://www.drdynscript.eu
 [docent-pdp-bitbucket]:     https://bitbucket.org/drdynscript
 [docent-pdp-mail]:          mailto:philippe.depauw@arteveldehs.be?subject=[OLOD]
+
+{% include afkortingen.md %}

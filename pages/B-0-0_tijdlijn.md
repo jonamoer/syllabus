@@ -7,3 +7,5 @@ tags     :
 ---
 
 {% include timeline.html %}
+
+{% include afkortingen.md %}

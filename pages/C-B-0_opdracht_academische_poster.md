@@ -45,3 +45,5 @@ Bijvoorbeeld in het Engels:
 > Bachelor of Graphical and Digital Media, Multimedia Production (proDEV)
 > Artevelde University College Ghent
 {:.card .card-block}
+
+{% include afkortingen.md %}

@@ -83,3 +83,5 @@ Minstens 3 uitgesproken verschillende [Style Tiles][style-tiles]. en duid aan we
 {% endcomment %}
 [mysql-workbench]:          http://dev.mysql.com/downloads/workbench
 [style-tiles]:              http://styletil.es
+
+{% include afkortingen.md %}

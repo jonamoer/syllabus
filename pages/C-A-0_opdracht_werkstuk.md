@@ -108,14 +108,6 @@ De functionaliteit is afhankelijk van de functionaliteit van de Mobile Hybrid Ap
 
 
 {% comment %}
-<!-- ⚓ Afkortingen -->
-{% endcomment %}
-*[API]:                     Application Programming Interface
-*[CRUD]:                    Create, Read, Update, Delete
-*[GUI]:                     Graphical User Interface
-*[IDE]:                     Integrated Development Environment
-
-{% comment %}
 <!-- ⚓ Hyperlinks -->
 {% endcomment %}
 [Chamilo]:                  http://chamilo.arteveldehs.be/index.php?application=weblcms&course=7641&tool=document&go=course_viewer
@@ -181,3 +173,5 @@ De functionaliteit is afhankelijk van de functionaliteit van de Mobile Hybrid Ap
 [sourcetree]:               http://www.sourcetreeapp.com
 [Virtualbox]:               https://www.virtualbox.org
 [Visual Studio Code]:       https://www.visualstudio.com/en-us/products/code-vs.aspx
+
+{% include afkortingen.md %}

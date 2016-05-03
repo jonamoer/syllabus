@@ -77,7 +77,7 @@
 
     gulp.task('copy:templates', () => {
         let sources = [
-            gulp.src('./_includes/**/*.html'),
+            gulp.src('./_includes/**/*.*'),
             gulp.src('./_layouts/**/*.html')
         ];
 
