@@ -10,7 +10,6 @@ Deze syllabus bevat een introductie tot de te kennen werkwijze en technologieën
 Veel studieplezier tijdens deze boeiende ontdekkingstocht!  
 {{ site.data.olod.authors | map: 'name' | map: 'full' | join: ', ' }}
 
-
 |         {{ site.title }} | Informatie                                    |
 |-------------------------:|:----------------------------------------------|
 |      Opleidingsonderdeel | {{ site.data.olod.title.full }}               |
@@ -24,14 +23,9 @@ Veel studieplezier tijdens deze boeiende ontdekkingstocht!
 
 
 {% comment %}
-<!-- ⚓ Afkortingen -->
-{% endcomment %}
-*[{{ site.title }}]:        {{ site.data.olod.title.full }}
-*[OLOD]:                    opleidingsonderdeel
-*[proDEV]:                  Professional Software Development
-
-{% comment %}
 <!-- ⚓ Hyperlinks -->
 {% endcomment %}
 [{{ site.data.olod.authors[0].name.full }}]: {{ site.data.olod.authors[0].website }}
 [Arteveldehogeschool]:      http://www.arteveldehogeschool.be
+
+{% include afkortingen.md %}
