@@ -16,21 +16,21 @@ tags      :
 ECTS
 ----
 
-[ECTS-fiche van {{ site.title }}][ECTS-fiche]{:.btn .btn-{{ site.colour }}-outline}
+[ECTS-fiche van {{ site.data.olod.title.short }}][ECTS-fiche]{:.btn .btn-{{ site.colour }}-outline}
 
 ### Studieomvang
 
 De studieomvang bedraagt **[7] studiepunten** volgens het [European Credit Transfer and Accumulation System][ECTS].
 
-|   Activiteit                                  |   Uur                      |
-|:----------------------------------------------|---------------------------:|
-|   **Hoor- en werkcolleges**{:.ahs-oranje}     |  **36**{:.ahs-oranje}      |
-|   **Praktijk**{:.ahs-groen}                   |  **36**{:.ahs-groen}       |
-|   **Taken in zelfstudie**{:.ahs-fuchsia}      |  **80**{:.ahs-fuchsia}     |
-|   **Zelfstudie**{:.ahs-blauw}                 |  **21**{:.ahs-blauw}       |
-|   **Toets- en examentijd**{:.ahs-donkergrijs} |   **2**{:.ahs-donkergrijs} |
-|===============================================|============================|
-| **Totaal**                                    | **175**                    |
+|   Activiteit                                |   Uur                      |
+|:--------------------------------------------|---------------------------:|
+| **Hoor- en werkcolleges**{:.ahs-oranje}     |  **36**{:.ahs-oranje}      |
+| **Praktijk**{:.ahs-groen}                   |  **36**{:.ahs-groen}       |
+| **Taken in zelfstudie**{:.ahs-fuchsia}      |  **80**{:.ahs-fuchsia}     |
+| **Zelfstudie**{:.ahs-blauw}                 |  **21**{:.ahs-blauw}       |
+| **Toets- en examentijd**{:.ahs-donkergrijs} |   **2**{:.ahs-donkergrijs} |
+|=============================================|============================|
+| **Totaal**                                  | **175**                    |
 {:.table}
 
 {% include pie-chart.html %}
@@ -145,10 +145,5 @@ Er wordt gequoteerd op onderdelen uit onderstaande tabel.
 {:.alert .alert-warning}
 
 
-{% comment %}
-<!-- ⚓ Hyperlinks -->
-{% endcomment %}
-[ECTS]:                     http://ec.europa.eu/education/tools/ects_nl.htm
-[ECTS-fiche]:               https://bamaflexweb.arteveldehs.be/BMFUIDetailxOLOD.aspx?a=47526&b=5&c=1
-
 {% include afkortingen.md %}
+{% include hyperlinks.md %}

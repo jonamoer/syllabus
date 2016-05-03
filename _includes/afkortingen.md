@@ -1,28 +1,37 @@
-{% comment %}
-<!-- ⚓ Afkortingen -->
-{% endcomment %}
 *[{{ site.title }}]:        {{ site.data.olod.title.full }}
 *[{{ site.data.olod.programme.minor.short }}]: {{ site.data.olod.programme.minor.full }}
 *[1EK]:                     Eerste Examenkans
 *[2EK]:                     Tweede Examenkans
 *[3A]:                      Arrange-Act-Assert
+*[Ajax]:                    Asynchronous JavaScript and XML
+*[APA]:                     American Psychological Association
 *[API]:                     Application Programming Interface
-*[BDD]:                     Behaviour-Driven Development
 *[Bash]:                    Bourne-Again Shell
-*[DDD]:                     Domain-Driven Development
+*[BDD]:                     Behaviour-Driven Development
 *[BOC]:                     Build-Operate-Check
 *[BTW]:                     Belasting over de Toegevoegde Waarde
+*[CLI]:                     Command-Line Interface
+*[CMS]:                     Content Management System
 *[CORS]:                    Cross-Origin Resource Sharing
+*[CPT]:                     Custom Post Type
+*[CRM]:                     Customer Relationship Management
 *[CRUD]:                    Create, Read, Update, Delete
+*[CSS]:                     Cascading Style Sheets
+*[CSS3]:                    Cascading Style Sheets Level 3
+*[CTA]:                     Call to Action
 *[DB]:                      Database
+*[DDD]:                     Domain-Driven Development
 *[DDL]:                     Data Definition Language
 *[DML]:                     Data Manipulation Language
 *[ECTS]:                    European Credit Transfer and Accumulation System
 *[ES2015]:                  ECMAScript 2015
+*[ESP]:                     Email Service Provider
 *[FTP]:                     File Transfer Protocol
 *[SFTP]:                    SSH File Transfer Protocol
 *[SSH]:                     Secure Shell
 *[GUI]:                     Graphical User Interface
+*[HTML]:                    Hypertext Markup Language
+*[HTML5]:                   Hypertext Markup Language version 5.0
 *[HTTP]:                    Hypertext Transfer Protocol
 *[HTTPS]:                   Hypertext Transfer Protocol Secure
 *[IA]:                      Information Architecture
@@ -40,11 +49,15 @@
 *[OOP]:                     Objectgeoriënteerd Programmeren
 *[ORM]:                     Object-Relational Mapper
 *[PARC]:                    Palo Alto Research Center
+*[PDF]:                     Portable Document Format
 *[PHP]:                     PHP: Hypertext Preprocessor
+*[PR]:                      Public Relations
 *[proDEV]:                  Professional Software Development
 *[PSR]:                     PHP Standard Recommendations
-*[RAD]:                     Rapid Application Development
+*[RAD]:                     Rapid Application Developmen
+*[REST]:                    Representational State Transfer
 *[RESTful]:                 Representational State Transfer
+*[ROI]:                     Return on Investment
 *[Sass]:                    Syntactically Awesome Style Sheets
 *[SCSS]:                    Sassy CSS
 *[SPA]:                     Single Page Application
@@ -55,5 +68,6 @@
 *[URI]:                     Uniform Request Identifier
 *[UX]:                      User Experience
 *[VM]:                      Virtual Machine
+*[WP]:                      WordPress
 *[WIP]:                     Work in Progress
 *[YAML]:                    YAML Ain't Markup Language

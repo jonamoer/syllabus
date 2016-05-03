@@ -46,7 +46,7 @@ Collage van foto's en afbeeldingen die de sfeer van het visuele ontwerp moet uit
 
 ### Style Tiles
 
-Minstens 3 uitgesproken verschillende [Style Tiles][style-tiles]. en duid aan welke gekozen werd.
+Minstens 3 uitgesproken verschillende [Style Tiles][], en duid aan welke gekozen werd.
 
 #### Style Tile A
 
@@ -59,7 +59,7 @@ Minstens 3 uitgesproken verschillende [Style Tiles][style-tiles]. en duid aan we
 #### Databasemodel
 
  - Diagram van het databasemodel  
-   [MySQL Workbench][mysql-workbench]: **Database** → **Reverse Engineer…**
+   [MySQL Workbench][]: **Database** → **Reverse Engineer…**
 
 #### API
 
@@ -78,10 +78,6 @@ Minstens 3 uitgesproken verschillende [Style Tiles][style-tiles]. en duid aan we
  - Wireframes
  - Screen Designs
 
-{% comment %}
-<!-- ⚓ Hyperlinks -->
-{% endcomment %}
-[mysql-workbench]:          http://dev.mysql.com/downloads/workbench
-[style-tiles]:              http://styletil.es
 
 {% include afkortingen.md %}
+{% include hyperlinks.md %}

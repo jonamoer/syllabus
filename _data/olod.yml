@@ -22,22 +22,23 @@ programme:
 
 course:
   chamilo_id: "0000"
+  ects_fiche: "https://bamaflexweb.arteveldehs.be/BMFUIDetailxOLOD.aspx?a=47526&b=5&c=1"
 
 authors:
- - name:
-     full   : *owner
-     short  : O. Parent
-     code   : OPR
-   email    : olivier.parent@arteveldehs.be
-   website  : http://www.olivierparent.be
-   bitbucket: https://bitbucket.org/olivierparent
- - name: 
-     full   : Philippe De Pauw - Waterschoot
-     short  : Ph. De Pauw
-     code   : PDP
-   email    : olivier.parent@arteveldehs.be
-   website  : http://www.drdynscript.eu
-   bitbucket: https://bitbucket.org/drdynscript
+  - name:
+      full   : *owner
+      short  : O. Parent
+      code   : OPR
+    email    : olivier.parent@arteveldehs.be
+    website  : http://www.olivierparent.be
+    bitbucket: https://bitbucket.org/olivierparent
+  - name: 
+      full   : Philippe De Pauw - Waterschoot
+      short  : Ph. De Pauw
+      code   : PDP
+    email    : olivier.parent@arteveldehs.be
+    website  : http://www.drdynscript.eu
+    bitbucket: https://bitbucket.org/drdynscript
 
 workload:
   - "Hoor- en werkcolleges": 18

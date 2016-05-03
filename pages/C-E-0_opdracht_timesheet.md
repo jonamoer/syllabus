@@ -40,4 +40,5 @@ Voorbeeld
 | 2015-12-21 | **Totaal**                    | **137,00 uur** |
 {:.table}
 
+
 {% include afkortingen.md %}

@@ -9,3 +9,4 @@ tags     :
 {% include timeline.html %}
 
 {% include afkortingen.md %}
+{% include hyperlinks.md %}

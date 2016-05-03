@@ -25,10 +25,10 @@ Deliverables
 
 ### Repository
 
-Het werkstuk wordt op een [Bitbucket][]-repository gepubliceerd dat toegankelijk is voor:
+Het werkstuk wordt op een [Bitbucket][]-repository gepubliceerd met *Access level* **Private** en je geeft **Read**-rechten aan:
 
- - [Olivier Parent][docent-opr-bitbucket]
- - [Philippe De Pauw - Waterschoot][docent-pdp-bitbucket]
+{% for author in site.data.olod.authors %}
+ - [{{ author.name.full }}]({{ author.bitbucket }}){% endfor %}
 
 ### Mappen en bestanden
 
@@ -38,19 +38,19 @@ Bitbucket-repository:
 > ---
 >```
 > nmdad3.local/
-> ├── app/
+> ├── app/                        # Ionic App
 > ├── docs/
 > │   ├── academische_poster.pdf
 > │   ├── checklist.md
 > │   ├── presentatie.pdf
 > │   ├── productiedossier.pdf
 > │   └── timesheet.xslx
-> ├── www/
+> ├── www/                        # Symfony App
 > └── README.md
 >```
 {:.card .card-block .files}
 
- - De map `app/` is voor de *Mobile Hybrid App;*
+ - De map `app/` is voor de *Hybrid Mobile App;*
  - De map `www/` is voor de website (Backoffice en API).
  - Het bestand `README.md` bevat:
    - Informatie:
@@ -60,7 +60,7 @@ Bitbucket-repository:
      - Opleiding: {{ site.data.olod.programme.degree.nl }}
      - Afstudeerrichting: {{ site.data.olod.programme.major.nl }}
      - Keuzeoptie: {{ site.data.olod.programme.minor.short }}
-     - Opleidingsinstelling: {{ site.data.olod.copyright.institute.nl }}
+     - Onderwijsinstelling: {{ site.data.olod.copyright.institute.nl }}
    - Alle nodige gegevens om het werkstuk te deployen[^deploy].
 
 Werkwijze
@@ -75,13 +75,13 @@ Je doorloopt de volledige workflow per feature op een correcte en volledig manie
 > # **4D:** Define → Design → Develop → Deploy.
 {:.card .card-block}
 
-De opgeleverde functionaliteiten moeten productiewaardig zijn (geen visuele bugs en perfect volgens de vooraf bepaalde specificaties. Pas hiervoor **Behaviour-Driven Development** toe en zorg ervoor dat de code goed gedocumenteerd is.
+De opgeleverde functionaliteiten moeten **productiewaardig**[^productiewaardig] zijn.
 
 ### Milestones
 
 > ##### **Tip** :bulb:
 > ---
-> Dit wil niet zeggen dat je moet wachten tot de voorgaande milestone voltooid is om aan de volgende te beginnen!
+> Je hoeft niet te wachten tot een bepaalde milestone voltooid is om aan een volgende te beginnen!
 {:.alert .alert-info}
 
 > ##### Milestone 1 :triangular_flag_on_post:
@@ -149,7 +149,7 @@ De opgeleverde functionaliteiten moeten productiewaardig zijn (geen visuele bugs
 >   - Productiedossier
 >   - Presentatie
 >   - Timesheet
-> - Link naar Bitbucket-repository doorsturen naar docent.  
+> - Link naar Bitbucket-repository doorsturen naar verantwoordelijke docent.  
 >   Aan de hand van de inzendingen wordt het uurrooster voor het examen opgesteld.
 {:#milestone-4 .card .card-block}
 
@@ -159,7 +159,7 @@ De opgeleverde functionaliteiten moeten productiewaardig zijn (geen visuele bugs
 >
 > - Stel het werkstuk voor in maximaal **15 minuten**:
 >   - Live demonstraties
->   - Screencast
+>   - Screencast (als backup)
 > - Afgedrukte versie:
 >   - Academische Poster
 {:#milestone-exam-oral .card .card-block}
@@ -168,7 +168,7 @@ De opgeleverde functionaliteiten moeten productiewaardig zijn (geen visuele bugs
 
 #### Branches
 
-Gebruik git met de [Feature Branch Workflow](https://www.atlassian.com/git/tutorials/comparing-workflows/feature-branch-workflow).
+Gebruik git met de [Feature Branch Workflow][].
 
 Nieuwe branch per functionaliteit, nadat de functionaliteit klaar is voor productie (nadat alle testen succesvol verlopen zijn), dan wordt de branch in de master branch gemerged.
 
@@ -184,12 +184,12 @@ Naast de `master` branch
 
 Commits moeten voorafgegaan worden door een prefix.
 
-|  Prefix     | Omschrijving                                                           |
-|-------------|------------------------------------------------------------------------|
-| `[FEATURE]` | Deelfunctionaliteit in een *feature branch.*                           |
-| `[WIP]`     | Tussentijdse commits voor WIP, iets wat nog niet af is.                |
-| `[FIX]`     | Bugfix                                                                 |
-| `[TASK]`    | bijvoorbeeld refactoring (structuur, naamgeving aanpassen), updates van derden toepassen. |
+|  Prefix     | Omschrijving                                            |
+|-------------|---------------------------------------------------------|
+| `[FEATURE]` | Deelfunctionaliteit in een *feature branch.*            |
+| `[WIP]`     | Tussentijdse commits voor WIP, iets wat nog niet af is. |
+| `[FIX]`     | Bugfix                                                  |
+| `[TASK]`    | bijvoorbeeld refactoring[^refactoring].                 |
 {:.table}
 
 > ##### **Voorbeeld** :package:
@@ -214,24 +214,15 @@ Tips
 > - schrijf commentaar als de bedoeling van de code voor een developer niet meteen voor de hand ligt.
 {:.alert .alert-info}
 
-> ##### **Tip** :bulb:
-> ---
-> **Vragen, onduidelijkheden, problemen, opmerkingen of zit je compleet vast?**  
-> Ga naar het menu "help" rechtsboven.
-{:.alert .alert-info}
+{% include help.md %}
 
 
 {% comment %}
-<!-- ⚓ Hyperlinks -->
+<!-- ⚓ Voetnoten -->
 {% endcomment %}
-[Arteveldehogeschool]:      http://www.arteveldehogeschool.be
-[Bitbucket]:                https://bitbucket.org
-[Chamilo]:                  http://chamilo.arteveldehs.be
-[docent-opr]:               http://www.olivierparent.be
-[docent-opr-bitbucket]:     https://bitbucket.org/olivierparent
-[docent-opr-mail]:          mailto:olivier.parent@arteveldehs.be?subject=[OLOD]
-[docent-pdp]:               http://www.drdynscript.eu
-[docent-pdp-bitbucket]:     https://bitbucket.org/drdynscript
-[docent-pdp-mail]:          mailto:philippe.depauw@arteveldehs.be?subject=[OLOD]
+[^deploy]: Deployen wil zeggen op een productieserver plaatsen.
+[^productiewaardig]: Productiewaardig wil zeggen dat het geen visuele bugs bevat en dat het perfect voldoet aan de vooraf bepaalde specificaties. 
+[^refactoring]: Refactoring is het aanpassen van de architectuur, structuur en/of naamgeving van code, zodat het beter werkt of beter anticipeert op toekomstige wijzigingen. 
 
 {% include afkortingen.md %}
+{% include hyperlinks.md %}
