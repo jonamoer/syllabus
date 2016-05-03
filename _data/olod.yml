@@ -3,22 +3,29 @@ title:
   short: SYLLB
 
 copyright:
-  year     : 2015-2016
-  owner    : Olivier Parent
-  institute: Arteveldehogeschool
-#   institute: Artevelde University College Ghent
+  year     : 2016-2017
+  owner    : &owner Olivier Parent
+  institute:
+    en: Artevelde University College Ghent
+    nl: Arteveldehogeschool
 
 programme:
-  degree: Bachelor in de grafische en digitale media
-  major : Multimediaproductie
-  minor : proDEV
+  degree:
+   en: Bachelor of Graphical and Digital Media
+   nl: Bachelor in de grafische en digitale media
+  major:
+    en: Multimedia Productie
+    nl: Multimediaproductie
+  minor:
+    full : Professional Software Development
+    short: proDEV
 
 course:
   chamilo_id: "0000"
 
 authors:
  - name:
-     full   : Olivier Parent
+     full   : *owner
      short  : O. Parent
      code   : OPR
    email    : olivier.parent@arteveldehs.be

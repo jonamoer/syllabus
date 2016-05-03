@@ -12,7 +12,7 @@ Veel studieplezier tijdens deze boeiende ontdekkingstocht!
 
 |         {{ site.title }} | Informatie                                      |
 |-------------------------:|:------------------------------------------------|
-|      Opleidingsonderdeel | {{ site.data.olod.title.full.nl }}              |
+|      Opleidingsonderdeel | {{ site.data.olod.title.full }}                 |
 |             Academiejaar | {{ site.data.olod.copyright.year }}             |
 | Verantwoordelijke Docent | [{{ site.data.olod.authors[0].name.full }}][]   |
 |      Onderwijsinstelling | [{{ site.data.olod.copyright.institute.nl }}][] |

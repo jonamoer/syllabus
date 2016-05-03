@@ -16,7 +16,7 @@ Werkstuk
 
 Ontwerp en ontwikkel **individueel** een databasegebaseerd softwaresysteem gemaakt met de technologieën die tijdens de colleges aan bod komen, en bestaat uit:
 
- 1. *Mobile Hybrid App* 
+ 1. *Hybrid Mobile App* 
  2. *Application Programming Interface*
  3. *Backoffice*
 
@@ -54,14 +54,14 @@ Bitbucket-repository:
  - De map `www/` is voor de website (Backoffice en API).
  - Het bestand `README.md` bevat:
    - Informatie:
-     - Voornaam en familienaam
-     - Opleidingsonderdeel: New Media Design & Development III
-     - Academiejaar
-     - Opleiding: Bachelor in de grafische en digitale media
-     - Afstudeerrichting: Multimediaproductie
-     - Keuzeoptie: proDEV
-     - Opleidingsinstelling: Arteveldehogeschool
-   - Alle nodige gegevens om het werkstuk te deployen.
+     - Voornaam en familienaam van de betrokken student(en).
+     - Opleidingsonderdeel: {{ site.data.olod.title.full.nl }}
+     - Academiejaar: {{ site.data.olod.copyright.year }}
+     - Opleiding: {{ site.data.olod.programme.degree.nl }}
+     - Afstudeerrichting: {{ site.data.olod.programme.major.nl }}
+     - Keuzeoptie: {{ site.data.olod.programme.minor.short }}
+     - Opleidingsinstelling: {{ site.data.olod.copyright.institute.nl }}
+   - Alle nodige gegevens om het werkstuk te deployen[^deploy].
 
 Werkwijze
 ---------

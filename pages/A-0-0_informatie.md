@@ -16,7 +16,7 @@ tags      :
 ECTS
 ----
 
-[ECTS-fiche van [OLOD]][ECTS-fiche]{:.btn .btn-{{ site.colour }}-outline}
+[ECTS-fiche van {{ site.title }}][ECTS-fiche]{:.btn .btn-{{ site.colour }}-outline}
 
 ### Studieomvang
 
@@ -78,8 +78,8 @@ De student:
  - Mobile Hybrid App realiseren.
  - Version Control System toepassen.
  - Geautomatiseerde workflows opzetten en toepassen.
- - Front-end framework(s).
- - JavaScript-Framework(s).
+ - Frontend-framework(s).
+ - JavaScript-framework(s).
  - Mobile Development Framework.
  - PHP via een Enterprise Level-framework:
    - OOP
