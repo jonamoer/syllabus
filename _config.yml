@@ -6,7 +6,7 @@ language   : nl
 
 # SEO
 # ---
-title      : SYLLB
+title      : &title SLLBS
 description: Style Guide for Syllabi.
 author     : Olivier Parent
 # url        :

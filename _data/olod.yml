@@ -1,10 +1,10 @@
 title:
   full : Syllabus
-  short: SYLLB
+  short: SLLBS
 
 copyright:
-  year     : 2016-2017
-  owner    : &owner Olivier Parent
+  year: 2016-2017
+  owner: &owner Olivier Parent
   institute:
     en: Artevelde University College Ghent
     nl: Arteveldehogeschool
@@ -38,12 +38,6 @@ authors:
    email    : olivier.parent@arteveldehs.be
    website  : http://www.drdynscript.eu
    bitbucket: https://bitbucket.org/drdynscript
-#  - name      : Bart Missant
-#    name_short: B. Missant
-#    code      : BM
-#    email     : bart.missant@arteveldehs.be
-#    website   :
-#    bitbucket :
 
 workload:
   - "Hoor- en werkcolleges": 18

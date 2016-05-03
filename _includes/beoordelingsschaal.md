@@ -1,4 +1,5 @@
-Per onderdeel van het werkstuk wordt een score toegekend. Deze score bestaat uit een beoordelingscijfer op 7. De eindscore wordt berekend en afgerond.
+Per onderdeel van het werkstuk wordt een score toegekend die bestaat uit een beoordelingscijfer op 7.
+De eindscore wordt berekend op 20 en afgerond naar het dichtstbijzijnde geheel getal.
 
 | Cijfer  | Beoordeling           | Omschrijving                                                                         |
 |--------:|:----------------------|:-------------------------------------------------------------------------------------|

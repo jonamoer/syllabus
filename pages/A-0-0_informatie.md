@@ -9,7 +9,7 @@ tags      :
 
 > ##### **Opgelet** :warning:
 > ---
-> **De hieronder beschreven informatie is de enige geldende voor het OLOD {{ site.title }}.**
+> **De hieronder beschreven informatie is de enige geldende voor het OLOD {{ site.data.olod.title.short }}.**
 > Ze bevat bevat aanvullingen en lichte afwijkingen ten opzichte van die uit de ECTS-fiche.
 {:.alert .alert-warning}
 
