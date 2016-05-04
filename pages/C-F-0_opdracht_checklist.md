@@ -120,7 +120,6 @@ Checklist
 |   RESTful                            |     ?    |
 |--------------------------------------|----------|
 |  *Mobile Hybrid App*                 |          |
-|   Automatisatie: Bower               |     ?    |
 |   Automatisatie: Gulp.js             |     ?    |
 |   Functionaliteit: Account           |     ?    |
 |   Functionaliteit: Rollen            |     ?    |
@@ -134,7 +133,6 @@ Checklist
 |   Spelling gecontroleerd             |     ?    |
 |--------------------------------------|----------|
 |  *Backoffice*                        |          |
-|   Automatisatie: Bower               |     ?    |
 |   Automatisatie: Composer            |     ?    |
 |   Automatisatie: Gulp.js             |     ?    |
 |   BDD                                |     ?    |

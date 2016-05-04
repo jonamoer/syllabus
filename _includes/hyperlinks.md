@@ -10,7 +10,6 @@
 [Atom]:                                 https://atom.io
 [Babel]:                                https://babeljs.io
 [Behat]:                                http://docs.behat.org/en/v3.0/
-[Gherkin]:                              http://docs.behat.org/en/v3.0/guides/1.gherkin.html
 [Backbone.js]:                          http://backbonejs.org
 [Bitbucket]:                            https://bitbucket.org
 [Bootstrap]:                            http://getbootstrap.com
@@ -44,9 +43,12 @@
 [Feature Branch Workflow]:              https://www.atlassian.com/git/tutorials/comparing-workflows/feature-branch-workflow
 [Firefox]:                              https://www.mozilla.org/nl/firefox/new/
 [Firefox Developer Edition]:            https://www.mozilla.org/nl/firefox/developer/
+[Gems]:                                 https://rubygems.org
+[Gherkin]:                              http://docs.behat.org/en/v3.0/guides/1.gherkin.html
 [Git]:                                  http://git-scm.com
 [GitHub]:                               https://github.com
 [GitHub Flavored Markdown]:             https://guides.github.com/features/mastering-markdown/
+[GitHub Pages]:                         https://pages.github.com
 [Gulp.js]:                              http://gulpjs.com
 [Handlebars]:                           http://handlebarsjs.com
 [Homebrew]:                             http://brew.sh
@@ -54,6 +56,7 @@
 [Homestead Box]:                        https://vagrantcloud.com/laravel/boxes/homestead
 [HTML5]:                                http://www.w3.org/TR/html5
 [Inky]:                                 http://foundation.zurb.com/emails/docs/inky.html
+[Jekyll]:                               https://jekyllrb.com
 [jQuery]:                               https://jquery.com
 [JS-YAML]:                              https://nodeca.github.io/js-yaml/
 [JSON]:                                 http://www.json.org
@@ -61,6 +64,7 @@
 [Laracon EU]:                           http://laracon.eu
 [Laracon US]:                           http://laracon.us
 [Laravel]:                              https://laravel.com
+[Liquid]:                               https://shopify.github.io/liquid/
 [lodash]:                               https://lodash.com
 [Lumen]:                                https://lumen.laravel.com
 [MailChimp]:                            http://mailchimp.com
@@ -81,6 +85,7 @@
 [PHPUnit]:                              https://phpunit.de
 [Pinterest]:                            https://nl.pinterest.com/
 [QuickTime Player]:                     http://www.apple.com/benl/quicktime/
+[Ruby]:                                 https://www.ruby-lang.org/en/
 [Ruby on Rails]:                        https://rubyonrails.org
 [Reveal.js]:                            http://lab.hakim.se/reveal-js/
 [Sass]:                                 https://sass-lang.com
