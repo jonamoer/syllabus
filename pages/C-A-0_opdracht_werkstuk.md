@@ -106,44 +106,6 @@ De functionaliteit is afhankelijk van de functionaliteit van de Mobile Hybrid Ap
    Zoals van elk product van een student *Bachelor in de grafische en digitale media* verwacht mag worden!
 
 
-{% comment %}
-<!-- ⚓ Hyperlinks -->
-{% endcomment %}
-
-{% comment %}
-<!-- ⚓ Hyperlinks: technologie en software componenten -->
-{% endcomment %}
-[gh-angular-ngdoc]:         https://github.com/angular/angular.js/wiki/Writing-AngularJS-Documentation
-[gh-doc-fm]:                https://help.github.com/articles/github-flavored-markdown
-[gh-doctrine-fixtures]:     https://github.com/doctrine/DoctrineFixturesBundle
-[gh-doctrine-migrations]:   https://github.com/doctrine/DoctrineMigrationsBundle
-[gh-faker]:                 https://github.com/fzaninotto/Faker
-[gh-fos-rest]:              https://github.com/FriendsOfSymfony/FOSRestBundle
-[gh-nelmio-apidoc]:         https://github.com/nelmio/NelmioApiDocBundle
-[gh-nelmio-cors]:           https://github.com/nelmio/NelmioCorsBundle
-[geojson]:                  http://geojson.org
-[google-maps]:              https://developers.google.com/maps
-[html5]:                    http://www.w3.org/TR/html5
-[html5-geolocation]:        https://developer.mozilla.org/en-US/docs/Web/API/Geolocation
-[html5-localstorage]:       https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage
-[ionic-sdk]:                http://ionicframework.com
-[mysql-manual]:             http://dev.mysql.com/doc/refman/5.6/en
-[phpunit]:                  https://phpunit.de
-[phpdocumentor]:            http://www.phpdoc.org
-[psr]:                      http://www.php-fig.org
-[psr2]:                     http://www.php-fig.org/psr/psr-2
-[psr7]:                     http://www.php-fig.org/psr/psr-7
-[Sass]:                     http://sass-lang.com
-[sqlite]:                   https://www.sqlite.org
-[sf]:                       http://symfony.com
-[sf-console]:               http://symfony.com/doc/current/components/console/introduction.html
-
-
-{% comment %}
-<!-- ⚓ Hyperlinks: applicaties -->
-{% endcomment %}
-
-
 {% include afkortingen.md %}
 {% include hyperlinks.md %}
 {% include olod.md %}

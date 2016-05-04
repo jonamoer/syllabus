@@ -3,7 +3,6 @@ layout   : page
 title    : Academische Poster
 permalink: opdracht/poster/
 published: false
-tags     :
 ---
 
 > ##### **Opgelet** :warning:

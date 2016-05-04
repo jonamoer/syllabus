@@ -34,6 +34,9 @@
 *[ECTS]:                    European Credit Transfer and Accumulation System
 *[ES2015]:                  ECMAScript 2015
 *[ESP]:                     Email Service Provider
+*[F4A]:                     Foundation for Applications
+*[F4E]:                     Foundation for Emails
+*[F4S]:                     Foundation for Sites
 *[FTP]:                     File Transfer Protocol
 *[GFM]:                     GitHub Flavored Markdown
 *[GUI]:                     Graphical User Interface

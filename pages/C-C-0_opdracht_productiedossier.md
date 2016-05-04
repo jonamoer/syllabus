@@ -3,7 +3,6 @@ layout   : page
 title    : Productiedossier
 permalink: opdracht/productiedossier/
 published: false
-tags     :
 ---
 
 > ##### **Opgelet** :warning:
@@ -16,15 +15,17 @@ Inhoud
 
 ### Voorblad
 
- - Projectnaam
- - Projectlogo
  - Voornaam en familienaam
- - Academiejaar
- - …
+ - Opleidingsonderdeel: {{ site.data.olod.title.full }}
+ - Academiejaar: {{ site.data.olod.copyright.year }}
+ - Opleiding: {{ site.data.olod.programme.degree.nl }}
+ - Afstudeerrichting: {{ site.data.olod.programme.major.nl }}
+ - Keuzeoptie: {{ site.data.olod.programme.minor.short }}
+ - Opleidingsinstelling: {{ site.data.olod.copyright.institute.nl }}
 
 ### Repository
 
-Link naar het Bitbucket-repository.
+Link naar het [Bitbucket][]-repository.
 
 ### Briefing
 
@@ -46,7 +47,7 @@ Collage van foto's en afbeeldingen die de sfeer van het visuele ontwerp moet uit
 
 ### Style Tiles
 
-Minstens 3 uitgesproken verschillende [Style Tiles][], en duid aan welke gekozen werd.
+Minstens 3 uitgesproken verschillende [Style Tiles][] en duid aan welke gekozen werd.
 
 #### Style Tile A
 
@@ -81,3 +82,4 @@ Minstens 3 uitgesproken verschillende [Style Tiles][], en duid aan welke gekozen
 
 {% include afkortingen.md %}
 {% include hyperlinks.md %}
+{% include olod.md %}

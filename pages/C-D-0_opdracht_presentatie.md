@@ -3,7 +3,6 @@ layout   : page
 title    : Presentatie
 permalink: opdracht/presentatie/
 published: false
-tags     :
 ---
 
 > ##### **Opgelet** :warning:
@@ -25,8 +24,8 @@ Zorg voor een grafisch verzorgde presentatie en verzorgd taalgebruik. Gebruik Po
 > ---
 > Screencasts kan je maken met:
 >
-> - [QuickTime Player][] (Mac OS X)
-> - [Open Broadcast Software][] (Windows)
+> - [Open Broadcast Software][] (*&nbsp;*{:.fa .fa-windows}Windows)
+> - [QuickTime Player][] (*&nbsp;*{:.fa .fa-apple}Mac OS X)
 {:.alert .alert-info}
 
 

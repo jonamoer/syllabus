@@ -77,6 +77,8 @@
 [Node.js]:                              https://nodejs.org
 [Node.js Child Process]:                https://nodejs.org/api/child_process.html
 [Node.js File System]:                  https://nodejs.org/api/fs.html
+[NVM]:                                  https://github.com/creationix/nvm
+[NVM for Windows]:                      https://github.com/coreybutler/nvm-windows/releases
 [Open Broadcast Software]:              https://obsproject.com
 [PHP]:                                  http://php.net
 [PHP-FIG]:                              http://www.php-fig.org
