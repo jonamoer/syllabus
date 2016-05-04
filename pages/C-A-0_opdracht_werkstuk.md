@@ -37,9 +37,9 @@ Specificaties
 
 #### Ontwikkelomgeving
 
- - [Oracle VM Virtualbox][]
- - [Vagrant][vagrant]
- - [Artevelde Laravel Homestead][Artestead]
+ - [Oracle VM VirtualBox][VirtualBox]
+ - [Vagrant][]
+ - [Artestead][]
    - [PHP][]
    - [MySQL][]
  - [Git][]
@@ -62,8 +62,7 @@ Specificaties
 
  - [Composer][]
  - [Node.js][]
-   - [Bower][]
-   - [gulp.js][]
+   - [Gulp.js][]
 
 #### Server-side
 
@@ -147,3 +146,4 @@ De functionaliteit is afhankelijk van de functionaliteit van de Mobile Hybrid Ap
 
 {% include afkortingen.md %}
 {% include hyperlinks.md %}
+{% include olod.md %}

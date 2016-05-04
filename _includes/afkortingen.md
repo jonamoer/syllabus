@@ -1,5 +1,3 @@
-*[{{ site.title }}]:        {{ site.data.olod.title.full }}
-*[{{ site.data.olod.programme.minor.short }}]: {{ site.data.olod.programme.minor.full }}
 *[1EK]:                     Eerste Examenkans
 *[2EK]:                     Tweede Examenkans
 *[3A]:                      Arrange-Act-Assert
@@ -37,10 +35,12 @@
 *[IA]:                      Information Architecture
 *[IDE]:                     Integrated Development Environment
 *[IIFE]:                    Immediately Invoked Function Expression
+*[IP]:                      Internet Protocol
 *[IxD]:                     Interaction Design
 *[JS]:                      JavaScript
 *[JSON]:                    JavaScript Object Notation
 *[LTS]:                     Long Term Support
+*[NFS]:                     Network File System
 *[NVM]:                     Node Version Manager
 *[MV*]:                     Model-View-Whatever
 *[MVC]:                     Model-View-Controller
@@ -63,6 +63,7 @@
 *[ROI]:                     Return on Investment
 *[Sass]:                    Syntactically Awesome Style Sheets
 *[SCSS]:                    Sassy CSS
+*[SMB]:                     Server Message Block
 *[SPA]:                     Single Page Application
 *[TBC]:                     To Be Confirmed
 *[TBD]:                     To Be Decided
@@ -71,6 +72,8 @@
 *[URI]:                     Uniform Request Identifier
 *[UX]:                      User Experience
 *[VM]:                      Virtual Machine
+*[VMI]:                     Virtual Machine Image
+*[VSC]:                     Visual Studio Code
 *[WP]:                      WordPress
 *[WIP]:                     Work in Progress
 *[XHTML]:                   Extensible Hypertext Markup Language

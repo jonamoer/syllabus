@@ -8,14 +8,14 @@ tags     :
 
 > ##### **Opgelet** :warning:
 > ---
-> - **PDF**-bestand te plaatsen op Bitbucket-repository.
+> - **PDF**-bestand te plaatsen op [Bitbucket[]-repository.
 > - **Controleer extra goed op spellingsfouten!**
 > - Indien je werkstuk delen of werk van andere studenten bevat, geef je dit duidelijk aan!
 {:.alert .alert-warning}
 
 Tijdens de presentie toon je aan:
 
-- dat de Mobile Hybrid App, de API en de backoffice correct werken;
+- dat de Hybrid Mobile App, de API en de backoffice correct werken;
 - dat alle items op de checklist aanwezig zijn;
 - of er eventuele extra's toegevoegd zijn.
 

@@ -26,8 +26,7 @@ Veel studieplezier tijdens deze boeiende ontdekkingstocht!
 {% comment %}
 <!-- ⚓ Hyperlinks -->
 {% endcomment %}
-[{{ olod.authors[0].name.full }}]: {{ olod.authors[0].website }}
-[{{ olod.copyright.institute.en }}]: http://www.arteveldeuniversitycollege.be
-[{{ olod.copyright.institute.nl }}]: http://www.arteveldehogeschool.be
 
 {% include afkortingen.md %}
+{% include hyperlinks.md %}
+{% include olod.md %}
