@@ -20,26 +20,7 @@ ECTS
 
 ### Studieomvang
 
-De studieomvang bedraagt **[7] studiepunten** volgens het [European Credit Transfer and Accumulation System][ECTS].
-
-|   Activiteit                                |   Uur                      |
-|:--------------------------------------------|---------------------------:|
-| **Hoor- en werkcolleges**{:.ahs-oranje}     |  **36**{:.ahs-oranje}      |
-| **Praktijk**{:.ahs-groen}                   |  **36**{:.ahs-groen}       |
-| **Taken in zelfstudie**{:.ahs-fuchsia}      |  **80**{:.ahs-fuchsia}     |
-| **Zelfstudie**{:.ahs-blauw}                 |  **21**{:.ahs-blauw}       |
-| **Toets- en examentijd**{:.ahs-donkergrijs} |   **2**{:.ahs-donkergrijs} |
-|=============================================|============================|
-| **Totaal**                                  | **175**                    |
-{:.table}
-
-{% include pie-chart.html %}
-
-> ##### **Tip** :bulb:
-> ---
-> Concreet wordt van elke student verwacht dat hij/zij **minstens 137 uur** aan deze opdracht besteedt.
-> Dit is vergelijkbaar met **3,5 weken fulltime** werken.
-{:.alert .alert-info}
+{% include studieomvang.md %}
 
 ### Begincompetenties
 

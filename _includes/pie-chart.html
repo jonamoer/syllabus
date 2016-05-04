@@ -1,10 +1,10 @@
 <div class="ct-chart ct-major-eleventh"></div>
 <script>
 var data = { labels: [], series: [] },
-    d = {{ site.data.olod.workload | jsonify }};
+    d = {{ site.data.olod.workload.hours | jsonify }};
 
 d.forEach(function (element) {
-    var label = Object.keys(element)[0],
+    var label = Object.keys(element)[0] + ' (' + element[Object.keys(element)[0]] + 'u)',
         serie = element[Object.keys(element)[0]];
     data.labels.push(label);
     data.series.push(serie);

@@ -41,7 +41,13 @@ authors:
     bitbucket: https://bitbucket.org/drdynscript
 
 workload:
-  - "Hoor- en werkcolleges": 18
-  - "Praktijk"             : 18
-  - "Taken in zelfstudie"  : 96
-  - "Toets- en examentijd" :  1
+  credits: 7
+  hours:
+    - "Hoor- en werkcolleges": 36
+    - "Praktijk"             : 36
+    - "Taken in zelfstudie"  : 80
+    - "Zelfstudie"           : 21
+    - "Toets- en examentijd" :  2
+  time:
+    commitment: 137 uur
+    equivalent: "3,5 weken"
