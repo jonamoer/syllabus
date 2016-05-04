@@ -23,28 +23,28 @@ Een afgedrukte A3-poster die de presentatie moet ondersteunen. De academische po
 Niet vergeten te vermelden:
 
  - Voornaam en familienaam
- - Opleidingsonderdeel: New Media Design & Development III
- - Academiejaar
- - Opleiding: Bachelor in de grafische en digitale media
- - Afstudeerrichting: Multimediaproductie
- - Keuzeoptie: proDEV
- - Opleidingsinstelling: Arteveldehogeschool
+ - Opleidingsonderdeel: {{ site.data.olod.title.full }}
+ - Academiejaar: {{ site.data.olod.copyright.year }}
+ - Opleiding: {{ site.data.olod.programme.degree.nl }}
+ - Afstudeerrichting: {{ site.data.olod.programme.major.nl }}
+ - Keuzeoptie: {{ site.data.olod.programme.minor.short }}
+ - Opleidingsinstelling: {{ site.data.olod.copyright.institute.nl }}
 
-Bijvoorbeeld in het Nederlands:
+> ##### **Voorbeeld** (Nederlands) :package:
+> ---
+> John Doe, Jane Doe
+> {{ site.data.olod.title.full }}, Academiejaar {{ site.data.olod.copyright.year }}
+> {{ site.data.olod.programme.degree.nl }}, {{ site.data.olod.programme.major.nl }} ({{ site.data.olod.programme.minor.short }})
+> {{ site.data.olod.copyright.institute.nl }}
+{:.alert .alert-success}
 
-> Olivier Parent
-> New Media Design & Development III, Academiejaar 2015-16
-> Bachelor in de grafische en digitale media, Multimediaproductie (proDEV)
-> Arteveldehogeschool
-{:.card .card-block}
-
-Bijvoorbeeld in het Engels:
-
-> Olivier Parent
-> New Media Design & Development III, Academic Year 2015-16
-> Bachelor of Graphical and Digital Media, Multimedia Production (proDEV)
-> Artevelde University College Ghent
-{:.card .card-block}
+> ##### **Example** (English) :package:
+> ---
+> John Doe, Jane Doe
+> {{ site.data.olod.title.full }}, Academic Year {{ site.data.olod.copyright.year }}
+> {{ site.data.olod.programme.degree.en }}, {{ site.data.olod.programme.major.en }} ({{ site.data.olod.programme.minor.short }})
+> {{ site.data.olod.copyright.institute.en }}
+{:.alert .alert-success}
 
 {% include afkortingen.md %}
 {% include olod.md %}
