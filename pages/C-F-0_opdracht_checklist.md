@@ -8,7 +8,7 @@ tags     :
 
 > ##### **Opgelet** :warning:
 > ---
-> - **Markdown**-bestand te plaatsen op Bitbucket-repository.
+> - **Markdown**-bestand te plaatsen op [Bitbucket][]-repository.
 {:.alert .alert-warning}
 
 [Download `checklist.md`]({{ '/files/checklist.md' | prepend: site.baseurl }}){:.btn .btn-primary-outline}
@@ -149,4 +149,6 @@ Checklist
 |   Twig-sjablonen                     |     ?    |
 {:.table}
 
+
 {% include afkortingen.md %}
+{% include hyperlinks.md %}

@@ -8,7 +8,7 @@ tags     :
 
 > ##### **Opgelet** :warning:
 > ---
-> - **PDF**-bestand te plaatsen op Bitbucket-repository.
+> - **PDF**-bestand te plaatsen op [Bitbucket][]-repository.
 {:.alert .alert-warning}
 
 Inhoud

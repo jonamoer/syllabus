@@ -8,7 +8,7 @@ tags     :
 
 > ##### **Opgelet** :warning:
 > ---
-> - **Excel**-bestand te plaatsen op Bitbucket-repository.
+> - **Excel**-bestand te plaatsen op [Bitbucket][]-repository.
 {:.alert .alert-warning}
 
 [Download `timesheet.xlsx`]({{ '/files/timesheet.xlsx' | prepend: site.baseurl }}){:.btn .btn-primary-outline}
@@ -22,7 +22,7 @@ Klanten/werkgevers weten graag hoe lang je aan iets zal werken en hoe lang je er
 Hoe?
 ----
 
-Houd dagelijks een timesheet bij in Excel en post naar je Bitbucket-repository.
+Houd dagelijks een timesheet bij in Excel en post naar je [Bitbucket][]-repository.
 
 Vermeld **per dag** de (deel)functionaliteit(en) waaraan je gewerkt hebt en hoe lang.
 
@@ -42,3 +42,4 @@ Voorbeeld
 
 
 {% include afkortingen.md %}
+{% include hyperlinks.md %}

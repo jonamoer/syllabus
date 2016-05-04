@@ -8,7 +8,7 @@ tags     :
 
 > ##### **Opgelet** :warning:
 > ---
-> - **PDF**-bestand te plaatsen op [Bitbucket[]-repository.
+> - **PDF**-bestand te plaatsen op [Bitbucket][]-repository.
 > - **Controleer extra goed op spellingsfouten!**
 > - Indien je werkstuk delen of werk van andere studenten bevat, geef je dit duidelijk aan!
 {:.alert .alert-warning}

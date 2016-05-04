@@ -9,7 +9,7 @@ tags     :
 > ##### **Opgelet** :warning:
 > ---
 > - **Afgedrukt op A3** (297×420 mm), in te dienen op het mondeling examen.
-> - **PDF**-bestand te plaatsen op Bitbucket-repository.
+> - **PDF**-bestand te plaatsen op [Bitbucket][]-repository.
 > - **Controleer extra goed op spellingsfouten!**
 {:.alert .alert-warning}
 
@@ -47,4 +47,5 @@ Niet vergeten te vermelden:
 {:.alert .alert-success}
 
 {% include afkortingen.md %}
+{% include hyperlinks.md %}
 {% include olod.md %}
