@@ -22,7 +22,7 @@ programme:
 
 course:
   chamilo_id: "0000"
-  ects_fiche: "https://bamaflexweb.arteveldehs.be/BMFUIDetailxOLOD.aspx?a=47526&b=5&c=1"
+  ects_fiche: http://www.arteveldehogeschool.be/ects/
 
 authors:
   - name:

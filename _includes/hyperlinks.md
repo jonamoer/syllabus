@@ -41,6 +41,7 @@
 [Gulp.js]:                  http://gulpjs.com
 [Handlebars]:               http://handlebarsjs.com
 [HTML5]:                    http://www.w3.org/TR/html5
+[Inky]:                     http://foundation.zurb.com/emails/docs/inky.html
 [jQuery]:                   https://jquery.com
 [JS-YAML]:                  https://nodeca.github.io/js-yaml/
 [JSON]:                     http://www.json.org
@@ -66,6 +67,7 @@
 [phpDocumentor]:            https://www.phpdoc.org
 [PhpStorm]:                 https://www.jetbrains.com/phpstorm
 [PHPUnit]:                  https://phpunit.de
+[Pinterest]:                https://nl.pinterest.com/
 [QuickTime Player]:         http://www.apple.com/benl/quicktime/
 [Ruby on Rails]:            https://rubyonrails.org
 [Reveal.js]:                http://lab.hakim.se/reveal-js/

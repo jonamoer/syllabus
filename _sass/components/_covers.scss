@@ -1,0 +1,21 @@
+/// Covers
+
+.covers-list {
+  list-style: none;
+  padding: 0;
+}
+
+.cover {
+  
+}
+
+.cover__picture {
+  display: block;
+  height: 268px;
+}
+
+.cover__img {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}

@@ -41,10 +41,12 @@
 *[JS]:                      JavaScript
 *[JSON]:                    JavaScript Object Notation
 *[LTS]:                     Long Term Support
+*[NVM]:                     Node Version Manager
 *[MV*]:                     Model-View-Whatever
 *[MVC]:                     Model-View-Controller
 *[MVP]:                     Model-View-Presenter
 *[MVVM]:                    Model-View-ViewModel
+*[MVW]:                     Model-View-Whatever
 *[OLOD]:                    opleidingsonderdeel
 *[OOP]:                     Objectgeoriënteerd Programmeren
 *[ORM]:                     Object-Relational Mapper
@@ -57,6 +59,7 @@
 *[RAD]:                     Rapid Application Developmen
 *[REST]:                    Representational State Transfer
 *[RESTful]:                 Representational State Transfer
+*[RMM]:                     Richardson Maturity Model
 *[ROI]:                     Return on Investment
 *[Sass]:                    Syntactically Awesome Style Sheets
 *[SCSS]:                    Sassy CSS
@@ -70,4 +73,6 @@
 *[VM]:                      Virtual Machine
 *[WP]:                      WordPress
 *[WIP]:                     Work in Progress
+*[XHTML]:                   Extensible Hypertext Markup Language
+*[XML]:                     Extensible Markup Language
 *[YAML]:                    YAML Ain't Markup Language
