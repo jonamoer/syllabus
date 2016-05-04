@@ -12,6 +12,6 @@ De studieomvang bedraagt **{{ workload.credits }} studiepunten**{:.label .label-
 
 > ##### **Tip** :bulb:
 > ---
-> Concreet wordt van elke student verwacht dat hij/zij **minstens {{ workload.time.commitment }}** aan deze opdracht besteedt.
+> Concreet wordt van elke student verwacht dat hij/zij **individueel minstens {{ workload.time.commitment }}** aan deze opdracht besteedt.
 > Dit is vergelijkbaar met **{{ workload.time.equivalent }} fulltime** werken.
 {:.alert .alert-info}
