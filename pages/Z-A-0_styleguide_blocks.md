@@ -42,7 +42,7 @@ Alert blocks
 > Lorem ipsum dolor sit amet.
 {:.alert .alert-success}
 
-> ##### **Do's** :thumbsup:
+> ##### **Do's**|**Doen** :thumbsup:
 > ---
 > Lorem ipsum dolor sit amet.
 {:.alert .alert-success}
@@ -52,7 +52,7 @@ Alert blocks
 > - Lorem
 {:.alert .alert-success}
 
-> ##### **Don'ts** :thumbsdown:
+> ##### **Don'ts**|**Niet doen** :thumbsdown:
 > ---
 > Lorem ipsum dolor sit amet.
 {:.alert .alert-danger}

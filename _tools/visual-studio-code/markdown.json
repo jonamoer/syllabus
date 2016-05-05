@@ -186,10 +186,10 @@
         ],
         "description": "YAML code block"
     },
-    "NL dos": {
-        "prefix": "do's",
+    "NL do's": {
+        "prefix": "do",
         "body": [
-            "> ##### **Do's** :thumbsup:",
+            "> ##### **Doen** :thumbsup:",
             "> ---",
             "> - ",
             "{:.alert .alert-success}"
@@ -199,7 +199,7 @@
     "NL donts": {
         "prefix": "donts",
         "body": [
-            "> ##### **Don'ts** :thumbsdown:",
+            "> ##### **Niet doen** :thumbsdown:",
             "> ---",
             "> - ",
             "{:.alert .alert-danger}"

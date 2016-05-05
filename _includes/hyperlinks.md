@@ -34,6 +34,7 @@
 [Emmet documentation]:                  http://docs.emmet.io
 [ES2015]:                               http://www.ecma-international.org/ecma-262/6.0/
 [ES6]:                                  http://www.ecma-international.org/ecma-262/6.0/
+[Facebook]:                             https://www.facebook.com
 [Faker]:                                https://github.com/fzaninotto/Faker
 [Faker.js]:                             https://github.com/marak/Faker.js/
 [FontAwesome]:                          http://fontawesome.io
