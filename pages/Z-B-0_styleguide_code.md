@@ -117,7 +117,7 @@ Command Line
 ### Bash
 
 {% highlight bash %}
-$ ls
+$ ls→←↑↓
 {% endhighlight %}
 
 ### Batch
@@ -131,3 +131,6 @@ C:\> dir
 {% highlight powershell %}
 PS> ls
 {% endhighlight %}
+
+
+{% include afkortingen-cli.md %}

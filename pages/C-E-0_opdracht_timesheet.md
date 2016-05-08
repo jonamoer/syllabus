@@ -3,7 +3,6 @@ layout   : page
 title    : Timesheet
 permalink: opdracht/timesheet/
 published: false
-tags     :
 ---
 
 > ##### **Opgelet** :warning:

@@ -3,7 +3,6 @@ layout   : page
 title    : Checklist
 permalink: opdracht/checklist/
 published: false
-tags     :
 ---
 
 > ##### **Opgelet** :warning:

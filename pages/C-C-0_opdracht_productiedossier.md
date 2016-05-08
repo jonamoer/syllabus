@@ -15,6 +15,8 @@ Inhoud
 
 ### Voorblad
 
+ - Projectnaam
+ - Projectlogo
  - Voornaam en familienaam
  - Opleidingsonderdeel: {{ site.data.olod.title.full }}
  - Academiejaar: {{ site.data.olod.copyright.year }}

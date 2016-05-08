@@ -1,7 +1,7 @@
 {
   "name": "syllabus",
   "version": "1.0.0",
-  "description": "Syllabus Template",
+  "description": "WANM Syllabus Template",
   "main": "gulpfile.js",
   "dependencies": {},
   "devDependencies": {

@@ -3,7 +3,6 @@ layout   : page
 title    : Opdracht
 permalink: opdracht/
 published: false
-tags     :
 ---
 
 Probleemstelling

@@ -4,6 +4,7 @@
         {% if point.icon %}
         <div class="timeline-icon"><i class="fa fa-{{ point.icon }}"></i></div>
         {% endif %}
+        {% if point.chamilo or point.milestone or point.content %}
         <div class="timeline-content"{% if point.date %} data-date="{{ point.date }}"{% endif %}>
         {% if point.chamilo %}
             <h1><a href="https://chamilo.arteveldehs.be/index.php?application=weblcms&course={{ site.data.olod.course.chamilo_id }}&tool=document&go=course_viewer">Uurrooster</a> <small>{{ article.chamilo }} bekend op Chamilo</small></h1>
@@ -15,6 +16,7 @@
             {{ point.content | markdownify }}
         {% endif %}
         </div>
+        {% endif %}
     </article>
     {% endfor %}
 </section>

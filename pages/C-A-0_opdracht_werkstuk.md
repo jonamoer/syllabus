@@ -3,7 +3,6 @@ layout   : page
 title    : Werkstuk
 permalink: opdracht/werkstuk/
 published: false
-tags     :
 ---
 
 Subsystemen
