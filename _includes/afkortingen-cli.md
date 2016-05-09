@@ -6,7 +6,6 @@
 *[rm]:      remove
 *[rmdir]:   remove empty directory
 
-*[.]:       current directory
 *[..]:      parent directory
 
 *[g]:       global
