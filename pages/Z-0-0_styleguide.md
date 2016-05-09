@@ -104,6 +104,7 @@ FontAwesome
 | *&nbsp;*{:.fa .fa-code}Code                           | `*&nbsp;*{:.fa .fa-code}`              |
 | *&nbsp;*{:.fa .fa-css3}CSS3                           | `*&nbsp;*{:.fa .fa-css3}`              |
 | *&nbsp;*{:.fa .fa-html5}HTML5                         | `*&nbsp;*{:.fa .fa-html5}`             |
+| *&nbsp;*{:.fa .fa-terminal}Terminal                   | `*&nbsp;*{:.fa .fa-terminal}`          |
 {:.table}
 
 

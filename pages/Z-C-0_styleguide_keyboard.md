@@ -23,7 +23,7 @@ Keys
  - <kbd>Shift</kbd>
  - <kbd>Shift Lock</kbd>
  - <kbd>Tab</kbd>
- - <kbd>*&nbsp;*{:.fa .fa-windows}</kbd>
+ - <kbd><i class="fa fa-windows"></i></kbd>
  - <kbd>PgDn</kbd> <kbd>PgUp</kbd>
  - <kbd>←</kbd> <kbd>→</kbd>
  - <kbd>↑</kbd> <kbd>↓</kbd>
