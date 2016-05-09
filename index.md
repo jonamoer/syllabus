@@ -23,10 +23,6 @@ Veel studieplezier tijdens deze boeiende ontdekkingstocht!
 {:.table}
 
 
-{% comment %}
-<!-- ⚓ Hyperlinks -->
-{% endcomment %}
-
 {% include afkortingen.md %}
 {% include hyperlinks.md %}
 {% include olod.md %}
