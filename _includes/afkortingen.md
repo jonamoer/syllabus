@@ -8,6 +8,7 @@
 *[ARIA]:                    Accessible Rich Internet Applications
 *[ARM]:                     Advanced RISC Machines
 *[ASCII]:                   American Standard Code for Information Interchange
+*[ASP]:                     Active Server Pages
 *[Bash]:                    Bourne-Again Shell
 *[BDD]:                     Behaviour-Driven Development
 *[BIOS]:                    Basic Input/Output System

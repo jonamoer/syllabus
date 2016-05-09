@@ -1,25 +1,37 @@
-*[cd]:      change directory
-*[chmod]:   change mode
-*[dir]:     directory
-*[ls]:      list files and directories
-*[mkdir]:   make directory
-*[rm]:      remove
-*[rmdir]:   remove empty directory
+*[cd]:              change directory
+*[chmod]:           change mode
+*[dir]:             directory
+*[ls]:              list files and directories
+*[mkdir]:           make directory
+*[rm]:              remove
+*[rmdir]:           remove empty directory
 
-*[..]:      parent directory
+*[..]:              parent directory
 
-*[g]:       global
-*[i]:       install
-*[up]:      update
+*[g]:               global
+*[i]:               install
+*[up]:              update
 
-*[-D]:      --save-dev
-*[-g]:      --global
-*[-v]:      --version
-*[-la]:     long list + list all files and directories
-*[-rf]:     recursive + force
+*[-D]:              --save-dev
+*[-g]:              --global
+*[-v]:              --version
+*[-la]:             long list + list all files and directories
+*[-rf]:             recursive + force
+
+*[vd]:              Dotfiles alias: `vagrant destroy`
+*[vg]:              Dotfiles alias: `vagrant global-status`
+*[vgp]:             Dotfiles alias: `vagrant global-status --prune`
+*[vh]:              Dotfiles alias: `vagrant halt`
+*[vp]:              Dotfiles alias: `vagrant provision`
+*[vr]:              Dotfiles alias: `vagrant reload`
+*[vs]:              Dotfiles alias: `vagrant status`
+*[vss]:             Dotfiles alias: `vagrant ssh`
+*[vsu]:             Dotfiles alias: `vagrant suspend`
+*[vu]:              Dotfiles alias: `vagrant up`
+*[vup]:             Dotfiles alias: `vagrant up --provision`
 
 *[mma]:             Dotfiles alias: `cd ~/Code/mma.local`
-*[mapps]:           Dotfiles alias: `cd ~/Code/mapps.l      ocal`
+*[mapps]:           Dotfiles alias: `cd ~/Code/mapps.local`
 *[cmp]:             Dotfiles alias: `cd ~/Code/cmp.local`
 *[nmdad2]:          Dotfiles alias: `cd ~/Code/nmdad2.local`
 *[nmdad3]:          Dotfiles alias: `cd ~/Code/nmdad3.local`
