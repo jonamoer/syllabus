@@ -20,39 +20,36 @@
 
     gulp.task('copy:data', () => {
         CFG.destinations.forEach(element => {
-            let source = gulp.src('./_data/cdn.yml');
-            source.pipe(gulp.dest(`../${element}/_data`));
+            gulp.src('./_data/cdn.yml')
+                .pipe(gulp.dest(`../${element}/_data`));
         });
     });
 
     gulp.task('copy:gemfile', () => {
         CFG.destinations.forEach(element => {
-            let source = gulp.src([
-                './Gemfile',
-                './Gemfile.lock',
-            ]);
-            source.pipe(gulp.dest(`../${element}`));
+            gulp.src('./Gemfile{,.lock}')
+                .pipe(gulp.dest(`../${element}`));
         });
     });
 
     gulp.task('copy:gitignore', () => {
         CFG.destinations.forEach(element => {
-            let source = gulp.src('./.gitignore');
-            source.pipe(gulp.dest(`../${element}`));
+            gulp.src('./.gitignore')
+                .pipe(gulp.dest(`../${element}`));
         });
     });
 
     gulp.task('copy:images', () => {
         CFG.destinations.forEach(element => {
-            let source = gulp.src('./images/**/*');
-            source.pipe(gulp.dest(`../${element}/images`));
+            gulp.src('./images/**/*.{gif,ico,jpg,jpeg,png,svg}')
+                .pipe(gulp.dest(`../${element}/images`));
         });
     });
 
     gulp.task('copy:scripts', () => {
         CFG.destinations.forEach(element => {
-            let source = gulp.src('./js/main.js');
-            source.pipe(gulp.dest(`../${element}/js`));
+            gulp.src('./js/main.js')
+                .pipe(gulp.dest(`../${element}/js`));
         });
     });
 
@@ -72,7 +69,7 @@
     gulp.task('copy:templates', () => {
         CFG.destinations.forEach(element => {
             let sources = [
-                gulp.src('./_includes/**/*.*'),
+                gulp.src('./_includes/**/*.{html,md}'),
                 gulp.src('./_layouts/**/*.html')
             ];
             sources[0].pipe(gulp.dest(`../${element}/_includes`));

@@ -11,6 +11,7 @@ destinations:
   - nmdad3
   - wanm
   - webd1
+  # - test
 
 # Directories
 dir:
