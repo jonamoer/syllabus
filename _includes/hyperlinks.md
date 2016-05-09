@@ -128,3 +128,4 @@
 [WP REST API v2]:                                           http://v2.wp-api.org
 [XAMPP]:                                                    https://www.apachefriends.org/download.html
 [YAML]:                                                     http://yaml.org
+[YAML Lint]:                                                http://www.yamllint.com

@@ -10,6 +10,7 @@
 *[ASCII]:                   American Standard Code for Information Interchange
 *[Bash]:                    Bourne-Again Shell
 *[BDD]:                     Behaviour-Driven Development
+*[BIOS]:                    Basic Input/Output System
 *[BOC]:                     Build-Operate-Check
 *[BTW]:                     Belasting over de Toegevoegde Waarde
 *[CISC]:                    Complex Instruction Set Computer
