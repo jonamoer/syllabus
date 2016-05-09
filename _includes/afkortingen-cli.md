@@ -1,6 +1,7 @@
 *[cd]:              change directory
 *[chmod]:           change mode
 *[dir]:             directory
+*[grep]:            globally search a regular expression and print
 *[ls]:              list files and directories
 *[mkdir]:           make directory
 *[rm]:              remove
@@ -17,6 +18,8 @@
 *[-v]:              --version
 *[-la]:             long list + list all files and directories
 *[-rf]:             recursive + force
+
+*[ll]:              Dotfiles alias: `ls -la`
 
 *[vd]:              Dotfiles alias: `vagrant destroy`
 *[vg]:              Dotfiles alias: `vagrant global-status`
