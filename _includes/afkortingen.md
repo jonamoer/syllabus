@@ -39,6 +39,7 @@
 *[F4E]:                     Foundation for Emails
 *[F4S]:                     Foundation for Sites
 *[FTP]:                     File Transfer Protocol
+*[FK]:                      Foreign Key
 *[GFM]:                     GitHub Flavored Markdown
 *[GUI]:                     Graphical User Interface
 *[HTML]:                    Hypertext Markup Language
@@ -53,6 +54,7 @@
 *[IP]:                      Internet Protocol
 *[IPv4]:                    Internet Protocol version 4
 *[IPv6]:                    Internet Protocol version 6
+*[IoC]:                     Inversion of Control
 *[IxD]:                     Interaction Design
 *[JPEG]:                    Joint Photographic Experts Group
 *[JS]:                      JavaScript
@@ -72,6 +74,8 @@
 *[PARC]:                    Palo Alto Research Center
 *[PDF]:                     Portable Document Format
 *[PHP]:                     PHP: Hypertext Preprocessor
+*[PHP-FIG]:                 PHP Framework Interop Group
+*[PK]:                      Primary Key
 *[PNG]:                     Portable Network Graphic
 *[PR]:                      Public Relations
 *[PSR]:                     PHP Standard Recommendations
