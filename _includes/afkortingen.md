@@ -93,6 +93,7 @@
 *[SFTP]:                    SSH File Transfer Protocol
 *[SMB]:                     Server Message Block
 *[SPA]:                     Single Page Application
+*[SQL]:                     Structured Query Language
 *[SSG]:                     Static Site Generator
 *[SSH]:                     Secure Shell
 *[SVG]:                     Scalable Vector Graphic
