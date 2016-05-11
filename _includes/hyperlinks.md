@@ -15,6 +15,7 @@
 [Arteveldehogeschool]:                                      http://www.arteveldehogeschool.be
 [Arteveldehogeschool GDM]:                                  http://www.arteveldehogeschool.be/bachelor-de-grafische-en-digitale-media
 [Artevelde University College Ghent]:                       http://www.arteveldehogeschool.be
+[ASP.NET MVC]:                                              http://www.asp.net/mvc
 [Atom]:                                                     https://atom.io
 [Atom XML]:                                                 http://tools.ietf.org/html/rfc4287
 [Babel]:                                                    https://babeljs.io
@@ -29,6 +30,8 @@
 [Chartist]:                                                 https://gionkunz.github.io/chartist-js/
 [Chrome]:                                                   https://www.google.com/chrome/browser/desktop/index.html
 [CoffeeScript]:                                             http://coffeescript.org
+[CakePHP]:                                                  http://cakephp.org
+[CodeIgniter]:                                              https://www.codeigniter.com
 [ConEmu]:                                                   https://github.com/Maximus5/ConEmu/releases
 [Composer]:                                                 https://getcomposer.org
 [Composer-Setup.exe]:                                       https://getcomposer.org/Composer-Setup.exe
@@ -100,6 +103,7 @@
 [JS-YAML]:                                                  https://nodeca.github.io/js-yaml/
 [JSON]:                                                     http://www.json.org
 [JSON-P]:                                                   http://json-p.org
+[Knockout.js]:                                              http://knockoutjs.com
 [KNP Labs]:                                                 http://knplabs.com/en
 [Laracasts]:                                                https://laracasts.com
 [Laracon EU]:                                               http://laracon.eu
@@ -170,6 +174,7 @@
 [Varnish Cache]:                                            https://www.varnish-cache.org
 [VirtualBox]:                                               https://www.virtualbox.org
 [Visual Studio Code]:                                       https://www.visualstudio.com/en-us/products/code-vs.aspx
+[vue.js]:                                                   http://vuejs.org
 [W3C]:                                                      http://www.w3.org
 [WeTransfer]:                                               https://www.wetransfer.com
 [William C. Wake]:                                          http://xp123.com
@@ -183,3 +188,5 @@
 [XML]:                                                      http://www.w3.org/XML
 [YAML]:                                                     http://yaml.org
 [YAML Lint]:                                                http://www.yamllint.com
+[Yii]:                                                      http://www.yiiframework.com
+[Zend Framework]:                                           http://framework.zend.com
