@@ -51,7 +51,7 @@
 [Drupal]:                                                   https://www.drupal.org
   [*&nbsp;*{:.fa .fa-drupal}Drupal]:                        https://www.drupal.org
 [ECTS]:                                                     http://ec.europa.eu/education/tools/ects_nl.htm
-[ECMA International]:                                       http://www.ecma-international.org
+[Ecma International]:                                       http://www.ecma-international.org
 [ECMAScript]:                                               http://www.ecmascript.org
 [Ember.js]:                                                 http://emberjs.com
 [Emmet]:                                                    http://emmet.io

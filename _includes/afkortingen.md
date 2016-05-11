@@ -10,11 +10,14 @@
 *[ASCII]:                   American Standard Code for Information Interchange
 *[ASP]:                     Active Server Pages
 *[AVD]:                     Android Virtual Device
+*[B2B]:                     Business to Business
+*[B2C]:                     Business to Consumer
 *[Bash]:                    Bourne-Again Shell
 *[BDD]:                     Behaviour-Driven Development
 *[BIOS]:                    Basic Input/Output System
 *[BOC]:                     Build-Operate-Check
 *[BTW]:                     Belasting over de Toegevoegde Waarde
+*[C2C]:                     Consumer to Consumer
 *[CISC]:                    Complex Instruction Set Computer
 *[CLI]:                     Command-Line Interface
 *[CMS]:                     Content Management System
@@ -22,9 +25,13 @@
 *[CPT]:                     Custom Post Type
 *[CPU]:                     Central Processing Unit
 *[CRM]:                     Customer Relationship Management
-*[CRUD]:                    Create, Read, Update, Delete
+*[CRUD]:                    Create, Read, Update, and Delete
 *[CSS]:                     Cascading Style Sheets
+*[CSS1]:                    Cascading Style Sheets Level 1
+*[CSS2]:                    Cascading Style Sheets Level 2
+*[CSS 2.1]:                 Cascading Style Sheets Level 2.1
 *[CSS3]:                    Cascading Style Sheets Level 3
+*[CSS4]:                    Cascading Style Sheets Level 4
 *[CSV]:                     Comma-Separated Values
 *[CTA]:                     Call to Action
 *[DAL]:                     Database Abstraction Layer
@@ -39,7 +46,10 @@
 *[DOM]:                     Document Object Model
 *[DTD]:                     Document Type Declaration
 *[ECTS]:                    European Credit Transfer and Accumulation System
-*[ES2015]:                  ECMAScript 2015
+*[ES2015]:                  ECMAScript 2015 / ECMA-262 6th Edition
+*[ES2016]:                  ECMAScript 2016 / ECMA-262 7th Edition
+*[ES6]:                     ECMAScript 2015 / ECMA-262 6th Edition
+*[ES7]:                     ECMAScript 2016 / ECMA-262 7th Edition
 *[ESP]:                     Email Service Provider
 *[F4A]:                     Foundation for Applications
 *[F4E]:                     Foundation for Emails
@@ -82,6 +92,7 @@
 *[MVW]:                     Model-View-Whatever
 *[OLOD]:                    opleidingsonderdeel
 *[OOP]:                     Objectgeoriënteerd Programmeren
+*[OPA]:                     One Page Application
 *[ORM]:                     Object-Relational Mapper
 *[PARC]:                    Palo Alto Research Center
 *[PDF]:                     Portable Document Format
@@ -91,7 +102,7 @@
 *[PNG]:                     Portable Network Graphic
 *[PR]:                      Public Relations
 *[PSR]:                     PHP Standard Recommendations
-*[RAD]:                     Rapid Application Developmen
+*[RAD]:                     Rapid Application Development
 *[RDBMS]:                   Relational Database Management System
 *[RDF]:                     Resource Description Framework 
 *[REST]:                    Representational State Transfer
@@ -105,7 +116,7 @@
 *[SDK]:                     Software Development Kit
 *[SFTP]:                    SSH File Transfer Protocol
 *[SMB]:                     Server Message Block
-*[SPA]:                     Single Page Application
+*[SPA]:                     Single-Page Application
 *[SQL]:                     Structured Query Language
 *[SSG]:                     Static Site Generator
 *[SSH]:                     Secure Shell
@@ -114,6 +125,7 @@
 *[TBD]:                     To Be Decided
 *[TCP]:                     Transmission Control Protocol
 *[TDD]:                     Test-Driven Development
+*[TST]:                     Transaction-Safe Tables
 *[UDP]:                     User Datagram Protocol
 *[UI]:                      User Interface
 *[UTF]:                     Unicode Transformation Format
