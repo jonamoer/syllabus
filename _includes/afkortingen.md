@@ -9,6 +9,7 @@
 *[ARM]:                     Advanced RISC Machines
 *[ASCII]:                   American Standard Code for Information Interchange
 *[ASP]:                     Active Server Pages
+*[AVD]:                     Android Virtual Device
 *[Bash]:                    Bourne-Again Shell
 *[BDD]:                     Behaviour-Driven Development
 *[BIOS]:                    Basic Input/Output System
@@ -26,10 +27,14 @@
 *[CSS3]:                    Cascading Style Sheets Level 3
 *[CSV]:                     Comma-Separated Values
 *[CTA]:                     Call to Action
+*[DAL]:                     Database Abstraction Layer
 *[DB]:                      Database
+*[DBAL]:                    Database Abstraction Layer
 *[DBMS]:                    Database Management System
+*[DCL]:                     Data Control Language
 *[DDD]:                     Domain-Driven Development
 *[DDL]:                     Data Definition Language
+*[DI]:                      Dependency Injection
 *[DML]:                     Data Manipulation Language
 *[DOM]:                     Document Object Model
 *[DTD]:                     Document Type Declaration
@@ -41,8 +46,11 @@
 *[F4S]:                     Foundation for Sites
 *[FTP]:                     File Transfer Protocol
 *[FK]:                      Foreign Key
+*[FOS]:                     Friends of Symfony
 *[GFM]:                     GitHub Flavored Markdown
 *[GUI]:                     Graphical User Interface
+*[Haml]:                    HTML Abstraction Markup Language
+*[HATEOAS]:                 Hypermedia as the Engine of Application State
 *[HTML]:                    Hypertext Markup Language
 *[HTML5]:                   Hypertext Markup Language version 5.0
 *[HTTP]:                    Hypertext Transfer Protocol
@@ -57,9 +65,12 @@
 *[IPv6]:                    Internet Protocol version 6
 *[IoC]:                     Inversion of Control
 *[IxD]:                     Interaction Design
+*[JDK]:                     Java SE Development Kit
 *[JPEG]:                    Joint Photographic Experts Group
 *[JS]:                      JavaScript
 *[JSON]:                    JavaScript Object Notation
+*[JSON-P]:                  JavaScript Object Notation with Padding
+*[JSONP]:                   JavaScript Object Notation with Padding
 *[LTS]:                     Long Term Support
 *[NFS]:                     Network File System
 *[MIME]:                    Multipurpose Internet Mail Extensions
@@ -91,6 +102,7 @@
 *[ROI]:                     Return on Investment
 *[Sass]:                    Syntactically Awesome Style Sheets
 *[SCSS]:                    Sassy CSS
+*[SDK]:                     Software Development Kit
 *[SFTP]:                    SSH File Transfer Protocol
 *[SMB]:                     Server Message Block
 *[SPA]:                     Single Page Application
@@ -122,5 +134,6 @@
 *[x64]:                     64-bit x86 Instruction Set
 *[x86]:                     32-bit x86 Instruction Set
 *[XHTML]:                   Extensible Hypertext Markup Language
+*[XP]:                      Extreme Programming
 *[XML]:                     Extensible Markup Language
 *[YAML]:                    YAML Ain't Markup Language

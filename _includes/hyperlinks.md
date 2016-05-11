@@ -1,6 +1,12 @@
 [Android]:                                                  http://developer.android.com
-[*&nbsp;*{:.fa .fa-android}Android]:                                                  http://developer.android.com
+[*&nbsp;*{:.fa .fa-android}Android]:                        http://developer.android.com
+[Android SDK]:                                              http://developer.android.com/sdk/index.html
+[Android Studio]:                                           http://developer.android.com/sdk/index.html
+  [*&nbsp;*{:.fa .fa-android}Android Studio]:               http://developer.android.com/sdk/index.html
+[Manifesto for Agile Software Development]:                 http://agilemanifesto.org
+[Angular]:                                                  https://angular.io
 [Angular Material]:                                         https://material.angularjs.org
+[AngularDart]:                                              https://angular.io/dart
 [AngularJS]:                                                https://angularjs.org
 [AngularUI]:                                                http://angular-ui.github.io
 [APA Style]:                                                http://www.apastyle.org/
@@ -10,15 +16,19 @@
 [Arteveldehogeschool GDM]:                                  http://www.arteveldehogeschool.be/bachelor-de-grafische-en-digitale-media
 [Artevelde University College Ghent]:                       http://www.arteveldehogeschool.be
 [Atom]:                                                     https://atom.io
+[Atom XML]:                                                 http://tools.ietf.org/html/rfc4287
 [Babel]:                                                    https://babeljs.io
 [Behat]:                                                    http://docs.behat.org/en/v3.0/
 [Backbone.js]:                                              http://backbonejs.org
 [Bitbucket]:                                                https://bitbucket.org
   [*&nbsp;*{:.fa .fa-bitbucket}Bitbucket]:                  https://bitbucket.org
 [Bootstrap]:                                                http://getbootstrap.com
+[Bower]:                                                    http://bower.io                                             http://getbootstrap.com
 [Brackets]:                                                 https://brackets.io
 [Browsersync]:                                              https://www.browsersync.io/
 [Chartist]:                                                 https://gionkunz.github.io/chartist-js/
+[Chrome]:                                                   https://www.google.com/chrome/browser/desktop/index.html
+[CoffeeScript]:                                             http://coffeescript.org
 [ConEmu]:                                                   https://github.com/Maximus5/ConEmu/releases
 [Composer]:                                                 https://getcomposer.org
 [Composer-Setup.exe]:                                       https://getcomposer.org/Composer-Setup.exe
@@ -26,14 +36,21 @@
 [Carbon]:                                                   http://carbon.nesbot.com
 [Cask]:                                                     http://caskroom.io
 [Cordova]:                                                  http://cordova.apache.org
+[CORS]:                                                     http://www.w3.org/TR/cors
+[Cucumber]:                                                 https://cucumber.io
+[Dart]:                                                     https://www.dartlang.org
 [Digitale Mediatheek]:                                      http://www.arteveldehogeschool.be/studeren/mediatheken/digitale-mediatheek
 [Doctrine]:                                                 http://www.doctrine-project.org
 [Doctrine ORM]:                                             http://www.doctrine-project.org/projects/orm.html
 [Doctrine DBAL]:                                            http://www.doctrine-project.org/projects/dbal.html
 [Dotfiles]:                                                 http://www.gdm.gent/dotfiles/
+[Drifty Co.]:                                               http://drifty.com
 [Drupal]:                                                   https://www.drupal.org
   [*&nbsp;*{:.fa .fa-drupal}Drupal]:                        https://www.drupal.org
 [ECTS]:                                                     http://ec.europa.eu/education/tools/ects_nl.htm
+[ECMA International]:                                       http://www.ecma-international.org
+[ECMAScript]:                                               http://www.ecmascript.org
+[Ember.js]:                                                 http://emberjs.com
 [Emmet]:                                                    http://emmet.io
 [Emmet documentation]:                                      http://docs.emmet.io
 [ES2015]:                                                   http://www.ecma-international.org/ecma-262/6.0/
@@ -41,15 +58,16 @@
 [Facebook]:                                                 https://www.facebook.com
 [Faker]:                                                    https://github.com/fzaninotto/Faker
 [Faker.js]:                                                 https://github.com/marak/Faker.js/
-[FontAwesome]:                                              http://fontawesome.io
-[Foundation]:                                               http://foundation.zurb.com
-[Foundation for Emails]:                                    http://foundation.zurb.com/emails.html
-[Foundation for Sites]:                                     http://foundation.zurb.com/sites.html
 [Feature Branch Workflow]:                                  https://www.atlassian.com/git/tutorials/comparing-workflows/feature-branch-workflow
 [Firefox]:                                                  https://www.mozilla.org/nl/firefox/new/
   [*&nbsp;*{:.fa .fa-firefox}Firefox]:                      https://www.mozilla.org/nl/firefox/new/
 [Firefox Developer Edition]:                                https://www.mozilla.org/nl/firefox/developer/
   [*&nbsp;*{:.fa .fa-firefox}Firefox Developer Edition]:    https://www.mozilla.org/nl/firefox/developer/
+[FontAwesome]:                                              http://fontawesome.io
+[Foundation]:                                               http://foundation.zurb.com
+[Foundation for Emails]:                                    http://foundation.zurb.com/emails.html
+[Foundation for Sites]:                                     http://foundation.zurb.com/sites.html
+[FriendsOfSymfony]:                                         http://friendsofsymfony.github.io
 [Gems]:                                                     https://rubygems.org
 [Gherkin]:                                                  http://docs.behat.org/en/v3.0/guides/1.gherkin.html
 [Git]:                                                      http://git-scm.com
@@ -61,22 +79,33 @@
 [GitHub Pages]:                                             https://pages.github.com
   [*&nbsp;*{:.fa .fa-github}GitHub Pages]:                  https://pages.github.com
 [Gulp.js]:                                                  http://gulpjs.com
+[Haml]:                                                     http://haml.info
 [Handlebars]:                                               http://handlebarsjs.com
 [Homebrew]:                                                 http://brew.sh
 [Homestead]:                                                http://laravel.com/docs/homestead
 [Homestead Box]:                                            https://vagrantcloud.com/laravel/boxes/homestead
+[HTML]:                                                     http://www.w3.org/html
 [HTML5]:                                                    http://www.w3.org/TR/html5
 [Inky]:                                                     http://foundation.zurb.com/emails/docs/inky.html
+[Ionic CLI]:                                                http://ionicframework.com/docs/cli/
+[Ionic Platform]:                                           http://ionic.io/platform
+[Ionic SDK]:                                                http://ionicframework.com
+[Java]:                                                     https://java.com/nl/
+[JDK 8]:                                                    http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html
 [Jekyll]:                                                   https://jekyllrb.com
+[Jinja]:                                                    http://jinja.pocoo.org
 [Joomla]:                                                   https://www.joomla.org
   [*&nbsp;*{:.fa .fa-joomla}Joomla]:                        https://www.joomla.org
 [jQuery]:                                                   https://jquery.com
 [JS-YAML]:                                                  https://nodeca.github.io/js-yaml/
 [JSON]:                                                     http://www.json.org
+[JSON-P]:                                                   http://json-p.org
+[KNP Labs]:                                                 http://knplabs.com/en
 [Laracasts]:                                                https://laracasts.com
 [Laracon EU]:                                               http://laracon.eu
 [Laracon US]:                                               http://laracon.us
 [Laravel]:                                                  https://laravel.com
+[Less]:                                                     http://lesscss.org
 [Liquid]:                                                   https://shopify.github.io/liquid/
 [lodash]:                                                   https://lodash.com
 [Lumen]:                                                    https://lumen.laravel.com
@@ -86,31 +115,51 @@
 [MySQL]:                                                    http://www.mysql.com/products/community
 [MySQL Manual]:                                             https://dev.mysql.com/doc/refman/5.7/en
 [MySQL Workbench]:                                          http://dev.mysql.com/downloads/workbench
+[NetBeans IDE]:                                             https://netbeans.org
 [ngCordova]:                                                http://ngcordova.com/
+[NGINX]:                                                    http://nginx.org
 [Node.js]:                                                  https://nodejs.org
 [Node.js Child Process]:                                    https://nodejs.org/api/child_process.html
 [Node.js File System]:                                      https://nodejs.org/api/fs.html
 [NVM]:                                                      https://github.com/creationix/nvm
 [NVM for Windows]:                                          https://github.com/coreybutler/nvm-windows/releases
 [Open Broadcast Software]:                                  https://obsproject.com
+[PhoneGap]:                                                 http://phonegap.com
 [PHP]:                                                      http://php.net
+[PHP Coding Standards Fixer]:                               http://cs.sensiolabs.org
 [PHP-FIG]:                                                  http://www.php-fig.org
 [phpDocumentor]:                                            https://www.phpdoc.org
 [PhpStorm]:                                                 https://www.jetbrains.com/phpstorm
+[PHPSpec]:                                                  http://www.phpspec.net
 [PHPUnit]:                                                  https://phpunit.de
-[Pinterest]:                                                https://nl.pinterest.com/
+[Pinterest]:                                                https://nl.pinterest.com
+[Propel]:                                                   http://propelorm.org
+[PSR]:                                                      http://www.php-fig.org/psr/
+[PSR-1 Basic Coding Standard]:                              http://www.php-fig.org/psr/psr-1/
+[PSR-2 Coding Style Guide]:                                 http://www.php-fig.org/psr/psr-2/
+[Python]:                                                   Python
 [QuickTime Player]:                                         http://www.apple.com/benl/quicktime/
+[Rain.TPL]:                                                 http://www.raintpl.com
 [Ruby]:                                                     https://www.ruby-lang.org/en/
 [Ruby on Rails]:                                            https://rubyonrails.org
 [Reveal.js]:                                                http://lab.hakim.se/reveal-js/
 [Sass]:                                                     https://sass-lang.com
+[SensioLabs]:                                               https://sensiolabs.com/en
 [Sequel Pro]:                                               https://www.sequelpro.com
 [Shotcut]:                                                  https://www.shotcut.org
+[Silex]:                                                    http://silex.sensiolabs.org
+[Smarty]:                                                   http://www.smarty.net
 [SourceTree]:                                               https://www.sourcetreeapp.com
+[SpecFlow]:                                                 http://www.specflow.org
 [Spotlight]:                                                https://support.apple.com/kb/PH21933?viewlocale=nl_BE&locale=nl_BE
 [Style Tiles]:                                              http://styletil.es
+[Stylus]:                                                   http://stylus-lang.com
 [Symfony]:                                                  https://symfony.com
+[Symfony Components]:                                       http://symfony.com/components
+[Symfony Live]:                                             http://live.symfony.com
 [Taylor Otwell]:                                            http://taylorotwell.com
+[The Apache Software Foundation]:                           http://www.apache.org
+[TypeScript]:                                               http://www.typescriptlang.org
 [Twig]:                                                     http://twig.sensiolabs.org
 [Ubuntu]:                                                   http://www.ubuntu.com/server
 [Ubuntu Server]:                                            http://www.ubuntu.com/server
@@ -118,8 +167,10 @@
 [UI Router]:                                                http://angular-ui.github.io/ui-router/site/#/api/ui.router
 [Vagrant]:                                                  https://www.vagrantup.com
 [Vagrant::Hostsupdater]:                                    https://github.com/cogitatio/vagrant-hostsupdater
+[Varnish Cache]:                                            https://www.varnish-cache.org
 [VirtualBox]:                                               https://www.virtualbox.org
 [Visual Studio Code]:                                       https://www.visualstudio.com/en-us/products/code-vs.aspx
+[W3C]:                                                      http://www.w3.org
 [WeTransfer]:                                               https://www.wetransfer.com
 [William C. Wake]:                                          http://xp123.com
 [WordPress]:                                                https://nl.wordpress.org
@@ -127,6 +178,8 @@
 [WordPress.com]:                                            https://nl.wordpress.com
 [WP REST API v2]:                                           http://v2.wp-api.org
 [XAMPP]:                                                    https://www.apachefriends.org/download.html
-[Xcode]:                                                    https://developer.apple.com/xcode/
+[Xcode]:                                                    https://itunes.apple.com/us/app/xcode/id497799835?mt=12
+[XHTML]:                                                    http://www.w3.org/TR/xhtml1
+[XML]:                                                      http://www.w3.org/XML
 [YAML]:                                                     http://yaml.org
 [YAML Lint]:                                                http://www.yamllint.com
