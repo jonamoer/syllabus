@@ -59,6 +59,7 @@
 *[FOS]:                     Friends of Symfony
 *[GFM]:                     GitHub Flavored Markdown
 *[GUI]:                     Graphical User Interface
+*[GUID]:                    Globally Unique Identifier
 *[Haml]:                    HTML Abstraction Markup Language
 *[HATEOAS]:                 Hypermedia as the Engine of Application State
 *[HTML]:                    Hypertext Markup Language
@@ -66,6 +67,7 @@
 *[HTTP]:                    Hypertext Transfer Protocol
 *[HTTPS]:                   Hypertext Transfer Protocol Secure
 *[IA]:                      Information Architecture
+*[ID]:                      Identifier
 *[IDE]:                     Integrated Development Environment
 *[IEEE]:                    Institute of Electrical and Electronics Engineers
 *[IETF]:                    Internet Engineering Task Force
@@ -128,12 +130,14 @@
 *[TST]:                     Transaction-Safe Tables
 *[UDP]:                     User Datagram Protocol
 *[UI]:                      User Interface
+*[UID]:                     Unique Identifier
 *[UTF]:                     Unicode Transformation Format
 *[UTF-8]:                   8-bit Unicode Transformation Format
 *[UTF-16]:                  16-bit Unicode Transformation Format
 *[URI]:                     Uniform Request Identifier
 *[URL]:                     Uniform Request Locator
 *[URN]:                     Uniform Request Name
+*[UUID]:                    Universally Unique Identifier
 *[UX]:                      User Experience
 *[VM]:                      Virtual Machine
 *[VMI]:                     Virtual Machine Image
