@@ -228,7 +228,7 @@
             "> ##### **Opgelet** :warning:",
             "> ---",
             "> ",
-            "{:.alert .alert-info}"
+            "{:.alert .alert-warning}"
         ],
         "description": "Opgelet block"
     },
@@ -238,7 +238,7 @@
             "> ##### **Opmerking** :point_up:",
             "> ---",
             "> ",
-            "{:.alert .alert-warning}"
+            "{:.alert .alert-info}"
         ],
         "description": "Opmerking block"
     },
