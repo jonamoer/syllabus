@@ -128,6 +128,7 @@
 *[TCP]:                     Transmission Control Protocol
 *[TDD]:                     Test-Driven Development
 *[TST]:                     Transaction-Safe Tables
+*[TSV]:                     Tab-Separated Values
 *[UDP]:                     User Datagram Protocol
 *[UI]:                      User Interface
 *[UID]:                     Unique Identifier
