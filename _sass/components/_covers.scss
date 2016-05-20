@@ -6,16 +6,13 @@
 }
 
 .cover {
-  
-}
-
-.cover__picture {
-  display: block;
-  height: 268px;
-}
-
-.cover__img {
-  object-fit: cover;
-  height: 100%;
-  width: 100%;
+  &__img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+  }
+  &__picture {
+    display: block;
+    height: 268px;
+  }
 }

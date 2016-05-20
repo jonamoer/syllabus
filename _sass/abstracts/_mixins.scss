@@ -18,8 +18,20 @@
   }
 }
 
-@mixin ct-donut-stroke($color) {
-  .ct-slice-donut {
-    stroke: $color;
+@mixin timeline-arrow($direction, $color, $width) {
+  @if not index(right left, $direction) {
+    @warn "Direction must be `right` or `left`; currently: `#{$direction}`.";
+  }
+  @else {
+    @if left == $direction {
+      border-right-color: $color;
+      border-left: none;
+      left: -$width;
+    }
+    @if right == $direction {
+      border-left-color: $color;
+      border-right: none;
+      right: -$width;
+    }
   }
 }

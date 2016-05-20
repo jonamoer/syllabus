@@ -17,61 +17,61 @@ figure.highlight {
   }
   &.language- {
     &bash {
-      @include label("Bash", $code-bash, $code-text-color);
+      @include label("Bash", map-get($color-language, bash), map-get($color-language, default));
     }
     &bat {
-      @include label("CMD", $code-bat, $code-text-color);
+      @include label("CMD", map-get($color-language, bat), map-get($color-language, default));
     }
     &blade {
-      @include label("Blade", $code-blade, $code-text-color);
+      @include label("Blade", map-get($color-language, blade), map-get($color-language, default));
     }
     &css {
-      @include label("CSS", $code-css, $code-text-color);
+      @include label("CSS", map-get($color-language, css), map-get($color-language, default));
     }
     &emmet {
-      @include label("Emmet", $code-emmet, $code-text-color);
+      @include label("Emmet", map-get($color-language, emmet), map-get($color-language, default));
     }
     &gherkin {
-      @include label("Gherkin", $code-gherkin, $code-text-color);
+      @include label("Gherkin", map-get($color-language, gherkin), map-get($color-language, default));
     }
     &html {
-      @include label("HTML", $code-html, $code-text-color);
+      @include label("HTML", map-get($color-language, html), map-get($color-language, default));
     }
     &ini {
-      @include label("INI", $code-ini, $code-text-color);
+      @include label("INI", map-get($color-language, ini), map-get($color-language, default));
     }
     &inky {
-      @include label("Inky", $code-inky, $code-text-color);
+      @include label("Inky", map-get($color-language, inky), map-get($color-language, default));
     }
     &json {
-      @include label("JSON", $code-json, $code-text-color);
+      @include label("JSON", map-get($color-language, json), map-get($color-language, default));
     }
     &js {
-      @include label("JS", $code-js, $code-text-color);
+      @include label("JS", map-get($color-language, js), map-get($color-language, default));
     }
     &php {
-      @include label("PHP", $code-php, $code-text-color)
+      @include label("PHP", map-get($color-language, php), map-get($color-language, default))
     }
     &po {
-      @include label("PO", $code-po, $code-text-color)
+      @include label("PO", map-get($color-language, po), map-get($color-language, default))
     }
     &powershell {
-      @include label("PS", $code-ps, $code-text-color)
+      @include label("PS", map-get($color-language, ps), map-get($color-language, default))
     }
     &scss {
-      @include label("SCSS", $code-scss, $code-text-color);
+      @include label("SCSS", map-get($color-language, scss), map-get($color-language, default));
     }
     &sql {
-      @include label("SQL", $code-sql, $code-text-color);
+      @include label("SQL", map-get($color-language, sql), map-get($color-language, default));
     }
     &ts {
-      @include label("TS", $code-ts, $code-text-color);
+      @include label("TS", map-get($color-language, ts), map-get($color-language, default));
     }
     &twig {
-      @include label("Twig", $code-twig, $code-text-color);
+      @include label("Twig", map-get($color-language, twig), map-get($color-language, default));
     }
     &yaml {
-      @include label("YAML", $code-yaml, $code-text-color);
+      @include label("YAML", map-get($color-language, yaml), map-get($color-language, default));
     }
   }
   pre {

@@ -116,6 +116,9 @@
 *[Sass]:                    Syntactically Awesome Style Sheets
 *[SCSS]:                    Sassy CSS
 *[SDK]:                     Software Development Kit
+*[SEA]:                     Search Engine Advertising
+*[SEM]:                     Search Engine Marketing 
+*[SEO]:                     Search Engine Optimization
 *[SFTP]:                    SSH File Transfer Protocol
 *[SMB]:                     Server Message Block
 *[SPA]:                     Single-Page Application

@@ -55,11 +55,11 @@
 
         // Timeline
         // --------
-        var $timeline = $('.timeline-content[data-date]');
+        var $timeline = $('.timeline__content[data-date]');
         $timeline.each(function () {
             moment.locale($('html').attr('lang'));
             var date    = moment($(this).data('date')).format('dd D MMM YYYY');
-            var element = $('<div>').addClass('timeline-date').text(date);
+            var element = $('<div>').addClass('timeline__date').text(date);
             $(this).after(element);
         });
     }

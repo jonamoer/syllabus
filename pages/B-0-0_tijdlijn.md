@@ -1,5 +1,5 @@
 ---
-layout   : page
+layout   : page-full
 title    : Tijdlijn
 permalink: tijdlijn/
 published: false

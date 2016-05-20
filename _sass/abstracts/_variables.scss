@@ -16,70 +16,89 @@ $color-selection: #FF0;
 
 // Artevelde Colours
 $color-ahs: (
-  ahs-oranje     : #E90,
-  ahs-groen      : #BC0,
-  ahs-fuchsia    : #C07,
-  ahs-blauw      : #0AC,
-  ahs-lichtgrijs : #DDD,
-  ahs-middengrijs: #AAA,
-  ahs-donkergrijs: #777,
-  ahs-zwart      : #000
+  oranje     : #E90,
+  groen      : #BC0,
+  fuchsia    : #C07,
+  blauw      : #0AC,
+  lichtgrijs : #DDD,
+  middengrijs: #AAA,
+  donkergrijs: #777,
+  zwart      : #000
 );
 
 // Code Colours
 
 $color-code: (
-  code-base01: #93a1a1,
-  code-base02: #586e75,
-  code-base03: #B58900,
-  code-bg01  : #002b36,
-  code-bg02  : #f4f3f1,
-  code-orange: #cb4b16,
-  code-red   : #dc322f,
-  code-blue  : #268bd2,
-  code-cyan  : #2aa198,
-  code-green : #859900
+  base01: #93a1a1,
+  base02: #586e75,
+  base03: #B58900,
+  bg01  : #002b36,
+  bg02  : #f4f3f1,
+  orange: #cb4b16,
+  red   : #dc322f,
+  blue  : #268bd2,
+  cyan  : #2aa198,
+  green : #859900
 );
 
 // Code Label Colour
-$code-text-color: white;
-$code-bash      : map-get($color-palette, color-A);
-$code-bat       : map-get($color-palette, color-A);
-$code-blade     : map-get($color-palette, color-H);
-$code-code      : map-get($color-palette, color-A);
-$code-css       : map-get($color-palette, color-C);
-$code-emmet     : map-get($color-palette, color-A);
-$code-gherkin   : map-get($color-palette, color-E);
-$code-html      : map-get($color-palette, color-B);
-$code-ini       : map-get($color-palette, color-A);
-$code-inky      : map-get($color-palette, color-B);
-$code-json      : map-get($color-palette, color-A);
-$code-js        : map-get($color-palette, color-D);
-$code-php       : map-get($color-palette, color-G);
-$code-po        : map-get($color-palette, color-A);
-$code-ps        : map-get($color-palette, color-A);
-$code-sql       : map-get($color-palette, color-F);
-$code-scss      : map-get($color-palette, color-H);
-$code-ts        : map-get($color-palette, color-F);
-$code-twig      : map-get($color-palette, color-E);
-$code-yaml      : map-get($color-palette, color-D);
+$color-language: (
+  bash   : map-get($color-palette, color-A),
+  bat    : map-get($color-palette, color-A),
+  blade  : map-get($color-palette, color-H),
+  code   : map-get($color-palette, color-A),
+  css    : map-get($color-palette, color-C),
+  default: white,
+  emmet  : map-get($color-palette, color-A),
+  gherkin: map-get($color-palette, color-E),
+  html   : map-get($color-palette, color-B),
+  ini    : map-get($color-palette, color-A),
+  inky   : map-get($color-palette, color-B),
+  json   : map-get($color-palette, color-A),
+  js     : map-get($color-palette, color-D),
+  php    : map-get($color-palette, color-G),
+  po     : map-get($color-palette, color-A),
+  ps     : map-get($color-palette, color-A),
+  sql    : map-get($color-palette, color-F),
+  scss   : map-get($color-palette, color-H),
+  ts     : map-get($color-palette, color-F),
+  twig   : map-get($color-palette, color-E),
+  yaml   : map-get($color-palette, color-D)
+);
 
 // Highlight Colours
-$base01: map-get($color-code, code-base01);
-$base02: map-get($color-code, code-base02);
-$base03: map-get($color-code, code-base03);
-$bg01  : map-get($color-code, code-bg01);
-$bg02  : map-get($color-code, code-bg02);
-$orange: map-get($color-code, code-orange);
-$red   : map-get($color-code, code-red);
-$blue  : map-get($color-code, code-blue);
-$cyan  : map-get($color-code, code-cyan);
-$green : map-get($color-code, code-green);
+$base01: map-get($color-code, base01);
+$base02: map-get($color-code, base02);
+$base03: map-get($color-code, base03);
+$bg01  : map-get($color-code, bg01);
+$bg02  : map-get($color-code, bg02);
+$orange: map-get($color-code, orange);
+$red   : map-get($color-code, red);
+$blue  : map-get($color-code, blue);
+$cyan  : map-get($color-code, cyan);
+$green : map-get($color-code, green);
 
-// Timeline Colours
-$color-timeline-line: map_get($color-ahs, ahs-lichtgrijs);
-$color-timeline-main: map_get($color-ahs, ahs-oranje);
-$color-timeline-bgc : lighten($color-timeline-main, 50%);
+// Timeline
+// $timeline-color-𝛼: map_get($color-ahs, ahs-lichtgrijs);
+// $timeline-color-𝛽: map_get($color-ahs, ahs-oranje);
+
+$timeline-color: (
+  neutral   : map_get($color-ahs, lichtgrijs),
+  default   : map_get($color-ahs, blauw),
+  accent    : map_get($color-ahs, oranje),
+  important : map_get($color-ahs, fuchsia),
+  trivial   : map_get($color-ahs, groen)
+);
+
+$timeline-color-line     : map_get($timeline-color, neutral);
+$timeline-color-main     : map_get($timeline-color, default);
+$timeline-color-important: map_get($timeline-color, important);
+$timeline-color-bgc      : lighten($timeline-color-main, 50%);
+$timeline-line-width     : .1875rem;
+$timeline-waypoint-radius: 1rem;
+$timeline-icon-radius    : 3.5 * $timeline-waypoint-radius;
+$timeline-offset         : 3 * $timeline-icon-radius;
+$timeline-arrow          : .75rem;
 
 // Fonts
 $font-code: "Source Code Pro", monospace;

@@ -4,6 +4,7 @@
 # Week 01
 - date: 2015-09-21
   icon: flag-o
+  type: important
   content: |
     {::nomarkdown}
     TBC
@@ -31,6 +32,7 @@
 # Week 01
 - date: 2016-02-08
   icon: flag-o
+  type: important
   content: |
     # Kick-off
     - Algemene informatie
@@ -228,7 +230,6 @@
 # Timetable 1
 - date: 2016-05-24
   icon: clock-o
-  type: important
   chamilo: 1EK
 
 # Exam 1
@@ -260,7 +261,6 @@
 # Timetable 2
 - date: 2016-08-17
   icon: clock-o
-  type: important
   chamilo: 2EK
 
 # Exam 2
@@ -274,3 +274,8 @@
 
 # End
 - icon: glass
+  type: trivial
+  content: |
+    {::nomarkdown}
+    Time for a drink!
+    {:/}

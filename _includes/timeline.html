@@ -1,11 +1,11 @@
 <section class="timeline">
     {% for point in site.data.timeline %}
-    <article class="timeline-point{% if point.type %}{{ point.type | prepend: ' timeline-point-'}}{% endif %}">
+    <article class="timeline__point{% if point.type %}{{ point.type | prepend: ' timeline__point--'}}{% endif %}">
         {% if point.icon %}
-        <div class="timeline-icon"><i class="fa fa-{{ point.icon }}"></i></div>
+        <div class="timeline__icon"><i class="fa fa-{{ point.icon }}"></i></div>
         {% endif %}
         {% if point.chamilo or point.milestone or point.content %}
-        <div class="timeline-content"{% if point.date %} data-date="{{ point.date }}"{% endif %}>
+        <div class="timeline__content"{% if point.date %} data-date="{{ point.date }}"{% endif %}>
         {% if point.chamilo %}
             <h1><a href="https://chamilo.arteveldehs.be/index.php?application=weblcms&course={{ site.data.olod.course.chamilo_id }}&tool=document&go=course_viewer">Uurrooster</a> <small>{{ article.chamilo }} bekend op Chamilo</small></h1>
         {% endif %}

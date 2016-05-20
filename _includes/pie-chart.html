@@ -1,40 +1,99 @@
-<div class="ct-chart ct-major-eleventh"></div>
+<div id="pie-chart"></div>
 <script>
-var data = { labels: [], series: [] },
-    d = {{ site.data.olod.workload.hours | jsonify }};
+(function (d3) {
 
-d.forEach(function (element) {
-    var label = Object.keys(element)[0] + ' (' + element[Object.keys(element)[0]] + 'u)',
-        serie = element[Object.keys(element)[0]];
-    data.labels.push(label);
-    data.series.push(serie);
-});
+    function getLabel(item) {
+        return Object.keys(item)[0];
+    }
 
-var options = {
-    chartPadding: 60,
-    donut: true,
-    donutWidth: 40,
-    labelDirection: 'explode',
-    labelOffset: 40,
-    startAngle: 270,
-    total: data.series.reduce(function (a, b) { return a + b; }, 0) * 2
-};
+    function getSeries(item) {
+        return item[Object.keys(item)[0]];
+    }
 
-var responsiveOptions = [
-    ["screen and (max-width: 320px)",
-        {
-            chartPadding: 6,
-            donutWidth: 20,
-            labelOffset: 40
+    var data = {{ site.data.olod.workload.hours | jsonify }},
+        dataLabels = data.map(getLabel),
+        dataSeries = data.map(getSeries);
+
+    var width = 960,
+        height = 400,
+        radius = height / 3 - 10
+        thickness = 80;
+
+    var arc = d3.svg.arc()
+            .innerRadius(radius - thickness / 2)
+            .outerRadius(radius + thickness / 2),
+        innerLabelArc = d3.svg.arc()
+            .outerRadius(radius)
+            .innerRadius(radius),
+        outerLabelArc = d3.svg.arc()
+            .outerRadius(radius + thickness * .8)
+            .innerRadius(radius + thickness * .8);
+
+    var pie = d3.layout.pie()
+        .padAngle(.02)
+        .startAngle(-Math.PI/2)
+        .endAngle(Math.PI/2)
+        .sort(null);
+
+    var colors = ["#E90", "#BC0", "#C07", "#0AC", "#777", "#AAA", "#DDD", "#000"];
+
+    var svg = d3.select("#pie-chart")
+        .append("svg")
+            .attr("class", "chart")
+            .attr("height", "100%")
+            .attr("style", "border: 1px solid #DDD")
+            .attr("viewBox", "0 0 960 300")
+            .attr("width", "100%")
+        .append("g")
+            .attr("transform", "translate(" + width / 2 + "," + height * 5 / 8  + ")");
+
+    svg.selectAll("path")
+        .data(pie(dataSeries))
+        .enter()
+            .append("path")
+                .style("fill", function (d, i) { return colors[i]; })
+                .attr("d", arc);
+
+    var arcs = pie(dataSeries);
+    arcs.forEach(function (d, i) {
+        var iC = innerLabelArc.centroid(d);
+        var oC = outerLabelArc.centroid(d);
+        svg.append("text")
+            .text(dataLabels[i])
+            .style("fill", function () { return colors[i]; })
+            .attr("class", "chart__label chart__label--outer")
+            .attr("x", function () {
+                if (((d.startAngle + d.endAngle) / 2) < 0) {
+                    return oC[0] - this.getComputedTextLength();
+                } else {
+                    return oC[0];
+                }
+            })
+            .attr("y", function () {
+                return oC[1] + this.getBBox().height / 2;
+            });
+            
+        if (true) {
+            svg.append("text")
+                .attr("class", "chart__label chart__label--inner")
+                .text(dataSeries[i] + " u.")
+                .attr("x", function () {
+                    return iC[0] - this.getBBox().width / 2;
+                })
+                .attr("y", function () {
+                    return iC[1] + this.getBBox().height / 2;
+                });
         }
-    ],
-    ["screen and (max-width: 480px)",
-        {
-            chartPadding: 6,
-            donutWidth: 20,
-            labelOffset: 40
-        }
-    ]
-];
-new Chartist.Pie('.ct-chart', data, options, responsiveOptions);
+    });
+    svg.append("text")
+        .attr("class", "chart__label chart__label--center")
+        .text(dataSeries.reduce(function (a, b) { return a + b; }) + " uur")
+        .attr("x", function () {
+            return - this.getBBox().width / 2;
+        })
+        .attr("y", function () {
+            return - this.getBBox().height / 2;
+        });
+
+})(d3);
 </script>
