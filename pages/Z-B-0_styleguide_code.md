@@ -117,7 +117,7 @@ Command Line
 ### Bash
 
 {% highlight bash %}
-$ ls→←↑↓
+$ ls
 {% endhighlight %}
 
 ### Batch

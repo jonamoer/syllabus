@@ -12,7 +12,7 @@
     left: $timeline-offset + ($timeline-icon-radius - $timeline-line-width) / 2;
     position: absolute;
     width: $timeline-line-width;
-    @media screen and (min-width: 992px) {
+    @media screen and (min-width: $timeline-breakpoint-lg) {
       left: 0;
       margin: auto;
       right: 0;
@@ -27,13 +27,13 @@
       min-height: $timeline-icon-radius;
       padding: .5em;
       position: relative;
-      @media screen and (min-width: 992px) {
-        margin-left: (56.875rem / 2) + $timeline-icon-radius / 2 + 3 * $timeline-line-width;
-        width: 56.875rem / 2 - ($timeline-icon-radius / 2 + 3 * $timeline-line-width);
+      @media screen and (min-width: $timeline-breakpoint-lg) {
+        margin-left: ($timeline-content-lg / 2) + $timeline-icon-radius / 2 + 3 * $timeline-line-width;
+        width: $timeline-content-lg / 2 - ($timeline-icon-radius / 2 + 3 * $timeline-line-width);
       }
-      @media screen and (min-width: 1200px) {
-        margin-left: (69.375rem / 2) + $timeline-icon-radius / 2 + 3 * $timeline-line-width;
-        width: 69.375rem / 2 - ($timeline-icon-radius / 2 + 3 * $timeline-line-width);
+      @media screen and (min-width: $timeline-breakpoint-xl) {
+        margin-left: ($timeline-content-xl / 2) + $timeline-icon-radius / 2 + 3 * $timeline-line-width;
+        width: $timeline-content-xl / 2 - ($timeline-icon-radius / 2 + 3 * $timeline-line-width);
       }
       &::before {
         content: "";
@@ -41,12 +41,12 @@
         position: absolute;
         top: $timeline-icon-radius / 2 - $timeline-line-width - $timeline-arrow;
       }
-      @media screen and (max-width: 991px) {
+      @media screen and (max-width: $timeline-breakpoint-lg - 1) {
         &::before {
           @include timeline-arrow(left, $timeline-color-main, $timeline-arrow);
         }
       }
-      @media screen and (min-width: 992px) {
+      @media screen and (min-width: $timeline-breakpoint-lg) {
         @at-root .timeline__point {
           &:nth-child(even) .timeline__content::before {
             @include timeline-arrow(left, $timeline-color-main, $timeline-arrow);
@@ -73,21 +73,21 @@
       text-align: right;
       top: 0;
       width: $timeline-offset - $timeline-line-width;
-      @media screen and (min-width: 992px) {
+      @media screen and (min-width: $timeline-breakpoint-lg) {
         margin-left: 0;
         text-align: right;
-        width: 56.875rem / 2 - ($timeline-icon-radius / 2 + 3 * $timeline-line-width);
+        width: $timeline-content-lg / 2 - ($timeline-icon-radius / 2 + 3 * $timeline-line-width);
         @at-root .timeline__point:nth-child(odd) .timeline__date {
-          margin-left: (56.875rem / 2) + $timeline-icon-radius / 2 + 3 * $timeline-line-width;
+          margin-left: ($timeline-content-lg / 2) + $timeline-icon-radius / 2 + 3 * $timeline-line-width;
           text-align: left;
         }
       }
-      @media screen and (min-width: 1200px) {
+      @media screen and (min-width: $timeline-breakpoint-xl) {
         margin-left: 0;
         text-align: right;
-        width: 69.375rem / 2 - ($timeline-icon-radius / 2 + 3 * $timeline-line-width);
+        width: $timeline-content-xl / 2 - ($timeline-icon-radius / 2 + 3 * $timeline-line-width);
         @at-root .timeline__point:nth-child(odd) .timeline__date {
-          margin-left: (69.375rem / 2) + $timeline-icon-radius / 2 + 3 * $timeline-line-width;
+          margin-left: ($timeline-content-xl / 2) + $timeline-icon-radius / 2 + 3 * $timeline-line-width;
           text-align: left;
         }
       }
@@ -105,7 +105,7 @@
       text-align: center;
       vertical-align: middle;
       width: $timeline-icon-radius;
-      @media screen and (min-width: 992px) {
+      @media screen and (min-width: $timeline-breakpoint-lg) {
         left: 0;
         margin-left: auto;
         margin-right: auto;
@@ -132,11 +132,39 @@
         margin-top:  ($timeline-icon-radius - $timeline-waypoint-radius) / 2;
         position: absolute;
         width: $timeline-waypoint-radius;
-        @media screen and (min-width: 992px) {
+        @media screen and (min-width: $timeline-breakpoint-lg) {
           left: 0;
           margin-left: auto;
           margin-right: auto;
           right: 0;
+        }
+      }
+      &--accent {
+        .timeline__content {
+          background-color: lighten(map-get($timeline-color, accent), 50%) !important;
+          border-color: map-get($timeline-color, accent);
+          @media screen and (max-width: $timeline-breakpoint-lg - 1) {
+            &::before {
+              @include timeline-arrow(left, map-get($timeline-color, accent), $timeline-arrow);
+            }
+          }
+          @media screen and (min-width: $timeline-breakpoint-lg) {
+            @at-root .timeline__point {
+              &:nth-child(even).timeline__point--accent .timeline__content::before {
+                @include timeline-arrow(left, map-get($timeline-color, accent), $timeline-arrow);
+              }
+              &:nth-child(odd).timeline__point--accent .timeline__content::before {
+                @include timeline-arrow(right, map-get($timeline-color, accent), $timeline-arrow);
+              }
+            }
+          }
+        }
+        .timeline__date{
+          color: map-get($timeline-color, accent);
+        }
+        .timeline__icon {
+          background-color: map-get($timeline-color, accent);
+          color: white;
         }
       }
       &--important {
@@ -144,12 +172,12 @@
           background-color: map-get($timeline-color, important) !important;
           border-color: map-get($timeline-color, important);
           color: white !important;
-          @media screen and (max-width: 991px) {
+          @media screen and (max-width: $timeline-breakpoint-lg - 1) {
             &::before {
               @include timeline-arrow(left, map-get($timeline-color, important), $timeline-arrow);
             }
           }
-          @media screen and (min-width: 992px) {
+          @media screen and (min-width: $timeline-breakpoint-lg) {
             @at-root .timeline__point {
               &:nth-child(even).timeline__point--important .timeline__content::before {
                 @include timeline-arrow(left, map-get($timeline-color, important), $timeline-arrow);
@@ -175,12 +203,12 @@
         .timeline__content {
           background-color: lighten(map-get($timeline-color, trivial), 50%) !important;
           border-color: map-get($timeline-color, trivial);
-          @media screen and (max-width: 991px) {
+          @media screen and (max-width: $timeline-breakpoint-lg - 1) {
             &::before {
               @include timeline-arrow(left, map-get($timeline-color, trivial), $timeline-arrow);
             }
           }
-          @media screen and (min-width: 992px) {
+          @media screen and (min-width: $timeline-breakpoint-lg) {
             @at-root .timeline__point {
               &:nth-child(even).timeline__point--trivial .timeline__content::before {
                 @include timeline-arrow(left, map-get($timeline-color, trivial), $timeline-arrow);

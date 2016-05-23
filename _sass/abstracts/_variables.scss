@@ -78,10 +78,6 @@ $blue  : map-get($color-code, blue);
 $cyan  : map-get($color-code, cyan);
 $green : map-get($color-code, green);
 
-// Timeline
-// $timeline-color-𝛼: map_get($color-ahs, ahs-lichtgrijs);
-// $timeline-color-𝛽: map_get($color-ahs, ahs-oranje);
-
 $timeline-color: (
   neutral   : map_get($color-ahs, lichtgrijs),
   default   : map_get($color-ahs, blauw),
@@ -99,6 +95,11 @@ $timeline-waypoint-radius: 1rem;
 $timeline-icon-radius    : 3.5 * $timeline-waypoint-radius;
 $timeline-offset         : 3 * $timeline-icon-radius;
 $timeline-arrow          : .75rem;
+
+$timeline-breakpoint-lg: 62rem;
+$timeline-breakpoint-xl: 75rem;
+$timeline-content-lg: 56.875rem;
+$timeline-content-xl: 69.375rem;
 
 // Fonts
 $font-code: "Source Code Pro", monospace;

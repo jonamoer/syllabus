@@ -10,6 +10,34 @@
     TBC
     {:/}
 
+- type: accent
+  content: |
+    # Taken
+    - Git-tutorial volgen op Arteveldehogeschool Media Library in de map gdm/proDEV/.
+
+- type: accent
+  content: |
+    # Zelfstudie
+    - Ontwikkelomgeving opzetten
+      - [Symfony Quick Tour](http://symfony.com/doc/2.7/quick_tour)
+      - [Getting started with Ionic](http://ionicframework.com/getting-started/)
+
+- type: accent
+  content: |
+    # Opdracht
+    - Ontwikkelomgeving opzetten en configureren.
+    - Repository aanmaken op Bitbucket.
+    - Projectnaam en -logo bedenken.
+    - Huisstijl ontwerpen voor academische poster, productiedossier en presentatie.
+    - InDesign-sjabloon voor productiedossier maken.
+    - Ideaboard maken.
+    - Moodboard maken.
+    - Concept bedenken.
+    - Moodboard maken.
+    - Scenario's.
+    - Wireframes.
+    - Screendesigns.
+
 # Autumn
 - icon: leaf
   type: trivial
