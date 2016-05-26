@@ -1,6 +1,75 @@
 /// Syntax Highlighting
 
+// Code Colours
+$color-code: (
+  base01: #93a1a1,
+  base02: #586e75,
+  base03: #B58900,
+  bg01  : #002b36,
+  bg02  : #f4f3f1,
+  orange: #cb4b16,
+  red   : #dc322f,
+  blue  : #268bd2,
+  cyan  : #2aa198,
+  green : #859900
+);
+
+// Code Label Colour
+$color-language: (
+  bash   : map-get($color-palette, color-A),
+  bat    : map-get($color-palette, color-A),
+  blade  : map-get($color-palette, color-H),
+  code   : map-get($color-palette, color-A),
+  css    : map-get($color-palette, color-C),
+  default: white,
+  emmet  : map-get($color-palette, color-A),
+  gherkin: map-get($color-palette, color-E),
+  html   : map-get($color-palette, color-B),
+  ini    : map-get($color-palette, color-A),
+  inky   : map-get($color-palette, color-B),
+  json   : map-get($color-palette, color-A),
+  js     : map-get($color-palette, color-D),
+  php    : map-get($color-palette, color-G),
+  po     : map-get($color-palette, color-A),
+  ps     : map-get($color-palette, color-A),
+  sql    : map-get($color-palette, color-F),
+  scss   : map-get($color-palette, color-H),
+  ts     : map-get($color-palette, color-F),
+  twig   : map-get($color-palette, color-E),
+  yaml   : map-get($color-palette, color-D)
+);
+
+// Highlight Colours
+$base01: map-get($color-code, base01);
+$base02: map-get($color-code, base02);
+$base03: map-get($color-code, base03);
+$bg01  : map-get($color-code, bg01);
+$bg02  : map-get($color-code, bg02);
+$orange: map-get($color-code, orange);
+$red   : map-get($color-code, red);
+$blue  : map-get($color-code, blue);
+$cyan  : map-get($color-code, cyan);
+$green : map-get($color-code, green);
+
 figure.highlight {
+  @mixin label($text: "Code", $background: map_get($color-palette, color-G), $text-color: white) {
+    position: relative;
+    &::after{
+      background: $background;
+      border-radius: 0 0 0 .3rem;
+      color: $text-color;
+      content: $text;
+      display: inline-block;
+      font-family: $font-sans-serif;
+      height: 2rem;
+      line-height: 2rem;
+      padding: 0 .5rem 0 .7rem;
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+  }
+
   margin: 2rem 0;
   overflow: auto;
   &::before {

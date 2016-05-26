@@ -1,230 +1,273 @@
 /// Timeline
 
-.timeline {
-  // @extend %clearfix;
-  box-sizing: border-box;
-  position: relative;
-  &::before {
-    background-color: $timeline-color-line;
-    content: "";
-    display: block;
-    height: 100%;
-    left: $timeline-offset + ($timeline-icon-radius - $timeline-line-width) / 2;
-    position: absolute;
-    width: $timeline-line-width;
-    @media screen and (min-width: $timeline-breakpoint-lg) {
-      left: 0;
-      margin: auto;
-      right: 0;
+@at-root {
+  // Mixins
+  @mixin arrow($direction, $color, $width) {
+    @if not index(right left, $direction) {
+      @warn "Direction must be `right` or `left`; currently: `#{$direction}`.";
+    }
+    @else {
+      @if left == $direction {
+        border-right-color: $color;
+        border-left: none;
+        left: -$width;
+      }
+      @if right == $direction {
+        border-left-color: $color;
+        border-right: none;
+        right: -$width;
+      }
     }
   }
+
+  // Variables
+  $color: (
+    neutral  : map_get($color-ahs, lichtgrijs),
+    default  : map_get($color-ahs, blauw),
+    accent   : map_get($color-ahs, oranje),
+    important: map_get($color-ahs, fuchsia),
+    trivial  : map_get($color-ahs, groen)
+  );
+  $color-line     : map_get($color, neutral);
+  $color-main     : map_get($color, default);
+  $color-important: map_get($color, important);
+  $color-bgc      : lighten($color-main, 50%);
+  $line-width     : .1875rem;
+  $radius-waypoint: 1rem;
+  $radius-icon    : 3.5 * $radius-waypoint;
+  $offset         : 3 * $radius-icon;
+  $arrow          : .75rem;
+  $breakpoint-lg: 62rem;
+  $breakpoint-xl: 75rem;
+  $content-lg: 56.875rem;
+  $content-xl: 69.375rem;
+  
+  // Styles
   .timeline {
-    &__content {
-      background-color: $timeline-color-bgc;
-      border: $timeline-line-width solid $timeline-color-main;
-      border-radius: .4rem;
-      margin-left: $timeline-offset + $timeline-icon-radius + 3 * $timeline-line-width;
-      min-height: $timeline-icon-radius;
-      padding: .5em;
-      position: relative;
-      @media screen and (min-width: $timeline-breakpoint-lg) {
-        margin-left: ($timeline-content-lg / 2) + $timeline-icon-radius / 2 + 3 * $timeline-line-width;
-        width: $timeline-content-lg / 2 - ($timeline-icon-radius / 2 + 3 * $timeline-line-width);
-      }
-      @media screen and (min-width: $timeline-breakpoint-xl) {
-        margin-left: ($timeline-content-xl / 2) + $timeline-icon-radius / 2 + 3 * $timeline-line-width;
-        width: $timeline-content-xl / 2 - ($timeline-icon-radius / 2 + 3 * $timeline-line-width);
-      }
-      &::before {
-        content: "";
-        border: $timeline-arrow solid transparent;
-        position: absolute;
-        top: $timeline-icon-radius / 2 - $timeline-line-width - $timeline-arrow;
-      }
-      @media screen and (max-width: $timeline-breakpoint-lg - 1) {
-        &::before {
-          @include timeline-arrow(left, $timeline-color-main, $timeline-arrow);
-        }
-      }
-      @media screen and (min-width: $timeline-breakpoint-lg) {
-        @at-root .timeline__point {
-          &:nth-child(even) .timeline__content::before {
-            @include timeline-arrow(left, $timeline-color-main, $timeline-arrow);
-          }
-          &:nth-child(odd) .timeline__content {
-            margin-left: 0;
-            &::before {
-              @include timeline-arrow(right, $timeline-color-main, $timeline-arrow);
-            }
-          }
-        }
-      }
-      h1 {
-        font-size: 1.4rem;
-        margin: 0;
-        padding: 0;
-      }
-    }
-    &__date {
-      color: map-get($timeline-color, default);
-      font-weight: bold;
-      line-height: $timeline-icon-radius;
+    box-sizing: border-box;
+    position: relative;
+    &::before {
+      background-color: $color-line;
+      content: "";
+      display: block;
+      height: 100%;
+      left: $offset + ($radius-icon - $line-width) / 2;
       position: absolute;
-      text-align: right;
-      top: 0;
-      width: $timeline-offset - $timeline-line-width;
-      @media screen and (min-width: $timeline-breakpoint-lg) {
-        margin-left: 0;
-        text-align: right;
-        width: $timeline-content-lg / 2 - ($timeline-icon-radius / 2 + 3 * $timeline-line-width);
-        @at-root .timeline__point:nth-child(odd) .timeline__date {
-          margin-left: ($timeline-content-lg / 2) + $timeline-icon-radius / 2 + 3 * $timeline-line-width;
-          text-align: left;
-        }
-      }
-      @media screen and (min-width: $timeline-breakpoint-xl) {
-        margin-left: 0;
-        text-align: right;
-        width: $timeline-content-xl / 2 - ($timeline-icon-radius / 2 + 3 * $timeline-line-width);
-        @at-root .timeline__point:nth-child(odd) .timeline__date {
-          margin-left: ($timeline-content-xl / 2) + $timeline-icon-radius / 2 + 3 * $timeline-line-width;
-          text-align: left;
-        }
-      }
-    }
-    &__icon {
-      background-color: map-get($timeline-color, default);
-      border: $timeline-line-width solid $timeline-color-line;
-      border-radius: 50%;
-      color: white;
-      font-size: $timeline-icon-radius / 2 - $timeline-line-width * 2;
-      height: $timeline-icon-radius;
-      line-height: $timeline-icon-radius - $timeline-line-width * 2;
-      left: $timeline-offset;
-      position: absolute;
-      text-align: center;
-      vertical-align: middle;
-      width: $timeline-icon-radius;
-      @media screen and (min-width: $timeline-breakpoint-lg) {
+      width: $line-width;
+      @media screen and (min-width: $breakpoint-lg) {
         left: 0;
-        margin-left: auto;
-        margin-right: auto;
+        margin: auto;
         right: 0;
       }
     }
-    &__point {
-      min-height: $timeline-icon-radius;
-      position: relative;
-      &::after {
-        @extend %cleafixContent;
-        margin-bottom: 1rem;
+    .timeline {
+      &__content {
+        background-color: $color-bgc;
+        border: $line-width solid $color-main;
+        border-radius: .4rem;
+        margin-left: $offset + $radius-icon + 3 * $line-width;
+        min-height: $radius-icon;
+        padding: .5em;
+        position: relative;
+        @media screen and (min-width: $breakpoint-lg) {
+          margin-left: ($content-lg / 2) + $radius-icon / 2 + 3 * $line-width;
+          width: $content-lg / 2 - ($radius-icon / 2 + 3 * $line-width);
+        }
+        @media screen and (min-width: $breakpoint-xl) {
+          margin-left: ($content-xl / 2) + $radius-icon / 2 + 3 * $line-width;
+          width: $content-xl / 2 - ($radius-icon / 2 + 3 * $line-width);
+        }
+        &::before {
+          content: "";
+          border: $arrow solid transparent;
+          position: absolute;
+          top: $radius-icon / 2 - $line-width - $arrow;
+        }
+        @media screen and (max-width: $breakpoint-lg - 1) {
+          &::before {
+            @include arrow(left, $color-main, $arrow);
+          }
+        }
+        @media screen and (min-width: $breakpoint-lg) {
+          @at-root .timeline__point {
+            &:nth-child(even) .timeline__content::before {
+              @include arrow(left, $color-main, $arrow);
+            }
+            &:nth-child(odd) .timeline__content {
+              margin-left: 0;
+              &::before {
+                @include arrow(right, $color-main, $arrow);
+              }
+            }
+          }
+        }
+        h1 {
+          font-size: 1.4rem;
+          margin: 0;
+          padding: 0;
+        }
       }
-      &:last-child::after {
-        margin-bottom: 0;
-      }
-      &::before {
-        background-color: white;
-        border: $timeline-line-width solid $timeline-color-line;
-        border-radius: 50%;
-        content: "";
-        height: $timeline-waypoint-radius;
-        left: $timeline-offset + ($timeline-icon-radius - $timeline-waypoint-radius) / 2;
-        margin-top:  ($timeline-icon-radius - $timeline-waypoint-radius) / 2;
+      &__date {
+        color: map-get($color, default);
+        font-weight: bold;
+        line-height: $radius-icon;
         position: absolute;
-        width: $timeline-waypoint-radius;
-        @media screen and (min-width: $timeline-breakpoint-lg) {
+        text-align: right;
+        top: 0;
+        width: $offset - $line-width;
+        @media screen and (min-width: $breakpoint-lg) {
+          margin-left: 0;
+          text-align: right;
+          width: $content-lg / 2 - ($radius-icon / 2 + 3 * $line-width);
+          @at-root .timeline__point:nth-child(odd) .timeline__date {
+            margin-left: ($content-lg / 2) + $radius-icon / 2 + 3 * $line-width;
+            text-align: left;
+          }
+        }
+        @media screen and (min-width: $breakpoint-xl) {
+          margin-left: 0;
+          text-align: right;
+          width: $content-xl / 2 - ($radius-icon / 2 + 3 * $line-width);
+          @at-root .timeline__point:nth-child(odd) .timeline__date {
+            margin-left: ($content-xl / 2) + $radius-icon / 2 + 3 * $line-width;
+            text-align: left;
+          }
+        }
+      }
+      &__icon {
+        background-color: map-get($color, default);
+        border: $line-width solid $color-line;
+        border-radius: 50%;
+        color: white;
+        font-size: $radius-icon / 2 - $line-width * 2;
+        height: $radius-icon;
+        line-height: $radius-icon - $line-width * 2;
+        left: $offset;
+        position: absolute;
+        text-align: center;
+        vertical-align: middle;
+        width: $radius-icon;
+        @media screen and (min-width: $breakpoint-lg) {
           left: 0;
           margin-left: auto;
           margin-right: auto;
           right: 0;
         }
       }
-      &--accent {
-        .timeline__content {
-          background-color: lighten(map-get($timeline-color, accent), 50%) !important;
-          border-color: map-get($timeline-color, accent);
-          @media screen and (max-width: $timeline-breakpoint-lg - 1) {
-            &::before {
-              @include timeline-arrow(left, map-get($timeline-color, accent), $timeline-arrow);
-            }
-          }
-          @media screen and (min-width: $timeline-breakpoint-lg) {
-            @at-root .timeline__point {
-              &:nth-child(even).timeline__point--accent .timeline__content::before {
-                @include timeline-arrow(left, map-get($timeline-color, accent), $timeline-arrow);
-              }
-              &:nth-child(odd).timeline__point--accent .timeline__content::before {
-                @include timeline-arrow(right, map-get($timeline-color, accent), $timeline-arrow);
-              }
-            }
+      &__point {
+        min-height: $radius-icon;
+        position: relative;
+        &::after {
+          @extend %cleafixContent;
+          margin-bottom: 1rem;
+        }
+        &:last-child::after {
+          margin-bottom: 0;
+        }
+        &::before {
+          background-color: white;
+          border: $line-width solid $color-line;
+          border-radius: 50%;
+          content: "";
+          height: $radius-waypoint;
+          left: $offset + ($radius-icon - $radius-waypoint) / 2;
+          margin-top:  ($radius-icon - $radius-waypoint) / 2;
+          position: absolute;
+          width: $radius-waypoint;
+          @media screen and (min-width: $breakpoint-lg) {
+            left: 0;
+            margin-left: auto;
+            margin-right: auto;
+            right: 0;
           }
         }
-        .timeline__date{
-          color: map-get($timeline-color, accent);
-        }
-        .timeline__icon {
-          background-color: map-get($timeline-color, accent);
-          color: white;
-        }
-      }
-      &--important {
-        .timeline__content {
-          background-color: map-get($timeline-color, important) !important;
-          border-color: map-get($timeline-color, important);
-          color: white !important;
-          @media screen and (max-width: $timeline-breakpoint-lg - 1) {
-            &::before {
-              @include timeline-arrow(left, map-get($timeline-color, important), $timeline-arrow);
-            }
-          }
-          @media screen and (min-width: $timeline-breakpoint-lg) {
-            @at-root .timeline__point {
-              &:nth-child(even).timeline__point--important .timeline__content::before {
-                @include timeline-arrow(left, map-get($timeline-color, important), $timeline-arrow);
-              }
-              &:nth-child(odd).timeline__point--important .timeline__content::before {
-                @include timeline-arrow(right, map-get($timeline-color, important), $timeline-arrow);
+        &--accent {
+          .timeline__content {
+            background-color: lighten(map-get($color, accent), 50%) !important;
+            border-color: map-get($color, accent);
+            @media screen and (max-width: $breakpoint-lg - 1) {
+              &::before {
+                @include arrow(left, map-get($color, accent), $arrow);
               }
             }
-          }
-          a {
-            color: inherit;
-          }
-        }
-        .timeline__date{
-          color: map-get($timeline-color, important);
-        }
-        .timeline__icon {
-          background-color: map-get($timeline-color, important);
-          color: white;
-        }
-      }
-      &--trivial {
-        .timeline__content {
-          background-color: lighten(map-get($timeline-color, trivial), 50%) !important;
-          border-color: map-get($timeline-color, trivial);
-          @media screen and (max-width: $timeline-breakpoint-lg - 1) {
-            &::before {
-              @include timeline-arrow(left, map-get($timeline-color, trivial), $timeline-arrow);
-            }
-          }
-          @media screen and (min-width: $timeline-breakpoint-lg) {
-            @at-root .timeline__point {
-              &:nth-child(even).timeline__point--trivial .timeline__content::before {
-                @include timeline-arrow(left, map-get($timeline-color, trivial), $timeline-arrow);
-              }
-              &:nth-child(odd).timeline__point--trivial .timeline__content::before {
-                @include timeline-arrow(right, map-get($timeline-color, trivial), $timeline-arrow);
+            @media screen and (min-width: $breakpoint-lg) {
+              @at-root .timeline__point {
+                &:nth-child(even).timeline__point--accent .timeline__content::before {
+                  @include arrow(left, map-get($color, accent), $arrow);
+                }
+                &:nth-child(odd).timeline__point--accent .timeline__content::before {
+                  @include arrow(right, map-get($color, accent), $arrow);
+                }
               }
             }
           }
+          .timeline__date{
+            color: map-get($color, accent);
+          }
+          .timeline__icon {
+            background-color: map-get($color, accent);
+            color: white;
+          }
         }
-        .timeline__date{
-          color: map-get($timeline-color, trivial);
+        &--important {
+          .timeline__content {
+            background-color: map-get($color, important) !important;
+            border-color: map-get($color, important);
+            color: white !important;
+            @media screen and (max-width: $breakpoint-lg - 1) {
+              &::before {
+                @include arrow(left, map-get($color, important), $arrow);
+              }
+            }
+            @media screen and (min-width: $breakpoint-lg) {
+              @at-root .timeline__point {
+                &:nth-child(even).timeline__point--important .timeline__content::before {
+                  @include arrow(left, map-get($color, important), $arrow);
+                }
+                &:nth-child(odd).timeline__point--important .timeline__content::before {
+                  @include arrow(right, map-get($color, important), $arrow);
+                }
+              }
+            }
+            a {
+              color: inherit;
+            }
+          }
+          .timeline__date{
+            color: map-get($color, important);
+          }
+          .timeline__icon {
+            background-color: map-get($color, important);
+            color: white;
+          }
         }
-        .timeline__icon {
-          background-color: map-get($timeline-color, trivial);
-          color: white;
+        &--trivial {
+          .timeline__content {
+            background-color: lighten(map-get($color, trivial), 50%) !important;
+            border-color: map-get($color, trivial);
+            @media screen and (max-width: $breakpoint-lg - 1) {
+              &::before {
+                @include arrow(left, map-get($color, trivial), $arrow);
+              }
+            }
+            @media screen and (min-width: $breakpoint-lg) {
+              @at-root .timeline__point {
+                &:nth-child(even).timeline__point--trivial .timeline__content::before {
+                  @include arrow(left, map-get($color, trivial), $arrow);
+                }
+                &:nth-child(odd).timeline__point--trivial .timeline__content::before {
+                  @include arrow(right, map-get($color, trivial), $arrow);
+                }
+              }
+            }
+          }
+          .timeline__date{
+            color: map-get($color, trivial);
+          }
+          .timeline__icon {
+            background-color: map-get($color, trivial);
+            color: white;
+          }
         }
       }
     }
