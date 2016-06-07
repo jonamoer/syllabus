@@ -3,8 +3,8 @@
     <a class="navbar-brand pull-xs-right pull-sm-left" href="{{ site.baseurl }}/" title="{{ site.data.olod.title.full }}"><i class="fa fa-rocket"></i> {{ site.title }}</a>
     <div class="collapse navbar-toggleable-xs" id="navbar-collapse-A">
         <nav class="nav navbar-nav">
-{% assign page_level = (page.path | remove: "pages/" | split: "_" | first | split: "-")%}
-{% assign nodes = (site.pages)%}
+{% assign page_level = (page.path | remove: "pages/" | split: "_" | first | split: "-") %}
+{% assign nodes = (site.pages) %}
 {% for node in nodes %}
 {%  if node.layout contains 'page' %}
 {%      assign node_level = (node.path | remove: "pages/" | split: "_" | first | split: "-") %}

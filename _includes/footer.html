@@ -1,6 +1,6 @@
 <footer class="footer bg-{{ site.colour }} p-a-1">
-    <div class="container">
-        <p>&copy; {{ site.data.olod.copyright.year }} {{ site.data.olod.copyright.owner }}
+    <div class="container">{% if site.data.olod %}{% assign copyright = site.data.olod.copyright %}{% endif %}{% if site.data.module %}{% assign copyright = site.data.module.copyright) %}{% endif %}
+        <p>&copy; {{ copyright.year }} {{ copyright.owner }}
             <span class="pull-right">{% if site.language == "nl" %}Geüpdatet op{% else %}Updated on{% endif %} <span class="label label-info">{{ site.time | date_to_long_string }}</span></span></p>
     </div>
 </footer>
