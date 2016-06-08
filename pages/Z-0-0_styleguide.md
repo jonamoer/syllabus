@@ -9,18 +9,19 @@ tags     : styleguide
 Bootstrap
 ---------
 
-- [Bootstrap v4][]{:.btn .btn-primary}
-- [Bootstrap v4 Cheat Sheet][]{:.btn .btn-primary}
+[Bootstrap v4][]{:.btn .btn-primary}
+
+[Bootstrap v4 Cheat Sheet][]{:.btn .btn-primary}
 
 Emoji
 -----
 
-- [Emoji Cheat Sheet][]{:.btn .btn-primary}
+[Emoji Cheat Sheet][]{:.btn .btn-primary}
 
 FontAwesome
 -----------
 
-- [FontAwesome Icons][]{:.btn .btn-primary}
+[FontAwesome Icons][]{:.btn .btn-primary}
 
 | Result                                                  | Code                                   |
 |---------------------------------------------------------|----------------------------------------|
