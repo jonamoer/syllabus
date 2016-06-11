@@ -6,18 +6,19 @@
 ((fs, yaml) => {
     'use strict';
 
+    let dir = './gulpfile/tasks';
+
     try {
         global.isProduction = (process.argv.slice(2).indexOf('--production') >= 0);
         global.CONFIG = yaml.safeLoad(fs.readFileSync('./gulpfile/config.yaml', 'utf8'));
 
-        fs.readdirSync('./gulpfile/tasks')
+        fs.readdirSync(dir)
             .filter(filename => {
                 return filename.match(/\.js$/i);
             })
             .map(filename => {
-                require(`./gulpfile/tasks/${filename}`);
+                require(`${dir}/${filename}`);
             });
-
     } catch (error) {
         console.log(error);
     }

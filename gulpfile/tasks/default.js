@@ -6,6 +6,14 @@
 (gulp => {
     'use strict';
 
+    let gutil = require('gulp-util');
+
+    if (global.isProduction) {
+        gutil.log(gutil.colors.white.bgGreen.bold(' Production Mode '));
+    } else {
+        gutil.log(gutil.colors.white.bgBlue.bold(' Development Mode '));
+    }
+
     gulp.task('default', [
         'scripts',
         'styles',
