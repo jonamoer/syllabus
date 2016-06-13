@@ -35,7 +35,7 @@ FontAwesome
 |---------------------------------------------------------|----------------------------------------|
 | [*&nbsp;*{:.fa .fa-android}Android][]                   | `*&nbsp;*{:.fa .fa-android}`           |
 | *&nbsp;*{:.fa .fa-linux}Linux                           | `*&nbsp;*{:.fa .fa-linux}`             |
-| *&nbsp;*{:.fa .fa-apple}Mac OS X                        | `*&nbsp;*{:.fa .fa-apple}`             |
+| *&nbsp;*{:.fa .fa-apple}macOS                           | `*&nbsp;*{:.fa .fa-apple}`             |
 | [*&nbsp;*{:.fa .fa-linux}Ubuntu Server][]               | `*&nbsp;*{:.fa .fa-linux}`             |
 | *&nbsp;*{:.fa .fa-windows}Windows                       | `*&nbsp;*{:.fa .fa-windows}`           |
 {:.table}
