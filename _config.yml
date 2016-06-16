@@ -1,8 +1,8 @@
 # Site settings
 # -------------
-baseurl    : /syllabus # the subpath of your site, e.g. /blog
-colour     : primary
-language   : nl
+baseurl : /syllabus # the subpath of your site, e.g. /blog
+colour  : primary
+language: nl
 
 # SEO
 # ---
@@ -35,6 +35,6 @@ exclude:
   - node_modules/
   - src/
   - Gemfile
-  - LICENSE.md
+  - LICENSE
   - package.json
   - README.md
