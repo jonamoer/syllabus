@@ -17,8 +17,7 @@
     "js-yaml": "^3.6.0"
   },
   "scripts": {
-    "build": "gulp --production",
-    "start": "gulp",
+    "start": "gulp --production",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Olivier Parent <olivier.parent@arteveldehs.be>",
