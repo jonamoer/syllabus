@@ -9,6 +9,7 @@ language: nl
 title      : &title SLLBS
 description: Style Guide for Syllabi.
 author     : Olivier Parent
+# tracking_id: "XX-XXXXXXXX-X"
 # url        :
 # image      :
 
