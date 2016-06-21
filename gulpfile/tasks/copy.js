@@ -15,7 +15,8 @@
         'copy:images',
         'copy:scripts',
         'copy:styles',
-        'copy:templates'
+        'copy:templates',
+        'copy:text',
     ]);
 
     gulp.task('copy:data', () => {
@@ -43,13 +44,6 @@
         CFG.destinations.forEach(element => {
             gulp.src('./images/**/*.{gif,ico,jpg,jpeg,png,svg}')
                 .pipe(gulp.dest(`../${element}/images`));
-        });
-    });
-
-    gulp.task('copy:text', () => {
-        CFG.destinations.forEach(element => {
-            gulp.src('./*.txt')
-                .pipe(gulp.dest(`../${element}`));
         });
     });
 
@@ -81,6 +75,13 @@
             ];
             sources[0].pipe(gulp.dest(`../${element}/_includes`));
             sources[1].pipe(gulp.dest(`../${element}/_layouts`));
+        });
+    });
+
+    gulp.task('copy:text', () => {
+        CFG.destinations.forEach(element => {
+            gulp.src('./*.txt')
+                .pipe(gulp.dest(`../${element}`));
         });
     });
 
