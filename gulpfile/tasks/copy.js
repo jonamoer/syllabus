@@ -46,6 +46,13 @@
         });
     });
 
+    gulp.task('copy:text', () => {
+        CFG.destinations.forEach(element => {
+            gulp.src('./*.txt')
+                .pipe(gulp.dest(`../${element}`));
+        });
+    });
+
     gulp.task('copy:scripts', () => {
         CFG.destinations.forEach(element => {
             gulp.src('./js/main.js')

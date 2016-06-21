@@ -5,7 +5,9 @@
  */
 (function ($) {
     'use strict';
+
     $(document).ready(whenReady);
+
     function whenReady($) {
         // Table of Contents
         // -----------------
@@ -59,8 +61,9 @@
         $timeline.each(function () {
             moment.locale($('html').attr('lang'));
             var date    = moment($(this).data('date')).format('dd D MMM YYYY');
-            var element = $('<div>').addClass('timeline__date').text(date);
+            var element = $('<time>').addClass('timeline__date').text(date).attr('datetime', $(this).data('date'));
             $(this).after(element);
         });
     }
+
 })(jQuery);
