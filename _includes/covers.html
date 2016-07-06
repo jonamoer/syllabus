@@ -5,7 +5,9 @@
       <picture class="cover__picture">
         <img class="cover__img" src="{{ cover.url }}">
       </picture>
-      <a href="{{ cover.url }}" target="_blank">View</a>
+      <section class="cover__content">
+        <a class="btn btn-primary" href="{{ cover.url }}" target="_blank">View</a>
+      </section>
     </article>
   </li>
 {% endfor %}
