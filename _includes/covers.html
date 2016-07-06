@@ -1,0 +1,12 @@
+<ul class="covers-list row">
+{% for cover in include.covers %}
+  <li class="col-xs-12 col-sm-12 col-md-6 col-lg-4">
+    <article class="cover">
+      <picture class="cover__picture">
+        <img class="cover__img" src="{{ cover.url }}">
+      </picture>
+      <a href="{{ cover.url }}" target="_blank">View</a>
+    </article>
+  </li>
+{% endfor %}
+</ul>
