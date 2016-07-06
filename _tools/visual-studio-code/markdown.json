@@ -194,7 +194,7 @@
             "> - ",
             "{:.alert.alert-success}"
         ],
-        "description": "Do's block"
+        "description": "Definitie block"
     },
     "NL do's": {
         "prefix": "do",
