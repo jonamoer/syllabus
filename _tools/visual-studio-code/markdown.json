@@ -186,13 +186,23 @@
         ],
         "description": "YAML code block"
     },
+    "NL definitie": {
+        "prefix": "definitie",
+        "body": [
+            "> ##### **Doen** :thumbsup:",
+            "> ---",
+            "> - ",
+            "{:.alert.alert-success}"
+        ],
+        "description": "Do's block"
+    },
     "NL do's": {
         "prefix": "do",
         "body": [
             "> ##### **Doen** :thumbsup:",
             "> ---",
             "> - ",
-            "{:.alert .alert-success}"
+            "{:.alert.alert-success}"
         ],
         "description": "Do's block"
     },
@@ -202,7 +212,7 @@
             "> ##### **Niet doen** :thumbsdown:",
             "> ---",
             "> - ",
-            "{:.alert .alert-danger}"
+            "{:.alert.alert-danger}"
         ],
         "description": "Dont's block"
     },
@@ -218,7 +228,7 @@
             "> │   └── file",
             "> └── file",
             ">```",
-            "{:.card .card-block .files}"
+            "{:.card.card-block.files}"
         ],
         "description": "Mappen & Bestanden block"
     },
@@ -228,7 +238,7 @@
             "> ##### **Opgelet** :warning:",
             "> ---",
             "> ",
-            "{:.alert .alert-warning}"
+            "{:.alert.alert-warning}"
         ],
         "description": "Opgelet block"
     },
@@ -238,7 +248,7 @@
             "> ##### **Opmerking** :point_up:",
             "> ---",
             "> ",
-            "{:.alert .alert-info}"
+            "{:.alert.alert-info}"
         ],
         "description": "Opmerking block"
     },
@@ -248,7 +258,7 @@
             "> ##### **Opmerkingen** :point_up:",
             "> ---",
             "> - ",
-            "{:.alert .alert-info}"
+            "{:.alert.alert-info}"
         ],
         "description": "Opmerking block"
     },
@@ -258,7 +268,7 @@
             "> ##### **Taak** :rocket:",
             "> ---",
             "> ",
-            "{:.alert .alert-success}"
+            "{:.alert.alert-success}"
         ],
         "description": "Tip block"
     },
@@ -268,7 +278,7 @@
             "> ##### **Taken** :rocket:",
             "> ---",
             "> - ",
-            "{:.alert .alert-success}"
+            "{:.alert.alert-success}"
         ],
         "description": "Tip block"
     },
@@ -278,7 +288,7 @@
             "> ##### **Tip** :bulb:",
             "> ---",
             "> ",
-            "{:.alert .alert-info}"
+            "{:.alert.alert-info}"
         ],
         "description": "Tip block"
     },
@@ -288,7 +298,7 @@
             "> ##### **Voorbeeld** :package:",
             "> ---",
             "> ",
-            "{:.alert .alert-success}"
+            "{:.alert.alert-success}"
         ],
         "description": "Voorbeeld block"
     },
@@ -298,7 +308,7 @@
             "> ##### **Weetje** :book:",
             "> ---",
             "> ",
-            "{:.alert .alert-info}"
+            "{:.alert.alert-info}"
         ],
         "description": "Weetje block"
     },
@@ -309,7 +319,7 @@
             "> ---",
             "> - [link](#)",
             "> - <#>",
-            "{:.card .card-block}"
+            "{:.card.card-block}"
         ],
         "description": "Zie ook (koppelingen) block"
     },
@@ -320,7 +330,7 @@
             "> ---",
             "> - [link](#)",
             "> - <#>",
-            "{:.card .card-block}"
+            "{:.card.card-block}"
         ],
         "description": "Zie ook (movie) block"
     }

@@ -8,9 +8,9 @@ published: false
 > ##### **Opgelet** :warning:
 > ---
 > - **Excel**-bestand te plaatsen op [Bitbucket][]-repository.
-{:.alert .alert-warning}
+{:.alert.alert-warning}
 
-[Download `timesheet.xlsx`]({{ '/files/timesheet.xlsx' | prepend: site.baseurl }}){:.btn .btn-primary-outline}
+[Download `timesheet.xlsx`]({{ '/files/timesheet.xlsx' | prepend: site.baseurl }}){:.btn.btn-primary-outline}
 
 
 Waarom?

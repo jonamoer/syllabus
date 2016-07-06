@@ -47,7 +47,7 @@ Bitbucket-repository:
 > ├── www/                        # Symfony App
 > └── README.md
 >```
-{:.card .card-block .files}
+{:.card.card-block.files}
 
  - De map `app/` is voor de *Hybrid Mobile App;*
  - De map `www/` is voor de website (Backoffice en API).
@@ -72,7 +72,7 @@ Werk op een *Agile* manier. In deze context wil dit zeggen dat je de deelfunctio
 Je doorloopt de volledige workflow per feature op een correcte en volledig manier:
 
 > # **4D:** Define → Design → Develop → Deploy.
-{:.card .card-block}
+{:.card.card-block}
 
 De opgeleverde functionaliteiten moeten **productiewaardig**[^productiewaardig] zijn.
 
@@ -81,7 +81,7 @@ De opgeleverde functionaliteiten moeten **productiewaardig**[^productiewaardig] 
 > ##### **Tip** :bulb:
 > ---
 > Je hoeft niet te wachten tot een bepaalde milestone voltooid is om aan een volgende te beginnen!
-{:.alert .alert-info}
+{:.alert.alert-info}
 
 > ##### Milestone 1 :triangular_flag_on_post:
 > ---
@@ -104,7 +104,7 @@ De opgeleverde functionaliteiten moeten **productiewaardig**[^productiewaardig] 
 >   - Productiedossier
 >   - Presentatie
 >   - Timesheet
-{:#milestone-1 .card .card-block}
+{:#milestone-1 .card.card-block}
 
 > ##### Milestone 2 :round_pushpin:
 > ---
@@ -118,7 +118,7 @@ De opgeleverde functionaliteiten moeten **productiewaardig**[^productiewaardig] 
 >   - Productiedossier
 >   - Presentatie
 >   - Timesheet
-{:#milestone-2 .card .card-block}
+{:#milestone-2 .card.card-block}
 
 > ##### Milestone 3 :round_pushpin:
 > ---
@@ -133,7 +133,7 @@ De opgeleverde functionaliteiten moeten **productiewaardig**[^productiewaardig] 
 >   - Productiedossier
 >   - Presentatie
 >   - Timesheet
-{:#milestone-3 .card .card-block}
+{:#milestone-3 .card.card-block}
 
 > ##### Milestone 4 :checkered_flag:
 > ---
@@ -150,7 +150,7 @@ De opgeleverde functionaliteiten moeten **productiewaardig**[^productiewaardig] 
 >   - Timesheet
 > - Link naar Bitbucket-repository doorsturen naar verantwoordelijke docent.  
 >   Aan de hand van de inzendingen wordt het uurrooster voor het examen opgesteld.
-{:#milestone-4 .card .card-block}
+{:#milestone-4 .card.card-block}
 
 > ##### Mondeling Examen :speech_balloon:
 > ---
@@ -161,7 +161,7 @@ De opgeleverde functionaliteiten moeten **productiewaardig**[^productiewaardig] 
 >   - Screencast (als backup)
 > - Afgedrukte versie:
 >   - Academische Poster
-{:#milestone-exam-oral .card .card-block}
+{:#milestone-exam-oral .card.card-block}
 
 ### Source Code Management
 
@@ -197,7 +197,7 @@ Commits moeten voorafgegaan worden door een prefix.
 >
 > - `[FEATURE]` Add user registration form and save data to db
 > - `[TASK]` Rename field `lastname` to `familyname`
-{:.alert .alert-success}
+{:.alert.alert-success}
 
 Tips
 ----
@@ -211,7 +211,7 @@ Tips
 > - let op insprongen en witruimte.
 > - gebruik duidelijke naamgevingen (liever te lang dan te kort).
 > - schrijf commentaar als de bedoeling van de code voor een developer niet meteen voor de hand ligt.
-{:.alert .alert-info}
+{:.alert.alert-info}
 
 {% include help.md %}
 

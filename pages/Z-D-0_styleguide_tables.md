@@ -32,7 +32,7 @@ Striped
 | Cel A4   | Cel B4   | Cel C4   |
 | =========|==========|==========|
 | Foot A   | Foot B    | Foot B  |
-{:.table .table-striped}
+{:.table.table-striped}
 
 Inverse
 -------
@@ -46,7 +46,7 @@ Inverse
 | Cel A4   | Cel B4   | Cel C4   |
 | =========|==========|==========|
 | Foot A   | Foot B    | Foot B  |
-{:.table .table-inverse}
+{:.table.table-inverse}
 
 Bordered
 --------
@@ -60,7 +60,7 @@ Bordered
 | Cel A4   | Cel B4   | Cel C4   |
 | =========|==========|==========|
 | Foot A   | Foot B    | Foot B  |
-{:.table .table-bordered}
+{:.table.table-bordered}
 
 Hover
 -----
@@ -74,5 +74,5 @@ Hover
 | Cel A4   | Cel B4   | Cel C4   |
 | =========|==========|==========|
 | Foot A   | Foot B    | Foot B  |
-{:.table .table-hover}
+{:.table.table-hover}
 

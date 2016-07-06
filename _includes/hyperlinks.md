@@ -1,8 +1,8 @@
 [Android]:                                                  http://developer.android.com
-[*&nbsp;*{:.fa .fa-android}Android]:                        http://developer.android.com
+[*&nbsp;*{:.fa.fa-android}Android]:                        http://developer.android.com
 [Android SDK]:                                              http://developer.android.com/sdk/index.html
 [Android Studio]:                                           http://developer.android.com/sdk/index.html
-  [*&nbsp;*{:.fa .fa-android}Android Studio]:               http://developer.android.com/sdk/index.html
+  [*&nbsp;*{:.fa.fa-android}Android Studio]:               http://developer.android.com/sdk/index.html
 [Manifesto for Agile Software Development]:                 http://agilemanifesto.org
 [Angular]:                                                  https://angular.io
 [Angular Material]:                                         https://material.angularjs.org
@@ -22,7 +22,7 @@
 [Behat]:                                                    http://docs.behat.org/en/v3.0/
 [Backbone.js]:                                              http://backbonejs.org
 [Bitbucket]:                                                https://bitbucket.org
-  [*&nbsp;*{:.fa .fa-bitbucket}Bitbucket]:                  https://bitbucket.org
+  [*&nbsp;*{:.fa.fa-bitbucket}Bitbucket]:                  https://bitbucket.org
 [Bootstrap]:                                                http://getbootstrap.com
 [Bower]:                                                    http://bower.io                                             http://getbootstrap.com
 [Brackets]:                                                 https://brackets.io
@@ -49,7 +49,7 @@
 [Dotfiles]:                                                 http://www.gdm.gent/dotfiles/
 [Drifty Co.]:                                               http://drifty.com
 [Drupal]:                                                   https://www.drupal.org
-  [*&nbsp;*{:.fa .fa-drupal}Drupal]:                        https://www.drupal.org
+  [*&nbsp;*{:.fa.fa-drupal}Drupal]:                         https://www.drupal.org
 [ECTS]:                                                     http://ec.europa.eu/education/tools/ects_nl.htm
 [Ecma International]:                                       http://www.ecma-international.org
 [ECMAScript]:                                               http://www.ecmascript.org
@@ -63,9 +63,9 @@
 [Faker.js]:                                                 https://github.com/marak/Faker.js/
 [Feature Branch Workflow]:                                  https://www.atlassian.com/git/tutorials/comparing-workflows/feature-branch-workflow
 [Firefox]:                                                  https://www.mozilla.org/nl/firefox/new/
-  [*&nbsp;*{:.fa .fa-firefox}Firefox]:                      https://www.mozilla.org/nl/firefox/new/
+  [*&nbsp;*{:.fa.fa-firefox}Firefox]:                       https://www.mozilla.org/nl/firefox/new/
 [Firefox Developer Edition]:                                https://www.mozilla.org/nl/firefox/developer/
-  [*&nbsp;*{:.fa .fa-firefox}Firefox Developer Edition]:    https://www.mozilla.org/nl/firefox/developer/
+  [*&nbsp;*{:.fa.fa-firefox}Firefox Developer Edition]:     https://www.mozilla.org/nl/firefox/developer/
 [FontAwesome]:                                              http://fontawesome.io
 [Foundation]:                                               http://foundation.zurb.com
 [Foundation for Emails]:                                    http://foundation.zurb.com/emails.html
@@ -74,13 +74,13 @@
 [Gems]:                                                     https://rubygems.org
 [Gherkin]:                                                  http://docs.behat.org/en/v3.0/guides/1.gherkin.html
 [Git]:                                                      http://git-scm.com
-  [*&nbsp;*{:.fa .fa-git}Git]:                              http://git-scm.com
+  [*&nbsp;*{:.fa.fa-git}Git]:                               http://git-scm.com
 [GitHub]:                                                   https://github.com
-  [*&nbsp;*{:.fa .fa-github}GitHub]:                        https://github.com
+  [*&nbsp;*{:.fa.fa-github}GitHub]:                         https://github.com
 [GitHub Flavored Markdown]:                                 https://guides.github.com/features/mastering-markdown/
-  [*&nbsp;*{:.fa .fa-github}GitHub Flavored Markdown]:      https://guides.github.com/features/mastering-markdown/
+  [*&nbsp;*{:.fa.fa-github}GitHub Flavored Markdown]:       https://guides.github.com/features/mastering-markdown/
 [GitHub Pages]:                                             https://pages.github.com
-  [*&nbsp;*{:.fa .fa-github}GitHub Pages]:                  https://pages.github.com
+  [*&nbsp;*{:.fa.fa-github}GitHub Pages]:                   https://pages.github.com
 [Gulp.js]:                                                  http://gulpjs.com
 [Haml]:                                                     http://haml.info
 [Handlebars]:                                               http://handlebarsjs.com
@@ -98,7 +98,7 @@
 [Jekyll]:                                                   https://jekyllrb.com
 [Jinja]:                                                    http://jinja.pocoo.org
 [Joomla]:                                                   https://www.joomla.org
-  [*&nbsp;*{:.fa .fa-joomla}Joomla]:                        https://www.joomla.org
+  [*&nbsp;*{:.fa.fa-joomla}Joomla]:                         https://www.joomla.org
 [jQuery]:                                                   https://jquery.com
 [JS-YAML]:                                                  https://nodeca.github.io/js-yaml/
 [JSON]:                                                     http://www.json.org
@@ -167,7 +167,7 @@
 [Twig]:                                                     http://twig.sensiolabs.org
 [Ubuntu]:                                                   http://www.ubuntu.com/server
 [Ubuntu Server]:                                            http://www.ubuntu.com/server
-  [*&nbsp;*{:.fa .fa-linux}Ubuntu Server]:                  http://www.ubuntu.com/server
+  [*&nbsp;*{:.fa.fa-linux}Ubuntu Server]:                   http://www.ubuntu.com/server
 [UI Router]:                                                http://angular-ui.github.io/ui-router/site/#/api/ui.router
 [Vagrant]:                                                  https://www.vagrantup.com
 [Vagrant::Hostsupdater]:                                    https://github.com/cogitatio/vagrant-hostsupdater
@@ -179,7 +179,7 @@
 [WeTransfer]:                                               https://www.wetransfer.com
 [William C. Wake]:                                          http://xp123.com
 [WordPress]:                                                https://nl.wordpress.org
-  [*&nbsp;*{:.fa .fa-wordpress}WordPress]:                  https://nl.wordpress.org
+  [*&nbsp;*{:.fa.fa-wordpress}WordPress]:                   https://nl.wordpress.org
 [WordPress.com]:                                            https://nl.wordpress.com
 [WP REST API v2]:                                           http://v2.wp-api.org
 [XAMPP]:                                                    https://www.apachefriends.org/download.html

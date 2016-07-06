@@ -11,12 +11,12 @@ tags      :
 > ---
 > **De hieronder beschreven informatie is de enige geldende voor het OLOD {{ site.data.olod.title.short }}.**
 > Ze bevat bevat aanvullingen en lichte afwijkingen ten opzichte van die uit de ECTS-fiche.
-{:.alert .alert-warning}
+{:.alert.alert-warning}
 
 ECTS
 ----
 
-[ECTS-fiche van {{ site.data.olod.title.short }}][ECTS-fiche]{:.btn .btn-{{ site.colour }}-outline}
+[ECTS-fiche van {{ site.data.olod.title.short }}][ECTS-fiche]{:.btn.btn-{{ site.colour }}-outline}
 
 ### Studieomvang
 
@@ -123,7 +123,7 @@ Er wordt gequoteerd op onderdelen uit onderstaande tabel.
 > - Als een vereist item uit de [Checklist](/opdracht/checklist/){:.alert-link} ontbreekt, kan de eindscore nog maximaal 8/20 zijn.
 > - Spellingsfouten in het werkstuk, presentatie en/of poster: -1 (op 20) op eindscore.
 > - Na de deadline indienen zonder geldige reden: -2 (op 20) op eindscore.
-{:.alert .alert-warning}
+{:.alert.alert-warning}
 
 
 {% include afkortingen.md %}

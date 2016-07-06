@@ -10,7 +10,7 @@ published: false
 > - **PDF**-bestand te plaatsen op [Bitbucket][]-repository.
 > - **Controleer extra goed op spellingsfouten!**
 > - Indien je werkstuk delen of werk van andere studenten bevat, geef je dit duidelijk aan!
-{:.alert .alert-warning}
+{:.alert.alert-warning}
 
 Tijdens de presentie toon je aan:
 
@@ -24,9 +24,9 @@ Zorg voor een grafisch verzorgde presentatie en verzorgd taalgebruik. Gebruik Po
 > ---
 > Screencasts kan je maken met:
 >
-> - [Open Broadcast Software][] (*&nbsp;*{:.fa .fa-windows}Windows)
-> - [QuickTime Player][] (*&nbsp;*{:.fa .fa-apple}Mac OS X)
-{:.alert .alert-info}
+> - [Open Broadcast Software][] (*&nbsp;*{:.fa.fa-windows}Windows)
+> - [QuickTime Player][] (*&nbsp;*{:.fa.fa-apple}Mac OS X)
+{:.alert.alert-info}
 
 
 {% include afkortingen.md %}

@@ -9,7 +9,7 @@ tags     : styleguide
 Labels
 ------
 
-Lorem ipsum *primary*{:.label .label-primary} *success*{:.label .label-success} *info*{:.label .label-info} *warning*{:.label .label-warning} *danger*{:.label .label-danger} 
+Lorem ipsum *primary*{:.label.label-primary} *success*{:.label.label-success} *info*{:.label.label-info} *warning*{:.label.label-warning} *danger*{:.label.label-danger}
 
 Header 2
 --------

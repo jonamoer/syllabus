@@ -8,7 +8,7 @@ published: false
 > ##### **Opgelet** :warning:
 > ---
 > - **PDF**-bestand te plaatsen op [Bitbucket][]-repository.
-{:.alert .alert-warning}
+{:.alert.alert-warning}
 
 Inhoud
 ------

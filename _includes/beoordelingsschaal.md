@@ -17,4 +17,4 @@ De eindscore wordt berekend op 20 en afgerond naar het dichtstbijzijnde geheel g
 > ##### **Opmerking** :point_up:
 > ---
 > Met weinig complexiteit wordt bedoeld dat het werkstuk niet verder gaat dan de eenvoudige voorbeelden uit de les.
-{:.alert .alert-info}
+{:.alert.alert-info}

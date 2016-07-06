@@ -32,7 +32,7 @@ Specificaties
 > - Indien andere technologieën nodig zijn, dan mogen die gebruikt worden. Op voorwaarde dat de nieuwe technologie niet als vervanging voor een van de onderstaande technologieën gebruikt wordt.  
 >   Bijvoorbeeld: jQuery mag niet gebruikt worden als hetzelfde met AngularJS bereikt kan worden. 
 > - Uitzonderingen kunnen enkel met toestemming van de docent.
-{:.alert .alert-warning}
+{:.alert.alert-warning}
 
 #### Ontwikkelomgeving
 
@@ -55,7 +55,7 @@ Specificaties
 > - [Sequel Pro][]
 > - [SourceTree][]
 > - [Visual Studio Code][]
-{:.alert .alert-info}
+{:.alert.alert-info}
 
 #### Automatisatie
 
@@ -80,7 +80,7 @@ Specificaties
 > ##### **Opgelet** :warning:
 > ---
 > De onderstaande specificaties zijn de minimumspecificaties. Vul ze aan met zelfbedachte functionaliteiten. 
-{:.alert .alert-warning}
+{:.alert.alert-warning}
 
 #### App
 

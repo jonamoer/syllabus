@@ -14,68 +14,73 @@ Alert blocks
 > ##### **Tip** :bulb:
 > ---
 > Lorem ipsum dolor sit amet.
-{:.alert .alert-info}
+{:.alert.alert-info}
 
 > ##### **Did you know?**|**Weetje** :book:
 > ---
 > Lorem ipsum dolor sit amet.
-{:.alert .alert-info}
+{:.alert.alert-info}
 
 > ##### **Remark**|**Opmerking** :point_up:
 > ---
 > Lorem ipsum dolor sit amet.
-{:.alert .alert-info}
+{:.alert.alert-info}
 
 > ##### **Remarks**|**Opmerkingen** :point_up:
 > ---
 > - Lorem ipsum dolor sit amet.
 > - Lorem ipsum dolor sit amet.
-{:.alert .alert-info}
+{:.alert.alert-info}
 
 > ##### **Warning**|**Caution**|**Opgelet** :warning:
 > ---
 > Lorem ipsum dolor sit amet.
-{:.alert .alert-warning}
+{:.alert.alert-warning}
+
+> ##### **Definition**|**Definitie** :star:
+> ---
+> Lorem ipsum dolor sit amet.
+{:.alert.alert-success}
 
 > ##### **Example**|**Voorbeeld** :package:
 > ---
 > Lorem ipsum dolor sit amet.
-{:.alert .alert-success}
+{:.alert.alert-success}
 
 > ##### **Do's**|**Doen** :thumbsup:
 > ---
 > Lorem ipsum dolor sit amet.
-{:.alert .alert-success}
+{:.alert.alert-success}
 
 > ##### **Task**|**Tasks**|**Taak**|**Taken** :rocket:
 > ---
 > - Lorem
-{:.alert .alert-success}
+{:.alert.alert-success}
 
 > ##### **Don'ts**|**Niet doen** :thumbsdown:
 > ---
 > Lorem ipsum dolor sit amet.
-{:.alert .alert-danger}
+{:.alert.alert-danger}
 
 ### Lesvrije periodes
 
 > ##### Herfstperiode :fallen_leaf:
-{:.card .card-block .bg-info}
+{:.card.card-block.bg-info}
 
 > ##### Kerstperiode :christmas_tree:
-{:.card .card-block .bg-info}
+{:.card.card-block.bg-info}
 
 > ##### Intersemesterperiode :seedling:
-{:.card .card-block .bg-info}
+{:.card.card-block.bg-info}
 
 > ##### Paasperiode :rabbit:
-{:.card .card-block .bg-info}
+{:.card.card-block.bg-info}
 
 > ##### Zomerperiode :sunny:
-{:.card .card-block .bg-info}
+{:.card.card-block.bg-info}
 
 > ##### Verlofdag :date:
-{:.card .card-block .bg-info}
+{:.card.card-block.bg-info}
 
 Card blocks
 -----------
@@ -91,7 +96,7 @@ Card blocks
 > ##### Header 5
 >
 > ###### Header 6
-{:.card .card-block}
+{:.card.card-block}
 
 ### References
 
@@ -99,13 +104,13 @@ Card blocks
 > ---
 > - [link](#)
 > - <#>
-{:.card .card-block}
+{:.card.card-block}
 
 > ##### Zie ook :movie_camera:
 > ---
 > - [link](#)
 > - <#>
-{:.card .card-block}
+{:.card.card-block}
 
 ### Files
 
@@ -123,140 +128,140 @@ Card blocks
 > ├── www/
 > └── README.md
 >```
-{:.card .card-block .files}
+{:.card.card-block.files}
 
 ### Milestones
 
 > ##### Milestone 1 :triangular_flag_on_post:
 > ---
 > Voorbereidend werk
-{:.card .card-block #milestone-1}
+{:.card.card-block #milestone-1}
 
 > ##### Milestone 2 :round_pushpin:
 > ---
 > *Alpha*-versie voorstellen.
 >
 > - Lorem
-{:.card .card-block #milestone-2}
+{:.card.card-block #milestone-2}
 
 > ##### Milestone 3 :round_pushpin:
 > ---
 > *Beta*-versie voorstellen.
 >
 > - Lorem
-{:.card .card-block #milestone-3}
+{:.card.card-block #milestone-3}
 
 > ##### Milestone 4 :checkered_flag:
 > ---
 > *Release Candidate*-versie opleveren.
 >
 > - Lorem
-{:.card .card-block #milestone-4}
+{:.card.card-block #milestone-4}
 
 > ##### Mondeling Examen :speech_balloon:
 > ---
 > *Release Candidate*-versie voorstellen.
 >
 > - Lorem
-{:.card .card-block #milestone-exam-oral}
+{:.card.card-block #milestone-exam-oral}
 
 > ##### Schriftelijk Examen :pencil:
 > ---
 >
 > - Lorem
-{:.card .card-block #milestone-exam-written}
+{:.card.card-block #milestone-exam-written}
 
 > ##### Schriftelijk Examen :computer:
 > ---
 > *Aan computer.*
 >
 > - Lorem
-{:.card .card-block #milestone-exam-computer}
+{:.card.card-block #milestone-exam-computer}
 
 ### Browsers
 
 #### Firefox
 
-> ##### *&nbsp;*{:.fa .fa-firefox} Firefox
+> ##### *&nbsp;*{:.fa.fa-firefox} Firefox
 >
 > Description
 > **MenuItem1** → **MenuItem2** → **MenuItem3**
-{:.card .card-block}
+{:.card.card-block}
 
-> ##### *&nbsp;*{:.fa .fa-firefox} Firefox Developer Edition
+> ##### *&nbsp;*{:.fa.fa-firefox} Firefox Developer Edition
 >
 > Description
 > **MenuItem1** → **MenuItem2** → **MenuItem3**
-{:.card .card-block}
+{:.card.card-block}
 
 #### Google Chrome
 
-> ##### *&nbsp;*{:.fa .fa-chrome} Google Chrome
+> ##### *&nbsp;*{:.fa.fa-chrome} Google Chrome
 >
 > Description
 > **MenuItem1** → **MenuItem2** → **MenuItem3**
-{:.card .card-block}
+{:.card.card-block}
 
 #### Microsoft
 
-> ##### *&nbsp;*{:.fa .fa-edge} Edge
+> ##### *&nbsp;*{:.fa.fa-edge} Edge
 > ---
 > Description
 > **MenuItem1** → **MenuItem2** → **MenuItem3**
-{:.card .card-block}
+{:.card.card-block}
 
-> ##### *&nbsp;*{:.fa .fa-internet-explorer} Internet Explorer
+> ##### *&nbsp;*{:.fa.fa-internet-explorer} Internet Explorer
 > ---
 > Description
 > **MenuItem1** → **MenuItem2** → **MenuItem3**
-{:.card .card-block}
+{:.card.card-block}
 
 #### Opera
 
-> ##### *&nbsp;*{:.fa .fa-opera} Opera
+> ##### *&nbsp;*{:.fa.fa-opera} Opera
 >
 > Description
 > **MenuItem1** → **MenuItem2** → **MenuItem3**
-{:.card .card-block}
+{:.card.card-block}
 
 #### Safari
 
-> ##### *&nbsp;*{:.fa .fa-safari} Safari
+> ##### *&nbsp;*{:.fa.fa-safari} Safari
 >
 > Description
 > **MenuItem1** → **MenuItem2** → **MenuItem3**
-{:.card .card-block}
+{:.card.card-block}
 
 ### Operating Systems
 
 #### Android
 
-> ##### *&nbsp;*{:.fa .fa-android} Android
+> ##### *&nbsp;*{:.fa.fa-android} Android
 >
 > Description
 > **MenuItem1** → **MenuItem2** → **MenuItem3**
-{:.card .card-block}
+{:.card.card-block}
 
 #### iOS
 
-> ##### *&nbsp;*{:.fa .fa-apple} iOS
+> ##### *&nbsp;*{:.fa.fa-apple} iOS
 >
 > Description
 > **MenuItem1** → **MenuItem2** → **MenuItem3**
-{:.card .card-block}
+{:.card.card-block}
 
-### Mac OS X
+#### macOS
 
-> ##### *&nbsp;*{:.fa .fa-apple} Mac OS X
+> ##### *&nbsp;*{:.fa.fa-apple} macOS
 >
 > Description
 > **MenuItem1** → **MenuItem2** → **MenuItem3**
-{:.card .card-block}
+{:.card.card-block}
 
-### Windows
+#### Windows
 
-> ##### *&nbsp;*{:.fa .fa-windows} Windows
+> ##### *&nbsp;*{:.fa.fa-windows} Windows
 >
 > Description
 > **MenuItem1** → **MenuItem2** → **MenuItem3**
-{:.card .card-block}
+{:.card.card-block}

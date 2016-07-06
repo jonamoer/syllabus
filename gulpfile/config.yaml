@@ -1,33 +1,37 @@
 # OLOD's
 destinations:
+# 2016-17
   # - 1617_cmp
   # - 1617_cmp1
   # - 1617_cmp2
   # - 1617_cmp3
   # - 1617_nmdad1
-  # - 1617_nmdad2
-  # - 1617_nmdad3
+  - 1617_nmdad2
+  - 1617_nmdad3
   # - 1617_mapps
   # - 1617_wdad1
   # - 1617_wdad2
   # - 1617_wdad3
   # - 1617_wdad4
-  # - 1617_web1
-  # - 1617_web2
-  # - 1617_web3
-  # - 1617_web4
+  - 1617_webd1
+  # - 1617_webd2
+  # - 1617_webd3
+  - 1617_webd4
+# Modules
   - mod_data
   - mod_php
+  - mod_wanm
   - mod_web
-  - artestead-doc
-  - dotfiles-doc
+# Utilities
+  - utl_artestead
+  - utl_dotfiles
 # 2015-16
-  - ed
-  - cmp
-  - mma
-  - nmdad2
-  - nmdad3
-  - wanm
+  # - ed
+  # - cmp
+  # - mma
+  # - nmdad2
+  # - nmdad3
+  # - wanm
 
 # Directories
 dir:

@@ -10,7 +10,7 @@ published: false
 > - **Afgedrukt op A3** (297×420 mm), in te dienen op het mondeling examen.
 > - **PDF**-bestand te plaatsen op [Bitbucket][]-repository.
 > - **Controleer extra goed op spellingsfouten!**
-{:.alert .alert-warning}
+{:.alert.alert-warning}
 
 Een afgedrukte A3-poster die de presentatie moet ondersteunen. De academische poster moet een leek duidelijk maken wat het project was:
 
@@ -35,7 +35,7 @@ Niet vergeten te vermelden:
 > {{ site.data.olod.title.full }}, Academiejaar {{ site.data.olod.copyright.year }}
 > {{ site.data.olod.programme.degree.nl }}, {{ site.data.olod.programme.major.nl }} ({{ site.data.olod.programme.minor.short }})
 > {{ site.data.olod.copyright.institute.nl }}
-{:.alert .alert-success}
+{:.alert.alert-success}
 
 > ##### **Example** (English) :package:
 > ---
@@ -43,7 +43,7 @@ Niet vergeten te vermelden:
 > {{ site.data.olod.title.full }}, Academic Year {{ site.data.olod.copyright.year }}
 > {{ site.data.olod.programme.degree.en }}, {{ site.data.olod.programme.major.en }} ({{ site.data.olod.programme.minor.short }})
 > {{ site.data.olod.copyright.institute.en }}
-{:.alert .alert-success}
+{:.alert.alert-success}
 
 {% include afkortingen.md %}
 {% include hyperlinks.md %}

@@ -1,5 +1,5 @@
 {% assign workload = site.data.olod.workload %}
-De studieomvang bedraagt **{{ workload.credits }} studiepunten**{:.label .label-{{ site.colour }}} volgens het [European Credit Transfer and Accumulation System][ECTS].
+De studieomvang bedraagt **{{ workload.credits }} studiepunten**{:.label.label-{{ site.colour }}} volgens het [European Credit Transfer and Accumulation System][ECTS].
 
 | Activiteit | Uur  |
 |:-----------|-----:|
@@ -14,4 +14,4 @@ De studieomvang bedraagt **{{ workload.credits }} studiepunten**{:.label .label-
 > ---
 > Concreet wordt van elke student verwacht dat hij/zij **individueel minstens {{ workload.time.commitment }}** aan deze opdracht besteedt.
 > Dit is vergelijkbaar met **{{ workload.time.equivalent }} fulltime** werken.
-{:.alert .alert-info}
+{:.alert.alert-info}
