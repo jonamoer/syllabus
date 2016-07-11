@@ -15,6 +15,26 @@ Code
 > - <https://github.com/jneen/rouge/wiki/List-of-supported-languages-and-lexers>
 {:.card.card-block}
 
+### [Apache HTTP Server][] (`apache`)
+
+{% highlight apache linenos %}
+# Ensure that Apache listens on port 80
+Listen 80
+<VirtualHost *:80>
+    DocumentRoot "/www/example1"
+    ServerName www.example.com
+
+    # Other directives here
+</VirtualHost>
+
+<VirtualHost *:80>
+    DocumentRoot "/www/example2"
+    ServerName www.example.org
+
+    # Other directives here
+</VirtualHost>
+{% endhighlight %}{:data-file="httpd.conf"}
+
 ---
 
 Command Line
