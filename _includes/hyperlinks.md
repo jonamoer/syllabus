@@ -10,6 +10,7 @@
 [AngularJS]:                                                https://angularjs.org
 [AngularUI]:                                                http://angular-ui.github.io
 [APA Style]:                                                http://www.apastyle.org/
+[Apache HTTP Server]:                                       https://httpd.apache.org
 [Artestead]:                                                http://www.gdm.gent/artestead/
 [Artestead repository]:                                     https://github.com/gdmgent/artestead/
 [Arteveldehogeschool]:                                      http://www.arteveldehogeschool.be
@@ -22,9 +23,10 @@
 [Behat]:                                                    http://docs.behat.org/en/v3.0/
 [Backbone.js]:                                              http://backbonejs.org
 [Bitbucket]:                                                https://bitbucket.org
-  [*&nbsp;*{:.fa.fa-bitbucket}Bitbucket]:                  https://bitbucket.org
+  [*&nbsp;*{:.fa.fa-bitbucket}Bitbucket]:                    https://bitbucket.org
+[Blade]:                                                    https://laravel.com/docs/master/blade
 [Bootstrap]:                                                http://getbootstrap.com
-[Bower]:                                                    http://bower.io                                             http://getbootstrap.com
+[Bower]:                                                    http://bower.io
 [Brackets]:                                                 https://brackets.io
 [Browsersync]:                                              https://www.browsersync.io/
 [Chartist]:                                                 https://gionkunz.github.io/chartist-js/
@@ -39,7 +41,8 @@
 [Carbon]:                                                   http://carbon.nesbot.com
 [Cask]:                                                     http://caskroom.io
 [Cordova]:                                                  http://cordova.apache.org
-[CORS]:                                                     http://www.w3.org/TR/cors
+[CORS]:                                                     https://www.w3.org/TR/cors/
+[CSS]:                                                      https://www.w3.org/Style/CSS/
 [Cucumber]:                                                 https://cucumber.io
 [Dart]:                                                     https://www.dartlang.org
 [Digitale Mediatheek]:                                      http://www.arteveldehogeschool.be/studeren/mediatheken/digitale-mediatheek
@@ -115,6 +118,7 @@
 [Lumen]:                                                    https://lumen.laravel.com
 [MailChimp]:                                                http://mailchimp.com
 [Mandrill]:                                                 http://mandrill.com
+[Markdown]:                                                 https://daringfireball.net/projects/markdown/
 [Microsoft .NET]:                                           https://www.microsoft.com/net
 [MySQL]:                                                    http://www.mysql.com/products/community
 [MySQL Manual]:                                             https://dev.mysql.com/doc/refman/5.7/en
@@ -147,7 +151,8 @@
 [Ruby]:                                                     https://www.ruby-lang.org/en/
 [Ruby on Rails]:                                            https://rubyonrails.org
 [Reveal.js]:                                                http://lab.hakim.se/reveal-js/
-[Sass]:                                                     https://sass-lang.com
+[Sass]:                                                     http://sass-lang.com
+[SCSS]:                                                     http://sass-lang.com
 [SensioLabs]:                                               https://sensiolabs.com/en
 [Sequel Pro]:                                               https://www.sequelpro.com
 [Shotcut]:                                                  https://www.shotcut.org
@@ -156,6 +161,7 @@
 [SourceTree]:                                               https://www.sourcetreeapp.com
 [SpecFlow]:                                                 http://www.specflow.org
 [Spotlight]:                                                https://support.apple.com/kb/PH21933?viewlocale=nl_BE&locale=nl_BE
+[SQL]:                                                      http://www.iso.org/iso/home/search.htm?qt=9075&sort=rel&type=simple&published=on
 [Style Tiles]:                                              http://styletil.es
 [Stylus]:                                                   http://stylus-lang.com
 [Symfony]:                                                  https://symfony.com

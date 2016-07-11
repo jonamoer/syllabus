@@ -1,0 +1,28 @@
+mark {
+  $markers: 'blue' 'green' 'yellow' 'orange' 'pink';
+  $colors: (
+    'blue'  : rgb( 49, 201, 243),
+    'green' : rgb(128, 201,  91),
+    'yellow': rgb(254, 243,  81),
+    'orange': rgb(254, 190,  79),
+    'pink'  : rgb(243, 124, 175)
+  );
+  $underline: inset 0 -.3em 0;
+  background-color: inherit;
+  &.marker {
+    &__fill {
+      @each $marker in $markers {
+        &--#{$marker} {
+          background-color: map_get($colors, $marker);
+        }
+      }
+    }
+    &__underline {
+      @each $marker in $markers {
+        &--#{$marker} {
+          box-shadow: $underline map_get($colors, $marker);
+        }
+      }
+    }
+  }
+}

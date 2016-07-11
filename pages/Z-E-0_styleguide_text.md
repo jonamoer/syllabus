@@ -11,6 +11,25 @@ Labels
 
 Lorem ipsum *primary*{:.label.label-primary} *success*{:.label.label-success} *info*{:.label.label-info} *warning*{:.label.label-warning} *danger*{:.label.label-danger}
 
+Markers
+-------
+
+Lorem <mark>ipsum dolor</mark> sit amet, <mark class="marker__fill--blue">consectetur adipiscing</mark> elit. Sed <mark class="marker__fill--green">lobortis blandit</mark> arcu, <mark class="marker__fill--yellow">vitae pretium massa cursus vel.</mark> <mark class="marker__fill--orange">Morbi vitae lacinia ex.</mark> Vivamus accumsan ornare elit at rhoncus. Duis lacus orci, <mark class="marker__fill--pink">maximus vel dui sit amet</mark>, pellentesque condimentum leo. Quisque arcu augue, tempus eu ante eu, pretium porta odio. Quisque et justo sollicitudin dui maximus luctus. In bibendum urna eget pellentesque elementum. Donec eu egestas nisi, eu egestas turpis. Fusce euismod lectus eget sem consequat, eget accumsan est sagittis. Interdum et malesuada fames ac ante ipsum primis in faucibus. Maecenas at suscipit libero. Integer in varius purus. Phasellus semper bibendum suscipit.
+
+Lorem <mark>ipsum dolor</mark> sit amet, <mark class="marker__underline--blue">consectetur adipiscing</mark> elit. Sed <mark class="marker__underline--green">lobortis blandit</mark> arcu, <mark class="marker__underline--yellow">vitae pretium massa cursus vel.</mark> <mark class="marker__underline--orange">Morbi vitae lacinia ex.</mark> Vivamus accumsan ornare elit at rhoncus. Duis lacus orci, <mark class="marker__underline--pink">maximus vel dui sit amet</mark>, pellentesque condimentum leo. Quisque arcu augue, tempus eu ante eu, pretium porta odio. Quisque et justo sollicitudin dui maximus luctus. In bibendum urna eget pellentesque elementum. Donec eu egestas nisi, eu egestas turpis. Fusce euismod lectus eget sem consequat, eget accumsan est sagittis. Interdum et malesuada fames ac ante ipsum primis in faucibus. Maecenas at suscipit libero. Integer in varius purus. Phasellus semper bibendum suscipit.
+
+
+ - <mark class="marker__fill--blue">marker__fill--blue</mark>
+ - <mark class="marker__fill--green">marker__fill--green</mark>
+ - <mark class="marker__fill--yellow">marker__fill--yellow</mark>
+ - <mark class="marker__fill--orange">marker__fill--orange</mark>
+ - <mark class="marker__fill--pink">marker__fill--pink</mark>
+ - <mark class="marker__underline--blue">marker__underline--blue</mark>
+ - <mark class="marker__underline--green">marker__underline--green</mark>
+ - <mark class="marker__underline--yellow">marker__underline--yellow</mark>
+ - <mark class="marker__underline--orange">marker__underline--orange</mark>
+ - <mark class="marker__underline--pink">marker__underline--pink</mark>
+
 Header 2
 --------
 

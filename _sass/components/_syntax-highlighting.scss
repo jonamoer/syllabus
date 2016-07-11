@@ -1,75 +1,117 @@
 /// Syntax Highlighting
 
+$languages: apache bash bat blade cmd code css emmet gherkin hbs html ini inky json js liquid md nginx php po posh scss sql sh ts twig xml yml;
+
 // Code Colours
 $color-code: (
-  base01: #93a1a1,
-  base02: #586e75,
-  base03: #B58900,
-  bg01  : #002b36,
-  bg02  : #f4f3f1,
-  orange: #cb4b16,
-  red   : #dc322f,
-  blue  : #268bd2,
-  cyan  : #2aa198,
-  green : #859900
+  'base01': #93a1a1,
+  'base02': #586e75,
+  'base03': #B58900,
+  'bg01'  : #002b36,
+  'bg02'  : #f4f3f1,
+  'orange': #cb4b16,
+  'red'   : #dc322f,
+  'blue'  : #268bd2,
+  'cyan'  : #2aa198,
+  'green' : #859900
 );
 
 // Code Label Colour
-$color-language: (
+$languages-color: (
+  apache : map-get($color-palette, color-A),
   bash   : map-get($color-palette, color-A),
   bat    : map-get($color-palette, color-A),
   blade  : map-get($color-palette, color-H),
+  cmd    : map-get($color-palette, color-A),
   code   : map-get($color-palette, color-A),
   css    : map-get($color-palette, color-C),
-  default: white,
   emmet  : map-get($color-palette, color-A),
   gherkin: map-get($color-palette, color-E),
   html   : map-get($color-palette, color-B),
+  hbs    : map-get($color-palette, color-B),
   ini    : map-get($color-palette, color-A),
   inky   : map-get($color-palette, color-B),
   json   : map-get($color-palette, color-A),
   js     : map-get($color-palette, color-D),
+  liquid : map-get($color-palette, color-A),
+  md     : map-get($color-palette, color-A),
+  nginx  : map-get($color-palette, color-A),
   php    : map-get($color-palette, color-G),
   po     : map-get($color-palette, color-A),
-  ps     : map-get($color-palette, color-A),
-  sql    : map-get($color-palette, color-F),
+  posh   : map-get($color-palette, color-A),
   scss   : map-get($color-palette, color-H),
+  sh     : map-get($color-palette, color-D),
+  sql    : map-get($color-palette, color-F),
   ts     : map-get($color-palette, color-F),
   twig   : map-get($color-palette, color-E),
-  yaml   : map-get($color-palette, color-D)
+  xml    : map-get($color-palette, color-D),
+  yml    : map-get($color-palette, color-D)
+
+);
+
+$languages-label: (
+  apache : "Apache HTTP Server",
+  bash   : "Ubuntu Bash",
+  bat    : "Batch",
+  blade  : "Laravel Blade",
+  cmd    : "Command",
+  code   : "Code",
+  css    : "CSS",
+  emmet  : "Emmet",
+  gherkin: "Behat Gherkin",
+  hbs    : "Handlebars",
+  html   : "HTML",
+  ini    : "Ini",
+  inky   : "Inky",
+  json   : "JSON",
+  js     : "JavaScript",
+  liquid : "Liquid",
+  md     : "Markdown",
+  nginx  : "NGINX",
+  php    : "PHP",
+  po     : "PO",
+  posh   : "PowerShell",
+  scss   : "SCSS",
+  sh     : "macOS Terminal",
+  sql    : "SQL",
+  ts     : "TypeScript",
+  twig   : "Twig",
+  xml    : "XML",
+  yml    : "YAML"
 );
 
 // Highlight Colours
-$base01: map-get($color-code, base01);
-$base02: map-get($color-code, base02);
-$base03: map-get($color-code, base03);
-$bg01  : map-get($color-code, bg01);
-$bg02  : map-get($color-code, bg02);
-$orange: map-get($color-code, orange);
-$red   : map-get($color-code, red);
-$blue  : map-get($color-code, blue);
-$cyan  : map-get($color-code, cyan);
-$green : map-get($color-code, green);
+$base01: map-get($color-code, 'base01');
+$base02: map-get($color-code, 'base02');
+$base03: map-get($color-code, 'base03');
+$bg01  : map-get($color-code, 'bg01');
+$bg02  : map-get($color-code, 'bg02');
+$orange: map-get($color-code, 'orange');
+$red   : map-get($color-code, 'red');
+$blue  : map-get($color-code, 'blue');
+$cyan  : map-get($color-code, 'cyan');
+$green : map-get($color-code, 'green');
 
 figure.highlight {
-  @mixin label($text: "Code", $background: map_get($color-palette, color-G), $text-color: white) {
+  @mixin label($background-color: map_get($color-palette, color-G), $color: white,  $text: "Code") {
     position: relative;
     &::after{
-      background: $background;
+      background-color: $background-color;
       border-radius: 0 0 0 .3rem;
-      color: $text-color;
+      color: $color;
       content: $text;
       display: inline-block;
       font-family: $font-sans-serif;
+      font-size: .75rem;
       height: 2rem;
       line-height: 2rem;
+      opacity: .5;
       padding: 0 .5rem 0 .7rem;
       position: absolute;
       right: 0;
       top: 0;
     }
   }
-
   margin: 2rem 0;
   overflow: auto;
   &::before {
@@ -85,62 +127,10 @@ figure.highlight {
     }
   }
   &.language- {
-    &bash {
-      @include label("Bash", map-get($color-language, bash), map-get($color-language, default));
-    }
-    &bat {
-      @include label("CMD", map-get($color-language, bat), map-get($color-language, default));
-    }
-    &blade {
-      @include label("Blade", map-get($color-language, blade), map-get($color-language, default));
-    }
-    &css {
-      @include label("CSS", map-get($color-language, css), map-get($color-language, default));
-    }
-    &emmet {
-      @include label("Emmet", map-get($color-language, emmet), map-get($color-language, default));
-    }
-    &gherkin {
-      @include label("Gherkin", map-get($color-language, gherkin), map-get($color-language, default));
-    }
-    &html {
-      @include label("HTML", map-get($color-language, html), map-get($color-language, default));
-    }
-    &ini {
-      @include label("INI", map-get($color-language, ini), map-get($color-language, default));
-    }
-    &inky {
-      @include label("Inky", map-get($color-language, inky), map-get($color-language, default));
-    }
-    &json {
-      @include label("JSON", map-get($color-language, json), map-get($color-language, default));
-    }
-    &js {
-      @include label("JS", map-get($color-language, js), map-get($color-language, default));
-    }
-    &php {
-      @include label("PHP", map-get($color-language, php), map-get($color-language, default))
-    }
-    &po {
-      @include label("PO", map-get($color-language, po), map-get($color-language, default))
-    }
-    &powershell {
-      @include label("PS", map-get($color-language, ps), map-get($color-language, default))
-    }
-    &scss {
-      @include label("SCSS", map-get($color-language, scss), map-get($color-language, default));
-    }
-    &sql {
-      @include label("SQL", map-get($color-language, sql), map-get($color-language, default));
-    }
-    &ts {
-      @include label("TS", map-get($color-language, ts), map-get($color-language, default));
-    }
-    &twig {
-      @include label("Twig", map-get($color-language, twig), map-get($color-language, default));
-    }
-    &yaml {
-      @include label("YAML", map-get($color-language, yaml), map-get($color-language, default));
+    @each $language in $languages {
+      &#{$language} {
+        @include label($background-color: map-get($languages-color, $language), $text: map-get( $languages-label, $language));
+      }
     }
   }
   pre {
@@ -155,7 +145,7 @@ figure.highlight {
     span.file:first-child {
       background-color: $base03;
       border-radius: 0 0 .3rem;
-      color: #FFF;
+      color: white;
       height: 2rem;
       left: 0;
       line-height: 2rem;
