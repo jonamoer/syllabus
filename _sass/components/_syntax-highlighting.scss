@@ -19,10 +19,10 @@ $color-code: (
 // Code Label Colour
 $languages-color: (
   apache : map-get($color-palette, color-A),
-  bash   : map-get($color-palette, color-A),
-  bat    : map-get($color-palette, color-A),
+  bash   : map-get($color-palette, color-B),
+  bat    : map-get($color-palette, color-F),
   blade  : map-get($color-palette, color-H),
-  cmd    : map-get($color-palette, color-A),
+  cmd    : map-get($color-palette, color-F),
   code   : map-get($color-palette, color-A),
   css    : map-get($color-palette, color-C),
   emmet  : map-get($color-palette, color-A),
@@ -33,20 +33,19 @@ $languages-color: (
   inky   : map-get($color-palette, color-B),
   json   : map-get($color-palette, color-A),
   js     : map-get($color-palette, color-D),
-  liquid : map-get($color-palette, color-A),
+  liquid : map-get($color-palette, color-F),
   md     : map-get($color-palette, color-A),
   nginx  : map-get($color-palette, color-A),
   php    : map-get($color-palette, color-G),
   po     : map-get($color-palette, color-A),
-  posh   : map-get($color-palette, color-A),
+  posh   : map-get($color-palette, color-F),
   scss   : map-get($color-palette, color-H),
-  sh     : map-get($color-palette, color-D),
+  sh     : map-get($color-palette, color-A),
   sql    : map-get($color-palette, color-F),
   ts     : map-get($color-palette, color-F),
   twig   : map-get($color-palette, color-E),
-  xml    : map-get($color-palette, color-D),
+  xml    : map-get($color-palette, color-C),
   yml    : map-get($color-palette, color-D)
-
 );
 
 $languages-label: (

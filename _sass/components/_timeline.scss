@@ -22,15 +22,15 @@
 
   // Variables
   $color: (
-    neutral  : map_get($color-ahs, lichtgrijs),
-    default  : map_get($color-ahs, blauw),
-    accent   : map_get($color-ahs, oranje),
-    important: map_get($color-ahs, fuchsia),
-    trivial  : map_get($color-ahs, groen)
+    'neutral'  : map_get($color-ahs, 'lichtgrijs'),
+    'default'  : map_get($color-ahs, 'blauw'),
+    'accent'   : map_get($color-ahs, 'oranje'),
+    'important': map_get($color-ahs, 'fuchsia'),
+    'trivial'  : map_get($color-ahs, 'groen')
   );
-  $color-line     : map_get($color, neutral);
-  $color-main     : map_get($color, default);
-  $color-important: map_get($color, important);
+  $color-line     : map_get($color, 'neutral');
+  $color-main     : map_get($color, 'default');
+  $color-important: map_get($color, 'important');
   $color-bgc      : lighten($color-main, 50%);
   $line-width     : .1875rem;
   $radius-waypoint: 1rem;
@@ -89,14 +89,16 @@
           }
         }
         @media screen and (min-width: $breakpoint-lg) {
-          @at-root .timeline__point {
-            &:nth-child(even) .timeline__content::before {
-              @include arrow(left, $color-main, $arrow);
-            }
-            &:nth-child(odd) .timeline__content {
-              margin-left: 0;
-              &::before {
-                @include arrow(right, $color-main, $arrow);
+          @at-root {
+            .timeline__point {
+              &:nth-child(even) .timeline__content::before {
+                @include arrow(left, $color-main, $arrow);
+              }
+              &:nth-child(odd) .timeline__content {
+                margin-left: 0;
+                &::before {
+                  @include arrow(right, $color-main, $arrow);
+                }
               }
             }
           }
@@ -119,18 +121,22 @@
           margin-left: 0;
           text-align: right;
           width: $content-lg / 2 - ($radius-icon / 2 + 3 * $line-width);
-          @at-root .timeline__point:nth-child(odd) .timeline__date {
-            margin-left: ($content-lg / 2) + $radius-icon / 2 + 3 * $line-width;
-            text-align: left;
+          @at-root {
+            .timeline__point:nth-child(odd) .timeline__date {
+              margin-left: ($content-lg / 2) + $radius-icon / 2 + 3 * $line-width;
+              text-align: left;
+            }
           }
         }
         @media screen and (min-width: $breakpoint-xl) {
           margin-left: 0;
           text-align: right;
           width: $content-xl / 2 - ($radius-icon / 2 + 3 * $line-width);
-          @at-root .timeline__point:nth-child(odd) .timeline__date {
-            margin-left: ($content-xl / 2) + $radius-icon / 2 + 3 * $line-width;
-            text-align: left;
+          @at-root { 
+            .timeline__point:nth-child(odd) .timeline__date {
+              margin-left: ($content-xl / 2) + $radius-icon / 2 + 3 * $line-width;
+              text-align: left;
+            }
           }
         }
       }
@@ -191,12 +197,14 @@
               }
             }
             @media screen and (min-width: $breakpoint-lg) {
-              @at-root .timeline__point {
-                &:nth-child(even).timeline__point--accent .timeline__content::before {
-                  @include arrow(left, map-get($color, accent), $arrow);
-                }
-                &:nth-child(odd).timeline__point--accent .timeline__content::before {
-                  @include arrow(right, map-get($color, accent), $arrow);
+              @at-root {
+                .timeline__point {
+                  &:nth-child(even).timeline__point--accent .timeline__content::before {
+                    @include arrow(left, map-get($color, accent), $arrow);
+                  }
+                  &:nth-child(odd).timeline__point--accent .timeline__content::before {
+                    @include arrow(right, map-get($color, accent), $arrow);
+                  }
                 }
               }
             }
@@ -220,12 +228,14 @@
               }
             }
             @media screen and (min-width: $breakpoint-lg) {
-              @at-root .timeline__point {
-                &:nth-child(even).timeline__point--important .timeline__content::before {
-                  @include arrow(left, map-get($color, important), $arrow);
-                }
-                &:nth-child(odd).timeline__point--important .timeline__content::before {
-                  @include arrow(right, map-get($color, important), $arrow);
+              @at-root {
+                .timeline__point {
+                  &:nth-child(even).timeline__point--important .timeline__content::before {
+                    @include arrow(left, map-get($color, important), $arrow);
+                  }
+                  &:nth-child(odd).timeline__point--important .timeline__content::before {
+                    @include arrow(right, map-get($color, important), $arrow);
+                  }
                 }
               }
             }
@@ -252,12 +262,14 @@
               }
             }
             @media screen and (min-width: $breakpoint-lg) {
-              @at-root .timeline__point {
-                &:nth-child(even).timeline__point--trivial .timeline__content::before {
-                  @include arrow(left, map-get($color, trivial), $arrow);
-                }
-                &:nth-child(odd).timeline__point--trivial .timeline__content::before {
-                  @include arrow(right, map-get($color, trivial), $arrow);
+              @at-root {
+                .timeline__point {
+                  &:nth-child(even).timeline__point--trivial .timeline__content::before {
+                    @include arrow(left, map-get($color, trivial), $arrow);
+                  }
+                  &:nth-child(odd).timeline__point--trivial .timeline__content::before {
+                    @include arrow(right, map-get($color, trivial), $arrow);
+                  }
                 }
               }
             }

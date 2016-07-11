@@ -3,7 +3,6 @@ GDM Ghent Syllabus
 
 Template for syllabi and modules at Artevelde University College Ghent, Graphical and digital media.
 
-
 Create a new New syllabus
 -------------------------
 
@@ -16,3 +15,13 @@ Create a new New syllabus
  1. Clone this repository: `git clone https://github.com/gdmgent/syllabus`.
  1. Change `./gulpfile/config.yaml` to include the new syllabus or module name.
  1. Run `gulp --production` from the `Syllabi/syllabus` folder to update the new syllabus folder.
+
+Install tools
+-------------
+
+### Visual Studio Code code blocks
+
+ 1. Go to `_tools/visual-studio-code/`
+ 1. Run the install script:
+    - macOS: `./install.sh`
+    - Windows: `install.bat`

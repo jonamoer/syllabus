@@ -36,13 +36,14 @@
             "$ ",
             "{% endhighlight %}"
         ],
-        "description": "Bash code block"
+        "description": "Ubuntu Bash code block"
     },
     "Code bat": {
         "prefix": "bat",
         "body": [
-            "{% highlight bat %}",
-            "{% endhighlight %}"
+            "{% highlight bat linenos%}",
+            "{% include_relative _code/.bat %}",
+            "{% endhighlight %}{:data-file=\".bat\"}"
         ],
         "description": "Batch code block"
     },
@@ -52,7 +53,16 @@
             "{% highlight blade linenos %}{% raw %}",
             "{% endraw %}{% endhighlight %}{:data-file=\".blade.php\"}"
         ],
-        "description": "Blade code block"
+        "description": "Laravel Blade code block"
+    },
+    "Code cmd": {
+        "prefix": "cmd",
+        "body": [
+            "{% highlight cmd %}",
+            "C:\\> ",
+            "{% endhighlight %}"
+        ],
+        "description": "Windows Command code block"
     },
     "Code css": {
         "prefix": "css",
@@ -70,6 +80,15 @@
             "{% endhighlight %}"
         ],
         "description": "Emmet code block"
+    },
+    "Code gherkin": {
+        "prefix": "gherkin",
+        "body": [
+            "{% highlight gherkin linenos %}",
+            "{% include_relative _code/.gherkin %}",
+            "{% endhighlight %}{:data-file=\".gherkin\"}"
+        ],
+        "description": "Behat Gherkin code block"
     },
     "Code html": {
         "prefix": "html",
@@ -124,6 +143,23 @@
         ],
         "description": "Liquid code block"
     },
+    "Code nginx": {
+        "prefix": "nginx",
+        "body": [
+            "{% highlight nginx linenos %}",
+            "{% include_relative _code/.conf %}",
+            "{% endhighlight %}{:data-file=\".conf\"}"
+        ],
+        "description": "NGINX code block"
+    },
+    "Code md": {
+        "prefix": "md",
+        "body": [
+            "{% highlight md linenos %}",
+            "{% endhighlight %}{:data-file=\".md\"}"
+        ],
+        "description": "Markdown code block"
+    },
     "Code php": {
         "prefix": "php",
         "body": [
@@ -133,14 +169,14 @@
         ],
         "description": "PHP code block"
     },
-    "Code ps": {
-        "prefix": "ps",
+    "Code posh": {
+        "prefix": "posh",
         "body": [
             "{% highlight powershell %}",
             "PS>",
             "{% endhighlight %}"
         ],
-        "description": "PowerShell code block"
+        "description": "Windows PowerShell code block"
     },
     "Code scss": {
         "prefix": "scss",
@@ -177,10 +213,19 @@
         ],
         "description": "Twig code block"
     },
-    "Code yaml": {
-        "prefix": "yaml",
+    "Code xml": {
+        "prefix": "xml",
         "body": [
-            "{% highlight yaml linenos %}",
+            "{% highlight xml linenos %}",
+            "{% include_relative _code/.xml %}",
+            "{% endhighlight %}{:data-file=\".xml\"}"
+        ],
+        "description": "XML code block"
+    },
+    "Code yml": {
+        "prefix": "yml",
+        "body": [
+            "{% highlight yml linenos %}",
             "{% include_relative _code/.yml %}",
             "{% endhighlight %}{:data-file=\".yml\"}"
         ],

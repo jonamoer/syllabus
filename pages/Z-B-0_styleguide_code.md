@@ -15,9 +15,11 @@ Code
 > - <https://github.com/jneen/rouge/wiki/List-of-supported-languages-and-lexers>
 {:.card.card-block}
 
+{% comment %}
 ### [Apache HTTP Server][] (`apache`)
+{% endcomment %}
 
-### Batch (`bat`)
+### [Batch](https://technet.microsoft.com/en-us/library/bb490869.aspx) (`bat`)
 
 (Geen highlighting.)
 
@@ -61,7 +63,7 @@ section>(article*5)>lipsum
 {% include_relative _code/styleguide/styleguide.html %}
 {% endhighlight %}{:data-file="styleguide.html"}
 
-### Ini (`ini`)
+### [Ini](https://technet.microsoft.com/en-us/library/cc731332.aspx) (`ini`)
 
 {% highlight ini linenos %}
 {% include_relative _code/styleguide/styleguide.ini %}

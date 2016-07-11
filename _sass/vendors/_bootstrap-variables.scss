@@ -32,11 +32,11 @@ $gray-light:                #818a91 !default;
 $gray-lighter:              #eceeef !default;
 $gray-lightest:             #f7f7f9 !default;
 
-$brand-primary:             map_get($color-ahs, blauw      ) !default; // #0275d8 !default;
-$brand-success:             map_get($color-ahs, groen      ) !default; // #5cb85c !default;
-$brand-info:                map_get($color-ahs, middengrijs) !default; // #5bc0de !default;
-$brand-warning:             map_get($color-ahs, oranje     ) !default; // #f0ad4e !default;
-$brand-danger:              map_get($color-ahs, fuchsia    ) !default; // #d9534f !default;
+$brand-primary:             map_get($color-ahs, 'blauw'      ) !default; // #0275d8 !default;
+$brand-success:             map_get($color-ahs, 'groen'      ) !default; // #5cb85c !default;
+$brand-info:                map_get($color-ahs, 'middengrijs') !default; // #5bc0de !default;
+$brand-warning:             map_get($color-ahs, 'oranje'     ) !default; // #f0ad4e !default;
+$brand-danger:              map_get($color-ahs, 'fuchsia'    ) !default; // #d9534f !default;
 
 
 // Options

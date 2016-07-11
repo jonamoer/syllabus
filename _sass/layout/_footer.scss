@@ -1,17 +1,17 @@
 html {
-    min-height: 100%;
-    position: relative;
+  min-height: 100%;
+  position: relative;
 }
 body {
-    font-family: $font-sans-serif;
-    line-height: 1.8;
-    padding-bottom: $footer-height;
-    footer{
-        &.footer {
-            bottom: 0;
-            height: $footer-height;
-            position: absolute;
-            width: 100%;
-        }
+  font-family: $font-sans-serif;
+  line-height: 1.8;
+  padding-bottom: $footer-height;
+  footer{
+    &.footer {
+      bottom: 0;
+      height: $footer-height;
+      position: absolute;
+      width: 100%;
     }
+  }
 }
