@@ -17,10 +17,6 @@ Code
 
 ### [Apache HTTP Server][] (`apache`)
 
-{% highlight apache linenos %}
-Test
-{% endhighlight %}{:data-file="httpd.conf"}
-
 ### Batch (`bat`)
 
 (Geen highlighting.)
