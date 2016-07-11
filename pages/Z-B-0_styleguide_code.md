@@ -18,6 +18,7 @@ Code
 ### [Apache HTTP Server][] (`apache`)
 
 {% highlight apache linenos %}
+
 Listen 80
 {% endhighlight %}{:data-file="httpd.conf"}
 
