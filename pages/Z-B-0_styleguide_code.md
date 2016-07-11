@@ -18,8 +18,19 @@ Code
 ### [Apache HTTP Server][] (`apache`)
 
 {% highlight apache linenos %}
+<VirtualHost *:80>
+    DocumentRoot "/www/example1"
+    ServerName www.example.com
 
-Listen 80
+    # Other directives here
+</VirtualHost>
+
+<VirtualHost *:80>
+    DocumentRoot "/www/example2"
+    ServerName www.example.org
+
+    # Other directives here
+</VirtualHost>
 {% endhighlight %}{:data-file="httpd.conf"}
 
 ### Batch (`bat`)
