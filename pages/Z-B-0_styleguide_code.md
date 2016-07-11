@@ -18,7 +18,6 @@ Code
 ### [Apache HTTP Server][] (`apache`)
 
 {% highlight apache linenos %}
-# Ensure that Apache listens on port 80
 Listen 80
 {% endhighlight %}{:data-file="httpd.conf"}
 
