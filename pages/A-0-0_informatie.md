@@ -4,7 +4,6 @@ title     : Info
 title_long: Algemene informatie
 permalink : informatie/
 published : false
-tags      :
 ---
 
 > ##### **Opgelet** :warning:

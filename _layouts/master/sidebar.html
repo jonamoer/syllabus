@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="{{ site.language }}">
+    {% include components/head.html %}
+<body class="c-page">
+    {% include components/navbar.html %}
+    <div class="container-fluid">
+        <div class="row">
+            <nav class="c-page__sidebar p-l-2 p-r-3 col-sm-3 col-md-2">
+                {% include components/sidebar.html %}
+            </nav>
+            <main class="c-page__main p-l-3 p-r-2 col-sm-offset-3 col-sm-9 col-md-offset-2 col-md-10">
+                {{ content }}
+            </main>
+        </div>
+    </div>
+{% include components/footer.html %}
+{% include components/scripts.html %}
+{% if site.tracking_id %}{% include components/google-analytics.html %}{% endif %}
+</body>
+</html>

@@ -22,6 +22,7 @@
                     var $dropdownItem = $('<div>')
                         .addClass('dropdown-divider');
                 } else {
+                    $heading.prepend
                     var $dropdownItem = $('<a>')
                         .attr('href', '#' + $heading.attr('id'));
                     var $headingLink = $dropdownItem.clone().addClass('heading-link fa fa-bookmark-o');

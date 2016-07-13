@@ -9,35 +9,40 @@
   counter-reset: h2-counter;
   > h2, [data-counter=h2-counter] {
     counter-reset: h3-counter;
-    &::before {
-      content: counter(h2-counter, upper-roman) ". ";
-      counter-increment: h2-counter;
-    }
   };
+  > h2::after, [data-counter=h2-counter]::before {
+    content: counter(h2-counter, upper-roman) ". ";
+    counter-increment: h2-counter;
+    float: left;
+  }
   > h3, [data-counter=h3-counter] {
     counter-reset: h4-counter;
-    &::before {
-      content: counter(h3-counter) ". ";
-      counter-increment: h3-counter;
-    }
+  }
+  > h3::after, [data-counter=h3-counter]::before {
+    content: counter(h3-counter) ". ";
+    counter-increment: h3-counter;
   }
   > h4, [data-counter=h4-counter] {
     counter-reset: h5-counter;
-    &::before {
-      content: counter(h3-counter) "." counter(h4-counter) " ";
-      counter-increment: h4-counter;
-    }
   }
-  > h5, [data-counter=h5-counter] {
-    &::before {
-      content: counter(h3-counter) "." counter(h4-counter) "." counter(h5-counter) " ";
-      counter-increment: h5-counter;
-    }
+  > h4::after, [data-counter=h4-counter]::before {
+    content: counter(h3-counter) "." counter(h4-counter) " ";
+    counter-increment: h4-counter;
   }
-  > h6 {
-    &::before {
-      content: counter(h6-counter, lower-alpha) ". ";
-      counter-increment: h6-counter;
+  > h5::after, [data-counter=h5-counter]::before {
+    content: counter(h3-counter) "." counter(h4-counter) "." counter(h5-counter) " ";
+    counter-increment: h5-counter;
+  }
+  > h6::after {
+    content: counter(h6-counter, lower-alpha) ". ";
+    counter-increment: h6-counter;
+  }
+  > h2, > h3, > h4, > h5, > h6 {
+    position: relative;
+    z-index: -1;
+    &::after {
+      float: left;
+      padding-right: .5em;
     }
   }
 }

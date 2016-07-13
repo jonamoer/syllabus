@@ -1,6 +1,14 @@
 /// Timeline
 
 @at-root {
+  // Functions
+  @function margin-left($content, $radius-icon, $line-width) {
+    @return ($content / 2) + ($radius-icon / 2 + 3 * $line-width);
+  }
+  @function width($content, $radius-icon, $line-width) {
+    @return ($content / 2) - ($radius-icon / 2 + 3 * $line-width);
+  }
+
   // Mixins
   @mixin arrow($direction, $color, $width) {
     @if not index(right left, $direction) {
@@ -45,6 +53,7 @@
   // Styles
   .timeline {
     box-sizing: border-box;
+    margin-bottom: 1rem;
     position: relative;
     &::before {
       background-color: $color-line;
@@ -70,12 +79,12 @@
         padding: .5em;
         position: relative;
         @media screen and (min-width: $breakpoint-lg) {
-          margin-left: ($content-lg / 2) + $radius-icon / 2 + 3 * $line-width;
-          width: $content-lg / 2 - ($radius-icon / 2 + 3 * $line-width);
+          margin-left: margin-left($content-lg, $radius-icon, $line-width);
+          width: width($content-lg, $radius-icon, $line-width);
         }
         @media screen and (min-width: $breakpoint-xl) {
-          margin-left: ($content-xl / 2) + $radius-icon / 2 + 3 * $line-width;
-          width: $content-xl / 2 - ($radius-icon / 2 + 3 * $line-width);
+          margin-left: margin-left($content-xl, $radius-icon, $line-width);
+          width: width($content-xl, $radius-icon, $line-width);
         }
         &::before {
           content: "";
@@ -120,10 +129,10 @@
         @media screen and (min-width: $breakpoint-lg) {
           margin-left: 0;
           text-align: right;
-          width: $content-lg / 2 - ($radius-icon / 2 + 3 * $line-width);
+          width: width($content-lg, $radius-icon, $line-width);
           @at-root {
             .timeline__point:nth-child(odd) .timeline__date {
-              margin-left: ($content-lg / 2) + $radius-icon / 2 + 3 * $line-width;
+              margin-left: margin-left($content-lg, $radius-icon, $line-width);
               text-align: left;
             }
           }
@@ -131,10 +140,10 @@
         @media screen and (min-width: $breakpoint-xl) {
           margin-left: 0;
           text-align: right;
-          width: $content-xl / 2 - ($radius-icon / 2 + 3 * $line-width);
-          @at-root { 
+          width: width($content-xl, $radius-icon, $line-width);
+          @at-root {
             .timeline__point:nth-child(odd) .timeline__date {
-              margin-left: ($content-xl / 2) + $radius-icon / 2 + 3 * $line-width;
+              margin-left: margin-left($content-xl, $radius-icon, $line-width);
               text-align: left;
             }
           }

@@ -1,17 +1,16 @@
 {
   "name": "syllabus",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "WANM Syllabus Template",
   "main": "gulpfile.js",
   "dependencies": {},
   "devDependencies": {
     "bootstrap": "^4.0.0-alpha.2",
-    "font-awesome": "^4.6.3",
     "gulp": "^3.9.1",
     "gulp-concat": "^2.6.0",
     "gulp-if": "^2.0.0",
     "gulp-sass": "^2.3.2",
-    "gulp-uglify": "^1.5.3",
+    "gulp-uglify": "^1.5.4",
     "gulp-util": "^3.0.7",
     "gulp-webstandards": "^0.1.1",
     "js-yaml": "^3.6.0"

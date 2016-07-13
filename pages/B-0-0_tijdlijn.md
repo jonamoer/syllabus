@@ -5,7 +5,7 @@ permalink: tijdlijn/
 published: false
 ---
 
-{% include timeline.html %}
+{% include components/timeline.html timeline=site.data.tijdlijn %}
 
 
 {% include afkortingen.md %}

@@ -1,5 +1,5 @@
 <section class="timeline">
-    {% for point in site.data.timeline %}
+    {% for point in include.timeline %}
     <article class="timeline__point{% if point.type %}{{ point.type | prepend: ' timeline__point--'}}{% endif %}">
         {% if point.icon %}
         <div class="timeline__icon"><i class="fa fa-{{ point.icon }}"></i></div>

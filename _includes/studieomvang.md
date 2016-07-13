@@ -8,7 +8,7 @@ De studieomvang bedraagt **{{ workload.credits }} studiepunten**{:.label.label-{
 | **Totaal** | **{{ total }}** |
 {:.table}
 
-{% include pie-chart.html %}
+{% include components/pie-chart.html %}
 
 > ##### **Tip** :bulb:
 > ---
