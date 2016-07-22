@@ -9,6 +9,8 @@
     const CFG = global.CONFIG;
 
     gulp.task('copy', [
+        'copy:info',
+        'copy:appcache',
         'copy:data',
         'copy:gemfile',
         'copy:gitignore',
@@ -18,6 +20,20 @@
         'copy:templates',
         'copy:text',
     ]);
+
+    gulp.task('copy:info', () => {
+        let gutil = require('gulp-util');
+        CFG.destinations.forEach(element => {
+            gutil.log(gutil.colors.white.bgMagenta(` ${element} `));
+        });
+    });
+
+    gulp.task('copy:appcache', () => {
+        CFG.destinations.forEach(element => {
+            gulp.src('./*.appcache')
+                .pipe(gulp.dest(`../${element}`));
+        });
+    });
 
     gulp.task('copy:data', () => {
         CFG.destinations.forEach(element => {

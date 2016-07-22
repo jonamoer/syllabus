@@ -37,6 +37,7 @@
                 }
                 $dropdownMenu.append($dropdownItem);
             });
+            $('body').scrollspy({ target: '#table-of-contents' });
         } else {
             $toc.hide();
         }

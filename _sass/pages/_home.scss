@@ -2,12 +2,15 @@
   margin-top: 60px;
   &__sidebar {
     background-color: #eee;
-    position: fixed;
-    bottom: 0;
-    top: 60px;
-    padding-top: 40px;
-    overflow-x: hidden;
-    overflow-y: scroll;
+    padding: 1em;
+    @media(min-width: 768px) {
+      position: fixed;
+      bottom: 0;
+      top: 60px;
+      padding-top: 40px;
+      overflow-x: hidden;
+      overflow-y: scroll;
+    }
   }
   .content {
     h2, h3 {
@@ -20,8 +23,7 @@
       }
       &::after {
         display: inline-block;
-        float: left;
       }
-  }
+    }
   }
 }
