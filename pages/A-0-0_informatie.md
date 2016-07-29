@@ -15,7 +15,7 @@ published : false
 ECTS
 ----
 
-[ECTS-fiche van {{ site.data.olod.title.short }}][ECTS-fiche]{:.btn.btn-{{ site.colour }}-outline}
+[ECTS-fiche van {{ site.data.olod.title.short }}][ECTS-fiche]{:.btn.btn-outline-{{ site.colour }}}
 
 ### Studieomvang
 

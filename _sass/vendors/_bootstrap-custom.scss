@@ -1,7 +1,9 @@
 @import "abstracts/variables";
-
-//@import "variables";
 @import "bootstrap-variables";
+
+// Core variables and mixins
+@import "custom";
+@import "variables";
 @import "mixins";
 
 // Reset and dependencies
@@ -29,8 +31,7 @@
 @import "card";
 @import "breadcrumb";
 @import "pagination";
-@import "pager";
-@import "labels";
+@import "tags";
 @import "jumbotron";
 @import "alert";
 @import "progress";
@@ -47,6 +48,3 @@
 
 // Utility classes
 @import "utilities";
-@import "utilities-background";
-@import "utilities-spacing";
-@import "utilities-responsive";
