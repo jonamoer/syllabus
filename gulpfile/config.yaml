@@ -26,12 +26,12 @@ destinations:
   - utl_artestead
   - utl_dotfiles
 # 2015-16
-  # - ed
-  # - cmp
-  # - mma
-  # - nmdad2
-  # - nmdad3
-  # - wanm
+  - 1516_cmp
+  - 1516_ed
+  - 1516_mma
+  - 1516_nmdad2
+  - 1516_nmdad3
+  # - 1516_wanm
 
 # Directories
 dir:

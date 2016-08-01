@@ -9,6 +9,33 @@
     $(document).ready(whenReady);
 
     function whenReady($) {
+
+        // External Links
+        // --------------
+        var localUriRegExp = new RegExp('/' + window.location.host + '/');
+        function externalUriFilter() {
+            console.log(this.href, window.location.host);
+            return !localUriRegExp.test(this.href);
+        }
+        $('.c-page a[href]')
+            .filter(externalUriFilter)
+            .attr('target', '_blank');
+
+        // Highlighter Language Tag
+        // ------------------------
+        var $highlights = $('.highlight > pre > code');
+        $highlights.each(function () {
+            $(this).parents('.highlight').addClass('language-' + $(this).data('lang'));
+        });
+
+        // Sidebar
+        // -------
+        var $sideBar = $('aside.list-group'),
+            $sideBarItems = $sideBar.children('.list-group-item');
+        if ($sideBarItems.length <= 1) {
+            $sideBar.hide();
+        }
+
         // Table of Contents
         // -----------------
         var $toc = $('#table-of-contents'),
@@ -41,21 +68,6 @@
         } else {
             $toc.hide();
         }
-
-        // Sidebar
-        // -------
-        var $sideBar = $('aside.list-group'),
-            $sideBarItems = $sideBar.children('.list-group-item');
-        if ($sideBarItems.length <= 1) {
-            $sideBar.hide();
-        }
-
-        // Highlighter Language Tag
-        // ------------------------
-        var $highlights = $('.highlight > pre > code');
-        $highlights.each(function () {
-            $(this).parents('.highlight').addClass('language-' + $(this).data('lang'));
-        });
 
         // Timeline
         // --------

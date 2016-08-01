@@ -1,34 +1,4 @@
 {
-    "Comment Afkortingen": {
-        "prefix": "afkortingen",
-        "body": [
-            "{% comment %}",
-            "<!-- ⚓ Afkortingen -->",
-            "{% endcomment %}",
-            "*[]:                        ?"
-        ],
-        "description": "Comment Afkortingen"
-    },
-    "Comment Hyperlinks": {
-        "prefix": "hyperlinks",
-        "body": [
-            "{% comment %}",
-            "<!-- ⚓ Hyperlinks -->",
-            "{% endcomment %}",
-            "[]:                         http://"
-        ],
-        "description": "Comment Hyperlinks"
-    },
-    "Comment Voetnoten": {
-        "prefix": "voetnoten",
-        "body": [
-            "{% comment %}",
-            "<!-- ⚓ Voetnoten -->",
-            "{% endcomment %}",
-            "[^]: "
-        ],
-        "description": "Comment Voetnoten"
-    },
     "Code bash": {
         "prefix": "bash",
         "body": [
@@ -231,6 +201,50 @@
         ],
         "description": "YAML code block"
     },
+    "Comment Afkortingen": {
+        "prefix": "afkortingen",
+        "body": [
+            "{% comment %}",
+            "<!-- ⚓ Afkortingen -->",
+            "{% endcomment %}",
+            "*[]:                        ?"
+        ],
+        "description": "Comment Afkortingen"
+    },
+    "Comment Hyperlinks": {
+        "prefix": "hyperlinks",
+        "body": [
+            "{% comment %}",
+            "<!-- ⚓ Hyperlinks -->",
+            "{% endcomment %}",
+            "[]:                         http://"
+        ],
+        "description": "Comment Hyperlinks"
+    },
+    "Comment Voetnoten": {
+        "prefix": "voetnoten",
+        "body": [
+            "{% comment %}",
+            "<!-- ⚓ Voetnoten -->",
+            "{% endcomment %}",
+            "[^]: "
+        ],
+        "description": "Comment Voetnoten"
+    },
+    "Component Figure": {
+        "prefix": "figure",
+        "body": [
+            "{% include components/figure.html src=\"\" alt=\"\" caption=\"\" %}"
+        ],
+        "description": "Component Figure"
+    },
+    "Component Timeline": {
+        "prefix": "timeline",
+        "body": [
+            "{% include components/timeline.html timeline=site.data.tijdlijn %}"
+        ],
+        "description": "Component Timeline"
+    },
     "NL definitie": {
         "prefix": "definitie",
         "body": [
@@ -357,7 +371,7 @@
         ],
         "description": "Weetje block"
     },
-    "NL zie": {
+    "NL zie (book)": {
         "prefix": "zie",
         "body": [
             "> ##### Zie ook :book:",
