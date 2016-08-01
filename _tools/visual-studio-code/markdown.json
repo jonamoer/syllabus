@@ -34,6 +34,24 @@
         ],
         "description": "Windows Command code block"
     },
+    "Code conf": {
+        "prefix": "conf",
+        "body": [
+            "{% highlight conf linenos %}",
+            "{% include_relative _code/.conf %}",
+            "{% endhighlight %}{:data-file=\".conf\"}"
+        ],
+        "description": "Configuration code block"
+    },
+    "Code cs": {
+        "prefix": "cs",
+        "body": [
+            "{% highlight cs linenos %}",
+            "{% include_relative _code/.cs %}",
+            "{% endhighlight %}{:data-file=\".cs\"}"
+        ],
+        "description": "C# code block"
+    },
     "Code css": {
         "prefix": "css",
         "body": [
@@ -143,10 +161,19 @@
         "prefix": "posh",
         "body": [
             "{% highlight powershell %}",
-            "PS>",
+            "PS> ",
             "{% endhighlight %}"
         ],
         "description": "Windows PowerShell code block"
+    },
+    "Code rb": {
+        "prefix": "rb",
+        "body": [
+            "{% highlight rb linenos %}",
+            "{% include_relative _code/.rb %}",
+            "{% endhighlight %}{:data-file=\".rb\"}"
+        ],
+        "description": "Ruby code block"
     },
     "Code scss": {
         "prefix": "scss",
@@ -156,6 +183,15 @@
             "{% endhighlight %}{:data-file=\".scss\"}"
         ],
         "description": "SCSS code block"
+    },
+    "Code sh": {
+        "prefix": "sh",
+        "body": [
+            "{% highlight sh linenos %}",
+            "{% include_relative _code/.sh %}",
+            "{% endhighlight %}{:data-file=\".sh\"}"
+        ],
+        "description": "Shell Script code block"
     },
     "Code sql": {
         "prefix": "sql",
@@ -200,6 +236,15 @@
             "{% endhighlight %}{:data-file=\".yml\"}"
         ],
         "description": "YAML code block"
+    },
+    "Code zsh": {
+        "prefix": "zsh",
+        "body": [
+            "{% highlight zsh %}",
+            "$ ",
+            "{% endhighlight %}"
+        ],
+        "description": "macOS Terminal code block"
     },
     "Comment Afkortingen": {
         "prefix": "afkortingen",

@@ -1,8 +1,8 @@
 [Android]:                                                  http://developer.android.com
-[*&nbsp;*{:.fa.fa-android}Android]:                        http://developer.android.com
+[*&nbsp;*{:.fa.fa-android}Android]:                         http://developer.android.com
 [Android SDK]:                                              http://developer.android.com/sdk/index.html
 [Android Studio]:                                           http://developer.android.com/sdk/index.html
-  [*&nbsp;*{:.fa.fa-android}Android Studio]:               http://developer.android.com/sdk/index.html
+  [*&nbsp;*{:.fa.fa-android}Android Studio]:                http://developer.android.com/sdk/index.html
 [Manifesto for Agile Software Development]:                 http://agilemanifesto.org
 [Angular]:                                                  https://angular.io
 [Angular Material]:                                         https://material.angularjs.org
@@ -23,7 +23,7 @@
 [Behat]:                                                    http://docs.behat.org/en/v3.0/
 [Backbone.js]:                                              http://backbonejs.org
 [Bitbucket]:                                                https://bitbucket.org
-  [*&nbsp;*{:.fa.fa-bitbucket}Bitbucket]:                    https://bitbucket.org
+  [*&nbsp;*{:.fa.fa-bitbucket}Bitbucket]:                   https://bitbucket.org
 [Blade]:                                                    https://laravel.com/docs/master/blade
 [Bootstrap]:                                                http://getbootstrap.com
 [Bower]:                                                    http://bower.io
@@ -167,6 +167,7 @@
 [Symfony]:                                                  https://symfony.com
 [Symfony Components]:                                       http://symfony.com/components
 [Symfony Live]:                                             http://live.symfony.com
+[Swift]:                                                    https://developer.apple.com/swift/
 [Taylor Otwell]:                                            http://taylorotwell.com
 [The Apache Software Foundation]:                           http://www.apache.org
 [TypeScript]:                                               http://www.typescriptlang.org

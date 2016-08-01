@@ -35,6 +35,18 @@ Code
 {!! !!}
 {% endraw %}{% endhighlight %}{:data-file="index.blade.php"}
 
+### Configuration (`conf`)
+
+{% highlight conf linenos %}
+{% include_relative _code/styleguide/styleguide.conf %}
+{% endhighlight %}{:data-file="styleguide.conf"}
+
+### [C#]() (`cs`)
+
+{% highlight cs linenos %}
+{% include_relative _code/styleguide/styleguide.cs %}
+{% endhighlight %}{:data-file="styleguide.cs"}
+
 ### [CSS][] (`css`)
 
 {% highlight css linenos %}
@@ -111,11 +123,18 @@ http {
 {% include_relative _code/styleguide/styleguide.md %}
 {% endhighlight %}{:data-file="styleguide.md"}
 
+### [Ruby][] (`rb`)
+
+{% highlight rb linenos %}
+{% include_relative _code/styleguide/styleguide.rb %}
+{% endhighlight %}{:data-file="styleguide.rb"}
+
 ### [PHP][] (`php`)
 
 {% highlight php linenos %}
 {% include_relative _code/styleguide/styleguide.php %}
 {% endhighlight %}{:data-file="styleguide.php"}
+
 
 ### [SCSS][] (`scss`)
 
@@ -123,11 +142,23 @@ http {
 {% include_relative _code/styleguide/styleguide.scss %}
 {% endhighlight %}{:data-file="styleguide.scss"}
 
+### Shell Script (`sh`)
+
+{% highlight sh linenos %}
+{% include_relative _code/styleguide/styleguide.sh %}
+{% endhighlight %}{:data-file="styleguide.sh"}
+
 ### [SQL][] (`sql`)
 
 {% highlight sql linenos %}
 {% include_relative _code/styleguide/styleguide.sql %}
 {% endhighlight %}{:data-file="styleguide.sql"}
+
+### [Swift][] (`swift`)
+
+{% highlight swift linenos %}
+{% include_relative _code/styleguide/styleguide.swift %}
+{% endhighlight %}{:data-file="styleguide.swift"}
 
 ### [TypeScript][] (`ts`)
 
@@ -165,9 +196,9 @@ http {
 Command Line
 ------------
 
-### macOS Terminal (`sh`)
+### macOS Terminal (`zsh`)
 
-{% highlight sh %}
+{% highlight zsh %}
 $ ls
 {% endhighlight %}
 
@@ -181,7 +212,7 @@ $ ls
 
 (Geen highlighting.)
 
-{% highlight bat %}
+{% highlight cmd %}
 C:\> dir
 {% endhighlight %}
 

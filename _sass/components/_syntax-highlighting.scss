@@ -1,6 +1,6 @@
 /// Syntax Highlighting
 
-$languages: apache bash bat blade cmd code css emmet gherkin hbs html ini inky json js liquid md nginx php po posh scss sql sh ts twig xml yml;
+$languages: apache bash bat blade cmd code conf cs css emmet gherkin hbs html ini inky json js liquid md nginx php po posh rb scss sh sql swift ts twig xml yml zsh;
 
 // Code Colours
 $color-code: (
@@ -24,6 +24,8 @@ $languages-color: (
   blade  : map-get($color-palette, color-H),
   cmd    : map-get($color-palette, color-F),
   code   : map-get($color-palette, color-A),
+  conf   : map-get($color-palette, color-F),
+  cs     : map-get($color-palette, color-F),
   css    : map-get($color-palette, color-C),
   emmet  : map-get($color-palette, color-A),
   gherkin: map-get($color-palette, color-E),
@@ -39,22 +41,27 @@ $languages-color: (
   php    : map-get($color-palette, color-G),
   po     : map-get($color-palette, color-A),
   posh   : map-get($color-palette, color-F),
+  rb     : map-get($color-palette, color-B),
   scss   : map-get($color-palette, color-H),
   sh     : map-get($color-palette, color-A),
   sql    : map-get($color-palette, color-F),
+  swift  : map-get($color-palette, color-C),
   ts     : map-get($color-palette, color-F),
   twig   : map-get($color-palette, color-E),
   xml    : map-get($color-palette, color-C),
-  yml    : map-get($color-palette, color-D)
+  yml    : map-get($color-palette, color-D),
+  zsh    : map-get($color-palette, color-A)
 );
 
 $languages-label: (
   apache : "Apache HTTP Server",
-  bash   : "Ubuntu Bash",
+  bash   : "Bash",
   bat    : "Batch",
   blade  : "Laravel Blade",
   cmd    : "Command",
   code   : "Code",
+  conf   : "Configuration",
+  cs     : "C#",
   css    : "CSS",
   emmet  : "Emmet",
   gherkin: "Behat Gherkin",
@@ -70,13 +77,16 @@ $languages-label: (
   php    : "PHP",
   po     : "PO",
   posh   : "PowerShell",
+  rb     : "Ruby",
   scss   : "SCSS",
-  sh     : "macOS Terminal",
+  sh     : "Shell Script",
   sql    : "SQL",
+  swift  : "Swift",
   ts     : "TypeScript",
   twig   : "Twig",
   xml    : "XML",
-  yml    : "YAML"
+  yml    : "YAML",
+  zsh    : "Terminal"
 );
 
 // Highlight Colours
