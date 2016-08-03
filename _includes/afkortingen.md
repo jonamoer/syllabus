@@ -138,9 +138,9 @@
 *[UTF]:                     Unicode Transformation Format
 *[UTF-8]:                   8-bit Unicode Transformation Format
 *[UTF-16]:                  16-bit Unicode Transformation Format
-*[URI]:                     Uniform Request Identifier
-*[URL]:                     Uniform Request Locator
-*[URN]:                     Uniform Request Name
+*[URI]:                     Uniform Resource Identifier
+*[URL]:                     Uniform Resource Locator
+*[URN]:                     Uniform Resource Name
 *[UUID]:                    Universally Unique Identifier
 *[UX]:                      User Experience
 *[VM]:                      Virtual Machine
