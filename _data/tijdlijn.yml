@@ -2,7 +2,8 @@
 # ----------
 
 # Week 01
-- date: 2015-09-21
+- week: "01"
+  # date: 2015-09-21
   icon: flag-o
   type: important
   content: |
@@ -58,7 +59,8 @@
 # ----------
 
 # Week 01
-- date: 2016-02-08
+- week: "01"
+  date: 2016-02-08
   icon: flag-o
   type: important
   content: |
@@ -68,24 +70,28 @@
     - Groepsindeling
     - [Artestead](http://www.gdm.gent/artestead/) installeren
 
-- date: 2016-02-09
+- week: "01"
+  date: 2016-02-09
   content: |
     # Zelfstudie
     - [Codecademy Learn AngularJS](https://www.codecademy.com/learn/learn-angularjs)
 
 # Week 02
-- date: 2016-02-15
+- week: "02"
+  date: 2016-02-15
   content: |
     # Zelfstudie
     - [Laravel 5 Fundamentals](https://laracasts.com/series/laravel-5-fundamentals)
 
-- date: 2016-02-16
+- week: "02"
+  date: 2016-02-16
   content: |
     # Zelfstudie
     - [AngularJS Fundamentals](https://egghead.io/series/angularjs-app-from-scratch-getting-started)
 
 # Week 03
-- date: 2016-02-22
+- week: "03"
+  date: 2016-02-22
   content: |
     # Onderwerpen
     - Laravel project opzetten
@@ -94,7 +100,8 @@
     - [What's New in Laravel 5.1](https://laracasts.com/series/whats-new-in-laravel-5-1)
     - [What's New in Laravel 5.2](https://laracasts.com/series/whats-new-in-laravel-5-2)
 
-- date: 2016-02-23
+- week: "03"
+  date: 2016-02-23
   content: |
     # Zelfstudie
     - [A Better Way to Learn AngularJS](https://thinkster.io/a-better-way-to-learn-angularjs)

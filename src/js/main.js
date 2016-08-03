@@ -71,11 +71,17 @@
 
         // Timeline
         // --------
-        var $timeline = $('.timeline__content[data-date]');
+        var $timeline = $('.timeline__content[data-date], .timeline__content[data-week]');
         $timeline.each(function () {
             moment.locale($('html').attr('lang'));
-            var date    = moment($(this).data('date')).format('dd D MMM YYYY');
-            var element = $('<time>').addClass('timeline__date').text(date).attr('datetime', $(this).data('date'));
+            var dataDate = $(this).data('date'),
+                dataWeek = $(this).data('week'),
+                element = '';
+            if (typeof dataDate === 'undefined') {
+                element = $('<div>').addClass('timeline__date').text('Week ' + dataWeek);
+            } else {
+                element = $('<time>').addClass('timeline__date').text(dataDate).attr('datetime', $(this).data('date'));
+            }
             $(this).after(element);
         });
     }

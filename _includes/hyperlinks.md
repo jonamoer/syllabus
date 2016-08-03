@@ -12,6 +12,7 @@
 [APA Style]:                                                http://www.apastyle.org/
 [Apache HTTP Server]:                                       https://httpd.apache.org
 [Artestead]:                                                http://www.gdm.gent/artestead/
+  [*&nbsp;*{:.fa.fa-download}Artestead]:                    http://www.gdm.gent/artestead/installatie/
 [Artestead repository]:                                     https://github.com/gdmgent/artestead/
 [Arteveldehogeschool]:                                      http://www.arteveldehogeschool.be
 [Arteveldehogeschool GDM]:                                  http://www.arteveldehogeschool.be/bachelor-de-grafische-en-digitale-media
@@ -50,6 +51,7 @@
 [Doctrine ORM]:                                             http://www.doctrine-project.org/projects/orm.html
 [Doctrine DBAL]:                                            http://www.doctrine-project.org/projects/dbal.html
 [Dotfiles]:                                                 http://www.gdm.gent/dotfiles/
+  [*&nbsp;*{:.fa.fa-download}Dotfiles]:                     http://www.gdm.gent/dotfiles/installatie/
 [Drifty Co.]:                                               http://drifty.com
 [Drupal]:                                                   https://www.drupal.org
   [*&nbsp;*{:.fa.fa-drupal}Drupal]:                         https://www.drupal.org
@@ -165,7 +167,7 @@
 [Style Tiles]:                                              http://styletil.es
 [Stylus]:                                                   http://stylus-lang.com
 [Symfony]:                                                  https://symfony.com
-[Symfony Components]:                                       http://symfony.com/components
+[Symfony Components]:                                       https://symfony.com/components
 [Symfony Live]:                                             http://live.symfony.com
 [Swift]:                                                    https://developer.apple.com/swift/
 [Taylor Otwell]:                                            http://taylorotwell.com
