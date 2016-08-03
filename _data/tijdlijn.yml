@@ -107,7 +107,8 @@
     - [A Better Way to Learn AngularJS](https://thinkster.io/a-better-way-to-learn-angularjs)
 
 # Week 04
-- date: 2016-02-29
+- week: "04"
+  date: 2016-02-29
   icon: map-pin
   type: important
   milestone:
@@ -115,7 +116,8 @@
     label: Milestone 1
     small: Voorbereiding klaar
 
-- date: 2016-03-01
+- week: "04"
+  date: 2016-03-01
   content: |
     # Onderwerpen
     - Theorie MVC
@@ -126,35 +128,41 @@
     - [AngularJS Best Practices: Directory Structure](https://scotch.io/tutorials/angularjs-best-practices-directory-structure)
 
 # Week 05
-- date: 2016-03-07
+- week: "05"
+  date: 2016-03-07
   content: |
     # Onderwerpen
     - MVC toepassen: Models
 
-- date: 2016-03-08
+- week: "05"
+  date: 2016-03-08
   content: |
     # Onderwerpen
     - MVC toepassen: Models
 
 # Week 06
-- date: 2016-03-14
+- week: "06"
+  date: 2016-03-14
   content: |
     # Onderwerpen
     - MVC toepassen: Models
 
-- date   : 2016-03-15
+- week: "06"
+  date: 2016-03-15
   content: |
     # Onderwerpen
     - MVC toepassen: Models & Views
 
 # Week 07
-- date: 2016-03-21
+- week: "07"
+  date: 2016-03-21
   content: |
     # Onderwerpen
     - MVC toepassen: Controllers & Views
     - AngularJS: installatie, configuratie
 
-- date: 2016-03-22
+- week: "07"
+  date: 2016-03-22
   content: |
     # Onderwerpen
     - AngularJS: installatie, configuratie
@@ -168,14 +176,16 @@
     {:/}
 
 # Week 08
-- date: 2016-04-11
+- week: "08"
+  date: 2016-04-11
   icon: calendar-check-o
   type: important
   content: |
     Gastspreker [Wijs](https://wijs.be)  
     **Verplichte aanwezigheid!**
 
-- date: 2016-04-12
+- week: "08"
+  date: 2016-04-12
   type: trivial
   content: |
     {::nomarkdown}
@@ -183,7 +193,8 @@
     {:/}
 
 # Week 09
-- date: 2016-04-18
+- week: "09"
+  date: 2016-04-18
   icon: map-pin
   type: important
   milestone:
@@ -191,40 +202,46 @@
     label: Milestone 2
     small: Alpha-versie
 
-- date: 2016-04-19
+- week: "09"
+  date: 2016-04-19
   content: |
     {::nomarkdown}
     Vervolg Milestone 2
     {:/}
 
 # Week 10
-- date: 2016-04-25
+- week: "10"
+  date: 2016-04-25
   content: |
     {::nomarkdown}
     TBD
     {:/}
 
-- date: 2016-04-26
+- week: "10"
+  date: 2016-04-26
   content: |
     {::nomarkdown}
     TBD
     {:/}
 
 # Week 11
-- date: 2016-05-02
+- week: "11"
+  date: 2016-05-02
   content: |
     {::nomarkdown}
     TBD
     {:/}
 
-- date: 2016-05-03
+- week: "11"
+  date: 2016-05-03
   content: |
     {::nomarkdown}
     TBD
     {:/}
 
 # Week 12
-- date: 2016-05-09
+- week: "12"
+  date: 2016-05-09
   icon: map-pin
   type: important
   milestone:
@@ -232,14 +249,16 @@
     label: Milestone 3
     small: Beta-versie
 
-- date: 2016-05-10
+- week: "12"
+  date: 2016-05-10
   content: |
     {::nomarkdown}
     Vervolg Milestone 3
     {:/}
 
 # Week 13
-- date: 2016-05-16
+- week: "13"
+  date: 2016-05-16
   icon: calendar-check-o
   type: trivial
   content: |
@@ -247,7 +266,8 @@
     Pinkstermaandag
     {:/}
 
-- date: 2016-05-17
+- week: "13"
+  date: 2016-05-17
   content: |
     {::nomarkdown}
     TBD
