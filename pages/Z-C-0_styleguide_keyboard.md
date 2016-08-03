@@ -41,7 +41,7 @@ Combinations
 Menu
 ----
 
- - <kbd class="menu"><kbd>Lorem</kbd>&gt;<kbd>Ipsum</kbd></kbd>
+ - <kbd class="menu"><kbd>Level1&hellip;</kbd>&#9656;<kbd>Level2</kbd>&#9656;<kbd>Level3</kbd></kbd>
 
 
 {% include afkortingen-cli.md %}

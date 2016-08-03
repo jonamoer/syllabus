@@ -290,6 +290,20 @@
         ],
         "description": "Component Timeline"
     },
+    "Keyboard Keys": {
+        "prefix": "kbd",
+        "body": [
+            "<kbd class=\"keyboard\"><kbd>Ctrl</kbd>+<kbd>C</kbd></kbd>"
+        ],
+        "description": "Keyboard Keys"
+    },
+    "Keyboard Menu": {
+        "prefix": "kbd",
+        "body": [
+            "<kbd class=\"menu\"><kbd>Level1&hellip;</kbd>&#9656;<kbd>Level2</kbd>&#9656;<kbd>Level3</kbd></kbd>"
+        ],
+        "description": "Keyboard Menu"
+    },
     "NL definitie": {
         "prefix": "definitie",
         "body": [

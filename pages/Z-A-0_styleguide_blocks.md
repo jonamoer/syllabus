@@ -142,6 +142,7 @@ Card blocks
 > *Alpha*-versie voorstellen.
 >
 > - Lorem
+> - Ipsum
 {:.card.card-block #milestone-2}
 
 > ##### Milestone 3 :round_pushpin:
@@ -149,6 +150,7 @@ Card blocks
 > *Beta*-versie voorstellen.
 >
 > - Lorem
+> - Ipsum
 {:.card.card-block #milestone-3}
 
 > ##### Milestone 4 :checkered_flag:
@@ -156,6 +158,7 @@ Card blocks
 > *Release Candidate*-versie opleveren.
 >
 > - Lorem
+> - Ipsum
 {:.card.card-block #milestone-4}
 
 > ##### Mondeling Examen :speech_balloon:
@@ -163,12 +166,14 @@ Card blocks
 > *Release Candidate*-versie voorstellen.
 >
 > - Lorem
+> - Ipsum
 {:.card.card-block #milestone-exam-oral}
 
 > ##### Schriftelijk Examen :pencil:
 > ---
 >
 > - Lorem
+> - Ipsum
 {:.card.card-block #milestone-exam-written}
 
 > ##### Schriftelijk Examen :computer:
@@ -176,6 +181,7 @@ Card blocks
 > *Aan computer.*
 >
 > - Lorem
+> - Ipsum
 {:.card.card-block #milestone-exam-computer}
 
 ### Browsers
@@ -183,53 +189,53 @@ Card blocks
 #### Firefox
 
 > ##### *&nbsp;*{:.fa.fa-firefox} Firefox
->
-> Description
-> **MenuItem1** → **MenuItem2** → **MenuItem3**
+> ---
+> Description.  
+> <kbd class="menu"><kbd>Level1&hellip;</kbd>&#9656;<kbd>Level2</kbd>&#9656;<kbd>Level3</kbd></kbd>
 {:.card.card-block}
 
 > ##### *&nbsp;*{:.fa.fa-firefox} Firefox Developer Edition
->
-> Description
-> **MenuItem1** → **MenuItem2** → **MenuItem3**
+> ---
+> Description.  
+> <kbd class="menu"><kbd>Level1&hellip;</kbd>&#9656;<kbd>Level2</kbd>&#9656;<kbd>Level3</kbd></kbd>
 {:.card.card-block}
 
 #### Google Chrome
 
 > ##### *&nbsp;*{:.fa.fa-chrome} Google Chrome
->
-> Description
-> **MenuItem1** → **MenuItem2** → **MenuItem3**
+> ---
+> Description.  
+> <kbd class="menu"><kbd>Level1&hellip;</kbd>&#9656;<kbd>Level2</kbd>&#9656;<kbd>Level3</kbd></kbd>
 {:.card.card-block}
 
 #### Microsoft
 
 > ##### *&nbsp;*{:.fa.fa-edge} Edge
 > ---
-> Description
-> **MenuItem1** → **MenuItem2** → **MenuItem3**
+> Description.  
+> <kbd class="menu"><kbd>Level1&hellip;</kbd>&#9656;<kbd>Level2</kbd>&#9656;<kbd>Level3</kbd></kbd>
 {:.card.card-block}
 
 > ##### *&nbsp;*{:.fa.fa-internet-explorer} Internet Explorer
 > ---
-> Description
-> **MenuItem1** → **MenuItem2** → **MenuItem3**
+> Description.  
+> <kbd class="menu"><kbd>Level1&hellip;</kbd>&#9656;<kbd>Level2</kbd>&#9656;<kbd>Level3</kbd></kbd>
 {:.card.card-block}
 
 #### Opera
 
 > ##### *&nbsp;*{:.fa.fa-opera} Opera
->
-> Description
-> **MenuItem1** → **MenuItem2** → **MenuItem3**
+> ---
+> Description.  
+> <kbd class="menu"><kbd>Level1&hellip;</kbd>&#9656;<kbd>Level2</kbd>&#9656;<kbd>Level3</kbd></kbd>
 {:.card.card-block}
 
 #### Safari
 
 > ##### *&nbsp;*{:.fa.fa-safari} Safari
->
-> Description
-> **MenuItem1** → **MenuItem2** → **MenuItem3**
+> ---
+> Description.  
+> <kbd class="menu"><kbd>Level1&hellip;</kbd>&#9656;<kbd>Level2</kbd>&#9656;<kbd>Level3</kbd></kbd>
 {:.card.card-block}
 
 ### Operating Systems
@@ -237,31 +243,31 @@ Card blocks
 #### Android
 
 > ##### *&nbsp;*{:.fa.fa-android} Android
->
-> Description
-> **MenuItem1** → **MenuItem2** → **MenuItem3**
+> ---
+> Description.  
+> <kbd class="menu"><kbd>Level1&hellip;</kbd>&#9656;<kbd>Level2</kbd>&#9656;<kbd>Level3</kbd></kbd>
 {:.card.card-block}
 
 #### iOS
 
 > ##### *&nbsp;*{:.fa.fa-apple} iOS
->
-> Description
-> **MenuItem1** → **MenuItem2** → **MenuItem3**
+> ---
+> Description.  
+> <kbd class="menu"><kbd>Level1&hellip;</kbd>&#9656;<kbd>Level2</kbd>&#9656;<kbd>Level3</kbd></kbd>
 {:.card.card-block}
 
 #### macOS
 
 > ##### *&nbsp;*{:.fa.fa-apple} macOS
->
-> Description
-> **MenuItem1** → **MenuItem2** → **MenuItem3**
+> ---
+> Description.  
+> <kbd class="menu"><kbd>Level1&hellip;</kbd>&#9656;<kbd>Level2</kbd>&#9656;<kbd>Level3</kbd></kbd>
 {:.card.card-block}
 
 #### Windows
 
 > ##### *&nbsp;*{:.fa.fa-windows} Windows
->
-> Description
-> **MenuItem1** → **MenuItem2** → **MenuItem3**
+> ---
+> Description.  
+> <kbd class="menu"><kbd>Level1&hellip;</kbd>&#9656;<kbd>Level2</kbd>&#9656;<kbd>Level3</kbd></kbd>
 {:.card.card-block}
