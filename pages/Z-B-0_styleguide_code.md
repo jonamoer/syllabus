@@ -9,7 +9,7 @@ tags     : styleguide
 Code
 ----
 
-> ##### Zie ook :book:
+> ##### Zie ook :books:
 > ---
 > - <http://rouge.jneen.net>
 > - <https://github.com/jneen/rouge/wiki/List-of-supported-languages-and-lexers>
