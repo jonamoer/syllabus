@@ -36,10 +36,14 @@ Keys
 Combinations
 ------------
 
+(`kbd` Keyboard Keys)
+
  - <kbd class="keyboard"><kbd>Ctrl</kbd>+<kbd>C</kbd></kbd>
 
 Menu
 ----
+
+(`kbd` Keyboard Menu) 
 
  - <kbd class="menu"><kbd>Level1&hellip;</kbd>&#9656;<kbd>Level2</kbd>&#9656;<kbd>Level3</kbd></kbd>
 
