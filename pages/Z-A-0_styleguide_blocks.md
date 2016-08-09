@@ -11,20 +11,28 @@ Alert blocks
 
 ### General Blocks
 
+#### (`tip`)
+
 > ##### **Tip** :bulb:
 > ---
 > Lorem ipsum dolor sit amet.
 {:.alert.alert-info}
+
+#### (`weetje`)
 
 > ##### **Did you know?**|**Weetje** :book:
 > ---
 > Lorem ipsum dolor sit amet.
 {:.alert.alert-info}
 
+#### (`opmerking`)
+
 > ##### **Remark**|**Opmerking** :point_up:
 > ---
 > Lorem ipsum dolor sit amet.
 {:.alert.alert-info}
+
+#### (`opmerkingen`)
 
 > ##### **Remarks**|**Opmerkingen** :point_up:
 > ---
@@ -32,30 +40,42 @@ Alert blocks
 > - Lorem ipsum dolor sit amet.
 {:.alert.alert-info}
 
+#### (`opgelet`)
+
 > ##### **Warning**|**Caution**|**Opgelet** :warning:
 > ---
 > Lorem ipsum dolor sit amet.
 {:.alert.alert-warning}
+
+#### (`definitie`)
 
 > ##### **Definition**|**Definitie** :star:
 > ---
 > Lorem ipsum dolor sit amet.
 {:.alert.alert-success}
 
+#### (`voorbeeld`)
+
 > ##### **Example**|**Voorbeeld** :package:
 > ---
 > Lorem ipsum dolor sit amet.
 {:.alert.alert-success}
+
+#### (`doen`)
 
 > ##### **Do's**|**Doen** :thumbsup:
 > ---
 > Lorem ipsum dolor sit amet.
 {:.alert.alert-success}
 
+#### (`taak`|`taken`)
+
 > ##### **Task**|**Tasks**|**Taak**|**Taken** :rocket:
 > ---
 > - Lorem
 {:.alert.alert-success}
+
+#### (`niet doen`)
 
 > ##### **Don'ts**|**Niet doen** :thumbsdown:
 > ---
@@ -100,19 +120,33 @@ Card blocks
 
 ### References
 
+#### (`bronnen`)
+
+> ##### References|Bronnen :books:
+> ---
+> - [link](#)
+> - <#>
+{:.card.card-block}
+
+#### (`zie` koppelingen)
+
 > ##### See|Zie ook :books:
 > ---
 > - [link](#)
 > - <#>
 {:.card.card-block}
 
-> ##### Zie ook :movie_camera:
+#### (`zie` movie)
+
+> ##### See|Zie ook :movie_camera:
 > ---
 > - [link](#)
 > - <#>
 {:.card.card-block}
 
 ### Files
+
+#### (`mappen`)
 
 > ##### Folders & Files | Mappen & Bestanden :open_file_folder:
 > ---
@@ -240,7 +274,7 @@ Card blocks
 
 ### Operating Systems
 
-#### Android
+#### Android (`android`)
 
 > ##### *&nbsp;*{:.fa.fa-android} Android
 > ---
@@ -248,7 +282,7 @@ Card blocks
 > <kbd class="menu"><kbd>Level1&hellip;</kbd>&#9656;<kbd>Level2</kbd>&#9656;<kbd>Level3</kbd></kbd>
 {:.card.card-block}
 
-#### iOS
+#### iOS (`ios`)
 
 > ##### *&nbsp;*{:.fa.fa-apple} iOS
 > ---
@@ -256,7 +290,7 @@ Card blocks
 > <kbd class="menu"><kbd>Level1&hellip;</kbd>&#9656;<kbd>Level2</kbd>&#9656;<kbd>Level3</kbd></kbd>
 {:.card.card-block}
 
-#### macOS
+#### macOS (`mac`)
 
 > ##### *&nbsp;*{:.fa.fa-apple} macOS
 > ---
@@ -264,7 +298,7 @@ Card blocks
 > <kbd class="menu"><kbd>Level1&hellip;</kbd>&#9656;<kbd>Level2</kbd>&#9656;<kbd>Level3</kbd></kbd>
 {:.card.card-block}
 
-#### Windows
+#### Windows (`win`)
 
 > ##### *&nbsp;*{:.fa.fa-windows} Windows
 > ---

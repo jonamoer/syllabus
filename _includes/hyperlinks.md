@@ -49,7 +49,13 @@
 [Digitale Mediatheek]:                                      http://www.arteveldehogeschool.be/studeren/mediatheken/digitale-mediatheek
 [Doctrine]:                                                 http://www.doctrine-project.org
 [Doctrine ORM]:                                             http://www.doctrine-project.org/projects/orm.html
+[Doctrine ORM API]:                                         http://www.doctrine-project.org/api/orm/2.5/index.html
+[Doctrine ORM Documentation]:                               http://docs.doctrine-project.org/projects/doctrine-orm/en/latest/
 [Doctrine DBAL]:                                            http://www.doctrine-project.org/projects/dbal.html
+[Doctrine DBAL API]:                                        http://www.doctrine-project.org/api/dbal/2.5/index.html
+[Doctrine DBAL Documentation]:                              http://docs.doctrine-project.org/projects/doctrine-dbal/en/latest/
+[Doctrine Migrations]:                                      http://www.doctrine-project.org/projects/migrations.html
+[Doctrine Migrations Documentation]:                        http://docs.doctrine-project.org/projects/doctrine-migrations/en/latest/
 [Dotfiles]:                                                 http://www.gdm.gent/dotfiles/
   [*&nbsp;*{:.fa.fa-download}Dotfiles]:                     http://www.gdm.gent/dotfiles/installatie/
 [Drifty Co.]:                                               http://drifty.com

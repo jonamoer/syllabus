@@ -304,6 +304,50 @@
         ],
         "description": "Keyboard Menu"
     },
+    "OS Android": {
+        "prefix": "android",
+        "body": [
+            "> ##### &nbsp;*{:.fa.fa-android} Android",
+            "> ---",
+            "> Description.  ",
+            "> <kbd class=\"menu\"><kbd>Level1&hellip;</kbd>&#9656;<kbd>Level2</kbd>&#9656;<kbd>Level3</kbd></kbd> ",
+            "{:.card.card-block}"
+        ],
+        "description": "macOS"
+    },
+    "OS iOS": {
+        "prefix": "ios",
+        "body": [
+            "> ##### *&nbsp;*{:.fa.fa-apple} iOS",
+            "> ---",
+            "> Description.  ",
+            "> <kbd class=\"menu\"><kbd>Level1&hellip;</kbd>&#9656;<kbd>Level2</kbd>&#9656;<kbd>Level3</kbd></kbd> ",
+            "{:.card.card-block}"
+        ],
+        "description": "macOS"
+    },
+    "OS macOS": {
+        "prefix": "mac",
+        "body": [
+            "> ##### *&nbsp;*{:.fa.fa-apple} macOS",
+            "> ---",
+            "> Description.  ",
+            "> <kbd class=\"menu\"><kbd>Level1&hellip;</kbd>&#9656;<kbd>Level2</kbd>&#9656;<kbd>Level3</kbd></kbd> ",
+            "{:.card.card-block}"
+        ],
+        "description": "macOS"
+    },
+    "OS Windows": {
+        "prefix": "win",
+        "body": [
+            "> ##### *&nbsp;*{:.fa.fa-windows} Windows",
+            "> ---",
+            "> Description.  ",
+            "> <kbd class=\"menu\"><kbd>Level1&hellip;</kbd>&#9656;<kbd>Level2</kbd>&#9656;<kbd>Level3</kbd></kbd>",
+            "{:.card.card-block}"
+        ],
+        "description": "Windows"
+    },
     "NL definitie": {
         "prefix": "definitie",
         "body": [
@@ -314,8 +358,8 @@
         ],
         "description": "Definitie block"
     },
-    "NL do's": {
-        "prefix": "do",
+    "NL doen": {
+        "prefix": "doen",
         "body": [
             "> ##### **Doen** :thumbsup:",
             "> ---",
@@ -324,15 +368,15 @@
         ],
         "description": "Do's block"
     },
-    "NL donts": {
-        "prefix": "donts",
+    "NL niet doen": {
+        "prefix": "niet doen",
         "body": [
             "> ##### **Niet doen** :thumbsdown:",
             "> ---",
             "> - ",
             "{:.alert.alert-danger}"
         ],
-        "description": "Dont's block"
+        "description": "Don'ts block"
     },
     "NL mappen": {
         "prefix": "mappen",
@@ -429,6 +473,17 @@
             "{:.alert.alert-info}"
         ],
         "description": "Weetje block"
+    },
+    "NL bronnen": {
+        "prefix": "bronnen",
+        "body": [
+            "> ##### Bronnen :book:",
+            "> ---",
+            "> - [link](#)",
+            "> - <#>",
+            "{:.card.card-block}"
+        ],
+        "description": "Zie ook (koppelingen) block"
     },
     "NL zie (book)": {
         "prefix": "zie",
