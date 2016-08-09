@@ -304,6 +304,76 @@
         ],
         "description": "Keyboard Menu"
     },
+    "Marker Blue (fill)": {
+        "prefix": "mark blue fill",
+        "body": [
+            " <mark class=\"marker__fill--blue\"></mark>"
+        ],
+        "description": "Marker Blue (fill)"
+    },
+    "Marker Blue (underline)": {
+        "prefix": "mark blue underline",
+        "body": [
+            " <mark class=\"marker__underline--blue\"></mark>"
+        ],
+        "description": "Marker Blue (underline)"
+    },
+    "Marker Green (fill)": {
+        "prefix": "mark green fill",
+        "body": [
+            " <mark class=\"marker__fill--green\"></mark>"
+        ],
+        "description": "Marker Green (fill)"
+    },
+    "Marker Green (underline)": {
+        "prefix": "mark green underline",
+        "body": [
+            " <mark class=\"marker__underline--green\"></mark>"
+        ],
+        "description": "Marker Green (underline)"
+    },
+    "Marker Orange (fill)": {
+        "prefix": "mark orange fill",
+        "body": [
+            " <mark class=\"marker__fill--orange\"></mark>"
+        ],
+        "description": "Marker Orange (fill)"
+    },
+    "Marker Orange (underline)": {
+        "prefix": "mark orange underline",
+        "body": [
+            " <mark class=\"marker__underline--orange\"></mark>"
+        ],
+        "description": "Marker Orange (underline)"
+    },
+    "Marker Pink (fill)": {
+        "prefix": "mark pink fill",
+        "body": [
+            " <mark class=\"marker__fill--pink\"></mark>"
+        ],
+        "description": "Marker Pink (fill)"
+    },
+    "Marker Pink (underline)": {
+        "prefix": "mark pink underline",
+        "body": [
+            " <mark class=\"marker__underline--pink\"></mark>"
+        ],
+        "description": "Marker Pink (underline)"
+    },
+    "Marker Yellow (fill)": {
+        "prefix": "mark yellow fill",
+        "body": [
+            " <mark class=\"marker__fill--yellow\"></mark>"
+        ],
+        "description": "Marker Yellow (fill)"
+    },
+    "Marker Yellow (underline)": {
+        "prefix": "mark yellow underline",
+        "body": [
+            " <mark class=\"marker__underline--yellow\"></mark>"
+        ],
+        "description": "Marker Yellow (underline)"
+    },
     "OS Android": {
         "prefix": "android",
         "body": [
