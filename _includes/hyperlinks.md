@@ -22,6 +22,8 @@
 [Atom XML]:                                                 http://tools.ietf.org/html/rfc4287
 [Babel]:                                                    https://babeljs.io
 [Behat]:                                                    http://docs.behat.org/en/v3.0/
+[Behat Forum]:                                              https://groups.google.com/forum/#!forum/behat
+[Behat Mink]:                                               http://mink.behat.org
 [Backbone.js]:                                              http://backbonejs.org
 [Bitbucket]:                                                https://bitbucket.org
   [*&nbsp;*{:.fa.fa-bitbucket}Bitbucket]:                   https://bitbucket.org
@@ -173,7 +175,9 @@
 [Style Tiles]:                                              http://styletil.es
 [Stylus]:                                                   http://stylus-lang.com
 [Symfony]:                                                  https://symfony.com
+[Symfony BrowserKit component]:                             https://symfony.com/components/BrowserKit
 [Symfony Components]:                                       https://symfony.com/components
+[Symfony Console component]:                                https://symfony.com/components/Console
 [Symfony Live]:                                             http://live.symfony.com
 [Swift]:                                                    https://developer.apple.com/swift/
 [Taylor Otwell]:                                            http://taylorotwell.com
