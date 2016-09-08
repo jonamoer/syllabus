@@ -216,7 +216,7 @@ $ ls
 C:\> dir
 {% endhighlight %}
 
-### Windows PowerShell (`posh`)
+### PowerShell (`posh`) for macOS/Linux/Windows
 
 {% highlight posh %}
 PS> ls
