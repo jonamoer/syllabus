@@ -151,6 +151,7 @@
 [PHPSpec]:                                                  http://www.phpspec.net
 [PHPUnit]:                                                  https://phpunit.de
 [Pinterest]:                                                https://nl.pinterest.com
+[PowerShell]:                                               https://github.com/PowerShell/PowerShell
 [Propel]:                                                   http://propelorm.org
 [PSR]:                                                      http://www.php-fig.org/psr/
 [PSR-1 Basic Coding Standard]:                              http://www.php-fig.org/psr/psr-1/
