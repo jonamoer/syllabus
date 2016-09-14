@@ -21,7 +21,8 @@ Install tools
 
 ### Visual Studio Code code blocks
 
- 1. Go to `_tools/visual-studio-code/`
- 1. Run the install script:
-    - macOS: `./install.sh`
-    - Windows: `install.bat`
+ 1. Install [Artevelde Dotfiles](http://www.gdm.gent/dotfiles/)
+ 1. Go to the Syllabus folder
+    `s syllabus`
+ 1. Run the install script
+    `./_tools/visual-studio-code/install.ps1`
