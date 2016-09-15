@@ -1,0 +1,8 @@
+dl {
+    dd {
+        padding-left: 1rem;
+        & + dt {
+            border-top: 1px solid #eee;
+        }
+    }
+}
