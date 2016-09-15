@@ -6,9 +6,9 @@ language: nl
 
 # SEO
 # ---
-title      : &title SLLBS
-description: Style Guide for Syllabi.
-author     : Olivier Parent
+title      : &title SLLBS               # Change for new syllabus
+description: Style Guide for Syllabi.   # Change for new syllabus
+author     : Olivier Parent             # Change for new syllabus
 # tracking_id: "XX-XXXXXXXX-X"
 # url        :
 # image      :
@@ -32,10 +32,10 @@ kramdown:
 sass:
   style: compressed
 exclude:
-  - gulpfile
-  - node_modules/
+  - gulpfile            # Remove for new syllabus
+  - node_modules/       # Remove for new syllabus
   - src/
   - Gemfile
-  - LICENSE
-  - package.json
+  - LICENSE             # Remove for new syllabus
+  - package.json        # Remove for new syllabus
   - README.md
