@@ -11,6 +11,7 @@
 
 *[g]:               global
 *[i]:               install
+*[ou]:              outdated
 *[up]:              update
 
 *[-D]:              --save-dev
@@ -33,14 +34,10 @@
 *[vu]:              Dotfiles alias: `vagrant up`
 *[vup]:             Dotfiles alias: `vagrant up --provision`
 
-*[mma]:             Dotfiles alias: `cd ~/Code/mma.local`
-*[mapps]:           Dotfiles alias: `cd ~/Code/mapps.local`
-*[cmp]:             Dotfiles alias: `cd ~/Code/cmp.local`
-*[nmdad2]:          Dotfiles alias: `cd ~/Code/nmdad2.local`
-*[nmdad3]:          Dotfiles alias: `cd ~/Code/nmdad3.local`
-
-*[vagrant@mma$]:    Virtual Machine voor Multimedia-applicaties
 *[vagrant@mapps$]:  Virtual Machine voor Multimedia-applicaties
 *[vagrant@cmp$]:    Virtual Machine voor Crossmedia Publishing
+*[vagrant@cmp1$]:   Virtual Machine voor Crossmedia Publishing II
+*[vagrant@cmp2$]:   Virtual Machine voor Crossmedia Publishing II
+*[vagrant@cmp3$]:   Virtual Machine voor Crossmedia Publishing III
 *[vagrant@nmdad2$]: Virtual Machine voor New Media Design & Development II
 *[vagrant@nmdad3$]: Virtual Machine voor New Media Design & Development III

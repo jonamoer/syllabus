@@ -106,18 +106,21 @@
 *[PSR]:                     PHP Standard Recommendations
 *[RAD]:                     Rapid Application Development
 *[RDBMS]:                   Relational Database Management System
-*[RDF]:                     Resource Description Framework 
+*[RDF]:                     Resource Description Framework
 *[REST]:                    Representational State Transfer
 *[RESTful]:                 Representational State Transfer
 *[RISC]:                    Reduced Instruction Set Computer
 *[RFC]:                     Request for Comments
+*[RFI]:                     Request for Information
+*[RFP]:                     Request for Proposal
+*[RFQ]:                     Request for Quotation / Request for Quote
 *[RMM]:                     Richardson Maturity Model
 *[ROI]:                     Return on Investment
 *[Sass]:                    Syntactically Awesome Style Sheets
 *[SCSS]:                    Sassy CSS
 *[SDK]:                     Software Development Kit
 *[SEA]:                     Search Engine Advertising
-*[SEM]:                     Search Engine Marketing 
+*[SEM]:                     Search Engine Marketing
 *[SEO]:                     Search Engine Optimization
 *[SFTP]:                    SSH File Transfer Protocol
 *[SMB]:                     Server Message Block

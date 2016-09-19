@@ -5,7 +5,7 @@
   [*&nbsp;*{:.fa.fa-android}Android Studio]:                http://developer.android.com/sdk/index.html
 [Manifesto for Agile Software Development]:                 http://agilemanifesto.org
 [Angular]:                                                  https://angular.io
-[Angular Material]:                                         https://material.angularjs.org
+[Angular Material]:                                         https://material.angular.io/
 [AngularDart]:                                              https://angular.io/dart
 [AngularJS]:                                                https://angularjs.org
 [AngularUI]:                                                http://angular-ui.github.io
@@ -70,7 +70,9 @@
 [Emmet]:                                                    http://emmet.io
 [Emmet documentation]:                                      http://docs.emmet.io
 [ES2015]:                                                   http://www.ecma-international.org/ecma-262/6.0/
+[ES2016]:                                                   http://www.ecma-international.org/ecma-262/7.0/
 [ES6]:                                                      http://www.ecma-international.org/ecma-262/6.0/
+[ES7]:                                                      http://www.ecma-international.org/ecma-262/7.0/
 [Facebook]:                                                 https://www.facebook.com
 [Faker]:                                                    https://github.com/fzaninotto/Faker
 [Faker.js]:                                                 https://github.com/marak/Faker.js/
