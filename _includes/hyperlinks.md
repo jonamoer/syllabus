@@ -60,6 +60,7 @@
 [Doctrine Migrations Documentation]:                        http://docs.doctrine-project.org/projects/doctrine-migrations/en/latest/
 [Dotfiles]:                                                 http://www.gdm.gent/dotfiles/
   [*&nbsp;*{:.fa.fa-download}Dotfiles]:                     http://www.gdm.gent/dotfiles/installatie/
+[Dotfiles repository]:                                      https://github.com/gdmgent/dotfiles/
 [Drifty Co.]:                                               http://drifty.com
 [Drupal]:                                                   https://www.drupal.org
   [*&nbsp;*{:.fa.fa-drupal}Drupal]:                         https://www.drupal.org
