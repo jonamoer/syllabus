@@ -196,7 +196,7 @@
 [Vagrant::Hostsupdater]:                                    https://github.com/cogitatio/vagrant-hostsupdater
 [Varnish Cache]:                                            https://www.varnish-cache.org
 [VirtualBox]:                                               https://www.virtualbox.org
-[Visual Studio Code]:                                       https://www.visualstudio.com/en-us/products/code-vs.aspx
+[Visual Studio Code]:                                       https://code.visualstudio.com
 [vue.js]:                                                   http://vuejs.org
 [W3C]:                                                      http://www.w3.org
 [WeTransfer]:                                               https://www.wetransfer.com
