@@ -213,7 +213,7 @@ $ ls
 (Geen highlighting.)
 
 {% highlight cmd %}
-C:\> dir
+C:> dir
 {% endhighlight %}
 
 ### PowerShell (`posh`) for macOS/Linux/Windows

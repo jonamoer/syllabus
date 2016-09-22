@@ -29,7 +29,7 @@
         "prefix": "cmd",
         "body": [
             "{% highlight cmd %}",
-            "C:\\> ",
+            "C:> ",
             "{% endhighlight %}"
         ],
         "description": "Windows Command code block"
@@ -160,7 +160,7 @@
     "Code posh": {
         "prefix": "posh",
         "body": [
-            "{% highlight powershell %}",
+            "{% highlight posh %}",
             "PS> ",
             "{% endhighlight %}"
         ],
@@ -417,6 +417,28 @@
             "{:.card.card-block}"
         ],
         "description": "Windows"
+    },
+    "Table": {
+        "prefix": "table",
+        "body": [
+            "| th A  | th B  |",
+            "|------:|:------|",
+            "| td A1 | td B1 |",
+            "| td A2 | td B1 |",
+            "{:.table}"
+        ],
+        "description": "Normal table"
+    },
+    "Table striped": {
+        "prefix": "table striped",
+        "body": [
+            "| th A  | th B  |",
+            "|------:|:------|",
+            "| td A1 | td B1 |",
+            "| td A2 | td B1 |",
+            "{:.table.table-striped}"
+        ],
+        "description": "Striped table"
     },
     "NL definitie": {
         "prefix": "definitie",
