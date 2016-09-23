@@ -37,6 +37,8 @@
 [CoffeeScript]:                                             http://coffeescript.org
 [CakePHP]:                                                  http://cakephp.org
 [CodeIgniter]:                                              https://www.codeigniter.com
+[CodePen]:                                                  http://codepen.io
+  [*&nbsp;*{:.fa.fa-codepen}CodePen]:                       http://codepen.io
 [ConEmu]:                                                   https://github.com/Maximus5/ConEmu/releases
 [Composer]:                                                 https://getcomposer.org
 [Composer-Setup.exe]:                                       https://getcomposer.org/Composer-Setup.exe
@@ -62,6 +64,8 @@
   [*&nbsp;*{:.fa.fa-download}Dotfiles]:                     http://www.gdm.gent/dotfiles/installatie/
 [Dotfiles repository]:                                      https://github.com/gdmgent/dotfiles/
 [Drifty Co.]:                                               http://drifty.com
+[Dropbox]:                                                  https://www.dropbox.com
+  [*&nbsp;*{:.fa.fa-dropbox}Dropbox]:                       https://www.dropbox.com
 [Drupal]:                                                   https://www.drupal.org
   [*&nbsp;*{:.fa.fa-drupal}Drupal]:                         https://www.drupal.org
 [ECTS]:                                                     http://ec.europa.eu/education/tools/ects_nl.htm
@@ -97,6 +101,8 @@
   [*&nbsp;*{:.fa.fa-github}GitHub Flavored Markdown]:       https://guides.github.com/features/mastering-markdown/
 [GitHub Pages]:                                             https://pages.github.com
   [*&nbsp;*{:.fa.fa-github}GitHub Pages]:                   https://pages.github.com
+[GitLab]:                                                   https://about.gitlab.com
+  [*&nbsp;*{:.fa.fa-gitlab}GitLab]:                         https://about.gitlab.com
 [Gulp.js]:                                                  http://gulpjs.com
 [Haml]:                                                     http://haml.info
 [Handlebars]:                                               http://handlebarsjs.com
@@ -154,6 +160,7 @@
 [PHPSpec]:                                                  http://www.phpspec.net
 [PHPUnit]:                                                  https://phpunit.de
 [Pinterest]:                                                https://nl.pinterest.com
+  [*&nbsp;*{:.fa.fa-pinterest}Pinterest]:                   https://nl.pinterest.com
 [PowerShell]:                                               https://github.com/PowerShell/PowerShell
 [Propel]:                                                   http://propelorm.org
 [PSR]:                                                      http://www.php-fig.org/psr/
@@ -171,6 +178,8 @@
 [Sequel Pro]:                                               https://www.sequelpro.com
 [Shotcut]:                                                  https://www.shotcut.org
 [Silex]:                                                    http://silex.sensiolabs.org
+[Slack]:                                                    https://slack.com
+  [*&nbsp;*{:.fa.fa-slack}Slack]:                           https://slack.com
 [Smarty]:                                                   http://www.smarty.net
 [SourceTree]:                                               https://www.sourcetreeapp.com
 [SpecFlow]:                                                 http://www.specflow.org
@@ -186,12 +195,13 @@
 [Swift]:                                                    https://developer.apple.com/swift/
 [Taylor Otwell]:                                            http://taylorotwell.com
 [The Apache Software Foundation]:                           http://www.apache.org
+[Trello]:                                                   https://trello.com
+  [*&nbsp;*{:.fa.fa-trello}Trello]:                         https://trello.com
 [TypeScript]:                                               http://www.typescriptlang.org
 [Twig]:                                                     http://twig.sensiolabs.org
 [Ubuntu]:                                                   http://www.ubuntu.com/server
 [Ubuntu Server]:                                            http://www.ubuntu.com/server
   [*&nbsp;*{:.fa.fa-linux}Ubuntu Server]:                   http://www.ubuntu.com/server
-[UI Router]:                                                http://angular-ui.github.io/ui-router/site/#/api/ui.router
 [Vagrant]:                                                  https://www.vagrantup.com
 [Vagrant::Hostsupdater]:                                    https://github.com/cogitatio/vagrant-hostsupdater
 [Varnish Cache]:                                            https://www.varnish-cache.org
@@ -212,4 +222,6 @@
 [YAML]:                                                     http://yaml.org
 [YAML Lint]:                                                http://www.yamllint.com
 [Yii]:                                                      http://www.yiiframework.com
+[YouTube]:                                                  https://www.youtube.com
+  [*&nbsp;*{:.fa.fa-youtube}YouTube]:                       https://www.youtube.com
 [Zend Framework]:                                           http://framework.zend.com

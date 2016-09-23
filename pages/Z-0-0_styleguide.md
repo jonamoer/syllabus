@@ -81,21 +81,21 @@ FontAwesome
 
 | Result                                                 | Code                                  |
 |--------------------------------------------------------|---------------------------------------|
-| *&nbsp;*{:.fa.fa-bitbucket-square}Bitbucket            | `*&nbsp;*{:.fa.fa-bitbucket-square}`  |
 | [*&nbsp;*{:.fa.fa-bitbucket}Bitbucket][]               | `*&nbsp;*{:.fa.fa-bitbucket}`         |
-| *&nbsp;*{:.fa.fa-dropbox}Dropbox                       | `*&nbsp;*{:.fa.fa-dropbox}`           |
+| [*&nbsp;*{:.fa.fa-codepen}CodePen][]                   | `*&nbsp;*{:.fa.fa-codepen}`           |
+| [*&nbsp;*{:.fa.fa-dropbox}Dropbox][]                   | `*&nbsp;*{:.fa.fa-dropbox}`           |
 | *&nbsp;*{:.fa.fa-flickr}Flickr                         | `*&nbsp;*{:.fa.fa-flickr}`            |
 | *&nbsp;*{:.fa.fa-code-fork}Fork                        | `*&nbsp;*{:.fa.fa-code-fork}`         |
 | [*&nbsp;*{:.fa.fa-git}Git][]                           | `*&nbsp;*{:.fa.fa-git}`               |
-| *&nbsp;*{:.fa.fa-github-square}GitHub                  | `*&nbsp;*{:.fa.fa-github-square}`     |
 | [*&nbsp;*{:.fa.fa-github}GitHub][]                     | `*&nbsp;*{:.fa.fa-github}`            |
+| [*&nbsp;*{:.fa.fa-gitlab}GitLab][]                     | `*&nbsp;*{:.fa.fa-gitlab}`            |
 | *&nbsp;*{:.fa.fa-jsfiddle}JSFiddle                     | `*&nbsp;*{:.fa.fa-jsfiddle}`          |
 | *&nbsp;*{:.fa.fa-maxcdn}maxcdn                         | `*&nbsp;*{:.fa.fa-maxcdn}`            |
-| *&nbsp;*{:.fa.fa-pinterest}Pinterest                   | `*&nbsp;*{:.fa.fa-pinterest}`         |
-| *&nbsp;*{:.fa.fa-slack}Slack                           | `*&nbsp;*{:.fa.fa-slack}`             |
+| [*&nbsp;*{:.fa.fa-pinterest}Pinterest][]               | `*&nbsp;*{:.fa.fa-pinterest}`         |
+| [*&nbsp;*{:.fa.fa-slack}Slack][]                       | `*&nbsp;*{:.fa.fa-slack}`             |
 | *&nbsp;*{:.fa.fa-skype}Skype                           | `*&nbsp;*{:.fa.fa-skype}`             |
-| *&nbsp;*{:.fa.fa-trello}Trello                         | `*&nbsp;*{:.fa.fa-trello}`            |
-| *&nbsp;*{:.fa.fa-youtube}Youtube                       | `*&nbsp;*{:.fa.fa-youtube}`           |
+| [*&nbsp;*{:.fa.fa-trello}Trello][]                     | `*&nbsp;*{:.fa.fa-trello}`            |
+| [*&nbsp;*{:.fa.fa-youtube}YouTube][]                   | `*&nbsp;*{:.fa.fa-youtube}`           |
 | *&nbsp;*{:.fa.fa-vimeo}Vimeo                           | `*&nbsp;*{:.fa.fa-vimeo}`             |
 {:.table}
 
@@ -107,6 +107,7 @@ FontAwesome
 | *&nbsp;*{:.fa.fa-css3}CSS3                             | `*&nbsp;*{:.fa.fa-css3}`              |
 | *&nbsp;*{:.fa.fa-html5}HTML5                           | `*&nbsp;*{:.fa.fa-html5}`             |
 | *&nbsp;*{:.fa.fa-terminal}Terminal                     | `*&nbsp;*{:.fa.fa-terminal}`          |
+| *&nbsp;*{:.fa.fa-font-awesome}Font Awesome             | `*&nbsp;*{:.fa.fa-font-awesome}`      |
 {:.table}
 
 
