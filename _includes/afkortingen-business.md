@@ -1,0 +1,18 @@
+*[B2B]:                     Business to Business
+*[B2C]:                     Business to Consumer
+*[C2C]:                     Consumer to Consumer
+*[CRM]:                     Customer Relationship Management
+*[CTA]:                     Call to Action
+*[ECTS]:                    European Credit Transfer and Accumulation System
+*[MVP]:                     Minimum Viable Product
+*[PR]:                      Public Relations
+*[RFI]:                     Request for Information
+*[RFP]:                     Request for Proposal
+*[RFQ]:                     Request for Quotation / Request for Quote
+*[ROI]:                     Return on Investment
+*[SEA]:                     Search Engine Advertising
+*[SEM]:                     Search Engine Marketing
+*[SEO]:                     Search Engine Optimization
+*[TBC]:                     To Be Confirmed
+*[TBD]:                     To Be Decided
+*[WIP]:                     Work in Progress

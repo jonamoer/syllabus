@@ -1,23 +1,17 @@
-*[1EK]:                     Eerste Examenkans
-*[2EK]:                     Tweede Examenkans
 *[3A]:                      Arrange-Act-Assert
 *[Ajax]:                    Asynchronous JavaScript and XML
 *[ANSI]:                    American National Standards Institute
-*[APA]:                     American Psychological Association
 *[API]:                     Application Programming Interface
 *[ARIA]:                    Accessible Rich Internet Applications
 *[ARM]:                     Advanced RISC Machines
 *[ASCII]:                   American Standard Code for Information Interchange
 *[ASP]:                     Active Server Pages
 *[AVD]:                     Android Virtual Device
-*[B2B]:                     Business to Business
-*[B2C]:                     Business to Consumer
 *[Bash]:                    Bourne-Again Shell
 *[BDD]:                     Behaviour-Driven Development
 *[BIOS]:                    Basic Input/Output System
 *[BOC]:                     Build-Operate-Check
 *[BTW]:                     Belasting over de Toegevoegde Waarde
-*[C2C]:                     Consumer to Consumer
 *[CISC]:                    Complex Instruction Set Computer
 *[CLI]:                     Command-Line Interface
 *[CMS]:                     Content Management System
@@ -33,7 +27,6 @@
 *[CSS3]:                    Cascading Style Sheets Level 3
 *[CSS4]:                    Cascading Style Sheets Level 4
 *[CSV]:                     Comma-Separated Values
-*[CTA]:                     Call to Action
 *[DAL]:                     Database Abstraction Layer
 *[DB]:                      Database
 *[DBAL]:                    Database Abstraction Layer
@@ -45,7 +38,6 @@
 *[DML]:                     Data Manipulation Language
 *[DOM]:                     Document Object Model
 *[DTD]:                     Document Type Declaration
-*[ECTS]:                    European Credit Transfer and Accumulation System
 *[ES2015]:                  ECMAScript 2015 / ECMA-262 6th Edition
 *[ES2016]:                  ECMAScript 2016 / ECMA-262 7th Edition
 *[ES6]:                     ECMAScript 2015 / ECMA-262 6th Edition
@@ -86,14 +78,12 @@
 *[LTS]:                     Long Term Support
 *[NFS]:                     Network File System
 *[MIME]:                    Multipurpose Internet Mail Extensions
-*[MVP]:                     Minimum Viable Product
-*[NVM]:                     Node Version Manager
 *[MV*]:                     Model-View-Whatever
-*[MVC]:                     Model-View-Controller
 *[MVP]:                     Model-View-Presenter
+*[MVC]:                     Model-View-Controller
 *[MVVM]:                    Model-View-ViewModel
 *[MVW]:                     Model-View-Whatever
-*[OLOD]:                    opleidingsonderdeel
+*[NVM]:                     Node Version Manager
 *[OOP]:                     Objectgeoriënteerd Programmeren
 *[OPA]:                     One Page Application
 *[ORM]:                     Object-Relational Mapper
@@ -103,7 +93,6 @@
 *[PHP-FIG]:                 PHP Framework Interop Group
 *[PK]:                      Primary Key
 *[PNG]:                     Portable Network Graphic
-*[PR]:                      Public Relations
 *[PSR]:                     PHP Standard Recommendations
 *[RAD]:                     Rapid Application Development
 *[RDBMS]:                   Relational Database Management System
@@ -112,11 +101,7 @@
 *[RESTful]:                 Representational State Transfer
 *[RISC]:                    Reduced Instruction Set Computer
 *[RFC]:                     Request for Comments
-*[RFI]:                     Request for Information
-*[RFP]:                     Request for Proposal
-*[RFQ]:                     Request for Quotation / Request for Quote
 *[RMM]:                     Richardson Maturity Model
-*[ROI]:                     Return on Investment
 *[Sass]:                    Syntactically Awesome Style Sheets
 *[SCSS]:                    Sassy CSS
 *[SDK]:                     Software Development Kit
@@ -130,8 +115,6 @@
 *[SSG]:                     Static Site Generator
 *[SSH]:                     Secure Shell
 *[SVG]:                     Scalable Vector Graphic
-*[TBC]:                     To Be Confirmed
-*[TBD]:                     To Be Decided
 *[TCP]:                     Transmission Control Protocol
 *[TDD]:                     Test-Driven Development
 *[TST]:                     Transaction-Safe Tables
@@ -154,7 +137,6 @@
 *[WAI]:                     Web Accessibility Initiative
 *[WCAG]:                    Web Content Accessibility Guidelines
 *[WP]:                      WordPress
-*[WIP]:                     Work in Progress
 *[x64]:                     64-bit x86 Instruction Set
 *[x86]:                     32-bit x86 Instruction Set
 *[XHTML]:                   Extensible Hypertext Markup Language
