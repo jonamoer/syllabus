@@ -1,3 +1,10 @@
+[Adobe Animate CC]:                                         https://www.adobe.com/be_nl/products/animate.html
+[Adobe Creative Cloud]:                                     https://www.adobe.com/be_nl/creativecloud.html
+[Adobe Experience Design CC]:                               https://www.adobe.com/be_nl/products/experience-design.html
+[Adobe Illustrator CC]:                                     https://www.adobe.com/be_nl/products/illustrator.html
+[Adobe InDesign CC]:                                        https://www.adobe.com/be_nl/products/indesign.html
+[Adobe Muse CC]:                                            https://www.adobe.com/be_nl/products/muse.html
+[Adobe Photoshop CC]:                                       https://www.adobe.com/be_nl/products/photoshop.html
 [Android]:                                                  http://developer.android.com
 [*&nbsp;*{:.fa.fa-android}Android]:                         http://developer.android.com
 [Android SDK]:                                              http://developer.android.com/sdk/index.html

@@ -86,6 +86,7 @@
 *[LTS]:                     Long Term Support
 *[NFS]:                     Network File System
 *[MIME]:                    Multipurpose Internet Mail Extensions
+*[MVP]:                     Minimum Viable Product
 *[NVM]:                     Node Version Manager
 *[MV*]:                     Model-View-Whatever
 *[MVC]:                     Model-View-Controller
