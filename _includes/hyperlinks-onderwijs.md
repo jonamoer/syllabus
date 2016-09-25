@@ -8,6 +8,7 @@
 [Werkstuk]:                     http://www.gdm.gent/mod_wanm/deliverables/werkstuk/
 [Wireframes]:                   http://www.gdm.gent/mod_wanm/workflow/design/wireframes/
 [Wireflow]:                     http://www.gdm.gent/mod_wanm/workflow/design/wireflow/
+[Schermopname]:                 http://www.gdm.gent/mod_wanm/workflow/deliverables/schermopname/
 [Style Tiles]:                  http://www.gdm.gent/mod_wanm/workflow/design/style-tiles/
 [Style Guide]:                  http://www.gdm.gent/mod_wanm/workflow/design/style-guide/
 [Visual Designs]:               http://www.gdm.gent/mod_wanm/workflow/design/visual-designs/
