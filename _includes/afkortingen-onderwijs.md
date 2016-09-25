@@ -5,6 +5,7 @@
 *[CM]:                      GMB Crossmedia
 *[CMO]:                     Crossmedia-ontwerp
 *[CMP]:                     Crossmedia Publishing
+*[D6]:                      Discover-Define-Design-Develop-Deliver-Deploy
 *[ECTS]:                    European Credit Transfer and Accumulation System
 *[GDM]:                     Bachelor in de grafische en digitale media
 *[GD]:                      CMO Graphic Design
