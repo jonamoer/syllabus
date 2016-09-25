@@ -1,3 +1,4 @@
+[Deliverables]:                 http://www.gdm.gent/mod_wanm/deliverables/
 [Academische Poster]:           http://www.gdm.gent/mod_wanm/deliverables/academische-poster/
 [Productiedossier]:             http://www.gdm.gent/mod_wanm/deliverables/productiedossier/
 [Presentatie]:                  http://www.gdm.gent/mod_wanm/deliverables/presentatie/
@@ -5,14 +6,24 @@
 [Werkstuk]:                     http://www.gdm.gent/mod_wanm/deliverables/werkstuk/
 [Schermopname]:                 http://www.gdm.gent/mod_wanm/deliverables/schermopname/
 
+[Glossarium]:                   http://www.gdm.gent/mod_wanm/glossarium/
+[Glossarium CS & SE]:           http://www.gdm.gent/mod_wanm/glossarium/csse/
+
+[Workflow]:                     http://www.gdm.gent/mod_wanm/workflow/
+[Discover]:                     http://www.gdm.gent/mod_wanm/workflow/discover/
+[Define]:                       http://www.gdm.gent/mod_wanm/workflow/define/
 [Ideaboard]:                    http://www.gdm.gent/mod_wanm/workflow/define/ideaboard/
 [Moodboard]:                    http://www.gdm.gent/mod_wanm/workflow/define/moodboard/
 [Persona Sheet]:                http://www.gdm.gent/mod_wanm/workflow/define/persona-sheet/
+[Design]:                       http://www.gdm.gent/mod_wanm/workflow/design/
 [Wireframes]:                   http://www.gdm.gent/mod_wanm/workflow/design/wireframes/
 [Wireflow]:                     http://www.gdm.gent/mod_wanm/workflow/design/wireflow/
 [Style Tiles]:                  http://www.gdm.gent/mod_wanm/workflow/design/style-tiles/
 [Style Guide]:                  http://www.gdm.gent/mod_wanm/workflow/design/style-guide/
 [Visual Designs]:               http://www.gdm.gent/mod_wanm/workflow/design/visual-designs/
+[Develop]:                      http://www.gdm.gent/mod_wanm/workflow/develop/
+[Deliver]:                      http://www.gdm.gent/mod_wanm/workflow/deliver/
+[Deploy]:                       http://www.gdm.gent/mod_wanm/workflow/deploy/
 
 [Artestead]:                    http://www.gdm.gent/artestead/
 [Dotfiles]:                     http://www.gdm.gent/dotfiles/
