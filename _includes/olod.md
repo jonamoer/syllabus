@@ -4,7 +4,6 @@
 *[{{ site.title }}]:                            {{ site.data.olod.title.full }}
 *[{{ site.data.olod.programme.minor.short }}]:  {{ site.data.olod.programme.minor.full }}
 
-
 {% comment %}
 <!-- ⚓ Hyperlinks -->
 {% endcomment %}
