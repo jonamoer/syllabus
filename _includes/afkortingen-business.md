@@ -15,4 +15,5 @@
 *[SEO]:                     Search Engine Optimization
 *[TBC]:                     To Be Confirmed
 *[TBD]:                     To Be Decided
+*[WBS]:                     Work Breakdown Structure
 *[WIP]:                     Work in Progress

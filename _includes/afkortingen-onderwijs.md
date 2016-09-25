@@ -17,5 +17,6 @@
 *[PM]:                      GMB Printmedia
 *[proDEV]:                  MMP Professional Software Developer
 *[proDUCE]:                 MMP Professional Audiovisual Producer
+*[WANM]:                    Web & New Media
 *[WDAD]:                    Web Design & Development
 *[WEBD]:                    Webdesign / Web Design
