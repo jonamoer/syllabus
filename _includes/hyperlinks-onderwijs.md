@@ -1,14 +1,15 @@
 [Academische Poster]:           http://www.gdm.gent/mod_wanm/deliverables/academische-poster/
-[Ideaboard]:                    http://www.gdm.gent/mod_wanm/workflow/define/ideaboard/
-[Moodboard]:                    http://www.gdm.gent/mod_wanm/workflow/define/moodboard/
-[Persona Sheet]:                http://www.gdm.gent/mod_wanm/workflow/define/persona-sheet/
 [Productiedossier]:             http://www.gdm.gent/mod_wanm/deliverables/productiedossier/
 [Presentatie]:                  http://www.gdm.gent/mod_wanm/deliverables/presentatie/
 [Timesheet]:                    http://www.gdm.gent/mod_wanm/deliverables/timesheet/
 [Werkstuk]:                     http://www.gdm.gent/mod_wanm/deliverables/werkstuk/
+[Schermopname]:                 http://www.gdm.gent/mod_wanm/deliverables/schermopname/
+
+[Ideaboard]:                    http://www.gdm.gent/mod_wanm/workflow/define/ideaboard/
+[Moodboard]:                    http://www.gdm.gent/mod_wanm/workflow/define/moodboard/
+[Persona Sheet]:                http://www.gdm.gent/mod_wanm/workflow/define/persona-sheet/
 [Wireframes]:                   http://www.gdm.gent/mod_wanm/workflow/design/wireframes/
 [Wireflow]:                     http://www.gdm.gent/mod_wanm/workflow/design/wireflow/
-[Schermopname]:                 http://www.gdm.gent/mod_wanm/workflow/deliverables/schermopname/
 [Style Tiles]:                  http://www.gdm.gent/mod_wanm/workflow/design/style-tiles/
 [Style Guide]:                  http://www.gdm.gent/mod_wanm/workflow/design/style-guide/
 [Visual Designs]:               http://www.gdm.gent/mod_wanm/workflow/design/visual-designs/
