@@ -152,14 +152,14 @@ Card blocks
 > ---
 >```
 > nmdad3.local/
-> ├── app/
 > ├── docs/
 > │   ├── academische_poster.pdf
 > │   ├── checklist.md
 > │   ├── presentatie.pdf
 > │   ├── productiedossier.pdf
 > │   └── timesheet.xslx
-> ├── www/
+> ├── ionic/
+> ├── symfony/
 > └── README.md
 >```
 {:.card.card-block.files}
