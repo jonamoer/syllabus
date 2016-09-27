@@ -125,6 +125,6 @@ Er wordt gequoteerd op onderdelen uit onderstaande tabel.
 {:.alert.alert-warning}
 
 
-{% include afkortingen.md %}
+{% include afkortingen-computer.md %}
 {% include hyperlinks.md %}
 {% include olod.md %}

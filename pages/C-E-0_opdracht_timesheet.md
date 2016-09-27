@@ -40,5 +40,5 @@ Voorbeeld
 {:.table}
 
 
-{% include afkortingen.md %}
+{% include afkortingen-computer.md %}
 {% include hyperlinks.md %}

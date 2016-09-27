@@ -105,6 +105,6 @@ De functionaliteit is afhankelijk van de functionaliteit van de Mobile Hybrid Ap
    Zoals van elk product van een student *Bachelor in de grafische en digitale media* verwacht mag worden!
 
 
-{% include afkortingen.md %}
+{% include afkortingen-computer.md %}
 {% include hyperlinks.md %}
 {% include olod.md %}

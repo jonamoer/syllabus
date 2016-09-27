@@ -16,11 +16,12 @@
 [Moodboard]:                    http://www.gdm.gent/mod_wanm/workflow/define/moodboard/
 [Persona Sheet]:                http://www.gdm.gent/mod_wanm/workflow/define/persona-sheet/
 [Design]:                       http://www.gdm.gent/mod_wanm/workflow/design/
-[Wireframes]:                   http://www.gdm.gent/mod_wanm/workflow/design/wireframes/
-[Wireflow]:                     http://www.gdm.gent/mod_wanm/workflow/design/wireflow/
-[Style Tiles]:                  http://www.gdm.gent/mod_wanm/workflow/design/style-tiles/
+[Sitemap]:                      http://www.gdm.gent/mod_wanm/workflow/design/sitemap/
 [Style Guide]:                  http://www.gdm.gent/mod_wanm/workflow/design/style-guide/
+[Style Tiles]:                  http://www.gdm.gent/mod_wanm/workflow/design/style-tiles/
 [Visual Designs]:               http://www.gdm.gent/mod_wanm/workflow/design/visual-designs/
+[Wireflow]:                     http://www.gdm.gent/mod_wanm/workflow/design/wireflow/
+[Wireframes]:                   http://www.gdm.gent/mod_wanm/workflow/design/wireframes/
 [Develop]:                      http://www.gdm.gent/mod_wanm/workflow/develop/
 [Deliver]:                      http://www.gdm.gent/mod_wanm/workflow/deliver/
 [Deploy]:                       http://www.gdm.gent/mod_wanm/workflow/deploy/

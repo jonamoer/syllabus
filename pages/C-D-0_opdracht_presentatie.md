@@ -29,5 +29,5 @@ Zorg voor een grafisch verzorgde presentatie en verzorgd taalgebruik. Gebruik Po
 {:.alert.alert-info}
 
 
-{% include afkortingen.md %}
+{% include afkortingen-computer.md %}
 {% include hyperlinks.md %}

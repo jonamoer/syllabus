@@ -23,6 +23,6 @@ Veel studieplezier tijdens deze boeiende ontdekkingstocht!
 {:.table}
 
 
-{% include afkortingen.md %}
+{% include afkortingen-computer.md %}
 {% include hyperlinks.md %}
 {% include olod.md %}

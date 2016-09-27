@@ -82,6 +82,6 @@ Minstens 3 uitgesproken verschillende [Style Tiles][] en duid aan welke gekozen 
  - Screen Designs
 
 
-{% include afkortingen.md %}
+{% include afkortingen-computer.md %}
 {% include hyperlinks.md %}
 {% include olod.md %}

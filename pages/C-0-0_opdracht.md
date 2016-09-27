@@ -223,5 +223,5 @@ Tips
 [^productiewaardig]: Productiewaardig wil zeggen dat het geen visuele bugs bevat en dat het perfect voldoet aan de vooraf bepaalde specificaties. 
 [^refactoring]: Refactoring is het aanpassen van de architectuur, structuur en/of naamgeving van code, zodat het beter werkt of beter anticipeert op toekomstige wijzigingen. 
 
-{% include afkortingen.md %}
+{% include afkortingen-computer.md %}
 {% include hyperlinks.md %}

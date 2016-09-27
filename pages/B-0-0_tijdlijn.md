@@ -8,5 +8,5 @@ published: false
 {% include components/timeline.html timeline=site.data.tijdlijn %}
 
 
-{% include afkortingen.md %}
+{% include afkortingen-computer.md %}
 {% include hyperlinks.md %}

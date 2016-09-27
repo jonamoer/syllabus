@@ -45,6 +45,6 @@ Niet vergeten te vermelden:
 > {{ site.data.olod.copyright.institute.en }}
 {:.alert.alert-success}
 
-{% include afkortingen.md %}
+{% include afkortingen-computer.md %}
 {% include hyperlinks.md %}
 {% include olod.md %}
