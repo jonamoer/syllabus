@@ -3,12 +3,12 @@
     <a class="navbar-brand pull-xs-right pull-sm-left" href="{{ site.baseurl }}/" title="{{ site.data.olod.title.full }}"><i class="fa fa-rocket"></i> {{ site.title }}</a>
     <div class="collapse navbar-toggleable-xs" id="navbar-collapse-A">
         <nav class="nav navbar-nav">
-{% assign page_level = (page.path | remove: "pages/" | split: "_" | first | split: "-") %}
+{% assign page_level = (page.path | remove: 'pages/' | split: '_' | first | split: '-') %}
 {% assign nodes = (site.pages) %}
 {% for node in nodes %}
 {%  if node.layout contains 'page' %}
-{%      assign node_level = (node.path | remove: "pages/" | split: "_" | first | split: "-") %}
-{%      if (node_level[1] == "0") and (node_level[2] == "0") %}
+{%      assign node_level = (node.path | remove: 'pages/' | split: '_' | first | split: '-') %}
+{%      if (node_level[1] == '0') and (node_level[2] == '0') %}
             <div class="nav-item{% if page_level[0] == node_level[0] %} active{% endif %} pull-xs-none pull-sm-left m-l-1">
                 <a class="nav-link" href="{{ node.url | prepend: site.baseurl }}">{{ node.title }}</a>
             </div>
@@ -18,14 +18,14 @@
             <div class="nav-item dropdown pull-xs-none pull-sm-right p-r-1" id="table-of-contents">
                 <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false"><i class="fa fa-bookmark"></i><span class="hidden-sm-up"> Inhoudstafel</span></ao></a>
                 <div class="dropdown-menu dropdown-menu-right">
-                    <div class="dropdown-header"><i class="fa fa-bookmark"></i> {% if site.language == "nl" %}Inhoudstafel{% else %}Table of Contents{% endif %}</div>
+                    <div class="dropdown-header"><i class="fa fa-bookmark"></i> {% if site.language == 'nl' %}Inhoudstafel{% else %}Table of Contents{% endif %}</div>
                 </div>
             </div>
             <div class="nav-item dropdown pull-xs-none pull-sm-right p-r-1">
                 <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false"><i class="fa fa-life-ring"></i> Help</a>
                 <div class="dropdown-menu dropdown-menu-right">
-{% unless site.data.olod.course.chamilo_id == "0000" %}
-                    <a class="dropdown-item" href="https://chamilo.arteveldehs.be/index.php?application=weblcms&go=course_viewer&course={{ site.data.olod.course.chamilo_id }}">Chamilo</a>
+{% unless site.data.syllabus.course.chamilo_id == '0000' %}
+                    <a class="dropdown-item" href="https://chamilo.arteveldehs.be/index.php?application=weblcms&go=course_viewer&course={{ site.data.syllabus.course.chamilo_id }}">Chamilo</a>
                     <div class="dropdown-divider"></div>
 {% endunless %}
                     <a class="dropdown-item" href="https://gdmgent.slack.com/signup"><i class="fa fa-slack"></i> GDM Gent</a>

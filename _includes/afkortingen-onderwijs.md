@@ -2,6 +2,7 @@
 *[2EK]:                     Tweede Examenkans
 *[Ahs]:                     Arteveldehogeschool
 *[APA]:                     American Psychological Association
+*[cf.]:                     confer, vergelijk
 *[CM]:                      GMB Crossmedia
 *[CMO]:                     Crossmedia-ontwerp
 *[CMP]:                     Crossmedia Publishing
@@ -18,6 +19,7 @@
 *[PM]:                      GMB Printmedia
 *[proDEV]:                  MMP Professional Software Developer
 *[proDUCE]:                 MMP Professional Audiovisual Producer
+*[s.d.]:                    sine datum, zonder datum
 *[WANM]:                    Web & New Media
 *[WDAD]:                    Web Design & Development
 *[WEBD]:                    Webdesign / Web Design
