@@ -1,5 +1,5 @@
 ---
-layout    : page
+layout    : page-full
 title     : Info
 title_long: Algemene informatie
 permalink : informatie/

@@ -10,7 +10,7 @@
         return item[Object.keys(item)[0]];
     }
 
-    var data = {{ site.data.olod.workload.hours | jsonify }},
+    var data = {{ site.data.syllabus.workload.hours | jsonify }},
         dataLabels = data.map(getLabel),
         dataSeries = data.map(getSeries);
 
