@@ -36,6 +36,7 @@
 [Module Webtech]:               http://www.gdm.gent/mod_webtech/
 
 [Syllabus CMP 2015-16]:         http://www.gdm.gent/1516_cmp/
+[Syllabus CMP-II 2015-16]:      http://www.gdm.gent/1516_cmp2/
 [Syllabus NMDAD-II 2015-16]:    http://www.gdm.gent/1516_nmdad2/
 [Syllabus NMDAD-III 2015-16]:   http://www.gdm.gent/1516_nmdad3/
 
