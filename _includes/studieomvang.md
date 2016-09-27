@@ -1,4 +1,4 @@
-{% assign workload = site.data.olod.workload %}
+{% assign workload = site.data.syllabus.workload %}
 De studieomvang bedraagt **{{ workload.credits }} studiepunten**{:.label.label-{{ site.colour }}} volgens het [European Credit Transfer and Accumulation System][ECTS].
 
 | Activiteit | Uur  |

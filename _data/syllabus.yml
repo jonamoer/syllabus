@@ -42,14 +42,20 @@ authors:
       code   : OPR
     email    : olivier.parent@arteveldehs.be
     website  : http://www.olivierparent.be
-    bitbucket: https://bitbucket.org/olivierparent
+    repository :
+      bitbucket: https://bitbucket.org/olivierparent/
+      github   : https://github.com/OlivierParent
+      gitlab   : https://gitlab.com/OlivierParent
   - name:
       full   : Philippe De Pauw - Waterschoot
       short  : Ph. De Pauw
       code   : PDP
     email    : philippe.depauw@arteveldehs.be
     website  : http://www.drdynscript.eu
-    bitbucket: https://bitbucket.org/drdynscript
+    repository :
+      bitbucket: https://bitbucket.org/drdynscript/
+      github   : https://github.com/drdynscript
+      gitlab   : https://gitlab.com/drdynscript
 
 workload:
   credits: 7

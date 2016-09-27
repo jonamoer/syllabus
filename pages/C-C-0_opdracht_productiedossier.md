@@ -84,4 +84,4 @@ Minstens 3 uitgesproken verschillende [Style Tiles][] en duid aan welke gekozen 
 
 {% include afkortingen-computer.md %}
 {% include hyperlinks.md %}
-{% include olod.md %}
+{% include syllabus.md %}

@@ -15,7 +15,7 @@ published : false
 ECTS
 ----
 
-[ECTS-fiche van {{ site.data.olod.title.short }}][ECTS-fiche]{:.btn.btn-outline-{{ site.colour }}}
+[ECTS-fiche van {{ site.data.syllabus.title.short }}][ECTS-fiche]{:.btn.btn-outline-{{ site.colour }}}
 
 ### Studieomvang
 
@@ -126,5 +126,6 @@ Er wordt gequoteerd op onderdelen uit onderstaande tabel.
 
 
 {% include afkortingen-computer.md %}
+{% include afkortingen-onderwijs.md %}
 {% include hyperlinks.md %}
-{% include olod.md %}
+{% include syllabus.md %}

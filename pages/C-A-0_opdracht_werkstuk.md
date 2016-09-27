@@ -107,4 +107,4 @@ De functionaliteit is afhankelijk van de functionaliteit van de Mobile Hybrid Ap
 
 {% include afkortingen-computer.md %}
 {% include hyperlinks.md %}
-{% include olod.md %}
+{% include syllabus.md %}
