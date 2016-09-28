@@ -18,6 +18,7 @@ destinations:
   - 1617_webd3
   - 1617_webd4
 # Modules
+  - mod_cms
   - mod_data
   - mod_javascript
   - mod_php
