@@ -9,6 +9,8 @@
 [Glossarium]:                   http://www.gdm.gent/mod_wanm/glossarium/
 [Glossarium CS & SE]:           http://www.gdm.gent/mod_wanm/glossarium/csse/
 
+[Software]:                     http://www.gdm.gent/mod_wanm/software/
+
 [Workflow]:                     http://www.gdm.gent/mod_wanm/workflow/
 [Discover]:                     http://www.gdm.gent/mod_wanm/workflow/discover/
 [Define]:                       http://www.gdm.gent/mod_wanm/workflow/define/

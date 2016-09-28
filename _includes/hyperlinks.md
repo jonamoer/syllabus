@@ -67,6 +67,8 @@
 [Doctrine DBAL Documentation]:                              http://docs.doctrine-project.org/projects/doctrine-dbal/en/latest/
 [Doctrine Migrations]:                                      http://www.doctrine-project.org/projects/migrations.html
 [Doctrine Migrations Documentation]:                        http://docs.doctrine-project.org/projects/doctrine-migrations/en/latest/
+[DoctrineFixturesBundle]:                                   https://symfony.com/doc/current/bundles/DoctrineFixturesBundle/index.html
+[DoctrineMigrationsBundle]:                                 https://symfony.com/doc/current/bundles/DoctrineMigrationsBundle/index.html
 [Dotfiles]:                                                 http://www.gdm.gent/dotfiles/
   [*&nbsp;*{:.fa.fa-download}Dotfiles]:                     http://www.gdm.gent/dotfiles/installatie/
 [Dotfiles repository]:                                      https://github.com/gdmgent/dotfiles/
@@ -94,6 +96,7 @@
 [Firefox Developer Edition]:                                https://www.mozilla.org/nl/firefox/developer/
   [*&nbsp;*{:.fa.fa-firefox}Firefox Developer Edition]:     https://www.mozilla.org/nl/firefox/developer/
 [FontAwesome]:                                              http://fontawesome.io
+[FOSRestBundle]:                                            https://symfony.com/doc/current/bundles/FOSRestBundle/index.html
 [Foundation]:                                               http://foundation.zurb.com
 [Foundation for Emails]:                                    http://foundation.zurb.com/emails.html
 [Foundation for Sites]:                                     http://foundation.zurb.com/sites.html
@@ -121,6 +124,7 @@
 [Inky]:                                                     http://foundation.zurb.com/emails/docs/inky.html
 [Ionic CLI]:                                                http://ionicframework.com/docs/cli/
 [Ionic Platform]:                                           http://ionic.io/platform
+[Ionic Native]:                                             http://ionicframework.com/docs/v2/native/
 [Ionic SDK]:                                                http://ionicframework.com
 [Java]:                                                     https://java.com/nl/
 [JDK 8]:                                                    http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html
@@ -149,6 +153,8 @@
 [MySQL]:                                                    http://www.mysql.com/products/community
 [MySQL Manual]:                                             https://dev.mysql.com/doc/refman/5.7/en
 [MySQL Workbench]:                                          http://dev.mysql.com/downloads/workbench
+[NelmioApiDocBundle]:                                       https://symfony.com/doc/current/bundles/NelmioApiDocBundle/index.html
+[NelmioCorsBundle]:                                         https://github.com/nelmio/NelmioCorsBundle
 [NetBeans IDE]:                                             https://netbeans.org
 [ngCordova]:                                                http://ngcordova.com/
 [NGINX]:                                                    http://nginx.org
