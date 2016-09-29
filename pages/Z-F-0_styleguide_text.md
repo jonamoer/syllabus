@@ -6,10 +6,15 @@ published: true
 tags     : styleguide
 ---
 
-Labels
-------
+Tags
+----
 
-Lorem ipsum *primary*{:.label.label-primary} *success*{:.label.label-success} *info*{:.label.label-info} *warning*{:.label.label-warning} *danger*{:.label.label-danger}
+Lorem ipsum *primary*{:.tag.tag-primary} *success*{:.tag.tag-success} *info*{:.tag.tag-info} *warning*{:.tag.tag-warning} *danger*{:.tag.tag-danger}
+
+Lorem ipsum *primary*{:.tag.tag-pill.tag-primary} *success*{:.tag.tag-pill.tag-success} *info*{:.tag.tag-pill.tag-info} *warning*{:.tag.tag-pill.tag-warning} *danger*{:.tag.tag-pill.tag-danger}
+
+- *1EK*{:.tag.tag-pill.tag-primary}
+- *2EK*{:.tag.tag-pill.tag-danger}
 
 Markers (`mark`)
 ----------------
