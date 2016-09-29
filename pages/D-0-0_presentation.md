@@ -5,7 +5,6 @@ permalink: presentation/
 published: true
 ---
 
-
 <section>
     <h1>Reveal.js</h1>
     <h3>The HTML Presentation Framework</h3>

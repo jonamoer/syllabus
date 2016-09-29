@@ -125,6 +125,7 @@
 [Ionic CLI]:                                                http://ionicframework.com/docs/cli/
 [Ionic Platform]:                                           http://ionic.io/platform
 [Ionic Native]:                                             http://ionicframework.com/docs/v2/native/
+[Ionic View]:                                               http://view.ionic.io
 [Ionic SDK]:                                                http://ionicframework.com
 [Java]:                                                     https://java.com/nl/
 [JDK 8]:                                                    http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html
