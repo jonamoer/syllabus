@@ -102,7 +102,7 @@
 [Foundation for Sites]:                                     http://foundation.zurb.com/sites.html
 [FriendsOfSymfony]:                                         http://friendsofsymfony.github.io
 [Gems]:                                                     https://rubygems.org
-[Gherkin]:                                                  http://docs.behat.org/en/v3.0/guides/1.gherkin.html
+[Gherkin]:                                                  http://behat.org/en/latest/user_guide/gherkin.html
 [Git]:                                                      http://git-scm.com
   [*&nbsp;*{:.fa.fa-git}Git]:                               http://git-scm.com
 [GitHub]:                                                   https://github.com
