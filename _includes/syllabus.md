@@ -2,7 +2,9 @@
 <!-- ⚓ Afkortingen -->
 {% endcomment %}
 *[{{ site.title }}]:                                {{ site.data.syllabus.title.full }}
+{% if site.data.syllabus.programme.minor %}
 *[{{ site.data.syllabus.programme.minor.short }}]:  {{ site.data.syllabus.programme.minor.full }}
+{% endif %}
 
 {% comment %}
 <!-- ⚓ Hyperlinks -->
