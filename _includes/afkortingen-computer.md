@@ -7,11 +7,13 @@
 *[ASCII]:                   American Standard Code for Information Interchange
 *[ASP]:                     Active Server Pages
 *[AVD]:                     Android Virtual Device
+*[AWD]:                     Adaptive Web Design
 *[Bash]:                    Bourne-Again Shell
 *[BDD]:                     Behaviour-Driven Development
 *[BIOS]:                    Basic Input/Output System
 *[BOC]:                     Build-Operate-Check
 *[BTW]:                     Belasting over de Toegevoegde Waarde
+*[CERN]:                    European Organization for Nuclear Research
 *[CISC]:                    Complex Instruction Set Computer
 *[CLI]:                     Command-Line Interface
 *[CMS]:                     Content Management System
@@ -68,6 +70,7 @@
 *[IPv4]:                    Internet Protocol version 4
 *[IPv6]:                    Internet Protocol version 6
 *[IoC]:                     Inversion of Control
+*[ISO]:                     International Organization for Standardization
 *[IxD]:                     Interaction Design
 *[JDK]:                     Java SE Development Kit
 *[JPEG]:                    Joint Photographic Experts Group
@@ -76,6 +79,7 @@
 *[JSON-P]:                  JavaScript Object Notation with Padding
 *[JSONP]:                   JavaScript Object Notation with Padding
 *[LTS]:                     Long Term Support
+*[NCSA]:                    National Center for Supercomputing Applications
 *[NFS]:                     Network File System
 *[MIME]:                    Multipurpose Internet Mail Extensions
 *[MV*]:                     Model-View-Whatever
@@ -84,7 +88,8 @@
 *[MVVM]:                    Model-View-ViewModel
 *[MVW]:                     Model-View-Whatever
 *[NVM]:                     Node Version Manager
-*[OOP]:                     Objectgeoriënteerd Programmeren
+*[OOCSS]:                   Object-Oriented CSS
+*[OOP]:                     Object-Oriented Programming / Objectgeoriënteerd Programmeren
 *[OPA]:                     One Page Application
 *[ORM]:                     Object-Relational Mapper
 *[PARC]:                    Palo Alto Research Center
@@ -102,6 +107,8 @@
 *[RISC]:                    Reduced Instruction Set Computer
 *[RFC]:                     Request for Comments
 *[RMM]:                     Richardson Maturity Model
+*[RoR]:                     Ruby on Rails
+*[RWD]:                     Responsive Web Design
 *[Sass]:                    Syntactically Awesome Style Sheets
 *[SCSS]:                    Sassy CSS
 *[SDK]:                     Software Development Kit
@@ -109,13 +116,15 @@
 *[SEM]:                     Search Engine Marketing
 *[SEO]:                     Search Engine Optimization
 *[SFTP]:                    SSH File Transfer Protocol
+*[SGML]:                    Standard Generalized Markup Language
+*[SMACSS]:                  Scalable and Modular CSS
 *[SMB]:                     Server Message Block
 *[SPA]:                     Single-Page Application
 *[SQL]:                     Structured Query Language
 *[SSG]:                     Static Site Generator
 *[SSH]:                     Secure Shell
 *[SVG]:                     Scalable Vector Graphic
-*[TCP]:                     Transmission Control Protocol
+*[TCP/IP]:                  Transmission Control Protocol/Internet Protocol
 *[TDD]:                     Test-Driven Development
 *[TST]:                     Transaction-Safe Tables
 *[TSV]:                     Tab-Separated Values

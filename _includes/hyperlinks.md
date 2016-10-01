@@ -38,7 +38,8 @@
 [Bootstrap]:                                                http://getbootstrap.com
 [Bower]:                                                    http://bower.io
 [Brackets]:                                                 https://brackets.io
-[Browsersync]:                                              https://www.browsersync.io/
+[Browsersync]:                                              https://www.browsersync.io
+[CERN]:                                                     http://home.cern
 [Chartist]:                                                 https://gionkunz.github.io/chartist-js/
 [Chrome]:                                                   https://www.google.com/chrome/browser/desktop/index.html
 [CoffeeScript]:                                             http://coffeescript.org
@@ -121,6 +122,7 @@
 [Homestead Box]:                                            https://vagrantcloud.com/laravel/boxes/homestead
 [HTML]:                                                     http://www.w3.org/html
 [HTML5]:                                                    http://www.w3.org/TR/html5
+[IEEE]:                                                     https://www.ieee.org
 [Inky]:                                                     http://foundation.zurb.com/emails/docs/inky.html
 [Ionic CLI]:                                                http://ionicframework.com/docs/cli/
 [Ionic Platform]:                                           http://ionic.io/platform
