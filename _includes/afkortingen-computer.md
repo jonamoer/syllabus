@@ -61,6 +61,8 @@
 *[HTTP]:                    Hypertext Transfer Protocol
 *[HTTPS]:                   Hypertext Transfer Protocol Secure
 *[IA]:                      Information Architecture
+*[IANA]:                    Internet Assigned Numbers Authority
+*[ICANN]:                   Internet Corporation for Assigned Names and Numbers
 *[ID]:                      Identifier
 *[IDE]:                     Integrated Development Environment
 *[IEEE]:                    Institute of Electrical and Electronics Engineers
@@ -126,6 +128,9 @@
 *[SVG]:                     Scalable Vector Graphic
 *[TCP/IP]:                  Transmission Control Protocol/Internet Protocol
 *[TDD]:                     Test-Driven Development
+*[TLD]:                     Top-Level Domain
+*[ccTLD]:                   Country-Code Top-Level Domain
+*[gTLD]:                    Generic Top-Level Domain
 *[TST]:                     Transaction-Safe Tables
 *[TSV]:                     Tab-Separated Values
 *[UDP]:                     User Datagram Protocol

@@ -28,7 +28,7 @@
 [Atom]:                                                     https://atom.io
 [Atom XML]:                                                 http://tools.ietf.org/html/rfc4287
 [Babel]:                                                    https://babeljs.io
-[Behat]:                                                    http://docs.behat.org/en/v3.0/
+[Behat]:                                                    http://behat.org
 [Behat Forum]:                                              https://groups.google.com/forum/#!forum/behat
 [Behat Mink]:                                               http://mink.behat.org
 [Backbone.js]:                                              http://backbonejs.org
@@ -59,6 +59,7 @@
 [Cucumber]:                                                 https://cucumber.io
 [Dart]:                                                     https://www.dartlang.org
 [Digitale Mediatheek]:                                      http://www.arteveldehogeschool.be/studeren/mediatheken/digitale-mediatheek
+[DNS Belgium]:                                              https://www.dnsbelgium.be/nl
 [Doctrine]:                                                 http://www.doctrine-project.org
 [Doctrine ORM]:                                             http://www.doctrine-project.org/projects/orm.html
 [Doctrine ORM API]:                                         http://www.doctrine-project.org/api/orm/2.5/index.html
@@ -122,6 +123,7 @@
 [Homestead Box]:                                            https://vagrantcloud.com/laravel/boxes/homestead
 [HTML]:                                                     http://www.w3.org/html
 [HTML5]:                                                    http://www.w3.org/TR/html5
+[ICANN]:                                                    https://www.icann.org
 [IEEE]:                                                     https://www.ieee.org
 [Inky]:                                                     http://foundation.zurb.com/emails/docs/inky.html
 [Ionic CLI]:                                                http://ionicframework.com/docs/cli/
