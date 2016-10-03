@@ -14,6 +14,7 @@
 *[BOC]:                     Build-Operate-Check
 *[BTW]:                     Belasting over de Toegevoegde Waarde
 *[CERN]:                    European Organization for Nuclear Research
+*[CGR]:                     Composer Global Require
 *[CISC]:                    Complex Instruction Set Computer
 *[CLI]:                     Command-Line Interface
 *[CMS]:                     Content Management System
