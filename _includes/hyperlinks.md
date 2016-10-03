@@ -121,8 +121,9 @@
 [Homebrew]:                                                 http://brew.sh
 [Homestead]:                                                http://laravel.com/docs/homestead
 [Homestead Box]:                                            https://vagrantcloud.com/laravel/boxes/homestead
-[HTML]:                                                     http://www.w3.org/html
-[HTML5]:                                                    http://www.w3.org/TR/html5
+[HTML]:                                                     https://www.w3.org/html
+[HTML5]:                                                    https://www.w3.org/TR/html5
+[IANA]:                                                     https://www.iana.org
 [ICANN]:                                                    https://www.icann.org
 [IEEE]:                                                     https://www.ieee.org
 [Inky]:                                                     http://foundation.zurb.com/emails/docs/inky.html

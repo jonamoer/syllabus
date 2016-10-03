@@ -39,6 +39,7 @@
 *[DDL]:                     Data Definition Language
 *[DI]:                      Dependency Injection
 *[DML]:                     Data Manipulation Language
+*[DNS]:                     Domain Name System
 *[DOM]:                     Document Object Model
 *[DTD]:                     Document Type Declaration
 *[ES2015]:                  ECMAScript 2015 / ECMA-262 6th Edition
@@ -90,6 +91,7 @@
 *[MVC]:                     Model-View-Controller
 *[MVVM]:                    Model-View-ViewModel
 *[MVW]:                     Model-View-Whatever
+*[NTIA]:                    National Telecommunications & Information Administration
 *[NVM]:                     Node Version Manager
 *[OOCSS]:                   Object-Oriented CSS
 *[OOP]:                     Object-Oriented Programming / Objectgeoriënteerd Programmeren
