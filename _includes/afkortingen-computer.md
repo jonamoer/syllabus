@@ -156,6 +156,6 @@
 *[x64]:                     64-bit x86 Instruction Set
 *[x86]:                     32-bit x86 Instruction Set
 *[XHTML]:                   Extensible Hypertext Markup Language
-*[XP]:                      Extreme Programming
 *[XML]:                     Extensible Markup Language
+*[XP]:                      Extreme Programming
 *[YAML]:                    YAML Ain't Markup Language
