@@ -122,6 +122,7 @@
 *[SGML]:                    Standard Generalized Markup Language
 *[SMACSS]:                  Scalable and Modular CSS
 *[SMB]:                     Server Message Block
+*[SMTP]:                    Simple Mail Transfer Protocol
 *[SPA]:                     Single-Page Application
 *[SQL]:                     Structured Query Language
 *[SSG]:                     Static Site Generator
@@ -130,8 +131,8 @@
 *[TCP/IP]:                  Transmission Control Protocol/Internet Protocol
 *[TDD]:                     Test-Driven Development
 *[TLD]:                     Top-Level Domain
-*[ccTLD]:                   Country-Code Top-Level Domain
-*[gTLD]:                    Generic Top-Level Domain
+  *[ccTLD]:                 Country-Code Top-Level Domain
+  *[gTLD]:                  Generic Top-Level Domain
 *[TST]:                     Transaction-Safe Tables
 *[TSV]:                     Tab-Separated Values
 *[UDP]:                     User Datagram Protocol
