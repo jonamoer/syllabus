@@ -23,3 +23,17 @@
 *[WANM]:                    Web & New Media
 *[WDAD]:                    Web Design & Development
 *[WEBD]:                    Webdesign / Web Design
+
+{% comment %}
+<!-- Docenten -->
+{% endcomment %}
+*[AAD]:                     Ann Audenaert
+*[BM]:                      Bart Missant
+*[DDW]:                     Dieter De Weirdt
+*[EVR]:                     Evelien Rutsaert
+*[JPT]:                     Jonas Pottie
+*[KR]:                      Kristof Raes
+*[OPR]:                     Olivier Parent
+*[PDP]:                     Philippe De Pauw - Waterschoot
+*[PVD]:                     Pieter Vandaele
+*[SA]:                      Stijn Anseel

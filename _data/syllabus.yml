@@ -6,7 +6,7 @@ title:
   short: SLLBS
 
 copyright:
-  year: 2016-2017
+  year: 2016-17
   owner: &owner Olivier Parent
   institute:
     en: Artevelde University College Ghent
@@ -36,8 +36,56 @@ course:
   ects_fiche: http://www.arteveldehogeschool.be/ects/
 
 authors:
+  # Verantwoordelijke docent
   - name:
       full   : *owner
+      short  : O. Parent
+      code   : OPR
+    email    : olivier.parent@arteveldehs.be
+    website  : http://www.olivierparent.be
+    repository :
+      bitbucket: https://bitbucket.org/olivierparent/
+      github   : https://github.com/OlivierParent
+      gitlab   : https://gitlab.com/OlivierParent
+  # Overige docenten
+  - name:
+      full   : Ann Audenaert
+      short  : A. Audenaert
+      code   : AAD
+    email    : ann.audenaert@arteveldehs.be
+    website  : http://www.gdm.gent
+  - name:
+      full   : Bart Missant
+      short  : B. Missant
+      code   : BM
+    email    : bart.missant@arteveldehs.be
+    website  : http://www.gdm.gent
+  - name:
+      full   : Dieter De Weirdt
+      short  : D. De Weirdt
+      code   : DDW
+    email    : dieter.deweirdt@arteveldehs.be
+    website  : http://www.gdm.gent
+  - name:
+      full   : Evelien Rutsaert
+      short  : E. Rutsaert
+      code   : EVR
+    email    : evelien.rutsaert@arteveldehs.be
+    website  : http://www.gdm.gent
+  - name:
+      full   : Jonas Pottie
+      short  : J. Pottie
+      code   : JPT
+    email    : jonas.pottie@arteveldehs.be
+    website  : http://www.gdm.gent
+  - name:
+      full   : Kristof Raes
+      short  : K. Raes
+      code   : KR
+    email    : kristof.raes@arteveldehs.be
+    website  : http://www.gdm.gent
+  - name:
+      full   : Olivier Parent
       short  : O. Parent
       code   : OPR
     email    : olivier.parent@arteveldehs.be
@@ -56,6 +104,18 @@ authors:
       bitbucket: https://bitbucket.org/drdynscript/
       github   : https://github.com/drdynscript
       gitlab   : https://gitlab.com/drdynscript
+  - name:
+      full   : Pieter Vandaele
+      short  : P. Vandaele
+      code   : PVD
+    email    : pieter.vandaele@arteveldehs.be
+    website  : http://www.gdm.gent
+  - name:
+      full   : Stijn Anseel
+      short  : S. Anseel
+      code   : SA
+    email    : stijn.anseel@arteveldehs.be
+    website  : http://www.gdm.gent
 
 workload:
   credits: 7

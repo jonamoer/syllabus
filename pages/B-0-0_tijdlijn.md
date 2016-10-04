@@ -9,4 +9,6 @@ published: false
 
 
 {% include afkortingen-computer.md %}
+{% include afkortingen-onderwijs.md %}
 {% include hyperlinks.md %}
+{% include hyperlinks-onderwijs.md %}
