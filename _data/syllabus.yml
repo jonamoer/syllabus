@@ -17,20 +17,32 @@ programme:
    en: Bachelor of Graphical and Digital Media
    nl: Bachelor in de grafische en digitale media
   # major:
-  #   en: Crossmedia Design
+  #   en: Cross-media Design
   #   nl: Crossmedia-ontwerp
   # major:
-  #   en: Crossmedia
+  #   en: Cross-media Management
+  #   nl: Grafimediabeleid
+  # major:
+  #   en: Multimedia Production
   #   nl: Multimediaproductie
-  major:
-    en: Multimedia Production
-    nl: Multimediaproductie
-  minor:
-    full : Professional Software Development
-    short: proDEV
+  # minor:
+  #   full : Crossmedia
+  #   short: CM
+  # minor:
+  #   full : Graphic Design
+  #   short: GD
+  # minor:
+  #   full : Photo Design
+  #   short: PD
+  # minor:
+  #   full : Printmedia
+  #   short: PM
   # minor:
   #   full : Professional Software Development
   #   short: proDEV
+  # minor:
+  #   full : Professional Audiovideo Producer
+  #   short: proDUCE
 course:
   chamilo_id: "0000"
   ects_fiche: http://www.arteveldehogeschool.be/ects/
