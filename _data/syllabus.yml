@@ -44,7 +44,7 @@ programme:
   #   full : Professional Audiovideo Producer
   #   short: proDUCE
 course:
-  chamilo_id: "0000"
+  chamilo_id: 0
   ects_fiche: http://www.arteveldehogeschool.be/ects/
 
 authors:
@@ -95,6 +95,12 @@ authors:
       short  : K. Raes
       code   : KR
     email    : kristof.raes@arteveldehs.be
+    website  : http://www.gdm.gent
+  - name:
+      full   : Liliana Maria Carrillo Flórez
+      short  : L.M. Corillo Flórez
+      code   : LMCF
+    email    : lilianamaria.carrilloflorez@arteveldehs.be
     website  : http://www.gdm.gent
   - name:
       full   : Olivier Parent

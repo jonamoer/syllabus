@@ -8,7 +8,7 @@
 {% for node in nodes %}
 {%  if node.layout contains 'page' %}
 {%      assign node_level = (node.path | remove: 'pages/' | split: '_' | first | split: '-') %}
-{%      if (node_level[1] == '0') and (node_level[2] == '0') and (node.hidden == true) %}
+{%      if (node_level[1] == '0') and (node_level[2] == '0') and (node.visibility != 'hidden') %}
             <div class="nav-item{% if page_level[0] == node_level[0] %} active{% endif %} pull-xs-none pull-sm-left m-l-1">
                 <a class="nav-link" href="{{ node.url | prepend: site.baseurl }}">{{ node.title }}</a>
             </div>
@@ -24,7 +24,7 @@
             <div class="nav-item dropdown pull-xs-none pull-sm-right p-r-1">
                 <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false"><i class="fa fa-life-ring"></i> Help</a>
                 <div class="dropdown-menu dropdown-menu-right">
-{% unless site.data.syllabus.course.chamilo_id == '0000' %}
+{% unless site.data.syllabus.course.chamilo_id == 0 %}
                     <a class="dropdown-item" href="https://chamilo.arteveldehs.be/index.php?application=weblcms&go=course_viewer&course={{ site.data.syllabus.course.chamilo_id }}">Chamilo</a>
                     <div class="dropdown-divider"></div>
 {% endunless %}
