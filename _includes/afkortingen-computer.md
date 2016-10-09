@@ -53,6 +53,7 @@
 *[FTP]:                     File Transfer Protocol
 *[FK]:                      Foreign Key
 *[FOS]:                     Friends of Symfony
+*[GIF]:                     Graphics Interchange Format
 *[GFM]:                     GitHub Flavored Markdown
 *[GUI]:                     Graphical User Interface
 *[GUID]:                    Globally Unique Identifier

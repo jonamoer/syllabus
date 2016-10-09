@@ -3,7 +3,7 @@
 *[C2C]:                     Consumer to Consumer
 *[CRM]:                     Customer Relationship Management
 *[CTA]:                     Call to Action
-*[ECTS]:                    European Credit Transfer and Accumulation System
+*[GPR]:                     Google PageRank
 *[MVP]:                     Minimum Viable Product
 *[PR]:                      Public Relations
 *[RFI]:                     Request for Information

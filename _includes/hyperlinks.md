@@ -57,6 +57,7 @@
 [CORS]:                                                     https://www.w3.org/TR/cors/
 [CSS]:                                                      https://www.w3.org/Style/CSS/
 [Cucumber]:                                                 https://cucumber.io
+[Cyberduck]:                                                https://cyberduck.io
 [Dart]:                                                     https://www.dartlang.org
 [Digitale Mediatheek]:                                      http://www.arteveldehogeschool.be/studeren/mediatheken/digitale-mediatheek
 [DNS Belgium]:                                              https://www.dnsbelgium.be/nl
@@ -93,6 +94,7 @@
 [Faker]:                                                    https://github.com/fzaninotto/Faker
 [Faker.js]:                                                 https://github.com/marak/Faker.js/
 [Feature Branch Workflow]:                                  https://www.atlassian.com/git/tutorials/comparing-workflows/feature-branch-workflow
+[FileZilla Client]:                                         https://filezilla-project.org/download.php?type=client
 [Firefox]:                                                  https://www.mozilla.org/nl/firefox/new/
   [*&nbsp;*{:.fa.fa-firefox}Firefox]:                       https://www.mozilla.org/nl/firefox/new/
 [Firefox Developer Edition]:                                https://www.mozilla.org/nl/firefox/developer/
