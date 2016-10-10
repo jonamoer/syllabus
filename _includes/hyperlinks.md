@@ -91,6 +91,7 @@
 [ES6]:                                                      http://www.ecma-international.org/ecma-262/6.0/
 [ES7]:                                                      http://www.ecma-international.org/ecma-262/7.0/
 [Facebook]:                                                 https://www.facebook.com
+  [*&nbsp;*{:.fa.fa-facebook}Facebook]:                     https://www.facebook.com
 [Faker]:                                                    https://github.com/fzaninotto/Faker
 [Faker.js]:                                                 https://github.com/marak/Faker.js/
 [Feature Branch Workflow]:                                  https://www.atlassian.com/git/tutorials/comparing-workflows/feature-branch-workflow
@@ -220,12 +221,16 @@
   [*&nbsp;*{:.fa.fa-trello}Trello]:                         https://trello.com
 [TypeScript]:                                               http://www.typescriptlang.org
 [Twig]:                                                     http://twig.sensiolabs.org
+[Twitter]:                                                  https://twitter.com
+  [*&nbsp;*{:.fa.fa-twitter}Twitter]:                       https://twitter.com
 [Ubuntu]:                                                   http://www.ubuntu.com/server
 [Ubuntu Server]:                                            http://www.ubuntu.com/server
   [*&nbsp;*{:.fa.fa-linux}Ubuntu Server]:                   http://www.ubuntu.com/server
 [Vagrant]:                                                  https://www.vagrantup.com
 [Vagrant::Hostsupdater]:                                    https://github.com/cogitatio/vagrant-hostsupdater
 [Varnish Cache]:                                            https://www.varnish-cache.org
+[Vimeo]:                                                    https://vimeo.com
+  [*&nbsp;*{:.fa.fa-vimeo}Vimeo]:                           https://vimeo.com
 [VirtualBox]:                                               https://www.virtualbox.org
 [Visual Studio Code]:                                       https://code.visualstudio.com
 [vue.js]:                                                   http://vuejs.org

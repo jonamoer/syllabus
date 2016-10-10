@@ -84,6 +84,7 @@ FontAwesome
 | [*&nbsp;*{:.fa.fa-bitbucket}Bitbucket][]               | `*&nbsp;*{:.fa.fa-bitbucket}`         |
 | [*&nbsp;*{:.fa.fa-codepen}CodePen][]                   | `*&nbsp;*{:.fa.fa-codepen}`           |
 | [*&nbsp;*{:.fa.fa-dropbox}Dropbox][]                   | `*&nbsp;*{:.fa.fa-dropbox}`           |
+| [*&nbsp;*{:.fa.fa-facebook}Facebook][]                 | `*&nbsp;*{:.fa.fa-facebook}`          |
 | *&nbsp;*{:.fa.fa-flickr}Flickr                         | `*&nbsp;*{:.fa.fa-flickr}`            |
 | *&nbsp;*{:.fa.fa-code-fork}Fork                        | `*&nbsp;*{:.fa.fa-code-fork}`         |
 | [*&nbsp;*{:.fa.fa-git}Git][]                           | `*&nbsp;*{:.fa.fa-git}`               |
@@ -95,8 +96,9 @@ FontAwesome
 | [*&nbsp;*{:.fa.fa-slack}Slack][]                       | `*&nbsp;*{:.fa.fa-slack}`             |
 | *&nbsp;*{:.fa.fa-skype}Skype                           | `*&nbsp;*{:.fa.fa-skype}`             |
 | [*&nbsp;*{:.fa.fa-trello}Trello][]                     | `*&nbsp;*{:.fa.fa-trello}`            |
+| [*&nbsp;*{:.fa.fa-twitter}Twitter][]                   | `*&nbsp;*{:.fa.fa-twitter}`           |
 | [*&nbsp;*{:.fa.fa-youtube}YouTube][]                   | `*&nbsp;*{:.fa.fa-youtube}`           |
-| *&nbsp;*{:.fa.fa-vimeo}Vimeo                           | `*&nbsp;*{:.fa.fa-vimeo}`             |
+| [*&nbsp;*{:.fa.fa-vimeo}Vimeo][]                       | `*&nbsp;*{:.fa.fa-vimeo}`             |
 {:.table}
 
 ### Technology
