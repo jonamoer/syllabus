@@ -136,14 +136,16 @@
 *[TLD]:                     Top-Level Domain
   *[ccTLD]:                 Country-Code Top-Level Domain
   *[gTLD]:                  Generic Top-Level Domain
+  *[sTLD]:                  Sponsored Top-Level Domain
+  *[tTLD]:                  Test Top-Level Domain
 *[TST]:                     Transaction-Safe Tables
 *[TSV]:                     Tab-Separated Values
 *[UDP]:                     User Datagram Protocol
 *[UI]:                      User Interface
 *[UID]:                     Unique Identifier
 *[UTF]:                     Unicode Transformation Format
-*[UTF-8]:                   8-bit Unicode Transformation Format
-*[UTF-16]:                  16-bit Unicode Transformation Format
+  *[UTF-8]:                 8-bit Unicode Transformation Format
+  *[UTF-16]:                16-bit Unicode Transformation Format
 *[URI]:                     Uniform Resource Identifier
 *[URL]:                     Uniform Resource Locator
 *[URN]:                     Uniform Resource Name
