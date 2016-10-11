@@ -4,6 +4,7 @@
 *[API]:                     Application Programming Interface
 *[ARIA]:                    Accessible Rich Internet Applications
 *[ARM]:                     Advanced RISC Machines
+*[ARPA]:                    Advanced Research Projects Agency
 *[ASCII]:                   American Standard Code for Information Interchange
 *[ASP]:                     Active Server Pages
 *[AVD]:                     Android Virtual Device
@@ -31,6 +32,7 @@
   *[CSS4]:                  Cascading Style Sheets Level 4
 *[CSV]:                     Comma-Separated Values
 *[DAL]:                     Database Abstraction Layer
+*[DARPA]:                   Defense Advanced Research Projects Agency
 *[DB]:                      Database
 *[DBAL]:                    Database Abstraction Layer
 *[DBMS]:                    Database Management System
