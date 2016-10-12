@@ -4,6 +4,7 @@
 *[API]:                     Application Programming Interface
 *[ARIA]:                    Accessible Rich Internet Applications
 *[ARM]:                     Advanced RISC Machines
+*[ARPA]:                    Advanced Research Projects Agency
 *[ASCII]:                   American Standard Code for Information Interchange
 *[ASP]:                     Active Server Pages
 *[AVD]:                     Android Virtual Device
@@ -24,13 +25,14 @@
 *[CRM]:                     Customer Relationship Management
 *[CRUD]:                    Create, Read, Update, and Delete
 *[CSS]:                     Cascading Style Sheets
-*[CSS1]:                    Cascading Style Sheets Level 1
-*[CSS2]:                    Cascading Style Sheets Level 2
-*[CSS 2.1]:                 Cascading Style Sheets Level 2.1
-*[CSS3]:                    Cascading Style Sheets Level 3
-*[CSS4]:                    Cascading Style Sheets Level 4
+  *[CSS1]:                  Cascading Style Sheets Level 1
+  *[CSS2]:                  Cascading Style Sheets Level 2
+  *[CSS 2.1]:               Cascading Style Sheets Level 2.1
+  *[CSS3]:                  Cascading Style Sheets Level 3
+  *[CSS4]:                  Cascading Style Sheets Level 4
 *[CSV]:                     Comma-Separated Values
 *[DAL]:                     Database Abstraction Layer
+*[DARPA]:                   Defense Advanced Research Projects Agency
 *[DB]:                      Database
 *[DBAL]:                    Database Abstraction Layer
 *[DBMS]:                    Database Management System
@@ -41,6 +43,7 @@
 *[DML]:                     Data Manipulation Language
 *[DNS]:                     Domain Name System
 *[DOM]:                     Document Object Model
+  *[DOM3]:                  Document Object Model level 3
 *[DTD]:                     Document Type Declaration
 *[ES2015]:                  ECMAScript 2015 / ECMA-262 6th Edition
 *[ES2016]:                  ECMAScript 2016 / ECMA-262 7th Edition
@@ -60,7 +63,9 @@
 *[Haml]:                    HTML Abstraction Markup Language
 *[HATEOAS]:                 Hypermedia as the Engine of Application State
 *[HTML]:                    Hypertext Markup Language
-*[HTML5]:                   Hypertext Markup Language version 5.0
+  *[HTML5]:                 Hypertext Markup Language version 5.0
+  *[HTML 5.1]:              Hypertext Markup Language version 5.1
+  *[HTML 5.2]:              Hypertext Markup Language version 5.2
 *[HTTP]:                    Hypertext Transfer Protocol
 *[HTTPS]:                   Hypertext Transfer Protocol Secure
 *[IA]:                      Information Architecture
@@ -157,6 +162,7 @@
 *[W3C]:                     World Wide Web Consortium
 *[WAI]:                     Web Accessibility Initiative
 *[WCAG]:                    Web Content Accessibility Guidelines
+*[WHOIS]:                   Who is?
 *[WP]:                      WordPress
 *[x64]:                     64-bit x86 Instruction Set
 *[x86]:                     32-bit x86 Instruction Set
