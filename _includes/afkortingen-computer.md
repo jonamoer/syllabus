@@ -7,6 +7,7 @@
 *[ARPA]:                    Advanced Research Projects Agency
 *[ASCII]:                   American Standard Code for Information Interchange
 *[ASP]:                     Active Server Pages
+*[ATAG]:                    Authoring Tools Accessibility Guidelines
 *[AVD]:                     Android Virtual Device
 *[AWD]:                     Adaptive Web Design
 *[Bash]:                    Bourne-Again Shell
@@ -91,7 +92,10 @@
 *[LTS]:                     Long Term Support
 *[NCSA]:                    National Center for Supercomputing Applications
 *[NFS]:                     Network File System
+*[MathML]:                  Mathematical Markup Language
 *[MIME]:                    Multipurpose Internet Mail Extensions
+*[MIT]:                     Massachusetts Institute of Technology
+  *[MIT/LCS]:               Massachusetts Institute of Technology, Laboratory for Computer Science
 *[MV*]:                     Model-View-Whatever
 *[MVP]:                     Model-View-Presenter
 *[MVC]:                     Model-View-Controller
