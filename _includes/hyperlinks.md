@@ -119,6 +119,7 @@
 [GitLab]:                                                   https://about.gitlab.com
   [*&nbsp;*{:.fa.fa-gitlab}GitLab]:                         https://about.gitlab.com
 [Gulp.js]:                                                  http://gulpjs.com
+[Google+]:                                                  https://plus.google.com
 [Haml]:                                                     http://haml.info
 [Handlebars]:                                               http://handlebarsjs.com
 [Homebrew]:                                                 http://brew.sh
@@ -130,6 +131,7 @@
 [ICANN]:                                                    https://www.icann.org
 [IEEE]:                                                     https://www.ieee.org
 [Inky]:                                                     http://foundation.zurb.com/emails/docs/inky.html
+[Instagram]:                                                https://www.instagram.com
 [Ionic CLI]:                                                http://ionicframework.com/docs/cli/
 [Ionic Platform]:                                           http://ionic.io/platform
 [Ionic Native]:                                             http://ionicframework.com/docs/v2/native/
@@ -152,6 +154,7 @@
 [Laracon US]:                                               http://laracon.us
 [Laravel]:                                                  https://laravel.com
 [Less]:                                                     http://lesscss.org
+[LinkedIn]:                                                 https://www.linkedin.com
 [Liquid]:                                                   https://shopify.github.io/liquid/
 [lodash]:                                                   https://lodash.com
 [Lumen]:                                                    https://lumen.laravel.com
@@ -203,6 +206,7 @@
 [Slack]:                                                    https://slack.com
   [*&nbsp;*{:.fa.fa-slack}Slack]:                           https://slack.com
 [Smarty]:                                                   http://www.smarty.net
+[SoundCloud]:                                               https://soundcloud.com
 [SourceTree]:                                               https://www.sourcetreeapp.com
 [SpecFlow]:                                                 http://www.specflow.org
 [Spotlight]:                                                https://support.apple.com/kb/PH21933?viewlocale=nl_BE&locale=nl_BE
