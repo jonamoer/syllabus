@@ -23,6 +23,19 @@
 {% comment %}
 <!-- Afstudeerrichtingen en algemeen -->
 {% endcomment %}
+*[1CMO]:                    1ste schijf Bachelor in de grafische en digitale media, Afstudeerrichting Crossmedia-ontwerp
+*[1GDM]:                    1ste schijf Bachelor in de grafische en digitale media
+*[1GMB]:                    1ste schijf Bachelor in de grafische en digitale media, Afstudeerrichting Grafimediabeleid
+*[1MMP]:                    1ste schijf Bachelor in de grafische en digitale media, Afstudeerrichting Multimediaproductie
+*[1SV]:                     1ste schijf Studieduurverkortingstraject Bachelor in de grafische en digitale media
+*[2CMO]:                    2de schijf Bachelor in de grafische en digitale media, Afstudeerrichting Crossmedia-ontwerp
+*[2GMB]:                    2de schijf Bachelor in de grafische en digitale media, Afstudeerrichting Grafimediabeleid
+*[2MMP]:                    2de schijf Bachelor in de grafische en digitale media, Afstudeerrichting Multimediaproductie
+*[2SV]:                     2de schijf Studieduurverkortingstraject Bachelor in de grafische en digitale media
+*[3CMO]:                    3de schijf Bachelor in de grafische en digitale media, Afstudeerrichting Crossmedia-ontwerp
+*[3GMB]:                    3de schijf Bachelor in de grafische en digitale media, Afstudeerrichting Grafimediabeleid
+*[3MMP]:                    3de schijf Bachelor in de grafische en digitale media, Afstudeerrichting Multimediaproductie
+
 *[CM]:                      GMB Crossmedia
 *[CMO]:                     Crossmedia-ontwerp
 *[GD]:                      CMO Graphic Design
