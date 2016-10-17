@@ -3,6 +3,7 @@
 {% endcomment %}
 *[APA]:                     American Psychological Association
 *[cf.]:                     confer, vergelijk
+*[MOOC]:                    Massive Open Online Course
 *[pp.]:                     paginae, pagina's
 *[s.d.]:                    sine datum, zonder datum
 
@@ -16,9 +17,11 @@
 *[ECTS]:                    European Credit Transfer and Accumulation System
 *[GDM]:                     Bachelor in de grafische en digitale media
 *[OLOD]:                    opleidingsonderdeel
+*[STDV]:                    studieduurverkorting
+*[SV]:                      studieduurverkorting
 
 {% comment %}
-<!-- Afstudeerrichtingen en slgemeen -->
+<!-- Afstudeerrichtingen en algemeen -->
 {% endcomment %}
 *[CM]:                      GMB Crossmedia
 *[CMO]:                     Crossmedia-ontwerp
