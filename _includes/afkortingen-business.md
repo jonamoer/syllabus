@@ -1,3 +1,4 @@
+*[AOI]:                     Areas of Interest
 *[B2B]:                     Business to Business
 *[B2C]:                     Business to Consumer
 *[C2C]:                     Consumer to Consumer
@@ -10,6 +11,7 @@
 *[RFP]:                     Request for Proposal
 *[RFQ]:                     Request for Quotation / Request for Quote
 *[ROI]:                     Return on Investment
+*[RTA]:                     Retrospective Think Aloud
 *[SEA]:                     Search Engine Advertising
 *[SEM]:                     Search Engine Marketing
 *[SEO]:                     Search Engine Optimization
