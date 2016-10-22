@@ -12,6 +12,7 @@
   [*&nbsp;*{:.fa.fa-android}Android Studio]:                http://developer.android.com/sdk/index.html
 [Manifesto for Agile Software Development]:                 http://agilemanifesto.org
 [Angular]:                                                  https://angular.io
+[Angular CLI]:                                              https://cli.angular.io
 [Angular Material]:                                         https://material.angular.io/
 [AngularDart]:                                              https://angular.io/dart
 [AngularJS]:                                                https://angularjs.org
@@ -251,6 +252,7 @@
 [XML]:                                                      http://www.w3.org/XML
 [YAML]:                                                     http://yaml.org
 [YAML Lint]:                                                http://www.yamllint.com
+[Yarn]:                                                     https://yarnpkg.com
 [Yii]:                                                      http://www.yiiframework.com
 [YouTube]:                                                  https://www.youtube.com
   [*&nbsp;*{:.fa.fa-youtube}YouTube]:                       https://www.youtube.com
