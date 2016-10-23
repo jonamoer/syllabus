@@ -101,6 +101,7 @@
   [*&nbsp;*{:.fa.fa-firefox}Firefox]:                       https://www.mozilla.org/nl/firefox/new/
 [Firefox Developer Edition]:                                https://www.mozilla.org/nl/firefox/developer/
   [*&nbsp;*{:.fa.fa-firefox}Firefox Developer Edition]:     https://www.mozilla.org/nl/firefox/developer/
+[Flux]:                                                     https://facebook.github.io/flux/
 [FontAwesome]:                                              http://fontawesome.io
 [FOSRestBundle]:                                            https://symfony.com/doc/current/bundles/FOSRestBundle/index.html
 [Foundation]:                                               http://foundation.zurb.com
@@ -196,9 +197,10 @@
 [Python]:                                                   Python
 [QuickTime Player]:                                         http://www.apple.com/benl/quicktime/
 [Rain.TPL]:                                                 http://www.raintpl.com
+[React]:                                                    https://facebook.github.io/react/
+[Reveal.js]:                                                http://lab.hakim.se/reveal-js/
 [Ruby]:                                                     https://www.ruby-lang.org/en/
 [Ruby on Rails]:                                            https://rubyonrails.org
-[Reveal.js]:                                                http://lab.hakim.se/reveal-js/
 [Sass]:                                                     http://sass-lang.com
 [SCSS]:                                                     http://sass-lang.com
 [SensioLabs]:                                               https://sensiolabs.com/en
