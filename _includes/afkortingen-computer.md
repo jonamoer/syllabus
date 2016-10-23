@@ -1,7 +1,9 @@
 *[3A]:                      Arrange-Act-Assert
+*[AI]:                      Artificial Intelligence
 *[Ajax]:                    Asynchronous JavaScript and XML
 *[ANSI]:                    American National Standards Institute
 *[API]:                     Application Programming Interface
+*[AR]:                      Augmented Reality
 *[ARIA]:                    Accessible Rich Internet Applications
 *[ARM]:                     Advanced RISC Machines
 *[ARPA]:                    Advanced Research Projects Agency
@@ -114,6 +116,7 @@
 *[PK]:                      Primary Key
 *[PNG]:                     Portable Network Graphic
 *[PSR]:                     PHP Standard Recommendations
+*[QR]:                      Quick Response
 *[RAD]:                     Rapid Application Development
 *[RDBMS]:                   Relational Database Management System
 *[RDF]:                     Resource Description Framework
