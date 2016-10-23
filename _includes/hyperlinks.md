@@ -138,6 +138,7 @@
 [Ionic Native]:                                             http://ionicframework.com/docs/v2/native/
 [Ionic View]:                                               http://view.ionic.io
 [Ionic SDK]:                                                http://ionicframework.com
+[iOS]:                                                      http://www.apple.com/benl/ios/
 [Java]:                                                     https://java.com/nl/
 [JDK 8]:                                                    http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html
 [Jekyll]:                                                   https://jekyllrb.com
@@ -242,6 +243,7 @@
 [W3C]:                                                      http://www.w3.org
 [WeTransfer]:                                               https://www.wetransfer.com
 [William C. Wake]:                                          http://xp123.com
+[Windows]:                                                  https://www.microsoft.com/nl-be/windows/
 [WordPress]:                                                https://nl.wordpress.org
   [*&nbsp;*{:.fa.fa-wordpress}WordPress]:                   https://nl.wordpress.org
 [WordPress.com]:                                            https://nl.wordpress.com
