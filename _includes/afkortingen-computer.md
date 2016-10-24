@@ -116,6 +116,7 @@
 *[PK]:                      Primary Key
 *[PNG]:                     Portable Network Graphic
 *[PSR]:                     PHP Standard Recommendations
+*[PWA]:                     Progressive Web App
 *[QR]:                      Quick Response
 *[RAD]:                     Rapid Application Development
 *[RDBMS]:                   Relational Database Management System
