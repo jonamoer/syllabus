@@ -19,17 +19,17 @@
         radius = height / 3 - 10
         thickness = 80;
 
-    var arc = d3.svg.arc()
+    var arc = d3.arc()
             .innerRadius(radius - thickness / 2)
             .outerRadius(radius + thickness / 2),
-        innerLabelArc = d3.svg.arc()
+        innerLabelArc = d3.arc()
             .outerRadius(radius)
             .innerRadius(radius),
-        outerLabelArc = d3.svg.arc()
+        outerLabelArc = d3.arc()
             .outerRadius(radius + thickness * .8)
             .innerRadius(radius + thickness * .8);
 
-    var pie = d3.layout.pie()
+    var pie = d3.pie()
         .padAngle(.02)
         .startAngle(-Math.PI/2)
         .endAngle(Math.PI/2)
