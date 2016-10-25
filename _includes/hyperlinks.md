@@ -121,6 +121,7 @@
 [GitLab]:                                                   https://about.gitlab.com
   [*&nbsp;*{:.fa.fa-gitlab}GitLab]:                         https://about.gitlab.com
 [Gulp.js]:                                                  http://gulpjs.com
+[Google]:                                                   https://www.google.com
 [Google+]:                                                  https://plus.google.com
 [Haml]:                                                     http://haml.info
 [Handlebars]:                                               http://handlebarsjs.com
@@ -244,6 +245,7 @@
 [vue.js]:                                                   http://vuejs.org
 [W3C]:                                                      http://www.w3.org
 [WeTransfer]:                                               https://www.wetransfer.com
+[Wikipedia]:                                                https://www.wikipedia.org
 [William C. Wake]:                                          http://xp123.com
 [Windows]:                                                  https://www.microsoft.com/nl-be/windows/
 [WordPress]:                                                https://nl.wordpress.org

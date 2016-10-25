@@ -79,6 +79,7 @@
 *[IEEE]:                    Institute of Electrical and Electronics Engineers
 *[IETF]:                    Internet Engineering Task Force
 *[IIFE]:                    Immediately Invoked Function Expression
+*[IoC]:                     Inversion of Control
 *[IP]:                      Internet Protocol
 *[IPv4]:                    Internet Protocol version 4
 *[IPv6]:                    Internet Protocol version 6

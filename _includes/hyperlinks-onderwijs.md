@@ -14,6 +14,7 @@
 [Workflow]:                     http://www.gdm.gent/mod_wanm/workflow/
 [Discover]:                     http://www.gdm.gent/mod_wanm/workflow/discover/
 [Define]:                       http://www.gdm.gent/mod_wanm/workflow/define/
+[Planning]:                     http://www.gdm.gent/mod_wanm/workflow/define/planning/
 [Ideaboard]:                    http://www.gdm.gent/mod_wanm/workflow/define/ideaboard/
 [Moodboard]:                    http://www.gdm.gent/mod_wanm/workflow/define/moodboard/
 [Persona Sheet]:                http://www.gdm.gent/mod_wanm/workflow/define/persona-sheet/
