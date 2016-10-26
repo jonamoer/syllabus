@@ -2,10 +2,17 @@
 <!-- Academisch -->
 {% endcomment %}
 *[APA]:                     American Psychological Association
+*[ASO]:                     Algemeen Secundair Onderwijs
+*[BSO]:                     Beroepssecundair Onderwijs
 *[cf.]:                     confer, vergelijk
+*[HBO5]:                    Hoger Beroepsonderwijs op niveau 5
+*[KSO]:                     Kunstsecundair Onderwijs
 *[MOOC]:                    Massive Open Online Course
 *[pp.]:                     paginae, pagina's
+*[TSO]:                     Technisch Secundair Onderwijs
 *[s.d.]:                    sine datum, zonder datum
+
+
 
 {% comment %}
 <!-- Algemeen -->
