@@ -118,7 +118,38 @@ Card blocks
 > ###### Header 6
 {:.card.card-block}
 
-### References
+### Citaten
+
+> ##### Citaat|Quote :loudspeaker:
+> ---
+> […] work expands so as to fill the time available for its completion.
+> &mdash; **Cyril Northcote Parkinson**[^Parkinson]
+{:.card.card-block}
+
+http://openmarketing.com/blog/content-marketing/if-content-is-king-context-is-god-said-gary-vaynerchuk/
+
+> ##### Citaat|Quote :loudspeaker:
+> ---
+>
+> #### "Il semble que la perfection soit atteinte non quand il n'y a plus rien à ajouter, mais quand il n'y a plus rien à retrancher."
+>
+> ("Het lijkt erop dat de perfectie is bereikt, niet wanneer er niets meer aan toe te voegen is, maar als er niets meer van verwijderd kan worden.")  
+> &mdash; **Antoine de Saint-Exupéry**[^SaintExupery] (literair auteur en piloot)
+{:.card.card-block}
+
+[^SaintExupery]: de Saint-Exupéry, A. (1939). Terre des hommes (p. 59). Paris: Le Livre de Poche.
+
+> ##### Parkinson's Law :loudspeaker:
+> ---
+>
+> #### "It is a commonplace observation that work expands so as to fill the time available for its completion."
+>
+> &mdash; **Cyril Northcote Parkinson**[^Parkinson] (auteur en zeevaarthistoricus)
+{:.card.card-block}
+
+[^Parkinson]: Parkinson, C.N. (1955, November). [Parkinson's Law](http://www.economist.com/node/14116121). *The Economist,* Online Extra.
+
+### Referenties
 
 #### (`bronnen`)
 
