@@ -1,52 +1,12 @@
-<!DOCTYPE html>
-<html manifest="{{ '/offline.appcache' | prepend: site.baseurl }}" lang="{{ site.language }}">
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+---
+layout: master/reveal
+---
 
-    <title>{{ page.title | strip_html }} | {{ site.title }}</title>
-    <link rel="dns-prefetch" href="//cdnjs.cloudflare.com">
-    <link rel="dns-prefetch" href="//code.jquery.com">
-    <link rel="dns-prefetch" href="//maxcdn.bootstrapcdn.com">
-    <link rel="dns-prefetch" href="//cdn.jsdelivr.net">
-    <link rel="icon" href="{{ '/images/favicon.ico' | prepend: site.baseurl }}">
-    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/reveal.js/{{ site.data.cdn.revealjs }}/css/reveal.min.css">
-    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/reveal.js/{{ site.data.cdn.revealjs }}/css/theme/black.min.css">
-</head>
-<body>
 <div class="reveal">
     <div class="slides">
         <section>
-                <h1>{% if page.title_long %}{{ page.title_long }}{% else %}{{ page.title }}{% endif %}</h1>
+            <h1>{% if page.title_long %}{{ page.title_long }}{% else %}{{ page.title }}{% endif %}</h1>
         </section>
         {{ content }}
     </div>
 </div>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/reveal.js/{{ site.data.cdn.revealjs }}/lib/js/head.min.js"></script>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/reveal.js/{{ site.data.cdn.revealjs }}/js/reveal.min.js" crossorigin="anonymous"></script>
-    <script>
-    // Full list of configuration options available at:
-    // https://github.com/hakimel/reveal.js#configuration
-    Reveal.initialize({
-        controls: true,
-        progress: true,
-        history: true,
-        center: true,
-
-        transition: 'slide', // none/fade/slide/convex/concave/zoom
-
-        // Optional reveal.js plugins
-        dependencies: [
-            { src: 'https://cdnjs.cloudflare.com/ajax/libs/reveal.js/{{ site.data.cdn.revealjs }}/lib/js/classList.min.js', condition: function() { return !document.body.classList; } },
-            { src: 'https://cdnjs.cloudflare.com/ajax/libs/reveal.js/{{ site.data.cdn.revealjs }}/plugin/markdown/marked.min.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
-            { src: 'https://cdnjs.cloudflare.com/ajax/libs/reveal.js/{{ site.data.cdn.revealjs }}/plugin/markdown/markdown.min.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
-            { src: 'https://cdnjs.cloudflare.com/ajax/libs/reveal.js/{{ site.data.cdn.revealjs }}/plugin/highlight/highlight.min.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
-            { src: 'https://cdnjs.cloudflare.com/ajax/libs/reveal.js/{{ site.data.cdn.revealjs }}/plugin/zoom-js/zoom.min.js', async: true },
-            { src: 'https://cdnjs.cloudflare.com/ajax/libs/reveal.js/{{ site.data.cdn.revealjs }}/plugin/notes/notes.min.js', async: true }
-        ]
-    });
-    </script>
-</body>
-</html>
