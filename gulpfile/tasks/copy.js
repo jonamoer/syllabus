@@ -11,6 +11,7 @@
     let fs = require('fs');
 
     gulp.task('copy', [
+        'copy:404',
         'copy:info',
         'copy:appcache',
         'copy:data',
@@ -22,6 +23,17 @@
         'copy:templates',
         'copy:text',
     ]);
+
+    gulp.task('copy:404', () => {
+        CFG.destinations.forEach(destination => {
+            fs.stat(`../${destination}`, (error) => {
+                if (!error) {
+                    gulp.src('./404.md')
+                        .pipe(gulp.dest(`../${destination}`));
+                }
+            });
+        });
+    });
 
     gulp.task('copy:info', () => {
         let gutil = require('gulp-util');
@@ -63,7 +75,7 @@
             fs.stat(`../${destination}`, (error) => {
                 if (!error) {
                     gulp.src('./Gemfile{,.lock}')
-                    .pipe(gulp.dest(`../${destination}`));
+                        .pipe(gulp.dest(`../${destination}`));
                 }
             });
         });
