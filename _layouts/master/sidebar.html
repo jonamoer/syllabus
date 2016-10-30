@@ -1,6 +1,7 @@
-<!DOCTYPE html>
-<html manifest="{{ '/offline.appcache' | prepend: site.baseurl }}" lang="{{ site.language }}">
-    {% include components/head.html %}
+<!DOCTYPE html>{% comment %}
+<html manifest="{{ '/offline.appcache' | prepend: site.baseurl }}" lang="{{ site.language }}">{% endcomment %}
+<html lang="{{ site.language }}">
+{% include components/head.html %}
 <body class="c-page">
     {% include components/navbar.html %}
     <div class="container-fluid">
