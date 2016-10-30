@@ -17,7 +17,8 @@
 [Planning]:                     http://www.gdm.gent/mod_wanm/workflow/define/planning/
 [Ideaboard]:                    http://www.gdm.gent/mod_wanm/workflow/define/ideaboard/
 [Moodboard]:                    http://www.gdm.gent/mod_wanm/workflow/define/moodboard/
-[Persona Sheet]:                http://www.gdm.gent/mod_wanm/workflow/define/persona-sheet/
+[Persona Sheets]:               http://www.gdm.gent/mod_wanm/workflow/define/persona-sheets/
+[Scenarios]:                    http://www.gdm.gent/mod_wanm/workflow/define/scenarios/
 [Design]:                       http://www.gdm.gent/mod_wanm/workflow/design/
 [Sitemap]:                      http://www.gdm.gent/mod_wanm/workflow/design/sitemap/
 [Style Guide]:                  http://www.gdm.gent/mod_wanm/workflow/design/style-guide/
